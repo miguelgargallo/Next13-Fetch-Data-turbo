@@ -41,9 +41,17 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '}
+          This is developed with the latest possible technologies.
+          <ul>
+            <li>Next 13</li>
+            <li>React 18</li>
+            <li>Turno 1.6.3</li>
+            <li>Node 19</li>
+          </ul>
         </a>
       </footer>
     </div>
   )
 }
+
+
