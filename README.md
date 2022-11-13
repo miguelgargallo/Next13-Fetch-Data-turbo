@@ -5,6 +5,8 @@
 ## Description
 This is a simple script to fetch data from a remote server without server storage.
 
+---
+
 Copyright &copy; 2022 Miguel Gargallo, Pencil Works LLC, ITAMAESAN ORG, SUPERDATAS, Pylar Team.
 
 | Pylar AI creative ML | Permissions  | Limitations | Conditions |
