@@ -13,7 +13,7 @@ export default function Home() {
 
   return (
     <div
-    className="bg-white dark:bg-gray-800 min-h-screen flex flex-col justify-center items-center"
+    className="bg-white dark:bg-white min-h-screen flex flex-col justify-center items-center"
     >
       <Head>
         <title>Pencil Domains</title>
