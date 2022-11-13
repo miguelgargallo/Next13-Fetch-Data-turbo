@@ -27,7 +27,7 @@ export default function Home() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              &nbsp;Pencil Name Block Explorer!
+              &nbsp;Block Explorer!
             </a>
           </h1>
 
@@ -39,7 +39,7 @@ export default function Home() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              &nbsp;Pencil Name Block Explorer!
+              &nbsp;Block Explorer!
             </a>
           </h1>
         </div>
