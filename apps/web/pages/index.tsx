@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import Head from 'next/head';
 
 export default function Home() {
@@ -14,25 +14,19 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Create Next App</title>
+        <title>Pencil Domains</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
         <h1>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          Welcome to <a href="https://pencil.domains">dfind!</a>
         </h1>
-
-        <p>
-          Get started by editing{' '}
-          <code>pages/index.js</code>
-        </p>
-
         <div>
           <div>
-            <h3>Input</h3>
+            <h3>Down below please, input whatever you want.</h3>
             <input value={input} onChange={(e) => setInput(e.target.value)} />
-            <button onClick={getData}>Get Data</button>
+            <button onClick={getData}>Get Results</button>        
           </div>
           <div>
             <h3>Data</h3>
