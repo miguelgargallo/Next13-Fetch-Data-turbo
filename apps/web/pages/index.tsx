@@ -17,10 +17,9 @@ export default function Home() {
         <title>Pencil Domains</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
       <main>
         <h1>
-          Welcome to, 
+          Welcome to,
           <a href="https://twitter.com/pencildomains"
             target="_blank"
             rel="noopener noreferrer"
@@ -39,7 +38,6 @@ export default function Home() {
           </div>
         </div>
       </main>
-
       <footer>
         <a
           href="https://twitter.com/miguelgargallo"
@@ -59,5 +57,3 @@ export default function Home() {
     </div>
   )
 }
-
-
