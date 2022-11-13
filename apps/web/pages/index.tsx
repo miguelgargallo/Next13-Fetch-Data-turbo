@@ -20,13 +20,18 @@ export default function Home() {
 
       <main>
         <h1>
-          Welcome to <a href="https://pencil.domains">dfind!</a>
+          Welcome to
+          <a href="https://twitter.com/pencildomains"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Pyalr Search!</a>
         </h1>
         <div>
           <div>
             <h3>Down below please, input whatever you want.</h3>
             <input value={input} onChange={(e) => setInput(e.target.value)} />
-            <button onClick={getData}>Get Results</button>        
+            <button onClick={getData}>Get Results</button>
           </div>
           <div>
             <h3>Data</h3>
@@ -37,7 +42,7 @@ export default function Home() {
 
       <footer>
         <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          href="https://twitter.com/miguelgargallo"
           target="_blank"
           rel="noopener noreferrer"
         >
