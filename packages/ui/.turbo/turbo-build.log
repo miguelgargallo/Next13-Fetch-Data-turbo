@@ -1,0 +1,18 @@
+$ tsup src/index.tsx --format esm,cjs --dts --external react && tailwindcss -i ./src/styles.css -o ./dist/styles.css
+CLI Building entry: src/index.tsx
+CLI Using tsconfig: tsconfig.json
+CLI tsup v6.4.0
+CLI Target: es6
+ESM Build start
+CJS Build start
+ESM dist/index.mjs 854.00 B
+ESM ⚡️ Build success in 20ms
+CJS dist/index.js 1.93 KB
+CJS ⚡️ Build success in 20ms
+DTS Build start
+DTS ⚡️ Build success in 842ms
+DTS dist/index.d.ts 61.00 B
+
+Rebuilding...
+
+Done in 173ms.
