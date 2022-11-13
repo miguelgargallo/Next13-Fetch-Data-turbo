@@ -69,6 +69,8 @@ export default function Home() {
             value={input}
             onChange={(e) => setInput(e.target.value)}
           />
+
+
           <button
             className="
             flex hidden
@@ -89,6 +91,7 @@ export default function Home() {
             Get Results
           </button>
         </div>
+        
 
         <div className="mx-auto mt-6 grid max-w-lg gap-5 lg:max-w-xl lg:grid-cols-2 md:hidden">
           <input
