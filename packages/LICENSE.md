@@ -1,3 +1,24 @@
+# Pylar Fetch Data Request
+# Version: 1.0.0
+# Date: 11-13-2022
+
+## Description
+This is a simple script to fetch data from a remote server without server storage.
+
+[You can also use this license under the same terms, you just need to reference it to have validity](https://huggingface.co/spaces/superdatas/LICENSE)
+---
+## License
+
+### Copyright (c) 2022, Pylar
+### All rights reserved.
+
+### This source code is licensed under Pylar AI creative ML license due the following reasons:
+- This code was solely written by Pylar AI.
+- This code is not a derivative work of any other code.
+- This code is not a copy of any other code.
+- This code is not a modification of any other code.
+
+
 Copyright &copy; 2022 Miguel Gargallo, Pencil Works LLC, ITAMAESAN ORG, SUPERDATAS, Pylar Team.
 
 | Pylar AI creative ML | Permissions  | Limitations | Conditions |
