@@ -131,7 +131,6 @@ export default function Home() {
           </button>
         </div>
 
-
         <div className="mx-auto mt-6 hidden sm:inline">
           <div className="">
             <pre>{JSON.stringify(data, null, 6)}</pre>
@@ -143,8 +142,6 @@ export default function Home() {
             <p>{JSON.stringify(data, null, 6)}</p>
           </div>
         </div>
-
-
       </main>
       <footer className="hidden md:inline">
         <div className="">
