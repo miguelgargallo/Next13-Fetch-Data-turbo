@@ -10,7 +10,6 @@ export default function Home() {
     const json = await res.json()
     setData(json)
   }
-
   return (
     <div>
       <Head>
