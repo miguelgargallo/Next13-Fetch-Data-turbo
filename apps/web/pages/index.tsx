@@ -54,6 +54,7 @@ export default function Home() {
             <li>Node 19</li>
           </ul>
         </a>
+        <a> 2022 Pylar AI creative ML license, by Pencil Domains.</a>
       </footer>
     </div>
   )
