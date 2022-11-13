@@ -1,6 +1,7 @@
-# Pylar Fetch Data Request
-# Version: 0.0.1
-# Date: 11-13-2022
+# Next13 Fetch Data turbo
+## Pylar Fetch Data Request
+### Version: 0.0.1
+#### Date: 11-13-2022
 
 ## Description
 This is a simple script to fetch data from a remote server without server storage.
