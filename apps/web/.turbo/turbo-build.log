@@ -11,13 +11,13 @@ info  - Generating static pages (3/3)
 info  - Finalizing page optimization...
 
 Route (pages)                              Size     First Load JS
-┌ ○ /                                      3.21 kB        81.9 kB
-└ ○ /404                                   214 B          78.9 kB
-+ First Load JS shared by all              78.7 kB
+┌ ○ /                                      967 B          79.7 kB
+└ ○ /404                                   214 B            79 kB
++ First Load JS shared by all              78.8 kB
   ├ chunks/framework-42399c103d919fd6.js   45.7 kB
   ├ chunks/main-677ee9a36c39b228.js        31.8 kB
   ├ chunks/pages/_app-10a3effd9e87d97e.js  245 B
-  └ chunks/webpack-adbad1f85bb5cebc.js     962 B
+  └ chunks/webpack-2369ea09e775031e.js     1.02 kB
 
 ○  (Static)  automatically rendered as static HTML (uses no initial props)
 
