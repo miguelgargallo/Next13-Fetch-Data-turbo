@@ -44,10 +44,7 @@ export default function Home() {
           </h1>
         </div>
 
-
-      
-
-        <div className="mx-auto mt-6 grid max-w-lg gap-5 lg:max-w-xl lg:grid-cols-2 hidden md:inline">
+        <div className="mx-auto mt-6 grid hidden max-w-lg gap-5 md:inline lg:max-w-xl lg:grid-cols-2">
           <input
             className="
             flex hidden
@@ -70,7 +67,6 @@ export default function Home() {
             onChange={(e) => setInput(e.target.value)}
           />
 
-
           <button
             className="
             flex hidden
@@ -91,9 +87,8 @@ export default function Home() {
             Get Results
           </button>
         </div>
-        
 
-        <div className="mx-auto mt-6 grid max-w-lg gap-5 lg:max-w-xl lg:grid-cols-2 md:hidden">
+        <div className="mx-auto mt-6 grid max-w-lg gap-5 md:hidden lg:max-w-xl lg:grid-cols-2">
           <input
             className="
             flex
@@ -135,15 +130,18 @@ export default function Home() {
             Get Results
           </button>
         </div>
-        
 
 
-        <div className="hidden md:inline">
-          <pre>{JSON.stringify(data, null, 6)}</pre>
+        <div className="mx-auto mt-6 hidden sm:inline">
+          <div className="">
+            <pre>{JSON.stringify(data, null, 6)}</pre>
+          </div>
         </div>
 
-        <div className="md:hidden">
-          <pre>{JSON.stringify(data, null, 2)}</pre>
+        <div className="mx-auto mt-6 sm:hidden">
+          <div className="">
+            <p>{JSON.stringify(data, null, 6)}</p>
+          </div>
         </div>
 
 
@@ -188,8 +186,7 @@ export default function Home() {
               @pencildomains
             </a>
           </p>
-
-        </div> 
+        </div>
       </footer>
     </div>
   );
