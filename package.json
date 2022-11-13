@@ -17,6 +17,7 @@
     "turbo": "latest"
   },
   "dependencies": {
+    "@vercel/analytics": "^0.1.4",
     "axios": "^1.1.3"
   }
 }
