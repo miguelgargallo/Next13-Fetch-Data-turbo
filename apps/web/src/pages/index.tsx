@@ -20,26 +20,26 @@ export default function Home() {
       <main className="mx-auto w-auto bg-white px-4 pt-16 pb-8 sm:pt-24 lg:px-8">
         <div className="text-center">
           <h1 className="hidden text-4xl font-bold tracking-tight text-black shadow-sm sm:text-5xl md:inline md:text-6xl">
-            Welcome to
+            Welcome to Pencil Name
             <a
               className="hover:text blue-900 hidden font-extrabold text-blue-700 md:inline"
               href="https://twitter.com/pencildomains"
               target="_blank"
               rel="noopener noreferrer"
             >
-              &nbsp;Block Explorer!
+              &nbsp; Block Explorer!
             </a>
           </h1>
 
           <h1 className="text-4xl font-bold tracking-tight text-black shadow-sm sm:text-5xl md:hidden md:text-6xl">
-            Welcome to
+          Welcome to Pencil Name
             <a
               className="hover:text blue-900 font-extrabold text-blue-700 md:hidden"
               href="https://twitter.com/pencildomains"
               target="_blank"
               rel="noopener noreferrer"
             >
-              &nbsp;Block Explorer!
+              &nbsp; Block Explorer!
             </a>
           </h1>
         </div>
