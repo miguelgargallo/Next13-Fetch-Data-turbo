@@ -5,6 +5,7 @@
 ## Description
 This is a simple script to fetch data from a remote server without server storage.
 
+[You can also use this license under the same terms, you just need to reference it to have validity[](https://huggingface.co/spaces/superdatas/LICENSE)
 ---
 ## License
 
