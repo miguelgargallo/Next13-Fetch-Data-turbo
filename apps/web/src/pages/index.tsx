@@ -12,7 +12,9 @@ export default function Home() {
   };
 
   return (
-    <div>
+    <div
+    className="bg-white dark:bg-gray-800 min-h-screen flex flex-col justify-center items-center"
+    >
       <Head>
         <title>Pencil Domains</title>
         <link rel="icon" href="/favicon.ico" />
