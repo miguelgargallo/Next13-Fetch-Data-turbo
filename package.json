@@ -6,16 +6,14 @@
   ],
   "scripts": {
     "build": "turbo run build",
-    "dev": "turbo run dev --parallel",
+    "dev": "turbo run dev",
     "lint": "turbo run lint",
-    "clean": "turbo run clean",
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
   "devDependencies": {
     "eslint": "^7.32.0",
     "eslint-config-custom": "*",
-    "prettier": "^2.7.1",
-    "prettier-plugin-tailwindcss": "^0.1.11",
+    "prettier": "^2.5.1",
     "turbo": "latest"
   }
 }
