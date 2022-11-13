@@ -20,7 +20,7 @@ export default function Home() {
 
       <main>
         <h1>
-          Welcome to 
+          Welcome to, 
           <a href="https://twitter.com/pencildomains"
             target="_blank"
             rel="noopener noreferrer"
