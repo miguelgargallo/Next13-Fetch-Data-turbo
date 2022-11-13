@@ -25,7 +25,7 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Pyalr Search!</a>
+            HNS Pencil Search!</a>
         </h1>
         <div>
           <div>
