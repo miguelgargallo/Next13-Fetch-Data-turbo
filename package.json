@@ -15,5 +15,8 @@
     "eslint-config-custom": "*",
     "prettier": "^2.5.1",
     "turbo": "latest"
+  },
+  "dependencies": {
+    "axios": "^1.1.3"
   }
 }

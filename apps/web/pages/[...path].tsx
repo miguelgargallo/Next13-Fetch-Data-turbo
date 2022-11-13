@@ -1,3 +1,4 @@
+// Path: apps/web/pages/[...path].tsx
 // this page will print data fetch request from https://e.hnsfans.com/api/... while "..." is the path of the request
 
 import { NextPage } from "next";
