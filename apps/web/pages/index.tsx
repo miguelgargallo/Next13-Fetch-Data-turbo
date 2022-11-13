@@ -47,11 +47,11 @@ export default function Home() {
           <ul>
             <li>Next 13</li>
             <li>React 18</li>
-            <li>Turno 1.6.3</li>
+            <li>Turbo 1.6.3</li>
             <li>Node 19</li>
           </ul>
         </a>
-        <a> 2022 Pylar AI creative ML license, by Pencil Domains.</a>
+        <a> 2022 © Pylar AI creative ML license, All Rights Reserved, developed on Sunday 13th Nov in 3 hours by Miguel Gargallo.</a>
       </footer>
     </div>
   )
