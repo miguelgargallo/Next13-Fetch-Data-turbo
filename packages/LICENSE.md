@@ -1,5 +1,5 @@
 # Pylar Fetch Data Request
-# Version: 1.0.0
+# Version: 0.0.1
 # Date: 11-13-2022
 
 ## Description
