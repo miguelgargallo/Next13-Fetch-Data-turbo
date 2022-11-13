@@ -1,4 +1,9 @@
 # Pylar Fetch Data Request
+# Version: 1.0.0
+# Date: 11-13-2022
+
+## Description
+This is a simple script to fetch data from a remote server without server storage.
 
 Copyright &copy; 2022 Miguel Gargallo, Pencil Works LLC, ITAMAESAN ORG, SUPERDATAS, Pylar Team.
 
