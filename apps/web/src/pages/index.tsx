@@ -18,69 +18,79 @@ export default function Home() {
         <title>Pencil Domains</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="mx-auto w-auto bg-white bg-white px-4 pt-16 pb-8 sm:pt-24 lg:px-8">
-        <div className="bg-white text-center"></div>
-        <div className="mx-auto mt-6 grid max-w-lg gap-5 lg:max-w-xl lg:grid-cols-1">
-          <h1 className="bg-white text-center text-4xl font-bold tracking-tight text-black sm:text-5xl md:text-6xl">
-            Pencil
-            <a
-              className="hover:text blue-900 font-extrabold text-blue-700"
-              href="https://twitter.com/pencildomains"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              &nbsp;Explorer
-            </a>
-          </h1>
-        </div>
-        <div className="mx-auto mt-6 grid max-w-lg gap-5 lg:max-w-xl lg:grid-cols-1">
-          <input
-            className="flex w-full items-center justify-center rounded-md border border-transparent bg-white px-8 py-3 text-center text-base font-bold text-black shadow-xl hover:bg-white hover:text-black hover:shadow-md md:py-4 md:px-10 md:text-lg"
-            type="text"
-            aria-label="Type and press enter, avoid caplocks"
-            placeholder="Type and press enter, avoid caplocks"
-            value={input}
-            onChange={(e) => setInput(e.target.value)}
-            onKeyPress={(e) => {
-              if (e.key === "Enter") {
-                getData();
-              }
-            }}
-          />
-        </div>
-        <div
-          className="
-        mx-auto mt-6 grid max-w-lg gap-5 md:hidden lg:max-w-xl lg:grid-cols-1"
-        >
-          <button
-            className="flex w-full items-center justify-center rounded-md border border-transparent bg-white px-8 py-3 text-base font-bold text-black shadow-md hover:bg-white hover:text-black hover:shadow-xl md:py-4 md:px-10 md:text-lg"
-            onClick={getData}
-          >
-            Search Results
-          </button>
-        </div>
-        <div className="snap-y snap-mandatory">
-          <div className="mx-auto mt-5 max-w-xl sm:flex sm:justify-center md:mt-8">
-            <pre>{JSON.stringify(data, null, 6)}</pre>
-            <div></div>
+
+      <main className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div className="py-8">
+          <div className="mx-auto max-w-7xl">
+            <div className="overflow-hidden rounded-lg bg-white shadow">
+              <div className="px-4 py-5 sm:p-6">
+                <h1 className="text-3xl font-bold leading-tight text-gray-900">
+                  <a
+                    href="https://hns.pencil.li"
+                    className="hover:text-blue text-indigo-600"
+                  >
+                    Pencil Explorer
+                  </a>{" "}
+                </h1>
+                <div className="mt-2 max-w-xl text-sm text-gray-500">
+                  <h4 className="text-2xl font-light leading-tight text-gray-900">
+                    Pencil Explorer is a tool to explore the Handshake
+                    blockchain, and to find out more about the domains you own.
+                  </h4>
+                </div>
+                <div className="mt-5">
+                  <label
+                    htmlFor="about"
+                    className="block text-sm font-medium text-gray-700"
+                  >
+                    Domain Name
+                  </label>
+                  <div className="mt-1">
+                    <input
+                      type="text"
+                      name="about"
+                      id="about"
+                      aria-label="Type and press enter, avoid caplocks"
+                      placeholder="Type and press enter, avoid caplocks"
+                      className="flex w-full items-center justify-center rounded-md border border-transparent bg-white px-8 py-3 text-center text-base font-bold text-black shadow-xl hover:bg-white hover:text-black hover:shadow-md md:py-4 md:px-10 md:text-lg"
+                      value={input}
+                      onChange={(e) => setInput(e.target.value)}
+                    />
+                  </div>
+                  <div className="mt-2">
+                    <button
+                      type="button"
+                      className="inline-flex items-center rounded-md border border-transparent bg-indigo-600 px-4 py-2 text-sm font-medium text-white shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
+                      onClick={getData}
+                    >
+                      Search
+                    </button>
+                  </div>
+                </div>
+                <div className="mt-5">
+                  <label
+                    htmlFor="about"
+                    className="block text-sm font-medium text-gray-700"
+                  >
+                    Domain Info
+                  </label>
+                  <div className="mt-1">
+                    <textarea
+                      id="about"
+                      name="about"
+                      rows={3}
+                      className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+                      placeholder="Domain info will appear here."
+                      value={JSON.stringify(data, null, 2)}
+                      readOnly
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </main>
-      <footer className="mx-auto w-auto bg-white px-4 pt-16 pb-8 sm:pt-24 lg:px-8">
-        <div className="text-center">
-          <p className="mx-auto mt-3 max-w-md text-base text-gray-500 sm:text-lg md:mt-5 md:max-w-3xl md:text-xl">
-            Made with ❤️ by{" "}
-            <a
-              className="hover:text blue-900 font-extrabold text-blue-700"
-              href="https://twitter.com/miguelgargallo"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              @miguelgargallo
-            </a>
-          </p>
-        </div>
-      </footer>
     </div>
   );
 }
