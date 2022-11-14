@@ -57,6 +57,17 @@ export default function Home() {
                       onChange={(e) => setInput(e.target.value)}
                     />
                   </div>
+                  <div
+                    className="
+        mx-auto mt-6 grid max-w-lg gap-5 md:hidden lg:max-w-xl lg:grid-cols-1"
+                  >
+                    <button
+                      className="flex w-full items-center justify-center rounded-md border border-transparent bg-white px-8 py-3 text-base font-bold text-black shadow-md hover:bg-white hover:text-black hover:shadow-xl md:py-4 md:px-10 md:text-lg"
+                      onClick={getData}
+                    >
+                      Search Results
+                    </button>
+                  </div>
                   <div className="mt-2">
                     <button
                       type="button"
