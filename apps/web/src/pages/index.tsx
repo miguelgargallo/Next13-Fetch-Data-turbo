@@ -36,9 +36,10 @@ export default function Home() {
                   <a className="badge m-2 bg-green-200 py-0 px-2 text-black">
                     Alpha v0.0.1
                   </a>
-                  <p
-                    className="text-sm text-gray-500 py-4">
-                  Block Explorer and Naming Tool for Handshake, the decentralized, open, and extensible naming system for the Internet.
+                  <p className="py-4 text-sm text-gray-500">
+                    Block Explorer and Naming Tool for Handshake, the
+                    decentralized, open, and extensible naming system for the
+                    Internet.
                   </p>
                 </h1>
                 <div className="mt-2 max-w-xl text-sm text-gray-500"></div>
