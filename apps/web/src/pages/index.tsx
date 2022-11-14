@@ -1,5 +1,6 @@
 import Head from "next/head";
 import { useState } from "react";
+import Style from "./index.module.css";
 
 export default function Home() {
   const [input, setInput] = useState("");
