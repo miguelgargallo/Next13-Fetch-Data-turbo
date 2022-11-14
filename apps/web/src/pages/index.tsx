@@ -3,8 +3,8 @@ import { useState } from "react";
 import Style from "./index.module.css";
 
 export default function Home() {
-  const [input, setInput] = useState("");
-  const [data, setData] = useState("");
+  const [input, setInput] = useState();
+  const [data, setData] = useState();
 
   const getData = async () => {
     const res = await fetch(`https://e.hnsfans.com/api/names/${input}`);
@@ -71,7 +71,6 @@ export default function Home() {
                       name="about"
                       rows={100}
                       className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
-                      placeholder="Domain info will appear here."
                       value={JSON.stringify(data, null, 2)}
                       readOnly
                     />
