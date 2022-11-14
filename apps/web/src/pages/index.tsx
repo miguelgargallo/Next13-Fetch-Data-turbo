@@ -12,14 +12,15 @@ export default function Home() {
   };
 
   return (
-    <div>
+    <div
+      className="bg-white">
       <Head>
         <title>Pencil Domains</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="mx-auto w-auto bg-white px-4 pt-16 pb-8 sm:pt-24 lg:px-8">
-        <div className="text-center">
-          <h1 className="text-4xl font-bold tracking-tight text-black shadow-sm sm:text-5xl md:text-6xl">
+      <main className="bg-white mx-auto w-auto bg-white px-4 pt-16 pb-8 sm:pt-24 lg:px-8">
+        <div className="bg-white text-center">
+          <h1 className="bg-white text-4xl font-bold tracking-tight text-black shadow-sm sm:text-5xl md:text-6xl">
             Welcome to
             <a
               className="hover:text blue-900 font-extrabold text-blue-700"
