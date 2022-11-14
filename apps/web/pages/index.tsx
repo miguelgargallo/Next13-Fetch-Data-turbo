@@ -20,14 +20,13 @@ export default function Home() {
 
       <main>
         <h1>
-          Welcome to,
+          Welcome to, 
           <a href="https://twitter.com/pencildomains"
             target="_blank"
             rel="noopener noreferrer"
           >
             HNS Pencil Search!</a>
         </h1>
-
         <div>
           <div>
             <h3>Down below please, input whatever you want.</h3>
