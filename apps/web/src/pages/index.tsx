@@ -3,7 +3,7 @@ import { useState } from "react";
 import Style from "./index.module.css";
 
 export default function Home() {
-  const [input, setInput] = useState();
+  const [input, setInput] = useState("");
   const [data, setData] = useState();
 
   const getData = async () => {
