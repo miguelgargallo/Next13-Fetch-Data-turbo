@@ -21,7 +21,7 @@ export default function Home() {
       <main className="mx-auto w-auto bg-white bg-white px-4 pt-16 pb-8 sm:pt-24 lg:px-8">
         <div className="bg-white text-center"></div>
         <div className="mx-auto mt-6 grid max-w-lg gap-5 lg:max-w-xl lg:grid-cols-1">
-        <h1 className="bg-white text-4xl font-bold tracking-tight text-center text-black sm:text-5xl md:text-6xl">
+          <h1 className="bg-white text-center text-4xl font-bold tracking-tight text-black sm:text-5xl md:text-6xl">
             Pencil
             <a
               className="hover:text blue-900 font-extrabold text-blue-700"
@@ -40,9 +40,9 @@ export default function Home() {
             items-center
             justify-center
             rounded-md border
-            text-center
             border-transparent
-            bg-white px-8 py-3
+            bg-white
+            px-8 py-3 text-center
             text-base font-bold
             text-black shadow-xl
             hover:bg-white
