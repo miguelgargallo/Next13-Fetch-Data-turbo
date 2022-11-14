@@ -35,20 +35,7 @@ export default function Home() {
         </div>
         <div className="mx-auto mt-6 grid max-w-lg gap-5 lg:max-w-xl lg:grid-cols-1">
           <input
-            className="
-            flex w-full
-            items-center
-            justify-center
-            rounded-md border
-            border-transparent
-            bg-white
-            px-8 py-3 text-center
-            text-base font-bold
-            text-black shadow-xl
-            hover:bg-white
-            hover:text-black
-            hover:shadow-md
-            md:py-4 md:px-10 md:text-lg"
+            className="flex w-full items-center justify-center rounded-md border border-transparent bg-white px-8 py-3 text-center text-base font-bold text-black shadow-xl hover:bg-white hover:text-black hover:shadow-md md:py-4 md:px-10 md:text-lg"
             type="text"
             aria-label="Type and press enter, avoid caplocks"
             placeholder="Type and press ente, avoid caplocks"
@@ -66,19 +53,7 @@ export default function Home() {
         mx-auto mt-6 grid max-w-lg gap-5 md:hidden lg:max-w-xl lg:grid-cols-1"
         >
           <button
-            className="
-            flex w-full
-            items-center
-            justify-center
-            rounded-md border
-            border-transparent
-            bg-white px-8 py-3
-            text-base font-bold
-            text-black shadow-md
-            hover:bg-white
-            hover:text-black
-            hover:shadow-xl
-            md:py-4 md:px-10 md:text-lg"
+            className="flex w-full items-center justify-center rounded-md border border-transparent bg-white px-8 py-3 text-base font-bold text-black shadow-md hover:bg-white hover:text-black hover:shadow-xl md:py-4 md:px-10 md:text-lg"
             onClick={getData}
           >
             Search Results
