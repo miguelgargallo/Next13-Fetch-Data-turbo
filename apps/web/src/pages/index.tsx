@@ -40,13 +40,14 @@ export default function Home() {
             items-center
             justify-center
             rounded-md border
+            text-center
             border-transparent
             bg-white px-8 py-3
             text-base font-bold
-            text-black shadow-sm
+            text-black shadow-xl
             hover:bg-white
             hover:text-black
-            hover:shadow-xl
+            hover:shadow-md
             md:py-4 md:px-10 md:text-lg"
             type="text"
             aria-label="Type and press enter, avoid caplocks"
@@ -73,10 +74,10 @@ export default function Home() {
             border-transparent
             bg-white px-8 py-3
             text-base font-bold
-            text-black shadow-sm
+            text-black shadow-md
             hover:bg-white
             hover:text-black
-            hover:shadow-xlç
+            hover:shadow-xl
             md:py-4 md:px-10 md:text-lg"
             onClick={getData}
           >
