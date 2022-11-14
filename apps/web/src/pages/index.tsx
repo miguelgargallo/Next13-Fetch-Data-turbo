@@ -26,11 +26,34 @@ export default function Home() {
               <div className="px-4 py-5 text-center sm:p-6">
                 <h1 className="text-3xl font-bold leading-tight text-gray-900">
                   <a
-                    href="https://hns.pencil.li"
+                    href="https://twitter.com/pencildomains"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="hover:text-blue text-indigo-600"
                   >
                     Pencil Explorer
                   </a>{" "}
+                  <a
+                    href="https://twitter.com/pencildomains"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:text-blue text-indigo-600"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="inline-block h-6 w-6"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth={2}
+                        d="M8 7h.01M12 7h.01M16 7h.01M16 11h.01M8 11h.01M12 11h.01M16 15h.01M8 15h.01M12 15h.01M6 20a2 2 0 01-2-2V6a2 2 0 012-2h12a2 2 0 012 2v12a2 2 0 01-2 2h-1M6 20h12"
+                      />
+                    </svg>
+                  </a>
                   <a className="badge m-2 bg-green-200 py-0 px-2 text-black">
                     Alpha v0.1
                   </a>
