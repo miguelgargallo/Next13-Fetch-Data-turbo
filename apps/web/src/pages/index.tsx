@@ -34,7 +34,7 @@ export default function Home() {
                     Pencil Explorer
                   </a>{" "}
                   <a className="badge m-2 bg-green-200 py-0 px-2 text-black">
-                    Alpha v1.0.3
+                    Alpha v1.0.4
                   </a>
                   <p className="py-4 text-sm text-gray-500">
                     Block Explorer and Naming Tool for Handshake, the
@@ -48,8 +48,8 @@ export default function Home() {
                     <input
                       className="flex w-full items-center justify-center rounded-md border border-transparent bg-white px-8 py-3 text-center text-base font-bold text-black shadow-xl hover:bg-white hover:text-black hover:shadow-md md:py-4 md:px-10 md:text-lg"
                       type="text"
-                      aria-label="Type and press enter, avoid caplocks"
-                      placeholder="Type and press enter, avoid caplocks"
+                      aria-label="Type & press enter ↵"
+                      placeholder="Type & press enter ↵"
                       value={input}
                       onChange={(e) => setInput(e.target.value)}
                       onKeyPress={(e) => {
@@ -64,7 +64,7 @@ export default function Home() {
                       className="flex w-full items-center justify-center rounded-md border border-transparent bg-white px-8 py-3 text-base font-bold text-black shadow-md hover:bg-white hover:text-black hover:shadow-xl md:py-4 md:px-10 md:text-lg"
                       onClick={getData}
                     >
-                      Search Results
+                      Explore Now, avoid caplocks
                     </button>
                   </div>
                   <div className="mx-auto mt-6 grid max-w-lg gap-5 lg:max-w-xl lg:grid-cols-1"></div>
