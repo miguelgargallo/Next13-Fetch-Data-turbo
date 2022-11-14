@@ -31,6 +31,9 @@ export default function Home() {
                   >
                     Pencil Explorer
                   </a>{" "}
+                  <a className="badge text-black bg-green-200 m-2 py-0 px-2">
+                  Alpha v0.1
+                  </a>
                 </h1>
                 <div className="mt-2 max-w-xl text-sm text-gray-500"></div>
                 <div className="mt-5">
