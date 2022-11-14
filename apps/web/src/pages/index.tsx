@@ -34,7 +34,7 @@ export default function Home() {
                     Pencil Explorer
                   </a>{" "}
                   <a className="badge m-2 bg-green-200 py-0 px-2 text-black">
-                    Alpha v0.0.1
+                    Alpha v1.0.3
                   </a>
                   <p className="py-4 text-sm text-gray-500">
                     Block Explorer and Naming Tool for Handshake, the
@@ -74,7 +74,7 @@ export default function Home() {
                     <textarea
                       id="about"
                       name="about"
-                      rows={100}
+                      rows={25}
                       className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
                       value={JSON.stringify(data, null, 2)}
                       readOnly
@@ -86,6 +86,36 @@ export default function Home() {
           </div>
         </div>
       </main>
+      <footer className="bg-white py-8 text-center">
+        <div>
+          <a>
+            Made with ❤️ by{" "}
+            <a
+              href="https://twitter.com/miguelgargallo"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-blue text-indigo-600"
+            >
+              Miguel Gargallo
+            </a>
+            .
+          </a>
+        </div>
+        <div>
+          <a>
+            2022 ©{" "}
+            <a
+              href="https://huggingface.co/spaces/superdatas/LICENSE"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-blue text-indigo-600"
+            >
+              Pylar AI creative ML license
+            </a>
+            .
+          </a>
+        </div>
+      </footer>
     </div>
   );
 }
