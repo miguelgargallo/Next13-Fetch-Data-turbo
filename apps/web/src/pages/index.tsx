@@ -1,5 +1,6 @@
 import Head from "next/head";
 import { useState } from "react";
+import Style from "./index.module.css";
 
 export default function Home() {
   const [input, setInput] = useState("");
@@ -63,9 +64,12 @@ export default function Home() {
             <div className="p-4 bg-white">
               <p className="text-base leading-6 font-semibold text-black">
               </p>
-            
+              <p className="mt-1 text-lg leading-5 font-semibold text-black">
                 {data.name}
-            
+              </p>
+              <p className="mt-1 text-lg leading-5 font-semibold text-black">
+             <pre> {JSON.stringify(data, null, 6)}
+             </pre>  </p>
             </div>
           </div> 
         </div>
