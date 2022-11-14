@@ -22,7 +22,7 @@ export default function Home() {
       <main className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="py-8">
           <div className="mx-auto max-w-7xl">
-            <div className="overflow-hidden rounded-lg bg-white shadow">
+            <div className="overflow-hidden rounded-lg bg-white">
               <div className="px-4 py-5 text-center sm:p-6">
                 <h1 className="text-3xl font-bold leading-tight text-gray-900">
                   <a
