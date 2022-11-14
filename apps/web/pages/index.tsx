@@ -27,18 +27,7 @@ export default function Home() {
           >
             HNS Pencil Search!</a>
         </h1>
-        <div>
-        <h3>
-          <a
-            href="https://hns.pencil.li/beta"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Try the beta.
 
-          </a>
-          </h3>
-        </div>
         <div>
           <div>
             <h3>Down below please, input whatever you want.</h3>
