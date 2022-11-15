@@ -69,24 +69,27 @@ npm run dev
 6. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 7. Edit the page and save it to reload the page.
 8. Add `?turbo` to the URL to see the turbo in action.
-9. Learn more about Next.js on the [Next.js documentation](https://nextjs.org/docs).
-10. Learn more about Turbo on the [Turbo documentation](https://turbo.hotwired.dev).
-11. Learn more about React on the [React documentation](https://reactjs.org/docs/getting-started.html).
-12. Learn more about Vercel on the [Vercel documentation](https://vercel.com/docs).
+
+# Sources
+
+Learn more about Next.js on the [Next.js documentation](https://nextjs.org/docs).
+Next.js 13 is a release of Next.js that includes a new feature called Turbo Mode. Turbo Mode is a new way to build and deploy Next.
+
+Learn more about Turbo on the [Turbo documentation](https://turbo.hotwired.dev).
+Turbo by Vercel is a Next.js turbo that allows you to fetch data from an API and display it on the page.
+Turbo allows you to empower your Next.js application with the power of Turbo. Tyrbo is a faster and more efficient than ever before. Turbo is enabled by default in Next.js 13 and can be disabled by setting `turboMode: false` in `next.config.js`.
+
+Learn more about React on the [React documentation](https://reactjs.org/docs/getting-started.html).
+React is a JavaScript library for building user interfaces.
+
+Learn more about Vercel on the [Vercel documentation](https://vercel.com/docs).
+Vercel is a cloud platform for static sites and Serverless Functions.
 
 ## License
 
 [Pylar AI creative ML](https://huggingface.co/spaces/superdatas/LICENSE)
 
 Copyright &copy; 2022 Miguel Gargallo, Pencil Works LLC, ITAMAESAN ORG, SUPERDATAS, Pylar Team.
-
-| Pylar AI creative ML                                                                   | Permissions                    | Limitations       | Conditions                                          |
-| -------------------------------------------------------------------------------------- | ------------------------------ | ----------------- | --------------------------------------------------- | --- |
-| November 1st November of 2022                                                          | ✅ Private use                 | ❌ Commercial use | [License and copyright notice](#section-i-preamble) |
-| From: [LEGAL ITAMAEASAN](mailto:legal@itamaesan.org) Contact us through this address.  | ✅Science Publications         | ❌ Liability      |                                                     |
-|                                                                                        | ✅ Research Publications       | ❌ Distribution   |                                                     |
-| Version: 0.0.1                                                                         | ✅ Non-commercial publications | ❌ Warranty       |                                                     |
-| This is not legal advice. [Learn more about repository licenses.](#section-i-preamble) | ✅ No endorse publications     | ❌ Modification   |                                                     |     |
 
 ## Section I: Preamble
 
