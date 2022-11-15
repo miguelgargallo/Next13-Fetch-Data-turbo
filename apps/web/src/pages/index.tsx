@@ -1,6 +1,5 @@
 import Head from "next/head";
 import { useState } from "react";
-import Style from "./index.module.css";
 
 export default function Home() {
   const [input, setInput] = useState("");
@@ -34,7 +33,7 @@ export default function Home() {
                     Pencil Explorer
                   </a>{" "}
                   <a className="badge m-2 bg-green-200 py-0 px-2 text-black">
-                    Alpha v1.0.4
+                    Alpha v1.0.5
                   </a>
                   <p className="py-4 text-sm text-gray-500">
                     Block Explorer and Naming Tool for Handshake, the
