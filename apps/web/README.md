@@ -1,30 +1,82 @@
-## Getting Started
+# Next 13 Fetch Data turbo
 
-First, run the development server:
+## Next 13 Fetch Data turbo allows the user to fetch data from an API and display it on the page.
 
+### How to use
+
+1. Create a new Next.js app
+2. Install the Next 13 Fetch Data turbo
 ```bash
-yarn dev
+npm install @vercel/turboreact
 ```
+3. Add the turbo to your Next.js app
+```js
+// pages/_app.js
+import { TurboReact } from '@vercel/turboreact'
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+export default function App({ Component, pageProps }) {
+  return (
+    <TurboReact>
+      <Component {...pageProps} />
+    </TurboReact>
+  )
+}
+```
+4. Create a page that uses the turbo
+```js
+// pages/index.js
+import { useFetch } from '@vercel/turboreact'
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+export default function Home() {
+  const { data, error } = useFetch('https://api.github.com/repos/vercel/turboreact')
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+  if (error) {
+    return <div>failed to load</div>
+  }
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+  if (!data) {
+    return <div>loading...</div>
+  }
 
-## Learn More
+  return (
+    <div>
+      <h1>{data.name}</h1>
+      <p>{data.description}</p>
+    </div>
+  )
+}
+```
+5. Start the development server
+```bash
+npm run dev
+```
+6. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+7. Edit the page and save it to reload the page.
+8. Add `?turbo` to the URL to see the turbo in action.
+9. Learn more about Next.js on the [Next.js documentation](https://nextjs.org/docs).
+10. Learn more about Turbo on the [Turbo documentation](https://turbo.hotwired.dev).
+11. Learn more about React on the [React documentation](https://reactjs.org/docs/getting-started.html).
+12. Learn more about Vercel on the [Vercel documentation](https://vercel.com/docs).
 
-To learn more about Next.js, take a look at the following resources:
+## License
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn/foundations/about-nextjs) - an interactive Next.js tutorial.
+[MIT](LICENSE.md)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Author
 
-## Deploy on Vercel
+[Next.js](https://nextjs.org)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_source=github.com&utm_medium=referral&utm_campaign=turborepo-readme) from the creators of Next.js.
+## Contributors
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+[Next.js](https://nextjs.org)
+
+## Related
+
+- [Next.js](https://nextjs.org) - The React Framework
+- [Turbo](https://turbo.hotwired.dev) - A fast, full-featured framework for HTML-driven applications
+- [React](https://reactjs.org) - A JavaScript library for building user interfaces
+- [Vercel](https://vercel.com) - The best frontend developer experience and the most performant and secure cloud platform for static sites and Jamstack serverless functions.
+- [Vercel CLI](https://vercel.com/download) - The command-line interface for Vercel.
+- [Vercel for GitLab](https://vercel.com/integrations/gitlab) - Deploy and collaborate on projects from GitLab.
+
+

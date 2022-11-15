@@ -1,54 +1,82 @@
-# Turborepo Tailwind CSS starter
+# Next 13 Fetch Data turbo
 
-This is an official starter Turborepo.
+## Next 13 Fetch Data turbo allows the user to fetch data from an API and display it on the page.
 
-## What's inside?
+### How to use
 
-This Turborepo includes the following packages/apps:
-
-### Apps and Packages
-
-- `docs`: a [Next.js](https://nextjs.org/) app with [Tailwind CSS](https://tailwindcss.com/)
-- `web`: another [Next.js](https://nextjs.org/) app with [Tailwind CSS](https://tailwindcss.com/)
-- `ui`: a stub React component library with [Tailwind CSS](https://tailwindcss.com/) shared by both `web` and `docs` applications
-- `eslint-config-custom`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
-- `tsconfig`: `tsconfig.json`s used throughout the monorepo
-
-Each package/app is 100% [TypeScript](https://www.typescriptlang.org/).
-
-### Building packages/ui
-
-This example is setup to build `packages/ui` and output the transpiled source and compiled styles to `dist/`. This was chosen to make sharing one `tailwind.config.js` as easy as possible, and to ensure only the CSS that is used by the current application and its dependencies is generated.
-
-Another option is to consume `packages/ui` directly from source without building. If using this option, you will need to update your `tailwind.config.js` to be aware of your package locations, so it can find all usages of the `tailwindcss` class names.
-
-For example, in [tailwind.config.js](packages/tailwind-config/tailwind.config.js):
-
+1. Create a new Next.js app
+2. Install the Next 13 Fetch Data turbo
+```bash
+npm install @vercel/turboreact
+```
+3. Add the turbo to your Next.js app
 ```js
-  content: [
-    // app content
-    `src/**/*.{js,ts,jsx,tsx}`,
-    // include packages if not transpiling
-    "../../packages/**/*.{js,ts,jsx,tsx}",
-  ],
+// pages/_app.js
+import { TurboReact } from '@vercel/turboreact'
+
+export default function App({ Component, pageProps }) {
+  return (
+    <TurboReact>
+      <Component {...pageProps} />
+    </TurboReact>
+  )
+}
 ```
+4. Create a page that uses the turbo
+```js
+// pages/index.js
+import { useFetch } from '@vercel/turboreact'
 
-### Utilities
+export default function Home() {
+  const { data, error } = useFetch('https://api.github.com/repos/vercel/turboreact')
 
-This Turborepo has some additional tools already setup for you:
+  if (error) {
+    return <div>failed to load</div>
+  }
 
-- [Tailwind CSS](https://tailwindcss.com/) for styles
-- [TypeScript](https://www.typescriptlang.org/) for static type checking
-- [ESLint](https://eslint.org/) for code linting
-- [Prettier](https://prettier.io) for code formatting
+  if (!data) {
+    return <div>loading...</div>
+  }
 
-## Using this example
-
-Run the following command:
-
-```sh
-npx degit vercel/turbo/examples/with-tailwind with-tailwind
-cd with-tailwind
-yarn install
-git init . && git add . && git commit -m "Init"
+  return (
+    <div>
+      <h1>{data.name}</h1>
+      <p>{data.description}</p>
+    </div>
+  )
+}
 ```
+5. Start the development server
+```bash
+npm run dev
+```
+6. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+7. Edit the page and save it to reload the page.
+8. Add `?turbo` to the URL to see the turbo in action.
+9. Learn more about Next.js on the [Next.js documentation](https://nextjs.org/docs).
+10. Learn more about Turbo on the [Turbo documentation](https://turbo.hotwired.dev).
+11. Learn more about React on the [React documentation](https://reactjs.org/docs/getting-started.html).
+12. Learn more about Vercel on the [Vercel documentation](https://vercel.com/docs).
+
+## License
+
+[MIT](LICENSE.md)
+
+## Author
+
+[Next.js](https://nextjs.org)
+
+## Contributors
+
+[Next.js](https://nextjs.org)
+
+## Related
+
+- [Next.js](https://nextjs.org) - The React Framework
+- [Turbo](https://turbo.hotwired.dev) - A fast, full-featured framework for HTML-driven applications
+- [React](https://reactjs.org) - A JavaScript library for building user interfaces
+- [Vercel](https://vercel.com) - The best frontend developer experience and the most performant and secure cloud platform for static sites and Jamstack serverless functions.
+- [Vercel CLI](https://vercel.com/download) - The command-line interface for Vercel.
+- [Vercel for GitLab](https://vercel.com/integrations/gitlab) - Deploy and collaborate on projects from GitLab.
+
+
