@@ -12,9 +12,7 @@
     "next": "latest",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "ui": "*",
-    "@vercel/analytics": "^0.1.4"
-
+    "ui": "*"
   },
   "devDependencies": {
     "@types/node": "^17.0.12",
