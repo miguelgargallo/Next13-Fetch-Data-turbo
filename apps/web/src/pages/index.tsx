@@ -33,7 +33,7 @@ export default function Home() {
                     Pencil Explorer
                   </a>{" "}
                   <a className="badge m-2 bg-green-200 py-0 px-2 text-black">
-                    Alpha v1.0.5
+                    Alpha v1.0.6
                   </a>
                   <p className="py-4 text-sm text-gray-500">
                     Block Explorer and Naming Tool for Handshake, the
@@ -66,7 +66,6 @@ export default function Home() {
                       Explore Now, avoid caplocks
                     </button>
                   </div>
-                  <div className="mx-auto mt-6 grid max-w-lg gap-5 lg:max-w-xl lg:grid-cols-1"></div>
                 </div>
                 <div className="mt-5">
                   <div className="mt-1">
