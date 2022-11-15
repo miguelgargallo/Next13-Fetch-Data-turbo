@@ -91,11 +91,3 @@ Copyright &copy; 2022 Miguel Gargallo, Pencil Works LLC, ITAMAESAN ORG, SUPERDAT
 ## Section I: Preamble
 
 This license is a legal agreement between you and the Pylar AI creative ML for the use of Pylar AI creative ML. By obtaining the Pylar AI creative ML you agree to be bound by the terms and conditions of this license. If you do not agree to the terms and conditions of this license, you are not authorized to obtain the Pylar AI creative ML.
-
-# Latest Technologies
-
-## Next 13 Fetch Data turbo
-
-## Next 13 Fetch Data turbo allows the user to fetch data from an API and display it on the page.
-
-### How to use
