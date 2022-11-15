@@ -114,7 +114,7 @@ export default function Home() {
             .
           </a>
           <div
-            className="mt-2"
+            className="mx-auto mt-2 flex w-1/3 justify-between"
             style={{
               display: "flex",
               justifyContent: "center",
@@ -125,7 +125,7 @@ export default function Home() {
               href="https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fmiguelgargallo%2FNext13-Fetch-Data-turbo&project-name=miguelgargallo-next13-fetch-data-turbo&repo-name=miguelgargallo-next13-fetch-data-turbo"
               target="_blank"
               rel="noopener noreferrer"
-              className=""
+              className="p-4"
             >
               <picture>
                 <img
@@ -136,20 +136,11 @@ export default function Home() {
                 />
               </picture>
             </a>
-          </div>
-          <div
-            className="mt-2"
-            style={{
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-            }}
-          >
             <a
               href="https://huggingface.co/spaces/superdatas/LICENSE"
               target="_blank"
               rel="noopener noreferrer"
-              className=""
+              className="p-4"
             >
               <picture>
                 <img
@@ -160,20 +151,11 @@ export default function Home() {
                 />
               </picture>
             </a>
-          </div>
-          <div
-            className="mt-2"
-            style={{
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-            }}
-          >
             <a
               href="https://github.com/miguelgargallo/Next13-Fetch-Data-turbo"
               target="_blank"
               rel="noopener noreferrer"
-              className=""
+              className="p-4"
             >
               <picture>
                 <img
