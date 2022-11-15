@@ -1,5 +1,17 @@
 # Next 13 Fetch Data turbo
 
+# Installation
+
+```bash
+npm i dfind
+```
+
+or
+
+```bash
+npm i next13-fetch-data-turbo
+```
+
 ## Next 13 Fetch Data turbo allows the user to fetch data from an API and display it on the page.
 
 ### How to use
@@ -46,6 +58,7 @@ export default function Home() {
   )
 }
 ```
+
 5. Start the development server
 ```bash
 npm run dev
@@ -60,8 +73,9 @@ npm run dev
 
 ## License
 
-[Pylar AI creative ML license](LICENSE.md)
+[Pylar AI creative ML](https://huggingface.co/spaces/superdatas/LICENSE)
 
+Copyright &copy; 2022 Miguel Gargallo, Pencil Works LLC, ITAMAESAN ORG, SUPERDATAS, Pylar Team.
 
 | Pylar AI creative ML | Permissions  | Limitations | Conditions |
 | ------------ | ------------ | ------------ | ------------ |
@@ -71,22 +85,15 @@ npm run dev
 | Version: 0.0.1 | ✅ Non-commercial publications  | ❌ Warranty |  |
 | This is not legal advice. [Learn more about repository licenses.](#section-i-preamble) | ✅ No endorse publications | ❌ Modification |  |  |
 
+## Section I: Preamble
 
-## Author
+This license is a legal agreement between you and the Pylar AI creative ML for the use of Pylar AI creative ML. By obtaining the Pylar AI creative ML you agree to be bound by the terms and conditions of this license. If you do not agree to the terms and conditions of this license, you are not authorized to obtain the Pylar AI creative ML.
 
-[Miguel Gargallo](https://twitter.com/miguelgargallo)
+# Latest Technologies
 
-## Contributors
+## Next 13 Fetch Data turbo
 
-[Next.js](https://nextjs.org)
+## Next 13 Fetch Data turbo allows the user to fetch data from an API and display it on the page.
 
-## Related
-
-- [Next.js](https://nextjs.org) - The React Framework
-- [Turbo](https://turbo.hotwired.dev) - A fast, full-featured framework for HTML-driven applications
-- [React](https://reactjs.org) - A JavaScript library for building user interfaces
-- [Vercel](https://vercel.com) - The best frontend developer experience and the most performant and secure cloud platform for static sites and Jamstack serverless functions.
-- [Vercel CLI](https://vercel.com/download) - The command-line interface for Vercel.
-- [Vercel for GitLab](https://vercel.com/integrations/gitlab) - Deploy and collaborate on projects from GitLab.
-
+### How to use
 
