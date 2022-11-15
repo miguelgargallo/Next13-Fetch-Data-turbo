@@ -58,7 +58,7 @@ npm run dev
 11. Learn more about React on the [React documentation](https://reactjs.org/docs/getting-started.html).
 12. Learn more about Vercel on the [Vercel documentation](https://vercel.com/docs).
 
-## License
+## License by ITAMAESAN ORG OFFICIAL
 
 [Pylar AI creative ML license](LICENSE.md)
 
