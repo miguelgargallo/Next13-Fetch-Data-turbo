@@ -64,7 +64,7 @@ npm run dev
 
 ## Author
 
-[Next.js](https://nextjs.org)
+[Miguel Gargallo](https://twitter.com/miguelgargallo)
 
 ## Contributors
 
