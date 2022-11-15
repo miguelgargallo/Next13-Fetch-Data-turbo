@@ -1,6 +1,6 @@
 {
-  "name": "dfind",
-  "version": "1.0.0",
+  "name": "next13-fetch-data-turbo",
+  "version": "1.0.1",
   "private": false,
   "scripts": {
     "dev": "next dev",

@@ -3,12 +3,6 @@
 # Installation
 
 ```bash
-npm i dfind
-```
-
-or
-
-```bash
 npm i next13-fetch-data-turbo
 ```
 
