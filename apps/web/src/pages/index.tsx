@@ -114,7 +114,7 @@ export default function Home() {
             .
           </a>
           <div
-            className="mx-auto mt-2 flex w-1/3 justify-between"
+            className="mt-2"
             style={{
               display: "flex",
               justifyContent: "center",
