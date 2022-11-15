@@ -1,6 +1,6 @@
 {
-  "name": "web",
-  "version": "1.0.1",
+  "name": "next13-fetch-data-turbo",
+  "version": "1.0.5",
   "private": false,
   "scripts": {
     "dev": "next dev",
