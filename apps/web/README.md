@@ -60,11 +60,21 @@ npm run dev
 
 ## License
 
-[MIT](LICENSE.md)
+[Pylar AI creative ML license](LICENSE.md)
+
+
+| Pylar AI creative ML | Permissions  | Limitations | Conditions |
+| ------------ | ------------ | ------------ | ------------ |
+| November 1st November of 2022 | ✅ Private use | ❌ Commercial use | [License and copyright notice](#section-i-preamble)
+| From: [LEGAL ITAMAEASAN](mailto:legal@itamaesan.org) Contact us through this address. | ✅Science Publications | ❌ Liability |  |
+|  | ✅ Research Publications | ❌ Distribution |  |
+| Version: 0.0.1 | ✅ Non-commercial publications  | ❌ Warranty |  |
+| This is not legal advice. [Learn more about repository licenses.](#section-i-preamble) | ✅ No endorse publications | ❌ Modification |  |  |
+
 
 ## Author
 
-[Next.js](https://nextjs.org)
+[Miguel Gargallo](https://twitter.com/miguelgargallo)
 
 ## Contributors
 
