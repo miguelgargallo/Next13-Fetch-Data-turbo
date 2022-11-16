@@ -1,129 +1,36 @@
-# Next 13 Fetch Data turbo
-
-# Installation
-
-```bash
-npm i next13-fetch-data-turbo
-```
-
-## Next 13 Fetch Data turbo allows the user to fetch data from an API and display it on the page.
-
-### How to use
-
-1. Create a new Next.js app
-2. Install the Next 13 Fetch Data turbo
-
-```bash
-npm install @vercel/turboreact
-```
-
-3. Add the turbo to your Next.js app
-
-```js
-// pages/_app.js
-import { TurboReact } from "@vercel/turboreact";
-
-export default function App({ Component, pageProps }) {
-  return (
-    <TurboReact>
-      <Component {...pageProps} />
-    </TurboReact>
-  );
-}
-```
-
-4. Create a page that uses the turbo
-
-```js
-// pages/index.js
-import { useFetch } from "@vercel/turboreact";
-
-export default function Home() {
-  const { data, error } = useFetch(
-    "https://api.github.com/repos/vercel/turboreact"
-  );
-
-  if (error) {
-    return <div>failed to load</div>;
-  }
-
-  if (!data) {
-    return <div>loading...</div>;
-  }
-
-  return (
-    <div>
-      <h1>{data.name}</h1>
-      <p>{data.description}</p>
-    </div>
-  );
-}
-```
-
-5. Start the development server
-
-```bash
-npm run dev
-```
-
-6. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-7. Edit the page and save it to reload the page.
-8. Add `?turbo` to the URL to see the turbo in action.
-
-# Sources
-
-Learn more about Next.js on the [Next.js documentation](https://nextjs.org/docs).
-Next.js 13 is a release of Next.js that includes a new feature called Turbo Mode. Turbo Mode is a new way to build and deploy Next.
-
-Learn more about Turbo on the [Turbo documentation](https://turbo.hotwired.dev).
-Turbo by Vercel is a Next.js turbo that allows you to fetch data from an API and display it on the page.
-Turbo allows you to empower your Next.js application with the power of Turbo. Tyrbo is a faster and more efficient than ever before. Turbo is enabled by default in Next.js 13 and can be disabled by setting `turboMode: false` in `next.config.js`.
-
-Learn more about React on the [React documentation](https://reactjs.org/docs/getting-started.html).
-React is a JavaScript library for building user interfaces.
-
-Learn more about Vercel on the [Vercel documentation](https://vercel.com/docs).
-Vercel is a cloud platform for static sites and Serverless Functions.
-
-## License
-
-[Pylar AI creative ML](https://huggingface.co/spaces/superdatas/LICENSE)
-
-Copyright &copy; 2022 Miguel Gargallo, Pencil Works LLC, ITAMAESAN ORG, SUPERDATAS, Pylar Team.
-
 You can use this as a template for your projects, just use the template or fork! and delete this file and mantain "License.md"
 
----
+- - - - -
 
 Copyright &copy; 2022 Miguel Gargallo, Pencil Works LLC, ITAMAESAN ORG, SUPERDATAS, Pylar Team.
 
-| Pylar AI creative ML                                                                   | Permissions                    | Limitations       | Conditions                                          |
-| -------------------------------------------------------------------------------------- | ------------------------------ | ----------------- | --------------------------------------------------- | --- |
-| November 1st November of 2022                                                          | ✅ Private use                 | ❌ Commercial use | [License and copyright notice](#section-i-preamble) |
-| From: [LEGAL ITAMAEASAN](mailto:legal@itamaesan.org) Contact us through this address.  | ✅Science Publications         | ❌ Liability      |                                                     |
-|                                                                                        | ✅ Research Publications       | ❌ Distribution   |                                                     |
-| Version: 0.0.1                                                                         | ✅ Non-commercial publications | ❌ Warranty       |                                                     |
-| This is not legal advice. [Learn more about repository licenses.](#section-i-preamble) | ✅ No endorse publications     | ❌ Modification   |                                                     |     |
+| Pylar AI creative ML | Permissions  | Limitations | Conditions |
+| ------------ | ------------ | ------------ | ------------ |
+| November 1st November of 2022 | ✅ Private use | ❌ Commercial use | [License and copyright notice](#section-i-preamble)
+| From: [LEGAL ITAMAEASAN](mailto:legal@itamaesan.org) Contact us through this address. | ✅Science Publications | ❌ Liability |  |
+|  | ✅ Research Publications | ❌ Distribution |  |
+| Version: 0.0.1 | ✅ Non-commercial publications  | ❌ Warranty |  |
+| This is not legal advice. [Learn more about repository licenses.](#section-i-preamble) | ✅ No endorse publications | ❌ Modification |  |  |
 
 # Pylar AI creative ML
 
 #### Table of contents
 
-- [Section I: PREAMBLE](#section-i-preamble)
-- [1. Definitions](#1-definitions)
-- [Section II: INTELLECTUAL PROPERTY RIGHTS](#section-ii-intellectual-property-rights)
-- [Section III: CONDITIONS OF USAGE, DISTRIBUTION AND REDISTRIBUTION](#section-iii-conditions-of-usage-distribution-and-redistribution)
-- [Section IV: OTHER PROVISIONS](#section-iv-other-provisions)
-- [Section V: License VERSIONS](#section-v-License-versions)
-- [Use Restrictions](#use-restrictions)
+ - [Section I: PREAMBLE](#section-i-preamble)
+ - [1. Definitions](#1-definitions)
+ - [Section II: INTELLECTUAL PROPERTY RIGHTS](#section-ii-intellectual-property-rights)
+ - [Section III: CONDITIONS OF USAGE, DISTRIBUTION AND REDISTRIBUTION](#section-iii-conditions-of-usage-distribution-and-redistribution)
+ - [Section IV: OTHER PROVISIONS](#section-iv-other-provisions)
+ - [Section V: License VERSIONS](#section-v-License-versions)
+ - [Use Restrictions](#use-restrictions)
 
 #### About this PylarAIcreativeML License
 
-| About   | Pylar AI creative ML                                  |
-| ------- | ----------------------------------------------------- |
-| dated   | November the 1st of the year 2022                     |
-| from    | legal@itamaesan.org (contact us through this address) |
-| version | 0.0.1                                                 |
+| About  | Pylar AI creative ML  |
+| ------------ | ------------ |
+| dated  | November the 1st of the year 2022  |
+| from  | legal@itamaesan.org (contact us through this address)  |
+| version  | 0.0.1  |
 
 ## Section I: PREAMBLE
 
@@ -134,16 +41,16 @@ Notwithstanding the current and potential benefits that these artifacts can brin
 In short, this License strives for both the open and not commercial purpose: so, Pylar Documents, does not allow: use for commercial or endorse. When it comes to the open character, we took inspiration from open source but not to permit or grant of IP rights to anyone. Referring to the downstream responsible use, we added use-based restrictions "Use Restrictions" section.
 
 In terms of publishing always must be for non commercial and endorse porpuse:
-
-- Pylar Documents.
-- the in-process results of Pylar Documents.
-- the end results of Pylar Documents.
-  and always limited to scientific and research demonstrations via twitter with the "@miguelgargallo" "#PylarAI" tags or "@miguelgargallo.es" tag and description keyword on Instragam.
+  - Pylar Documents.
+  - the in-process results of Pylar Documents.
+  - the end results of Pylar Documents.
+and always limited to scientific and research demonstrations via twitter with the "@miguelgargallo" "#PylarAI" tags or "@miguelgargallo.es" tag and description keyword on Instragam.
 
 At the same time, we strive to promote open and responsible research on generative models for art and science, both: research and science for not commercial or endorese content generation.
 
 Downstream derivative versions of Pylar Documents could not be released. We believe in the intersection between open and responsible AI development; thus, this License aims to strike a balance between both in order to enable responsible open-science publishing results, in the field of AI and not commercial or endorse.
 This License governs the use of Pylar Documents and is informed by Pylar Documents card associated with Pylar Documents.
+
 
 # NOW THEREFORE, You and Licensor agree as follows:
 
@@ -171,6 +78,7 @@ This License governs the use of Pylar Documents and is informed by Pylar Documen
 - "Contributor" means Licensor and any individual or Legal Entity on behalf of whom a Contribution has been received by Licensor and subsequently incorporated within the Model.
 - "License versions" means This License is subject to change at anytime. See section Section V: License VERSIONS to know more. (paragraph 13-24).
 
+
 ## Section II: INTELLECTUAL PROPERTY RIGHTS
 
 ##### Both copyright and patent grants apply to the Pylar Documents. The Pylar Documents are subject to additional terms as described in Section III.
@@ -179,10 +87,10 @@ This License governs the use of Pylar Documents and is informed by Pylar Documen
 
 2. Grant of Patent License. Subject to the terms and conditions of this License and where and as applicable, each Contributor does not hereby grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable (except as stated in this paragraph), you are not to patent License to make, have made, use, offer to sell, sell, import, and otherwise transfer Pylar Documents, where such License applies only to those patent claims licensable by such Contributor that are necessarily infringed by their Contribution(s) alone or by combination of their Contribution(s) with the Model to which such Contribution(s) was submitted. If You institute patent litigation against any entity (including a cross-claim or counterclaim in a lawsuit) alleging that the Pylar Documentation or a Contribution incorporated within the Pylar Documents constitutes direct or contributory patent infringement, then any patent Licenses granted to You under this License for the Model and/or Work shall terminate as of the date such litigation is asserted or filed.
 
+
 ## Section III: CONDITIONS OF USAGE, DISTRIBUTION AND REDISTRIBUTION
 
 3. Distribution and Redistribution. You may host for Third Party remote access purposes (e.g. Software-as-a-service), reproduce and distribute copies of the Pylar Documents thereof in any medium, with or without modifications, provided that You meet the following conditions:
-
 - Use-based restrictions as referenced in paragraph 5 MUST be included as an enforceable provision by You in any type of legal agreement (e.g. a License) governing the use and/or distribution of the Pylar Documents, and You shall give notice to subsequent users You Distribute to, that the Pylar Documents are subject to paragraph 5. This provision applies also to the use of Pylar Documents and the Complementary Material.
 - You must give any Third Party recipients of the Pylar Documents a copy of this License;
 - You must cause any modified files to carry prominent notices stating that You changed the files;
@@ -193,6 +101,7 @@ This License governs the use of Pylar Documents and is informed by Pylar Documen
 5. Use-based restrictions. The restrictions set forth in Attachment A are considered Use-based restrictions. Therefore You cannot use the Pylar Documents for the specified restricted uses. You may use the Pylar Documents subject to this License, including only for lawful purposes and in accordance with the License. Use may include creating any content with, finetuning, updating, running, training, evaluating and/or reparametrizing the Pylar Documents. You shall require all of Your users who use the Model or a Derivative of the Model to comply with the terms of this paragraph (paragraph 5).
 
 6. The Output You Generate. Except as set forth herein, Licensor claims no rights in the Output You generate using the Pylar Documents. You are accountable for the Output you generate and its subsequent uses. No use of the output can contravene any provision as stated in the License.
+
 
 ## Section IV: OTHER PROVISIONS
 
@@ -207,6 +116,7 @@ This License governs the use of Pylar Documents and is informed by Pylar Documen
 11. Accepting Warranty or Additional Liability. While redistributing the Pylar Documents, thereof, You may choose to offer, and charge a fee for, acceptance of support, warranty, indemnity, or other liability obligations and/or rights consistent with this License. However, in accepting such obligations, You may act only on Your own behalf and on Your sole responsibility, not on behalf of any other Contributor, and only if You agree to indemnify, defend, and hold each Contributor harmless for any liability incurred by, or claims asserted against, such Contributor by reason of your accepting any such warranty or additional liability.
 
 12. If any provision of this License is held to be invalid, illegal or unenforceable, the remaining provisions shall be unaffected thereby and remain valid as if such provision had not been set forth herein.
+
 
 ## Section V: LICENSE VERSIONS
 
@@ -234,9 +144,11 @@ This License governs the use of Pylar Documents and is informed by Pylar Documen
 
 24. the Owners can vote to update all Pylar Documents to the newer License version all the Owners must first approve by unnanimity the new version.
 
+
 ## END OF TERMS AND CONDITIONS
 
-### Attachment A
+
+###  Attachment A
 
 #### Use Restrictions
 
