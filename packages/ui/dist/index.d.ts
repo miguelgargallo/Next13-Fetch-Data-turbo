@@ -1,3 +1,5 @@
 declare const Button: () => JSX.Element;
 
-export { Button };
+declare const Footer: () => JSX.Element;
+
+export { Button, Footer };

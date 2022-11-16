@@ -18,6 +18,103 @@ var Button = () => {
     })
   });
 };
+
+// src/Footer.tsx
+import { jsx as jsx2, jsxs as jsxs2 } from "react/jsx-runtime";
+var Footer = () => {
+  return /* @__PURE__ */ jsxs2("footer", {
+    className: "bg-white py-8 text-center",
+    children: [
+      /* @__PURE__ */ jsx2("div", {
+        children: /* @__PURE__ */ jsxs2("a", {
+          children: [
+            "Made with \u2764\uFE0F by",
+            " ",
+            /* @__PURE__ */ jsx2("a", {
+              href: "https://twitter.com/miguelgargallo",
+              target: "_blank",
+              rel: "noopener noreferrer",
+              className: "hover:text-blue text-indigo-600",
+              children: "Miguel Gargallo"
+            }),
+            "."
+          ]
+        })
+      }),
+      /* @__PURE__ */ jsxs2("div", {
+        children: [
+          /* @__PURE__ */ jsxs2("a", {
+            children: [
+              "2022 \xA9",
+              " ",
+              /* @__PURE__ */ jsx2("a", {
+                href: "https://huggingface.co/spaces/superdatas/LICENSE",
+                target: "_blank",
+                rel: "noopener noreferrer",
+                className: "hover:text-blue text-indigo-600",
+                children: "Pylar AI creative ML license"
+              }),
+              "."
+            ]
+          }),
+          /* @__PURE__ */ jsxs2("div", {
+            className: "mt-2",
+            style: {
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center"
+            },
+            children: [
+              /* @__PURE__ */ jsx2("a", {
+                href: "https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fmiguelgargallo%2FNext13-Fetch-Data-turbo&project-name=miguelgargallo-next13-fetch-data-turbo&repo-name=miguelgargallo-next13-fetch-data-turbo",
+                target: "_blank",
+                rel: "noopener noreferrer",
+                className: "p-4",
+                children: /* @__PURE__ */ jsx2("picture", {
+                  children: /* @__PURE__ */ jsx2("img", {
+                    src: "https://vercel.com/button",
+                    alt: "Landscape picture",
+                    width: 75,
+                    height: 20
+                  })
+                })
+              }),
+              /* @__PURE__ */ jsx2("a", {
+                href: "https://huggingface.co/spaces/superdatas/LICENSE",
+                target: "_blank",
+                rel: "noopener noreferrer",
+                className: "p-4",
+                children: /* @__PURE__ */ jsx2("picture", {
+                  children: /* @__PURE__ */ jsx2("img", {
+                    src: "https://huggingface.co/front/assets/huggingface_logo.svg",
+                    alt: "Landscape picture",
+                    width: 40,
+                    height: 20
+                  })
+                })
+              }),
+              /* @__PURE__ */ jsx2("a", {
+                href: "https://github.com/miguelgargallo/Next13-Fetch-Data-turbo",
+                target: "_blank",
+                rel: "noopener noreferrer",
+                className: "p-4",
+                children: /* @__PURE__ */ jsx2("picture", {
+                  children: /* @__PURE__ */ jsx2("img", {
+                    src: "https://img.shields.io/github/stars/miguelgargallo/Next13-Fetch-Data-turbo?style=social",
+                    alt: "Landscape picture",
+                    width: 100,
+                    height: 20
+                  })
+                })
+              })
+            ]
+          })
+        ]
+      })
+    ]
+  });
+};
 export {
-  Button
+  Button,
+  Footer
 };
