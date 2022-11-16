@@ -18,47 +18,6 @@ var Button = () => {
     })
   });
 };
-
-// src/Head.tsx
-import { jsx as jsx2, jsxs as jsxs2 } from "react/jsx-runtime";
-var Head = () => {
-  /* @__PURE__ */ jsx2("div", {
-    children: /* @__PURE__ */ jsxs2(Head, {
-      children: [
-        /* @__PURE__ */ jsx2("title", {
-          children: "Pencil Domains"
-        }),
-        /* @__PURE__ */ jsx2("link", {
-          rel: "icon",
-          href: "/favicon.ico"
-        })
-      ]
-    })
-  });
-};
-
-// src/Search.tsx
-import { jsx as jsx3 } from "react/jsx-runtime";
-var Search = () => {
-  /* @__PURE__ */ jsx3("div", {
-    className: "mt-1",
-    children: /* @__PURE__ */ jsx3("input", {
-      className: "flex w-full items-center justify-center rounded-md border border-transparent bg-white px-8 py-3 text-center text-base font-bold text-black shadow-xl hover:bg-white hover:text-black hover:shadow-md md:py-4 md:px-10 md:text-lg",
-      type: "text",
-      "aria-label": "Type & press enter \u21B5",
-      placeholder: "Type & press enter \u21B5",
-      value: input,
-      onChange: (e) => setInput(e.target.value),
-      onKeyPress: (e) => {
-        if (e.key === "Enter") {
-          getData();
-        }
-      }
-    })
-  });
-};
 export {
-  Button,
-  Head,
-  Search
+  Button
 };

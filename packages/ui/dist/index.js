@@ -20,9 +20,7 @@ var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: tru
 // src/index.tsx
 var src_exports = {};
 __export(src_exports, {
-  Button: () => Button,
-  Head: () => Head,
-  Search: () => Search
+  Button: () => Button
 });
 module.exports = __toCommonJS(src_exports);
 
@@ -46,48 +44,7 @@ var Button = () => {
     })
   });
 };
-
-// src/Head.tsx
-var import_jsx_runtime2 = require("react/jsx-runtime");
-var Head = () => {
-  /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("div", {
-    children: /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)(Head, {
-      children: [
-        /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("title", {
-          children: "Pencil Domains"
-        }),
-        /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("link", {
-          rel: "icon",
-          href: "/favicon.ico"
-        })
-      ]
-    })
-  });
-};
-
-// src/Search.tsx
-var import_jsx_runtime3 = require("react/jsx-runtime");
-var Search = () => {
-  /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("div", {
-    className: "mt-1",
-    children: /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("input", {
-      className: "flex w-full items-center justify-center rounded-md border border-transparent bg-white px-8 py-3 text-center text-base font-bold text-black shadow-xl hover:bg-white hover:text-black hover:shadow-md md:py-4 md:px-10 md:text-lg",
-      type: "text",
-      "aria-label": "Type & press enter \u21B5",
-      placeholder: "Type & press enter \u21B5",
-      value: input,
-      onChange: (e) => setInput(e.target.value),
-      onKeyPress: (e) => {
-        if (e.key === "Enter") {
-          getData();
-        }
-      }
-    })
-  });
-};
 // Annotate the CommonJS export names for ESM import in node:
 0 && (module.exports = {
-  Button,
-  Head,
-  Search
+  Button
 });
