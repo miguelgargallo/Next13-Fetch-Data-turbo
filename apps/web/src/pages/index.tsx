@@ -18,7 +18,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="py-8">
           <div className="mx-auto max-w-7xl">
             <div className="overflow-hidden rounded-lg bg-white">
@@ -58,32 +58,91 @@ export default function Home() {
                       }}
                     />
                   </div>
-                  <div className="mx-auto mt-6 grid max-w-lg gap-5 md:hidden lg:max-w-xl lg:grid-cols-1">
-                    <button
-                      className="flex w-full items-center justify-center rounded-md border border-transparent bg-white px-8 py-3 text-base font-bold text-black shadow-md hover:bg-white hover:text-black hover:shadow-xl md:py-4 md:px-10 md:text-lg"
-                      onClick={getData}
-                    >
-                      Explore Now, avoid caplocks
-                    </button>
+
+                  <div className="mt-5">
+                    <div className="mt-1">
+                      {data && data.status === "AVAILABLE" && (
+                        <div className="bg-blue flex w-full items-center justify-center rounded-md border border-transparent bg-white px-8 py-3 text-center text-base font-bold text-black shadow-xl hover:bg-white hover:text-black hover:shadow-md md:py-4 md:px-10 md:text-lg">
+                          <a
+                            href={`https://e.hnsfans.com/api/names/${input}`}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="bg.blue hover:text-blue text-indigo-600"
+                          >
+                            {input}
+                          </a>{" "}
+                          is available!
+                        </div>
+                      )}
+                      {data && data.status === "UNAVAILABLE" && (
+                        <div className="bg-blue flex w-full items-center justify-center rounded-md border border-transparent bg-white px-8 py-3 text-center text-base font-bold text-black shadow-xl hover:bg-white hover:text-black hover:shadow-md md:py-4 md:px-10 md:text-lg">
+                          <a
+                            href={`https://e.hnsfans.com/api/names/${input}`}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="bg-blue hover:text-blue text-indigo-600"
+                          >
+                            {input}
+                          </a>{" "}
+                          </div>
+                      )}
+
+
+      
+                    </div>
+                
+                        {data ? (
+                          <div className="text-left">
+                            <p className="text-sm text-gray-500">
+                              <span className="font-bold">Name:</span>{" "}
+                              {data.name}/
+                            </p>
+                            <p className="text-sm text-gray-500">
+                              {Math.round(
+                                (data.height/100000) * 100
+                              ).toLocaleString()}{" "}
+                              % Perfect
+                            </p>
+                          </div>
+                        ) : (
+                          <div className="text-left">
+                            <p className="text-sm text-gray-500">
+                              <span className="font-bold">Name:</span> {input}
+                            </p>
+                            <p className="text-sm text-gray-500">
+                              <span className="font-bold">Height:</span> {input}
+                            </p>
+                          </div>
+                        )}
+                      </div>
+                    </div>
                   </div>
                 </div>
-                <div className="mt-5">
-                  <div className="mt-1">
-                    <textarea
-                      id="about"
-                      name="about"
-                      rows={25}
-                      className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
-                      value={JSON.stringify(data, null, 2)}
-                      readOnly
-                    />
-                  </div>
+                <div className="mx-auto mt-6 grid max-w-lg gap-5 md:hidden lg:max-w-xl lg:grid-cols-1">
+                  <button
+                    className="flex w-full items-center justify-center rounded-md border border-transparent bg-white px-8 py-3 text-base font-bold text-black shadow-md hover:bg-white hover:text-black hover:shadow-xl md:py-4 md:px-10 md:text-lg"
+                    onClick={getData}
+                  >
+                    Explore Now, avoid caplocks
+                  </button>
+                </div>
+              </div>
+              <div className="mt-5">
+                <div className="mt-1">
+                  <textarea
+                    id="about"
+                    name="about"
+                    rows={25}
+                    className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+                    value={JSON.stringify(data, null, 2)}
+                    readOnly
+                  />
                 </div>
               </div>
             </div>
           </div>
-        </div>
-      </main>
+
+
       <footer className="bg-white py-8 text-center">
         <div>
           <a>
