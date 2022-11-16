@@ -1,5 +1,5 @@
-import Head from "next/head";
 import { useState } from "react";
+import { Head } from "ui";
 
 export default function Home() {
   const [input, setInput] = useState("");
@@ -13,11 +13,7 @@ export default function Home() {
 
   return (
     <div className="bg-white">
-      <Head>
-        <title>Pencil Domains</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
+      <Head />
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="py-8">
           <div className="mx-auto max-w-7xl">
@@ -84,64 +80,59 @@ export default function Home() {
                           >
                             {input}
                           </a>{" "}
-                          </div>
+                        </div>
                       )}
-
-
-      
                     </div>
-                
-                        {data ? (
-                          <div className="text-left">
-                            <p className="text-sm text-gray-500">
-                              <span className="font-bold">Name:</span>{" "}
-                              {data.name}/
-                            </p>
-                            <p className="text-sm text-gray-500">
-                              {Math.round(
-                                (data.height/100000) * 100
-                              ).toLocaleString()}{" "}
-                              % Perfect
-                            </p>
-                          </div>
-                        ) : (
-                          <div className="text-left">
-                            <p className="text-sm text-gray-500">
-                              <span className="font-bold">Name:</span> {input}
-                            </p>
-                            <p className="text-sm text-gray-500">
-                              <span className="font-bold">Height:</span> {input}
-                            </p>
-                          </div>
-                        )}
+
+                    {data ? (
+                      <div className="text-left">
+                        <p className="text-sm text-gray-500">
+                          <span className="font-bold">Name:</span> {data.name}/
+                        </p>
+                        <p className="text-sm text-gray-500">
+                          {Math.round(
+                            (data.height / 100000) * 100
+                          ).toLocaleString()}{" "}
+                          % Perfect
+                        </p>
                       </div>
-                    </div>
+                    ) : (
+                      <div className="text-left">
+                        <p className="text-sm text-gray-500">
+                          <span className="font-bold">Name:</span> {input}
+                        </p>
+                        <p className="text-sm text-gray-500">
+                          <span className="font-bold">Height:</span> {input}
+                        </p>
+                      </div>
+                    )}
                   </div>
-                </div>
-                <div className="mx-auto mt-6 grid max-w-lg gap-5 md:hidden lg:max-w-xl lg:grid-cols-1">
-                  <button
-                    className="flex w-full items-center justify-center rounded-md border border-transparent bg-white px-8 py-3 text-base font-bold text-black shadow-md hover:bg-white hover:text-black hover:shadow-xl md:py-4 md:px-10 md:text-lg"
-                    onClick={getData}
-                  >
-                    Explore Now, avoid caplocks
-                  </button>
-                </div>
-              </div>
-              <div className="mt-5">
-                <div className="mt-1">
-                  <textarea
-                    id="about"
-                    name="about"
-                    rows={25}
-                    className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
-                    value={JSON.stringify(data, null, 2)}
-                    readOnly
-                  />
                 </div>
               </div>
             </div>
+            <div className="mx-auto mt-6 grid max-w-lg gap-5 md:hidden lg:max-w-xl lg:grid-cols-1">
+              <button
+                className="flex w-full items-center justify-center rounded-md border border-transparent bg-white px-8 py-3 text-base font-bold text-black shadow-md hover:bg-white hover:text-black hover:shadow-xl md:py-4 md:px-10 md:text-lg"
+                onClick={getData}
+              >
+                Explore Now, avoid caplocks
+              </button>
+            </div>
           </div>
-
+          <div className="mt-5">
+            <div className="mt-1">
+              <textarea
+                id="about"
+                name="about"
+                rows={25}
+                className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+                value={JSON.stringify(data, null, 2)}
+                readOnly
+              />
+            </div>
+          </div>
+        </div>
+      </div>
 
       <footer className="bg-white py-8 text-center">
         <div>
