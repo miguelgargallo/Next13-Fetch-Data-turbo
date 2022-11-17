@@ -1,5 +1,5 @@
 import Head from "next/head";
-import { useState } from "react";
+import { SetStateAction, useState } from "react";
 import { Footer } from "ui";
 
 export default function Home() {
@@ -10,6 +10,10 @@ export default function Home() {
     const res = await fetch(`https://e.hnsfans.com/api/names/${input}`);
     const json = await res.json();
     setData(json);
+  };
+
+  const handleChange = (e: { target: { value: SetStateAction<string>; }; }) => {
+    setInput(e.target.value);
   };
 
   return (
@@ -34,7 +38,7 @@ export default function Home() {
                     Pencil Explorer
                   </a>{" "}
                   <a className="badge m-2 bg-green-200 py-0 px-2 text-black">
-                    Alpha v1.0.9
+                    Alpha v1.0.11
                   </a>
                   <p className="py-4 text-sm text-gray-500">
                     Block Explorer and Naming Tool for Handshake, the
@@ -72,7 +76,9 @@ export default function Home() {
                   <div className="mx-auto mt-6 grid max-w-lg gap-5 md:hidden lg:max-w-xl lg:grid-cols-1">
                     <button
                       className="flex w-full items-center justify-center rounded-md border border-transparent bg-white px-8 py-3 text-base font-bold text-black shadow-md hover:bg-white hover:text-black hover:shadow-xl md:py-4 md:px-10 md:text-lg"
-                      onClick={() => console.log(getData())}
+                      onClick={() => {
+                        void console.log(JSON.stringify(data));
+                      }}
                     >
                       Explore Now, avoid caplocks
                     </button>
@@ -85,7 +91,7 @@ export default function Home() {
                       name="about"
                       rows={25}
                       className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
-                      value={JSON.stringify(data, null, 2)}
+                      value={void console.log(JSON.stringify(data))}
                       readOnly
                     />
                   </div>
