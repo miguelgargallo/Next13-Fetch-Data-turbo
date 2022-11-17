@@ -38,13 +38,17 @@ export default function Home() {
                     Pencil Explorer
                   </a>{" "}
                   <a className="badge m-2 bg-green-200 py-0 px-2 text-black">
-                    Alpha v1.0.11
+                    Alpha v1.0.12
                   </a>
                   <p className="py-4 text-sm text-gray-500">
                     Block Explorer and Naming Tool for Handshake, the
                     decentralized, open, and extensible naming system for the
                     Internet.
                   </p>
+                  <div className="bg-yellow-100 border-l-4 border-yellow-500 text-yellow-700 p-4" role="alert">
+                    <p className="font-bold">In this update</p>
+                    <p>Data fetched came from console log, and notes section!</p>
+                  </div>
                 </h1>
                 <div className="mt-2 max-w-xl text-sm text-gray-500"></div>
                 <div className="mt-5">
