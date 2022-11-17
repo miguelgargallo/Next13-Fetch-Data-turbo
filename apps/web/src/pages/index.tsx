@@ -1,5 +1,5 @@
 import Head from "next/head";
-import { SetStateAction, useState } from "react";
+import { useState } from "react";
 import { Footer } from "ui";
 
 export default function Home() {
@@ -10,10 +10,6 @@ export default function Home() {
     const res = await fetch(`https://e.hnsfans.com/api/names/${input}`);
     const json = await res.json();
     setData(json);
-  };
-
-  const handleChange = (e: { target: { value: SetStateAction<string>; }; }) => {
-    setInput(e.target.value);
   };
 
   return (
@@ -33,28 +29,33 @@ export default function Home() {
                     href="https://twitter.com/pencildomains"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="hover:text-blue text-indigo-600"
+                    className="hover:text-yellow-500 text-blue-500"
                   >
-                    Pencil Explorer
+                    Pencil 
+                  </a>
+                  
+                  <a
+                    href="https://twitter.com/pencildomains"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:text-yellow-500 text-yellow-500"
+                  >
+                    Domains 
                   </a>{" "}
-                  <a className="badge m-2 bg-green-200 py-0 px-2 text-black">
-                    Alpha v1.0.12
+                  <a className="badge m-2 bg-blue-500 py-0 px-2 text-white">
+                    Alpha v1.0.9
                   </a>
                   <p className="py-4 text-sm text-gray-500">
                     Block Explorer and Naming Tool for Handshake, the
                     decentralized, open, and extensible naming system for the
                     Internet.
                   </p>
-                  <div className="bg-yellow-100 border-l-4 border-yellow-500 text-yellow-700 p-4" role="alert">
-                    <p className="font-bold">In this update</p>
-                    <p>Data fetched came from console log, and notes section!</p>
-                  </div>
                 </h1>
                 <div className="mt-2 max-w-xl text-sm text-gray-500"></div>
                 <div className="mt-5">
                   <div className="mt-1">
                     <input
-                      className="flex w-full items-center justify-center rounded-md border border-transparent bg-white px-8 py-3 text-center text-base font-bold text-black shadow-xl hover:bg-white hover:text-black hover:shadow-md md:py-4 md:px-10 md:text-lg"
+                      className="flex w-full items-center justify-center rounded-md border border-transparent bg-white px-8 py-3 text-center text-base font-bold text-blue-500 shadow-xl hover:bg-white hover:text-blue-500 hover:shadow-md md:py-4 md:px-10 md:text-lg"
                       type="text"
                       aria-label="Type & press enter ↵"
                       placeholder="Type & press enter ↵"
@@ -67,22 +68,10 @@ export default function Home() {
                       }}
                     />
                   </div>
-                  <div className="mt-5">
-                    <div className="overflow-hidden rounded-lg bg-white shadow">
-                      <div className="px-4 py-5 sm:p-6">
-                        <h3 className="text-lg font-medium leading-6 text-gray-900"></h3>
-                        <p className="mt-1 max-w-2xl text-sm text-gray-500">
-                          {void console.log(JSON.stringify(data))}
-                        </p>
-                      </div>
-                    </div>
-                  </div>
                   <div className="mx-auto mt-6 grid max-w-lg gap-5 md:hidden lg:max-w-xl lg:grid-cols-1">
                     <button
-                      className="flex w-full items-center justify-center rounded-md border border-transparent bg-white px-8 py-3 text-base font-bold text-black shadow-md hover:bg-white hover:text-black hover:shadow-xl md:py-4 md:px-10 md:text-lg"
-                      onClick={() => {
-                        void console.log(JSON.stringify(data));
-                      }}
+                      className="flex w-full items-center justify-center rounded-md border border-transparent bg-white px-8 py-3 text-base font-bold text-blue-500 shadow-md hover:bg-white hover:text-blue-500 hover:shadow-xl md:py-4 md:px-10 md:text-lg"
+                      onClick={() => console.log(getData())}
                     >
                       Explore Now, avoid caplocks
                     </button>
@@ -94,8 +83,8 @@ export default function Home() {
                       id="about"
                       name="about"
                       rows={25}
-                      className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
-                      value={void console.log(JSON.stringify(data))}
+                      className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500-500 focus:ring-blue-500-500 sm:text-sm"
+                      value={(JSON.stringify(data, null, 2))}
                       readOnly
                     />
                   </div>
