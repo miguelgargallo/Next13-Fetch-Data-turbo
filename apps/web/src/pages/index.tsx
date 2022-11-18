@@ -1,7 +1,6 @@
 import Head from "next/head";
 import { useState } from "react";
 import { Footer } from "ui";
-import { Favicon } from "ui";
 
 export default function Home() {
   const [input, setInput] = useState("");
@@ -44,7 +43,7 @@ export default function Home() {
                     Explorer 
                   </a>{" "}
                   <a className="badge m-2 bg-blue-500 py-0 px-2 text-white">
-                    Alpha v1.0.9.1
+                  Alpha 1.0.12
                   </a>
                   <p className="py-4 text-sm text-gray-500">
                     Block Explorer and Naming Tool for Handshake, the
