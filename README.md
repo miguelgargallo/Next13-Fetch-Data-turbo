@@ -14,8 +14,7 @@ Copyright &copy; 2022 Miguel Gargallo, Pencil Works LLC, ITAMAESAN ORG, SUPERDAT
 
 ## About this code
 
-![GHLOC of Next13-Fetch-Data-turbo](https://user-images.githubusercontent.com/5947268/202755767-7fd3e1eb-4403-449d-a897-be4f063d56dd.png)
-
+![GH LOC](https://user-images.githubusercontent.com/5947268/202756456-90379f36-a050-44fd-82e3-c9b845da8125.png)
 
 # Pylar AI creative ML
 
