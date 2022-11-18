@@ -16,7 +16,7 @@ export default function Home() {
     <div className="bg-white">
       <Head>
         <title>Pencil Domains</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="./favicon.ico" />
       </Head>
 
       <main className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -43,7 +43,7 @@ export default function Home() {
                     Explorer 
                   </a>{" "}
                   <a className="badge m-2 bg-blue-500 py-0 px-2 text-white">
-                  Alpha 1.0.12
+                  Alpha 1.0.12.2
                   </a>
                   <p className="py-4 text-sm text-gray-500">
                     Block Explorer and Naming Tool for Handshake, the
