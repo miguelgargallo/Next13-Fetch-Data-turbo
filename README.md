@@ -12,6 +12,11 @@ Copyright &copy; 2022 Miguel Gargallo, Pencil Works LLC, ITAMAESAN ORG, SUPERDAT
 | Version: 0.0.1 | ✅ Non-commercial publications  | ❌ Warranty |  |
 | This is not legal advice. [Learn more about repository licenses.](#section-i-preamble) | ✅ No endorse publications | ❌ Modification |  |  |
 
+## About this code
+
+![GHLOC of Next13-Fetch-Data-turbo](https://user-images.githubusercontent.com/5947268/202755767-7fd3e1eb-4403-449d-a897-be4f063d56dd.png)
+
+
 # Pylar AI creative ML
 
 #### Table of contents
