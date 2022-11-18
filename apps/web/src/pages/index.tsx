@@ -31,16 +31,8 @@ export default function Home() {
                     rel="noopener noreferrer"
                     className="text-blue-500 hover:text-yellow-500"
                   >
-                    Pencil
+                    Pencil Explorer
                   </a>
-                  <a
-                    href="https://twitter.com/pencildomains"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-yellow-500 hover:text-yellow-500"
-                  >
-                    Explorer
-                  </a>{" "}
                   <a className="badge m-2 bg-blue-500 py-0 px-2 text-white">
                     Alpha 1.0.13
                   </a>
@@ -49,6 +41,7 @@ export default function Home() {
                     decentralized, open, and extensible naming system for the
                     Internet.
                   </p>
+                  
                 </h1>
                 <div className="mt-2 max-w-xl text-sm text-gray-500"></div>
                 <div className="mt-5">
