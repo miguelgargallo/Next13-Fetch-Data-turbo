@@ -50,6 +50,22 @@ export default function Home() {
                     Internet.
                   </p>
                 </h1>
+                <div className="bg-white py-8 text-center">
+                <a
+            href="https://handshake.org/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="p-4"
+          >
+            <picture>
+              <img
+                src="https://handshake.org/images/landing/logo-dark.svg"
+                alt="Landscape picture"
+                width={75}
+                height={20}
+              />
+            </picture>
+          </a>
                 <div className="mt-2 max-w-xl text-sm text-gray-500"></div>
                 <div className="mt-5">
                   <div className="mt-1">
