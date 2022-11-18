@@ -40,7 +40,7 @@ export default function Home() {
                     rel="noopener noreferrer"
                     className="hover:text-yellow-500 text-yellow-500"
                   >
-                    Domains 
+                    Explorer 
                   </a>{" "}
                   <a className="badge m-2 bg-blue-500 py-0 px-2 text-white">
                     Alpha v1.0.9
