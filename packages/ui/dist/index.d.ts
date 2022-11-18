@@ -2,4 +2,6 @@ declare const Button: () => JSX.Element;
 
 declare const Footer: () => JSX.Element;
 
-export { Button, Footer };
+declare const Favicon: () => JSX.Element;
+
+export { Button, Favicon, Footer };

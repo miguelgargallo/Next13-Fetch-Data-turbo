@@ -1,6 +1,7 @@
 import Head from "next/head";
 import { useState } from "react";
 import { Footer } from "ui";
+import { Favicon } from "ui";
 
 export default function Home() {
   const [input, setInput] = useState("");
@@ -16,7 +17,7 @@ export default function Home() {
     <div className="bg-white">
       <Head>
         <title>Pencil Domains</title>
-        <link rel="icon" href="/favicon.ico" />
+        <Favicon />
       </Head>
 
       <main className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -43,7 +44,7 @@ export default function Home() {
                     Explorer 
                   </a>{" "}
                   <a className="badge m-2 bg-blue-500 py-0 px-2 text-white">
-                    Alpha v1.0.9.1
+                    Alpha v1.0.10
                   </a>
                   <p className="py-4 text-sm text-gray-500">
                     Block Explorer and Naming Tool for Handshake, the
