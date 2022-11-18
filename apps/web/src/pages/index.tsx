@@ -42,7 +42,7 @@ export default function Home() {
                     Explorer
                   </a>{" "}
                   <a className="badge m-2 bg-blue-500 py-0 px-2 text-white">
-                    Alpha 1.0.13
+                    Alpha 1.0.14
                   </a>
                   <p className="py-4 text-sm text-gray-500">
                     Block Explorer and Naming Tool for Handshake, the
