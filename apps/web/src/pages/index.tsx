@@ -13,6 +13,22 @@ export default function Home() {
     setData(json);
   };
 
+  /* {input.split(" ").length <= 3 && (
+    <div className="mt-5">
+      <div className="mt-1">
+        <div className="flex flex-col">
+          <a className="badge m-2 bg-blue-500 py-0 px-2 text-white">
+            {data?.name}
+          </a>
+          <a className="badge m-2 bg-blue-500 py-0 px-2 text-white">
+            {data?.value}
+          </a>
+        </div>
+      </div>
+    </div>
+  )}
+ */
+
   return (
     <div className="bg-white">
       <Head>
