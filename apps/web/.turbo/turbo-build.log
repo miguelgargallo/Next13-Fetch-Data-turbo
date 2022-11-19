@@ -1,0 +1,22 @@
+$ next build
+info  - Linting and checking validity of types...
+info  - Creating an optimized production build...
+info  - Compiled successfully
+info  - Collecting page data...
+info  - Generating static pages (0/3)
+info  - Generating static pages (3/3)
+info  - Finalizing page optimization...
+
+Route (pages)                              Size     First Load JS
+┌ ○ /                                      1.78 kB        74.9 kB
+├   /_app                                  0 B            73.1 kB
+└ ○ /404                                   181 B          73.3 kB
++ First Load JS shared by all              75.7 kB
+  ├ chunks/framework-aedff47d294e0670.js   45.4 kB
+  ├ chunks/main-b8adf948f7f01545.js        26.7 kB
+  ├ chunks/pages/_app-8198e3d352f586ca.js  309 B
+  ├ chunks/webpack-8fa1640cc84ba8fe.js     750 B
+  └ css/251f1199b1ee42fa.css               2.58 kB
+
+○  (Static)  automatically rendered as static HTML (uses no initial props)
+
