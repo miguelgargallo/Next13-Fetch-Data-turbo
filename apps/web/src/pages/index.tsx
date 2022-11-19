@@ -57,11 +57,13 @@ export default function Home() {
                       </picture>
                     </a>
                     <p className="py-2 text-sm text-gray-500">
-                      Block Explorer and Naming Grading System for Handshake, the
-                      decentralized, open, and extensible naming protocol for the
-                      Internet.
-
-                      <p>Now on 🇺🇸 English, 🇫🇷 French, 🇪🇸 Spanish & more languages coming.</p>
+                      Block Explorer and Naming Grading System for Handshake,
+                      the decentralized, open, and extensible naming protocol
+                      for the Internet.
+                      <p>
+                        Now on 🇺🇸 English, 🇫🇷 French, 🇪🇸 Spanish & more
+                        languages coming.
+                      </p>
                     </p>
                   </a>
                   <a
@@ -85,7 +87,7 @@ export default function Home() {
                     <a>Introducing a new Grading System for Handshake TLDs.</a>
                   </div>
                 </h1>
-                  <div className="py-2 text-center">
+                <div className="py-2 text-center">
                   <div className="mt-2 max-w-xl text-sm text-gray-500"></div>
                   <div className="mt-5">
                     <div className="mt-1">
