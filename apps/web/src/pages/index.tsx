@@ -39,7 +39,7 @@ export default function Home() {
                         rel="noopener noreferrer"
                         className="p-2"
                       ></a>
-                      <a className="p-2 font-light text-gray-500 hover:text-gray-600">
+                      <a className="bg:hidden p-2 font-light text-gray-500 hover:text-gray-600">
                         for
                       </a>
                       <picture>

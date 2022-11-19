@@ -1,14 +1,14 @@
 export const Footer = () => {
   return (
-    <footer className="bg-white py-8 text-center">
+    <footer className="bg-black py-8 text-center">
       <div>
-        <a>
+        <a className="text-white">
           Made with ❤️ by{" "}
           <a
             href="https://twitter.com/miguelgargallo"
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:text-blue text-indigo-600"
+            className="hover:text-blue text-blue-600"
           >
             Miguel Gargallo
           </a>
@@ -16,13 +16,13 @@ export const Footer = () => {
         </a>
       </div>
       <div>
-        <a>
+        <a className="text-white">
           2022 ©{" "}
           <a
             href="https://huggingface.co/spaces/superdatas/LICENSE"
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:text-blue text-indigo-600"
+            className="hover:text-blue text-blue-600"
           >
             Pylar AI creative ML license
           </a>

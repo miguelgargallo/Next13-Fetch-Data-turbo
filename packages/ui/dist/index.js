@@ -50,11 +50,10 @@ var Button = () => {
 var import_jsx_runtime2 = require("react/jsx-runtime");
 var Footer = () => {
   return /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)("footer", {
-    className: "bg-black py-8 text-center",
+    className: "bg-white py-8 text-center",
     children: [
       /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("div", {
         children: /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)("a", {
-          className: "text-white",
           children: [
             "Made with \u2764\uFE0F by",
             " ",
@@ -62,7 +61,7 @@ var Footer = () => {
               href: "https://twitter.com/miguelgargallo",
               target: "_blank",
               rel: "noopener noreferrer",
-              className: "hover:text-blue text-blue-600",
+              className: "hover:text-blue text-indigo-600",
               children: "Miguel Gargallo"
             }),
             "."
@@ -72,7 +71,6 @@ var Footer = () => {
       /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)("div", {
         children: [
           /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)("a", {
-            className: "text-white",
             children: [
               "2022 \xA9",
               " ",
@@ -80,7 +78,7 @@ var Footer = () => {
                 href: "https://huggingface.co/spaces/superdatas/LICENSE",
                 target: "_blank",
                 rel: "noopener noreferrer",
-                className: "hover:text-blue text-blue-600",
+                className: "hover:text-blue text-indigo-600",
                 children: "Pylar AI creative ML license"
               }),
               "."
