@@ -77,7 +77,7 @@ export default function Home() {
                         rel="noopener noreferrer"
                         className="text-white hover:text-gray-200"
                       >
-                        <a>v 1.2.1 Grading System</a>
+                        <a>v 1.2.1 rev3 Grading System</a>
                       </a>
                     </a>
                     <a>
@@ -112,10 +112,9 @@ export default function Home() {
                             <div className="mt-1 py-2">
                               <p className="text-black">
                                 .{input} is a valid TLD, on the list is the
-                                number {list.indexOf(input)}.
+                                number {list.indexOf(input)}
                                 <p>
-                                  This is not a definitive list, here is the AI
-                                  Pylar file, you can test this TLDs.
+                                  
                                   <a
                                     href="https://raw.githubusercontent.com/miguelgargallo/Next13-Fetch-Data-turbo/main/apps/web/src/pages/api/list.pylar"
                                     target="_blank"
@@ -159,7 +158,8 @@ export default function Home() {
                         </div>
                       )}
                       <p className="text-sm text-gray-500">
-                        .{input.length > 7 && (
+                        .
+                        {input.length > 7 && (
                           <a>
                             This is longer than 7 characters, if you strongly
                             believe in this name, please consider{" "}
