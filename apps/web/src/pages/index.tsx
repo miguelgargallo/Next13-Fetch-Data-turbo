@@ -10,6 +10,10 @@ export default function Home() {
     const res = await fetch(`https://e.hnsfans.com/api/names/${input}`);
     const json = await res.json();
     setData(json);
+
+    console.log(json);
+
+    
   };
 
   return (
