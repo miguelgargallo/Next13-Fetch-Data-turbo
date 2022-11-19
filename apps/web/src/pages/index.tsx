@@ -57,9 +57,11 @@ export default function Home() {
                       </picture>
                     </a>
                     <p className="py-2 text-sm text-gray-500">
-                      Block Explorer and Naming Tool for Handshake, the
-                      decentralized, open, and extensible naming system for the
-                      Internet. Now on 🇺🇸 English, 🇫🇷 French, 🇪🇸 Spanish & more languages coming.
+                      Block Explorer and Naming Grading System for Handshake, the
+                      decentralized, open, and extensible naming protocol for the
+                      Internet.
+
+                      <p>Now on 🇺🇸 English, 🇫🇷 French, 🇪🇸 Spanish & more languages coming.</p>
                     </p>
                   </a>
                   <a
