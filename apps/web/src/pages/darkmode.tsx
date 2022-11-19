@@ -13,7 +13,7 @@ export default function Home() {
   };
 
   return (
-    <div className="min-w-screen flex min-h-screen flex-col">
+    <div className="min-w-screen flex min-h-screen flex-col bg-black">
       <Head>
         <title>Pencil Domains</title>
         <link rel="icon" href="./favicon.ico" />
@@ -44,7 +44,7 @@ export default function Home() {
                       </a>
                       <picture>
                         <img
-                          src="https://raw.githubusercontent.com/miguelgargallo/Next13-Fetch-Data-turbo/main/apps/web/src/pages/hnslogo.svg"
+                          src="https://raw.githubusercontent.com/miguelgargallo/tlds-leveling/main/images/handshake-logo-dark.svg"
                           alt="Handshake Logo"
                           width={95}
                           height={20}

@@ -44,7 +44,7 @@ export default function Home() {
                       </a>
                       <picture>
                         <img
-                          src="https://handshake.org/images/landing/logo-dark.svg"
+                          src="https://raw.githubusercontent.com/miguelgargallo/tlds-leveling/main/images/handshake-logo-light.svg"
                           alt="Landscape picture"
                           width={95}
                           height={20}
