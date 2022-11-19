@@ -22,9 +22,9 @@ export default function Home() {
       <main className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="py-2">
           <div className="mx-auto max-w-7xl">
-            <div className="overflow-hidden rounded-lg ">
+            <div className="overflow-hidden rounded-lg">
               <div className="px-4 py-2 text-center sm:p-2">
-                <h1 className="text-3xl font-bold leading-tight text-gray-900">
+                <h1 className="h1">
                   <a
                     href="https://twitter.com/pencildomains"
                     target="_blank"
@@ -37,9 +37,9 @@ export default function Home() {
                         href="https://handshake.org/"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="p-2"
+                        className="bg:hidden p-2"
                       ></a>
-                      <a className="p-2 font-light text-gray-500 hover:text-gray-600">
+                      <a className="bg:hidden p-2 font-light text-gray-500 hover:text-gray-600">
                         for
                       </a>
                       <picture>
@@ -48,7 +48,7 @@ export default function Home() {
                           alt="Landscape picture"
                           width={95}
                           height={20}
-                          className="m-2 inline-block p-2"
+                          className="bg:hidden m-2 inline-block p-2"
                         />
                       </picture>
                     </a>
