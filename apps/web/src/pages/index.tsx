@@ -39,9 +39,6 @@ export default function Home() {
                         rel="noopener noreferrer"
                         className="p-2"
                       ></a>
-                      <a className="p-2 font-bolg text-gray-500 hover:text-gray-600">
-                        x
-                      </a>
                       <picture>
                         <img
                           src="https://raw.githubusercontent.com/miguelgargallo/tlds-leveling/main/images/handshake-logo-light.svg"
