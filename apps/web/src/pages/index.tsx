@@ -77,7 +77,7 @@ export default function Home() {
                         rel="noopener noreferrer"
                         className="text-white hover:text-gray-200"
                       >
-                        <a>v 1.1.1 Rust Update</a>
+                        <a>v 1.2.0 Grading System</a>
                       </a>
                     </a>
                     <a>
