@@ -5,6 +5,7 @@ import { Footer } from "ui";
 export default function Home() {
   const [input, setInput] = useState("");
   const [data, setData] = useState();
+  
 
   const getData = async () => {
     const res = await fetch(`https://e.hnsfans.com/api/names/${input}`);
@@ -42,7 +43,7 @@ export default function Home() {
                   <a></a> Explorer
                   </a>{" "}
                   <a className="badge m-2 bg-blue-500 py-0 px-2 text-white">
-                    Alpha 1.0.14.2
+                    Alpha 1.0.14
                   </a>
                   <p className="py-4 text-sm text-gray-500">
                     Block Explorer and Naming Tool for Handshake, the
@@ -51,7 +52,22 @@ export default function Home() {
                   </p>
                 </h1>
                 <div className="bg-white py-8 text-center">
-            
+                  <a
+                    href="https://handshake.org/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="p-4"
+                  >
+                    <picture>
+                      <img
+                        src="https://handshake.org/images/landing/logo-dark.svg"
+                        alt="Landscape picture"
+                        width={150}
+                        height={20}
+                        className="justify-center mx-auto"
+                      />
+                    </picture>
+                  </a>
                   <div className="mt-2 max-w-xl text-sm text-gray-500"></div>
                   <div className="mt-5">
                     <div className="mt-1">
@@ -69,6 +85,7 @@ export default function Home() {
                         }}
                       />
                     </div>
+                    // count the words of the {input} and if it's eual or less of three words, then show the result
                     {input.split(" ").length <= 3 && (
                       <div className="mt-5">
                         <div className="mt-1">
