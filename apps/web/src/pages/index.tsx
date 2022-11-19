@@ -159,7 +159,7 @@ export default function Home() {
                         </div>
                       )}
                       <p className="text-sm text-gray-500">
-                        {input.length > 7 && (
+                        .{input.length > 7 && (
                           <a>
                             This is longer than 7 characters, if you strongly
                             believe in this name, please consider{" "}
