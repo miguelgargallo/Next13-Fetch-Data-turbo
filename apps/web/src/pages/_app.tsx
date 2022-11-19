@@ -1,6 +1,5 @@
 import "../styles/globals.css";
-import { tlds } from "https://github.com/miguelgargallo/tlds-leveling/blob/main/tlds.css";
-
+import "../styles/tlds.css";
 // include styles from the ui package
 import "ui/styles.css";
 
