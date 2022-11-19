@@ -2,6 +2,8 @@ import Head from "next/head";
 import { useState } from "react";
 import { Footer } from "ui";
 
+
+
 export default function Home() {
   const [input, setInput] = useState("");
   const [data, setData] = useState();
@@ -13,7 +15,7 @@ export default function Home() {
   };
 
   return (
-    <div className="min-w-screen flex min-h-screen flex-col">
+    <div className="min-w-screen flex min-h-screen flex-col bg-white">
       <Head>
         <title>Pencil Domains</title>
         <link rel="icon" href="./favicon.ico" />
@@ -39,20 +41,20 @@ export default function Home() {
                         rel="noopener noreferrer"
                         className="bg:hidden p-2"
                       ></a>
-                      <a className="bg:hidden p-2 font-light text-white hover:text-gray-600">
+                      <a className="bg:hidden p-2 font-light text-gray-500 hover:text-gray-600">
                         for
                       </a>
                       <picture>
                         <img
-                          src="https://raw.githubusercontent.com/miguelgargallo/Next13-Fetch-Data-turbo/main/apps/web/src/pages/hnslogo.svg"
-                          alt="Handshake Logo"
+                          src="https://handshake.org/images/landing/logo-dark.svg"
+                          alt="Landscape picture"
                           width={95}
                           height={20}
                           className="bg:hidden m-2 inline-block p-2"
                         />
                       </picture>
                     </a>
-                    <p className="py-2 text-sm text-white">
+                    <p className="py-2 text-sm text-gray-500">
                       Block Explorer and Naming Tool for Handshake, the
                       decentralized, open, and extensible naming system for the
                       Internet.
@@ -82,7 +84,7 @@ export default function Home() {
                   </div>
                 </h1>
                 <div className="py-2 text-center">
-                  <div className="mt-2 max-w-xl text-sm text-white"></div>
+                  <div className="mt-2 max-w-xl text-sm text-gray-500"></div>
                   <div className="mt-5">
                     <div className="mt-1">
                       <input
@@ -100,7 +102,7 @@ export default function Home() {
                       />
                     </div>
                     <div className="mt-1 py-2">
-                      <p className="text-sm text-white">
+                      <p className="text-sm text-gray-500">
                         {input.length > 0 && input.length < 8 && (
                           <div>
                             .{input} has {input.length} characters, this is
@@ -139,7 +141,7 @@ export default function Home() {
                           </div>
                         )}
                       </p>
-                      <p className="text-sm text-white">
+                      <p className="text-sm text-gray-500">
                         {input.length > 7 && (
                           <a>
                             This is longer than 7 characters, if you strongly
@@ -172,7 +174,7 @@ export default function Home() {
                           id="about"
                           name="about"
                           rows={20}
-                          className="bg-black text-white shadow-xl hover:shadow:md focus:ring-blue-500 mt-1 block w-full rounded-md shadow-sm sm:text-sm"
+                          className="shadow-xl hover:shadow:md focus:ring-blue-500 mt-1 block w-full rounded-md shadow-sm sm:text-sm"
                           value={JSON.stringify(data, null, 2)}
                           readOnly
                         />
