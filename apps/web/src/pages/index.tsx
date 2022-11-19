@@ -44,11 +44,11 @@ export default function Home() {
                       </a>
                       <picture>
                         <img
-                          src="https://handshake.org/images/landing/logo-dark.svg"
-                          alt="Landscape picture"
+                          src="https://raw.githubusercontent.com/miguelgargallo/Next13-Fetch-Data-turbo/main/apps/web/src/pages/hnslogo.svg"
+                          alt="Handshake Logo"
                           width={95}
                           height={20}
-                          className="bg:hidden m-2 inline-block p-2 bg-white rounded-full"
+                          className="bg:hidden m-2 inline-block p-2"
                         />
                       </picture>
                     </a>
