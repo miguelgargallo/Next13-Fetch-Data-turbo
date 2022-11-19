@@ -5,7 +5,19 @@ import { Footer } from "ui";
 export default function Home() {
   const [input, setInput] = useState("");
   const [data, setData] = useState();
-  
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    const res = await fetch("/api/hello", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({ name: input }),
+    });
+    const json = await res.json();
+    setData(json);
+  };
 
   const getData = async () => {
     const res = await fetch(`https://e.hnsfans.com/api/names/${input}`);
@@ -40,7 +52,7 @@ export default function Home() {
                     rel="noopener noreferrer"
                     className="text-yellow-500 hover:text-yellow-500"
                   >
-                  <a></a> Explorer
+                    <a></a> Explorer
                   </a>{" "}
                   <a className="badge m-2 bg-blue-500 py-0 px-2 text-white">
                     Alpha 1.0.14
@@ -64,14 +76,14 @@ export default function Home() {
                         alt="Landscape picture"
                         width={150}
                         height={20}
-                        className="justify-center mx-auto"
+                        className="mx-auto justify-center"
                       />
                     </picture>
                   </a>
                   <div className="mt-2 max-w-xl text-sm text-gray-500"></div>
                   <div className="mt-5">
                     <div className="mt-1">
-                     <input
+                      <input
                         className="flex w-full items-center justify-center rounded-md border border-transparent bg-white px-8 py-3 text-center text-base font-bold text-blue-500 shadow-xl hover:bg-white hover:text-blue-500 hover:shadow-md md:py-4 md:px-10 md:text-lg"
                         type="text"
                         aria-label="Type & press enter ↵"
@@ -85,6 +97,7 @@ export default function Home() {
                         }}
                       />
                     </div>
+                  
                     {input.split(" ").length <= 10 && (
                       <div className="mt-5">
                         <div className="mt-1">
@@ -96,8 +109,6 @@ export default function Home() {
                         </div>
                       </div>
                     )}
-          
-
                     <div className="mx-auto mt-6 grid max-w-lg gap-5 md:hidden lg:max-w-xl lg:grid-cols-1">
                       <button
                         className="flex w-full items-center justify-center rounded-md border border-transparent bg-white px-8 py-3 text-base font-bold text-blue-500 shadow-md hover:bg-white hover:text-blue-500 hover:shadow-xl md:py-4 md:px-10 md:text-lg"
