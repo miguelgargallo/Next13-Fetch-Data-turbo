@@ -73,7 +73,7 @@ export default function Home() {
                         rel="noopener noreferrer"
                         className="text-white hover:text-gray-200"
                       >
-                        <a>v 1.1.0</a>
+                        <a>v 1.1.0 rev7</a>
                       </a>
                     </a>
                     <a>
