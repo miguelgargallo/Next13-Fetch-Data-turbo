@@ -81,9 +81,7 @@ export default function Home() {
                       </a>
                     </a>
                     <a>
-                      This is a big update, with a lot of new features. We have
-                      redesigned the UI and make able to categorize and filter
-                      the domain extension by levels.
+                      Introducing a new Grading System for Handshake TLDs.
                     </a>
                   </div>
                 </h1>
