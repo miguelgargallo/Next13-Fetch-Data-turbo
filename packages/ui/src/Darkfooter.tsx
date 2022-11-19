@@ -1,4 +1,4 @@
-export const Footer = () => {
+export const Darkfooter = () => {
   return (
     <footer className="bg-black py-8 text-center">
       <div>

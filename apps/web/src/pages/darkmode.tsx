@@ -1,6 +1,6 @@
 import Head from "next/head";
 import { useState } from "react";
-import { Footer } from "ui";
+import { Darkfooter } from "ui";
 
 export default function Home() {
   const [input, setInput] = useState("");
@@ -185,7 +185,7 @@ export default function Home() {
           </div>
         </div>
       </main>
-      <Footer />
+      <Darkfooter />
     </div>
   );
 }
