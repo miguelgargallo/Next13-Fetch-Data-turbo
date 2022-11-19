@@ -111,7 +111,7 @@ export default function Home() {
                           return (
                             <div className="mt-1 py-2">
                               <p className="text-black">
-                                {input} is a valid TLD, on the list is the
+                                .{input} is a valid TLD, on the list is the
                                 number {list.indexOf(input)}.
                                 <p>
                                   This is not a definitive list, here is the AI
