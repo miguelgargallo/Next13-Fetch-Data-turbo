@@ -77,7 +77,7 @@ export default function Home() {
                         rel="noopener noreferrer"
                         className="text-white hover:text-gray-200"
                       >
-                        <a>v 1.2.1 rev3 Grading System</a>
+                        <a>v 1.2.1</a>
                       </a>
                     </a>
                     <a>
