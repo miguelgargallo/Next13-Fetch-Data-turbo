@@ -23,10 +23,11 @@ var Button = () => {
 import { jsx as jsx2, jsxs as jsxs2 } from "react/jsx-runtime";
 var Footer = () => {
   return /* @__PURE__ */ jsxs2("footer", {
-    className: "bg-white py-8 text-center",
+    className: "bg-black py-8 text-center",
     children: [
       /* @__PURE__ */ jsx2("div", {
         children: /* @__PURE__ */ jsxs2("a", {
+          className: "text-white",
           children: [
             "Made with \u2764\uFE0F by",
             " ",
@@ -34,7 +35,7 @@ var Footer = () => {
               href: "https://twitter.com/miguelgargallo",
               target: "_blank",
               rel: "noopener noreferrer",
-              className: "hover:text-blue text-indigo-600",
+              className: "hover:text-blue text-blue-600",
               children: "Miguel Gargallo"
             }),
             "."
@@ -44,6 +45,7 @@ var Footer = () => {
       /* @__PURE__ */ jsxs2("div", {
         children: [
           /* @__PURE__ */ jsxs2("a", {
+            className: "text-white",
             children: [
               "2022 \xA9",
               " ",
@@ -51,7 +53,7 @@ var Footer = () => {
                 href: "https://huggingface.co/spaces/superdatas/LICENSE",
                 target: "_blank",
                 rel: "noopener noreferrer",
-                className: "hover:text-blue text-indigo-600",
+                className: "hover:text-blue text-blue-600",
                 children: "Pylar AI creative ML license"
               }),
               "."
