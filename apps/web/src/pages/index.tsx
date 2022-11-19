@@ -77,7 +77,7 @@ export default function Home() {
                         rel="noopener noreferrer"
                         className="text-white hover:text-gray-200"
                       >
-                        <a>v 1.2.0 Grading System</a>
+                        <a>v 1.2.1 Grading System</a>
                       </a>
                     </a>
                     <a>
@@ -94,8 +94,8 @@ export default function Home() {
                       <input
                         className="flex w-full items-center justify-center rounded-md px-8 py-2 text-center text-base font-bold text-blue-500 shadow-xl hover:text-blue-500 hover:shadow-md md:py-2 md:px-10 md:text-lg"
                         type="text"
-                        aria-label="Type & press enter ↵"
-                        placeholder="Type & press enter ↵"
+                        aria-label="26291 Names, Type & press enter ↵"
+                        placeholder="26291 Names, Type & press enter ↵"
                         value={input}
                         onChange={(e) => setInput(e.target.value)}
                         onKeyPress={(e) => {
