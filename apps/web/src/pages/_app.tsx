@@ -1,4 +1,5 @@
 import "../styles/globals.css";
+import "../styles/tlds.css";
 // include styles from the ui package
 import "ui/styles.css";
 

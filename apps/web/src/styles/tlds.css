@@ -1,0 +1,45 @@
+/* Colors by lenghts */
+
+/* Diamond */
+.tld_diamond
+{
+    @apply font-bold text-sky-500;
+}
+
+.tld_diamond:hover
+{
+    @apply font-bold text-sky-600;
+}
+
+/* Gold */
+.tld_gold
+{
+    @apply font-bold text-yellow-500;
+}
+
+.tld_gold:hover
+{
+    @apply font-bold text-yellow-600;
+}
+
+/* Silver */
+.tld_silver
+{
+    @apply font-bold text-gray-500;
+}
+
+.tld_silver:hover
+{
+    @apply font-bold text-gray-600;
+}
+
+/* Bronze */
+.tld_bronze
+{
+    @apply font-bold text-orange-500;
+}
+
+.tld_bronze:hover
+{
+    @apply font-bold text-orange-600;
+}

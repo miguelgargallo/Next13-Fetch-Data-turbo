@@ -13,17 +13,17 @@ export default function Home() {
   };
 
   return (
-    <div className="bg-white">
+    <div className="min-w-screen flex min-h-screen flex-col bg-white">
       <Head>
         <title>Pencil Domains</title>
         <link rel="icon" href="./favicon.ico" />
       </Head>
 
       <main className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div className="py-8">
+        <div className="py-2">
           <div className="mx-auto max-w-7xl">
-            <div className="overflow-hidden rounded-lg bg-white">
-              <div className="px-4 py-5 text-center sm:p-6">
+            <div className="overflow-hidden rounded-lg ">
+              <div className="px-4 py-2 text-center sm:p-2">
                 <h1 className="text-3xl font-bold leading-tight text-gray-900">
                   <a
                     href="https://twitter.com/pencildomains"
@@ -31,51 +31,62 @@ export default function Home() {
                     rel="noopener noreferrer"
                     className="text-blue-500 hover:text-yellow-500"
                   >
-                    Pencil
+                    Pencil Explorer
+                    <a>
+                      <a
+                        href="https://handshake.org/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="p-2"
+                      ></a>
+                      <a className="p-2 font-light text-gray-500 hover:text-gray-600">
+                        for
+                      </a>
+                      <picture>
+                        <img
+                          src="https://handshake.org/images/landing/logo-dark.svg"
+                          alt="Landscape picture"
+                          width={95}
+                          height={20}
+                          className="m-2 inline-block p-2"
+                        />
+                      </picture>
+                    </a>
+                    <p className="py-2 text-sm text-gray-500">
+                      Block Explorer and Naming Tool for Handshake, the
+                      decentralized, open, and extensible naming system for the
+                      Internet.
+                    </p>
                   </a>
                   <a
                     href="https://twitter.com/pencildomains"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-yellow-500 hover:text-yellow-500"
-                  >
-                    <a></a> Explorer
-                  </a>{" "}
-                  <a className="badge m-2 bg-blue-500 py-0 px-2 text-white">
-                    Alpha 1.0.16
-                  </a>
-                  <p className="py-2 text-sm text-gray-300">
-                    In this update we added the ability to search for names and
-                    counts the number of words.
-                  </p>
-                  <p className="py-4 text-sm text-gray-500">
-                    Block Explorer and Naming Tool for Handshake, the
-                    decentralized, open, and extensible naming system for the
-                    Internet.
-                  </p>
+                  ></a>
+                  <div className="m-8 rounded-xl px-2 py-2 text-sm font-light shadow-md hover:shadow-xl">
+                    <a className="pill m-2 bg-blue-500 px-2 text-white">
+                      {" "}
+                      <a
+                        href="https://github.com/miguelgargallo/Next13-Fetch-Data-turbo"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-white hover:text-gray-200"
+                      >
+                        <a>v 1.1.0</a>
+                      </a>
+                    </a>
+                    <a>
+                      This is a big update, with a lot of new features. We have redesigned the UI and make able to categorize and filter the domain extension by levels.
+                    </a>
+                  </div>
                 </h1>
-                <div className="bg-white py-8 text-center">
-                  <a
-                    href="https://handshake.org/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="p-4"
-                  >
-                    <picture>
-                      <img
-                        src="https://handshake.org/images/landing/logo-dark.svg"
-                        alt="Landscape picture"
-                        width={150}
-                        height={20}
-                        className="mx-auto justify-center"
-                      />
-                    </picture>
-                  </a>
+                <div className="py-2 text-center">
                   <div className="mt-2 max-w-xl text-sm text-gray-500"></div>
                   <div className="mt-5">
                     <div className="mt-1">
                       <input
-                        className="flex w-full items-center justify-center rounded-md border border-transparent bg-white px-8 py-3 text-center text-base font-bold text-blue-500 shadow-xl hover:bg-white hover:text-blue-500 hover:shadow-md md:py-4 md:px-10 md:text-lg"
+                        className="flex w-full items-center justify-center rounded-md px-8 py-2 text-center text-base font-bold text-blue-500 hover:text-blue-500 shadow-xl hover:shadow-md md:py-2 md:px-10 md:text-lg"
                         type="text"
                         aria-label="Type & press enter ↵"
                         placeholder="Type & press enter ↵"
@@ -88,31 +99,84 @@ export default function Home() {
                         }}
                       />
                     </div>
-                    <div className="mt-1 py-8">
+                    <div className="mt-1 py-2">
                       <p className="text-sm text-gray-500">
-                        {input.length} words
+                        {input.length > 0 && input.length < 8 && (
+                          <div>
+                            .{input} has {input.length} characters, this is
+                            <a>
+                              {input.length > 0 && input.length < 4 && (
+                                <a className="tld_diamond">
+                                  {" "}
+                                  a Diamond TLD.
+                                </a>
+                              )}
+                            </a>
+                            <a>
+                              {input.length > 3 && input.length < 6 && (
+                                <a className="tld_gold">
+                                  {" "}
+                                  a Gold TLD.
+                                </a>
+                              )}
+                            </a>
+                            <a>
+                              {input.length > 5 && input.length < 7 && (
+                                <a className="tld_silver">
+                                  {" "}
+                                  a Silver TLD.
+                                </a>
+                              )}
+                            </a>
+                            <a>
+                              {input.length > 6 && input.length < 8 && (
+                                <a className="tld_bronze">
+                                  {" "}
+                                  a Bronze TLD.
+                                </a>
+                              )}
+                            </a>
+                          </div>
+                        )}
                       </p>
-                      <script>if (input.length &gt; 0) {<a>s</a>}</script>
+                      <p className="text-sm text-gray-500">
+                        {input.length > 7 && (
+                          <a>
+                            This is longer than 7 characters, if you strongly
+                            believe in this name, please consider{" "}
+                            <a
+                              href="https://github.com/miguelgargallo/Next13-Fetch-Data-turbo/issues"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="hyperlink_issue"
+                            >
+                              opening an issue
+                            </a>{" "}
+                            to discuss it.
+                          </a>
+                        )}
+                      </p>
+
+                      <div className="button">
+                        <button
+                          className="button_content"
+                          onClick={() => console.log(getData())}
+                        >
+                          Explore Now, avoid caplocks
+                        </button>
+                      </div>
                     </div>
-                    <div className="mx-auto mt-6 grid max-w-lg gap-5 md:hidden lg:max-w-xl lg:grid-cols-1">
-                      <button
-                        className="flex w-full items-center justify-center rounded-md border border-transparent bg-white px-8 py-3 text-base font-bold text-blue-500 shadow-md hover:bg-white hover:text-blue-500 hover:shadow-xl md:py-4 md:px-10 md:text-lg"
-                        onClick={() => console.log(getData())}
-                      >
-                        Explore Now, avoid caplocks
-                      </button>
-                    </div>
-                  </div>
-                  <div className="mt-5">
-                    <div className="mt-1">
-                      <textarea
-                        id="about"
-                        name="about"
-                        rows={25}
-                        className="focus:border-blue-500-500 focus:ring-blue-500-500 mt-1 block w-full rounded-md border-gray-300 shadow-sm sm:text-sm"
-                        value={JSON.stringify(data, null, 2)}
-                        readOnly
-                      />
+                    <div className="mt-5">
+                      <div className="mt-1">
+                        <textarea
+                          id="about"
+                          name="about"
+                          rows={20}
+                          className="shadow-xl hover:shadow:md focus:ring-blue-500 mt-1 block w-full rounded-md shadow-sm sm:text-sm"
+                          value={JSON.stringify(data, null, 2)}
+                          readOnly
+                        />
+                      </div>
                     </div>
                   </div>
                 </div>
