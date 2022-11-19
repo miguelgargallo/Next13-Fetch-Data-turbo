@@ -85,7 +85,6 @@ export default function Home() {
                         }}
                       />
                     </div>
-                    // count the words of the {input} and if it's eual or less of three words, then show the result
                     {input.split(" ").length <= 3 && (
                       <div className="mt-5">
                         <div className="mt-1">
