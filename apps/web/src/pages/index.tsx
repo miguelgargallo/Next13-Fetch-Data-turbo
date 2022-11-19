@@ -106,36 +106,45 @@ export default function Home() {
                       />
                     </div>
                     <div className="mt-1 py-2">
-                      <p className="text-sm text-gray-500">
-                        {input.length > 0 && input.length < 8 && (
-                          <div>
-                            .{input} has {input.length} characters, this is
-                            <a>
-                              {input.length > 0 && input.length < 4 && (
-                                <a className="tld_diamond">
-                                  {" "}
-                                  a 💎 Diamond TLD.
-                                </a>
-                              )}
-                            </a>
-                            <a>
-                              {input.length > 3 && input.length < 6 && (
-                                <a className="tld_gold"> a 🥇 Gold TLD.</a>
-                              )}
-                            </a>
-                            <a>
-                              {input.length > 5 && input.length < 7 && (
-                                <a className="tld_silver"> a 🥈 Silver TLD.</a>
-                              )}
-                            </a>
-                            <a>
-                              {input.length > 6 && input.length < 8 && (
-                                <a className="tld_bronze"> a 🥉 Bronze TLD.</a>
-                              )}
-                            </a>
-                          </div>
-                        )}
-                      </p>
+                      {list.map((item) => {
+                        if (item === input) {
+                          return (
+                            <div className="mt-1 py-2">
+                              <p className="text-black">
+                                {input} is a valid TLD, on the list is the
+                                number {list.indexOf(input)}.
+                              </p>
+                            </div>
+                          );
+                        }
+                      })}
+                    </div>
+                    <div className="mt-1 py-2">
+                      {input.length > 0 && input.length < 8 && (
+                        <div>
+                          .{input} has {input.length} characters, this is
+                          <a>
+                            {input.length > 0 && input.length < 4 && (
+                              <a className="tld_diamond"> a 💎 Diamond TLD.</a>
+                            )}
+                          </a>
+                          <a>
+                            {input.length > 3 && input.length < 6 && (
+                              <a className="tld_gold"> a 🥇 Gold TLD.</a>
+                            )}
+                          </a>
+                          <a>
+                            {input.length > 5 && input.length < 7 && (
+                              <a className="tld_silver"> a 🥈 Silver TLD.</a>
+                            )}
+                          </a>
+                          <a>
+                            {input.length > 6 && input.length < 8 && (
+                              <a className="tld_bronze"> a 🥉 Bronze TLD.</a>
+                            )}
+                          </a>
+                        </div>
+                      )}
                       <p className="text-sm text-gray-500">
                         {input.length > 7 && (
                           <a>
@@ -186,7 +195,6 @@ export default function Home() {
     </div>
   );
 }
-
 
 const list = [
   "barbe",
