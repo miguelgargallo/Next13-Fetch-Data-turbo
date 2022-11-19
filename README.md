@@ -12,10 +12,6 @@ Copyright &copy; 2022 Miguel Gargallo, Pencil Works LLC, ITAMAESAN ORG, SUPERDAT
 | Version: 0.0.1 | ✅ Non-commercial publications  | ❌ Warranty |  |
 | This is not legal advice. [Learn more about repository licenses.](#section-i-preamble) | ✅ No endorse publications | ❌ Modification |  |  |
 
-## About this code
-
-![GH LOC](https://user-images.githubusercontent.com/5947268/202756456-90379f36-a050-44fd-82e3-c9b845da8125.png)
-
 # Pylar AI creative ML
 
 #### Table of contents
