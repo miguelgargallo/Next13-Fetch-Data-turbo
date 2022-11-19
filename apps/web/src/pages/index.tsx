@@ -210,6 +210,7 @@ export default function Home() {
 }
 
 const list = [
+  "ramon",
   "barbe",
   "belen",
   "celos",
