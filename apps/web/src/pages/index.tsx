@@ -114,7 +114,6 @@ export default function Home() {
                                 .{input} is a valid TLD, on the list is the
                                 number {list.indexOf(input)}
                                 <p>
-                                  
                                   <a
                                     href="https://raw.githubusercontent.com/miguelgargallo/Next13-Fetch-Data-turbo/main/apps/web/src/pages/api/list.pylar"
                                     target="_blank"
