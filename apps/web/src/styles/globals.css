@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.badge
+{
+    @apply text-xs font-bold uppercase rounded-full;
+}
