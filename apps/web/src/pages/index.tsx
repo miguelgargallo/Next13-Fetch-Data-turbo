@@ -108,7 +108,7 @@ export default function Home() {
                               {input.length > 0 && input.length < 4 && (
                                 <a className="tld_diamond">
                                   {" "}
-                                  a Diamond TLD.
+                                  a 💎 Diamond TLD.
                                 </a>
                               )}
                             </a>
@@ -116,7 +116,7 @@ export default function Home() {
                               {input.length > 3 && input.length < 6 && (
                                 <a className="tld_gold">
                                   {" "}
-                                  a Gold TLD.
+                                  a 🥇 Gold TLD.
                                 </a>
                               )}
                             </a>
@@ -124,7 +124,7 @@ export default function Home() {
                               {input.length > 5 && input.length < 7 && (
                                 <a className="tld_silver">
                                   {" "}
-                                  a Silver TLD.
+                                  a 🥈 Silver TLD.
                                 </a>
                               )}
                             </a>
@@ -132,7 +132,7 @@ export default function Home() {
                               {input.length > 6 && input.length < 8 && (
                                 <a className="tld_bronze">
                                   {" "}
-                                  a Bronze TLD.
+                                  a 🥉 Bronze TLD.
                                 </a>
                               )}
                             </a>
