@@ -113,6 +113,19 @@ export default function Home() {
                               <p className="text-black">
                                 {input} is a valid TLD, on the list is the
                                 number {list.indexOf(input)}.
+                                <p>
+                                  This is not a definitive list, here is the AI Pylar file, you can test this TLDs.
+                                  <a
+                                    href="https://raw.githubusercontent.com/miguelgargallo/Next13-Fetch-Data-turbo/main/apps/web/src/pages/api/list.pylar"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="text-blue-500 hover:text-yellow-500"
+                                  >
+                                    {" "}
+                                    <a>Pylar AI list: source list.pylar</a>
+                                  </a>
+
+                                </p>
                               </p>
                             </div>
                           );
