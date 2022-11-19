@@ -115,7 +115,7 @@ export default function Home() {
                       <textarea
                         id="about"
                         name="about"
-                        rows={25}
+                        rows={16}
                         className="focus:border-blue-500-500 focus:ring-blue-500-500 mt-1 block w-full rounded-md border-gray-300 shadow-sm sm:text-sm"
                         value={JSON.stringify(data, null, 2)}
                         readOnly
