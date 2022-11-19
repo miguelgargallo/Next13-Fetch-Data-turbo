@@ -90,8 +90,8 @@ export default function Home() {
                       <input
                         className="flex w-full items-center justify-center rounded-md px-8 py-2 text-center text-base font-bold text-blue-500 shadow-xl hover:text-blue-500 hover:shadow-md md:py-2 md:px-10 md:text-lg"
                         type="text"
-                        aria-label="26255 Names, Type & press enter ↵"
-                        placeholder="26255 Names, Type & press enter ↵"
+                        aria-label="25819 Names, Type & press enter ↵"
+                        placeholder="25819 Names, Type & press enter ↵"
                         value={input}
                         onChange={(e) => setInput(e.target.value)}
                         onKeyPress={(e) => {
