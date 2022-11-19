@@ -80,9 +80,7 @@ export default function Home() {
                         <a>v 1.2.1</a>
                       </a>
                     </a>
-                    <a>
-                      Introducing a new Grading System for Handshake TLDs.
-                    </a>
+                    <a>Introducing a new Grading System for Handshake TLDs.</a>
                   </div>
                 </h1>
                 <div className="py-2 text-center">
