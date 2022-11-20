@@ -187,7 +187,7 @@ var Gradient = () => {
 
 // src/GradientDiamond.tsx
 import { jsx as jsx4 } from "react/jsx-runtime";
-var ELEMENTS2 = 5;
+var ELEMENTS2 = 10;
 var GradientDiamond = () => {
   return /* @__PURE__ */ jsx4("div", {
     children: /* @__PURE__ */ jsx4("svg", {
@@ -210,7 +210,7 @@ var GradientDiamond = () => {
 
 // src/GradientGold.tsx
 import { jsx as jsx5 } from "react/jsx-runtime";
-var ELEMENTS3 = 3;
+var ELEMENTS3 = 5;
 var GradientGold = () => {
   return /* @__PURE__ */ jsx5("div", {
     children: /* @__PURE__ */ jsx5("svg", {
@@ -233,7 +233,7 @@ var GradientGold = () => {
 
 // src/GradientSilver.tsx
 import { jsx as jsx6 } from "react/jsx-runtime";
-var ELEMENTS4 = 2;
+var ELEMENTS4 = 3;
 var GradientSilver = () => {
   return /* @__PURE__ */ jsx6("div", {
     children: /* @__PURE__ */ jsx6("svg", {

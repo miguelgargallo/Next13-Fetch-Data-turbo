@@ -1,6 +1,6 @@
 import { generateJSXMeshGradient } from "meshgrad";
 
-const ELEMENTS = 3;
+const ELEMENTS = 5;
 
 export const GradientGold = () => {
   return (
