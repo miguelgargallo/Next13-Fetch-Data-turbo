@@ -42,7 +42,7 @@ export default function Home() {
 
       <Menu />
       <a className="m-4 p-4 text-center text-xl font-bold text-black">
-      25819 names on thi amazing Handshake Blocks and Ranking Names portal.
+      25819 names on this amazing Handshake Blocks and Ranking Names portal.
       </a>
       <main className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-7xl overflow-hidden rounded-lg py-2 py-2 px-4 text-center sm:p-2">
