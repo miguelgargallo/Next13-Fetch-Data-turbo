@@ -42,7 +42,7 @@ export default function Home() {
 
       <Menu />
       <a className="m-4 p-4 text-center text-xl font-bold text-black">
-        Handshake Blocks and Ranking Names.
+      25819 names on thi amazing Handshake Blocks and Ranking Names portal.
       </a>
       <main className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-7xl overflow-hidden rounded-lg py-2 py-2 px-4 text-center sm:p-2">
@@ -50,8 +50,8 @@ export default function Home() {
             <input
               className="flex w-full items-center justify-center rounded-md px-8 py-2 text-center text-base font-bold text-blue-500 shadow-xl hover:text-blue-500 hover:shadow-md md:py-2 md:px-10 md:text-lg"
               type="text"
-              aria-label="25819 Names, Type & press enter ↵"
-              placeholder="25819 Names, Type & press enter ↵"
+              aria-label="Type press enter ↵"
+              placeholder="Type & press enter ↵"
               value={input}
               onChange={(e) => setInput(e.target.value)}
               onKeyPress={(e) => {
