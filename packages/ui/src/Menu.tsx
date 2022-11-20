@@ -12,16 +12,17 @@ export const Menu = () => {
         <button className="rounded-xl py-2 px-4 font-bold text-white">
           <a href="/">Pencil Explorer</a>
         </button>
-        <button className="hidden rounded-full bg-black py-2 px-4 text-xs font-bold text-white md:block">
+      
+      </div>
+      <button className="hidden rounded-full bg-black py-2 px-4 text-xs font-bold text-white md:block">
           <a
             href="http://github.com/miguelgargallo/next13-Fetch-Data-turbo"
             target="_blank"
             rel="noopener noreferrer"
           >
-            v1.3.0
+            v1.3.1 Menu
           </a>
         </button>
-      </div>
       <button className="hidden py-2 px-4 font-bold text-white md:block">
         <a
           href="http://twitter.com/miguelgargallo"

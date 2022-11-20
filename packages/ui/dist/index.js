@@ -268,26 +268,24 @@ var Menu = () => {
   return /* @__PURE__ */ (0, import_jsx_runtime8.jsxs)("div", {
     className: "flex flex-row items-center justify-between justify-items-center bg-gradient-to-r from-blue-400 to-blue-500",
     children: [
-      /* @__PURE__ */ (0, import_jsx_runtime8.jsxs)("div", {
+      /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("div", {
         className: "flex flex-row items-center justify-between",
-        children: [
-          /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("button", {
-            className: "rounded-xl py-2 px-4 font-bold text-white",
-            children: /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("a", {
-              href: "/",
-              children: "Pencil Explorer"
-            })
-          }),
-          /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("button", {
-            className: "hidden rounded-full bg-black py-2 px-4 text-xs font-bold text-white md:block",
-            children: /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("a", {
-              href: "http://github.com/miguelgargallo/next13-Fetch-Data-turbo",
-              target: "_blank",
-              rel: "noopener noreferrer",
-              children: "v1.3.0"
-            })
+        children: /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("button", {
+          className: "rounded-xl py-2 px-4 font-bold text-white",
+          children: /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("a", {
+            href: "/",
+            children: "Pencil Explorer"
           })
-        ]
+        })
+      }),
+      /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("button", {
+        className: "hidden rounded-full bg-black py-2 px-4 text-xs font-bold text-white md:block",
+        children: /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("a", {
+          href: "http://github.com/miguelgargallo/next13-Fetch-Data-turbo",
+          target: "_blank",
+          rel: "noopener noreferrer",
+          children: "v1.3.1 Menu"
+        })
       }),
       /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("button", {
         className: "hidden py-2 px-4 font-bold text-white md:block",
