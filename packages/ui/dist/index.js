@@ -74,75 +74,21 @@ var Footer = () => {
           ]
         })
       }),
-      /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)("div", {
-        children: [
-          /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)("a", {
-            children: [
-              "2022 \xA9",
-              " ",
-              /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("a", {
-                href: "https://huggingface.co/spaces/superdatas/LICENSE",
-                target: "_blank",
-                rel: "noopener noreferrer",
-                className: "hover:text-blue text-indigo-600",
-                children: "Pylar AI creative ML license"
-              }),
-              "."
-            ]
-          }),
-          /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)("div", {
-            className: "mt-2",
-            style: {
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center"
-            },
-            children: [
-              /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("a", {
-                href: "https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fmiguelgargallo%2FNext13-Fetch-Data-turbo&project-name=miguelgargallo-next13-fetch-data-turbo&repo-name=miguelgargallo-next13-fetch-data-turbo",
-                target: "_blank",
-                rel: "noopener noreferrer",
-                className: "p-4",
-                children: /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("picture", {
-                  children: /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("img", {
-                    src: "https://vercel.com/button",
-                    alt: "Landscape picture",
-                    width: 75,
-                    height: 20
-                  })
-                })
-              }),
-              /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("a", {
-                href: "https://huggingface.co/spaces/superdatas/LICENSE",
-                target: "_blank",
-                rel: "noopener noreferrer",
-                className: "p-4",
-                children: /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("picture", {
-                  children: /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("img", {
-                    src: "https://huggingface.co/front/assets/huggingface_logo.svg",
-                    alt: "Landscape picture",
-                    width: 40,
-                    height: 20
-                  })
-                })
-              }),
-              /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("a", {
-                href: "https://github.com/miguelgargallo/Next13-Fetch-Data-turbo",
-                target: "_blank",
-                rel: "noopener noreferrer",
-                className: "p-4",
-                children: /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("picture", {
-                  children: /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("img", {
-                    src: "https://img.shields.io/github/stars/miguelgargallo/Next13-Fetch-Data-turbo?style=social",
-                    alt: "Landscape picture",
-                    width: 100,
-                    height: 20
-                  })
-                })
-              })
-            ]
-          })
-        ]
+      /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("div", {
+        children: /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)("a", {
+          children: [
+            "2022 \xA9",
+            " ",
+            /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("a", {
+              href: "https://huggingface.co/spaces/superdatas/LICENSE",
+              target: "_blank",
+              rel: "noopener noreferrer",
+              className: "hover:text-blue text-indigo-600",
+              children: "Pylar AI creative ML license"
+            }),
+            "."
+          ]
+        })
       })
     ]
   });
@@ -329,14 +275,25 @@ var Menu = () => {
             className: "rounded-xl py-2 px-4 font-bold text-white",
             children: /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("a", {
               href: "/",
-              children: "Explorer"
+              children: "Pencil Explorer"
             })
           }),
           /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("button", {
             className: "hidden rounded-full bg-black py-2 px-4 text-xs font-bold text-white md:block",
             children: /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("a", {
               href: "http://github.com/miguelgargallo/next13-Fetch-Data-turbo",
+              target: "_blank",
+              rel: "noopener noreferrer",
               children: "v1.2.9"
+            })
+          }),
+          /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("button", {
+            className: "hidden py-2 px-4 font-bold text-white md:block",
+            children: /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("a", {
+              href: "http://github.com/miguelgargallo/next13-Fetch-Data-turbo",
+              target: "_blank",
+              rel: "noopener noreferrer",
+              children: "Twitter"
             })
           })
         ]
@@ -350,6 +307,58 @@ var Menu = () => {
             children: "Handshake Block Explorer & Grading"
           })
         })
+      }),
+      /* @__PURE__ */ (0, import_jsx_runtime8.jsxs)("div", {
+        className: "mt-2",
+        style: {
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center"
+        },
+        children: [
+          /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("a", {
+            href: "https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fmiguelgargallo%2FNext13-Fetch-Data-turbo&project-name=miguelgargallo-next13-fetch-data-turbo&repo-name=miguelgargallo-next13-fetch-data-turbo",
+            target: "_blank",
+            rel: "noopener noreferrer",
+            className: "p-2 hidden md:block",
+            children: /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("picture", {
+              children: /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("img", {
+                src: "https://vercel.com/button",
+                alt: "Landscape picture",
+                width: 75,
+                height: 20
+              })
+            })
+          }),
+          /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("a", {
+            href: "https://huggingface.co/spaces/superdatas/LICENSE",
+            target: "_blank",
+            rel: "noopener noreferrer",
+            className: "p-2 hidden md:block",
+            children: /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("picture", {
+              children: /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("img", {
+                src: "https://huggingface.co/front/assets/huggingface_logo.svg",
+                alt: "Landscape picture",
+                width: 40,
+                height: 20
+              })
+            })
+          }),
+          /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("a", {
+            href: "https://github.com/miguelgargallo/Next13-Fetch-Data-turbo",
+            target: "_blank",
+            rel: "noopener noreferrer",
+            className: "p-2 hidden md:block",
+            children: /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("picture", {
+              children: /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("img", {
+                src: "https://img.shields.io/github/stars/miguelgargallo/Next13-Fetch-Data-turbo?style=social",
+                alt: "Landscape picture",
+                width: 100,
+                height: 20
+              })
+            })
+          })
+        ]
       }),
       /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("button", {
         className: "rounded-xl py-2 px-4 font-bold text-white",
