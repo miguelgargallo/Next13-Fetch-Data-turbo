@@ -6,3 +6,5 @@ export * from "./GradientDiamond";
 export * from "./GradientGold";
 export * from "./GradientSilver";
 export * from "./GradientBronze";
+export * from "./Menu";
+export * from "./Header";
