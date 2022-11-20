@@ -29,7 +29,7 @@ export const Footer = () => {
           .
         </a>
       </div>
-      <div className="hidden sm:block flex flex-row items-center justify-center">
+      <div className="items-center justify-center flex w-full">
       <a
         href="https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fmiguelgargallo%2FNext13-Fetch-Data-turbo&project-name=miguelgargallo-next13-fetch-data-turbo&repo-name=miguelgargallo-next13-fetch-data-turbo"
         target="_blank"
