@@ -19,7 +19,9 @@
     "turbo": "latest"
   },
   "dependencies": {
-    "@vercel/analytics": "latest"
+    "@vercel/analytics": "latest",
+    "framer-motion": "^7.6.7",
+    "meshgrad": "^0.0.10"
   },
   "packageManager": "yarn@1.22.17"
 }
