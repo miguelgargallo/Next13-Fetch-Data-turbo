@@ -41,16 +41,12 @@ export default function Home() {
       </Head>
 
       <Menu />
-      <a
-       className="text-3xl m-2 font-slim text-gray-900 text-center"
-       >
+      <a className="font-slim m-2 text-center text-3xl text-gray-900">
         Handshake Blocks and Ranking Names.
-       </a>
+      </a>
       <main className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-
         <div className="mx-auto max-w-7xl overflow-hidden rounded-lg py-2 py-2 px-4 text-center sm:p-2">
           <div className="mt-6 py-2 text-center">
-       
             <input
               className="flex w-full items-center justify-center rounded-md px-8 py-2 text-center text-base font-bold text-blue-500 shadow-xl hover:text-blue-500 hover:shadow-md md:py-2 md:px-10 md:text-lg"
               type="text"

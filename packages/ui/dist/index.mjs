@@ -253,26 +253,16 @@ var Menu = () => {
               rel: "noopener noreferrer",
               children: "v1.3.0"
             })
-          }),
-          /* @__PURE__ */ jsx8("button", {
-            className: "hidden py-2 px-4 font-bold text-white md:block",
-            children: /* @__PURE__ */ jsx8("a", {
-              href: "http://twitter.com/miguelgargallo",
-              target: "_blank",
-              rel: "noopener noreferrer",
-              children: "Twitter"
-            })
           })
         ]
       }),
       /* @__PURE__ */ jsx8("button", {
-        className: "rounded-xl py-2 px-4 font-bold text-white",
-        children: /* @__PURE__ */ jsx8("div", {
-          className: "hidden md:block",
-          children: /* @__PURE__ */ jsx8("a", {
-            className: "rounded-xl py-2 px-4 font-bold text-white",
-            children: "Grading Names"
-          })
+        className: "hidden py-2 px-4 font-bold text-white md:block",
+        children: /* @__PURE__ */ jsx8("a", {
+          href: "http://twitter.com/miguelgargallo",
+          target: "_blank",
+          rel: "noopener noreferrer",
+          children: "Twitter"
         })
       }),
       /* @__PURE__ */ jsxs3("div", {
@@ -287,7 +277,7 @@ var Menu = () => {
             href: "https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fmiguelgargallo%2FNext13-Fetch-Data-turbo&project-name=miguelgargallo-next13-fetch-data-turbo&repo-name=miguelgargallo-next13-fetch-data-turbo",
             target: "_blank",
             rel: "noopener noreferrer",
-            className: "p-2 hidden md:block",
+            className: "hidden p-2 md:block",
             children: /* @__PURE__ */ jsx8("picture", {
               children: /* @__PURE__ */ jsx8("img", {
                 src: "https://vercel.com/button",
@@ -301,7 +291,7 @@ var Menu = () => {
             href: "https://huggingface.co/spaces/superdatas/LICENSE",
             target: "_blank",
             rel: "noopener noreferrer",
-            className: "p-2 hidden md:block",
+            className: "hidden p-2 md:block",
             children: /* @__PURE__ */ jsx8("picture", {
               children: /* @__PURE__ */ jsx8("img", {
                 src: "https://huggingface.co/front/assets/huggingface_logo.svg",
@@ -315,7 +305,7 @@ var Menu = () => {
             href: "https://github.com/miguelgargallo/Next13-Fetch-Data-turbo",
             target: "_blank",
             rel: "noopener noreferrer",
-            className: "p-2 hidden md:block",
+            className: "hidden p-2 md:block",
             children: /* @__PURE__ */ jsx8("picture", {
               children: /* @__PURE__ */ jsx8("img", {
                 src: "https://img.shields.io/github/stars/miguelgargallo/Next13-Fetch-Data-turbo?style=social",

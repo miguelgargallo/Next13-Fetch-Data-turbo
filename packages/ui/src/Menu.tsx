@@ -21,78 +21,70 @@ export const Menu = () => {
             v1.3.0
           </a>
         </button>
-
-        <button className="hidden py-2 px-4 font-bold text-white md:block">
-          <a
-            href="http://twitter.com/miguelgargallo"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Twitter
-          </a>
-        </button>
       </div>
-      <button className="rounded-xl py-2 px-4 font-bold text-white">
-        <div className="hidden md:block">
-          <a className="rounded-xl py-2 px-4 font-bold text-white">
-            Grading Names
-          </a>
-        </div>
+      <button className="hidden py-2 px-4 font-bold text-white md:block">
+        <a
+          href="http://twitter.com/miguelgargallo"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Twitter
+        </a>
       </button>
       <div
-            className="mt-2"
-            style={{
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-            }}
-          >
-            <a
-              href="https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fmiguelgargallo%2FNext13-Fetch-Data-turbo&project-name=miguelgargallo-next13-fetch-data-turbo&repo-name=miguelgargallo-next13-fetch-data-turbo"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="p-2 hidden md:block" 
-            >
-              <picture>
-                <img
-                  src="https://vercel.com/button"
-                  alt="Landscape picture"
-                  width={75}
-                  height={20}
-                />
-              </picture>
-            </a>
-            <a
-              href="https://huggingface.co/spaces/superdatas/LICENSE"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="p-2 hidden md:block" 
-            >
-              <picture>
-                <img
-                  src="https://huggingface.co/front/assets/huggingface_logo.svg"
-                  alt="Landscape picture"
-                  width={40}
-                  height={20}
-                />
-              </picture>
-            </a>
-            <a
-              href="https://github.com/miguelgargallo/Next13-Fetch-Data-turbo"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="p-2 hidden md:block" 
-            >
-              <picture>
-                <img
-                  src="https://img.shields.io/github/stars/miguelgargallo/Next13-Fetch-Data-turbo?style=social"
-                  alt="Landscape picture"
-                  width={100}
-                  height={20}
-                />
-              </picture>
-            </a>
-          </div>
+        className="mt-2"
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+        }}
+      >
+        <a
+          href="https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fmiguelgargallo%2FNext13-Fetch-Data-turbo&project-name=miguelgargallo-next13-fetch-data-turbo&repo-name=miguelgargallo-next13-fetch-data-turbo"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hidden p-2 md:block"
+        >
+          <picture>
+            <img
+              src="https://vercel.com/button"
+              alt="Landscape picture"
+              width={75}
+              height={20}
+            />
+          </picture>
+        </a>
+        <a
+          href="https://huggingface.co/spaces/superdatas/LICENSE"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hidden p-2 md:block"
+        >
+          <picture>
+            <img
+              src="https://huggingface.co/front/assets/huggingface_logo.svg"
+              alt="Landscape picture"
+              width={40}
+              height={20}
+            />
+          </picture>
+        </a>
+        <a
+          href="https://github.com/miguelgargallo/Next13-Fetch-Data-turbo"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hidden p-2 md:block"
+        >
+          <picture>
+            <img
+              src="https://img.shields.io/github/stars/miguelgargallo/Next13-Fetch-Data-turbo?style=social"
+              alt="Landscape picture"
+              width={100}
+              height={20}
+            />
+          </picture>
+        </a>
+      </div>
       <button className="rounded-xl py-2 px-4 font-bold text-white">
         <a href="/">
           {new Date().toLocaleTimeString("en-US", {
@@ -101,7 +93,6 @@ export const Menu = () => {
           })}
         </a>
       </button>
-
     </div>
   );
 };
