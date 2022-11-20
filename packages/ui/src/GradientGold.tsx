@@ -12,7 +12,7 @@ export const GradientGold = () => {
         stroke="#FFF"
         stroke-width="0"
         viewBox="0 0 95 95"
-        className="py-2 rounded-xl m-2 shadow-md hover:shadow-xl"
+        className="m-2 rounded-xl py-2 shadow-md hover:shadow-xl"
         style={generateJSXMeshGradient(ELEMENTS)}
       >
         <path

@@ -41,7 +41,7 @@ export default function Home() {
       </Head>
 
       <Menu />
-      <a className="font-slim m-2 text-center text-3xl text-gray-900">
+      <a className="m-4 p-4 text-center text-xl font-bold text-black">
         Handshake Blocks and Ranking Names.
       </a>
       <main className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
