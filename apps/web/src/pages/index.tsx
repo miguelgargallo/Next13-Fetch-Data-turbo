@@ -1,6 +1,10 @@
 import Head from "next/head";
 import { useState } from "react";
 import { Gradient } from "ui";
+import { GradientDiamond } from "ui";
+import { GradientGold } from "ui";
+import { GradientSilver } from "ui";
+import { GradientBronze } from "ui";
 import { motion } from "framer-motion";
 import { Footer } from "ui";
 
@@ -91,7 +95,7 @@ export default function Home() {
                         rel="noopener noreferrer"
                         className="text-white hover:text-gray-200"
                       >
-                        <a>v 1.2.5 Styles</a>
+                        <a>v 1.2.6 Grading Plates by Ores</a>
                       </a>
                     </a>
                     <a>Introducing a new Grading System for Handshake TLDs.</a>
@@ -115,9 +119,7 @@ export default function Home() {
                         }}
                       />
                       <div className="flex w-full items-center justify-center rounded-md px-8 py-2 text-center text-base font-bold text-blue-500 shadow-xl hover:text-blue-500 hover:shadow-md md:py-2 md:px-10 md:text-lg">
-                        <div className="mt-1 py-2">
-                          <Gradient />
-                        </div>
+                        <div className="mt-1 py-2"></div>
                         <div className="mt-1 py-2">
                           {list.map((item) => {
                             if (item === input) {
@@ -151,19 +153,31 @@ export default function Home() {
                                 {input.length > 0 && input.length < 4 && (
                                   <a className="tld_diamond">
                                     {" "}
+                                    <div>
+                                      <GradientDiamond />
+                                    </div>
                                     a 💎 Diamond TLD.
                                   </a>
                                 )}
                               </a>
                               <a>
                                 {input.length > 3 && input.length < 6 && (
-                                  <a className="tld_gold"> a 🥇 Gold TLD.</a>
+                                  <a className="tld_gold">
+                                    {" "}
+                                    <div>
+                                      <GradientGold />
+                                    </div>
+                                    <a className="tld_gold"> a 🥇 Gold TLD.</a>
+                                  </a>
                                 )}
                               </a>
                               <a>
                                 {input.length > 5 && input.length < 7 && (
                                   <a className="tld_silver">
                                     {" "}
+                                    <div>
+                                      <GradientSilver />
+                                    </div>
                                     a 🥈 Silver TLD.
                                   </a>
                                 )}
@@ -171,14 +185,16 @@ export default function Home() {
                               <a>
                                 {input.length > 6 && input.length < 8 && (
                                   <a className="tld_bronze">
-                                    {" "}
+                                    <div>
+                                      <GradientBronze />
+                                    </div>{" "}
                                     a 🥉 Bronze TLD.
                                   </a>
                                 )}
                               </a>
                             </div>
                           )}
-                          <p className="text-sm text-gray-500">
+                          <p className="center-text text-sm text-gray-500">
                             .
                             {input.length > 7 && (
                               <a>
@@ -190,6 +206,10 @@ export default function Home() {
                                   rel="noopener noreferrer"
                                   className="hyperlink_issue"
                                 >
+                                  {" "}
+                                  <div className="justify-center">
+                                    <Gradient />
+                                  </div>
                                   opening an issue
                                 </a>{" "}
                                 to discuss it.
