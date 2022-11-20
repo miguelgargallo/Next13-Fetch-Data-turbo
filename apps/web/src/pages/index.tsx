@@ -7,6 +7,7 @@ import { Footer } from "ui";
 export default function Home() {
   const [input, setInput] = useState("");
   const [data, setData] = useState();
+  const [pylar, setPylar] = useState();
 
   const getData = async () => {
     const res = await fetch(`https://e.hnsfans.com/api/names/${input}`);
@@ -17,8 +18,8 @@ export default function Home() {
 
   const getPylar = async () => {
     const ans = await fetch(`https://e.hnsfans.com/api/names/${input}`);
-    const data = await res.json();
-    setPylar(json);
+    const data = await ans.json();
+    setPylar(data);
     console.log(data);
   };
 
