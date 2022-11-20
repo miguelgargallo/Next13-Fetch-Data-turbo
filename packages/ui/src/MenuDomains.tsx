@@ -1,6 +1,6 @@
 export const MenuDomains = () => {
   return (
-    <div className="flex flex-row items-center justify-between bg-gradient-to-r from-blue-400 to-blue-500">
+    <div className="hidden sm:block flex flex-row items-center justify-between bg-gradient-to-r from-blue-400 to-blue-500">
       <div className="flex flex-row">
         <button className="rounded-xl py-2 px-4 font-bold text-white">
           <a href="/domains">All Domains</a>

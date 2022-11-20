@@ -119,7 +119,7 @@ export const Menu = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          v1.4.0
+          v1.4.1
         </a>
       </button>
       <button className="hidden py-2 px-4 font-bold text-white md:block">
