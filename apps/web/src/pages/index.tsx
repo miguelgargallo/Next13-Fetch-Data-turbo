@@ -95,7 +95,7 @@ export default function Home() {
                         rel="noopener noreferrer"
                         className="text-white hover:text-gray-200"
                       >
-                        <a>v 1.2.6 Grading Plates by Ores</a>
+                        <a>v 1.2.7 Plates</a>
                       </a>
                     </a>
                     <a>Introducing a new Grading System for Handshake TLDs.</a>
