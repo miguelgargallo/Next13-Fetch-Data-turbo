@@ -9,7 +9,7 @@ import { Version } from "./Version";
 }
 export const Menu = () => {
   return (
-    < className="flex flex-row items-center justify-between bg-gradient-to-r from-blue-400 to-blue-500">
+    <div className="flex flex-row items-center justify-between bg-gradient-to-r from-blue-400 to-blue-500">
       <div className="flex flex-row">
         <a
           href="https://hns.pencil.li"
