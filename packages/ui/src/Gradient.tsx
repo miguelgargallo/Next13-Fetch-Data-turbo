@@ -7,11 +7,12 @@ export const Gradient = () => {
     <div>
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        width="44"
-        height="44"
-        stroke="#0fa9eb"
+        width="95"
+        height="95"
+        stroke="#000"
         stroke-width="0"
-        viewBox="0 0 38.012 39.702"
+        viewBox="0 0 95 95"
+        className="py-2 rounded-xl m-2 shadow-md hover:shadow-xl"
         style={generateJSXMeshGradient(ELEMENTS)}
       >
         <path
