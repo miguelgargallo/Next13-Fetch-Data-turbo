@@ -35,7 +35,8 @@ __export(src_exports, {
   GradientSilver: () => GradientSilver,
   Menu: () => Menu,
   MenuDevs: () => MenuDevs,
-  MenuDomains: () => MenuDomains
+  MenuDomains: () => MenuDomains,
+  Version: () => Version
 });
 module.exports = __toCommonJS(src_exports);
 
@@ -99,7 +100,7 @@ var Footer = () => {
         })
       }),
       /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)("div", {
-        className: "flex flex-row items-center justify-center",
+        className: "hidden sm:block flex flex-row items-center justify-center",
         children: [
           /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("a", {
             href: "https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fmiguelgargallo%2FNext13-Fetch-Data-turbo&project-name=miguelgargallo-next13-fetch-data-turbo&repo-name=miguelgargallo-next13-fetch-data-turbo",
@@ -1916,6 +1917,20 @@ var MenuDevs = () => {
     })
   });
 };
+
+// src/Version.tsx
+var import_jsx_runtime17 = require("react/jsx-runtime");
+var Version = () => {
+  return /* @__PURE__ */ (0, import_jsx_runtime17.jsx)("button", {
+    className: "hidden rounded-full bg-black py-2 px-4 text-xs font-bold text-white md:block",
+    children: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)("a", {
+      href: "http://github.com/miguelgargallo/next13-Fetch-Data-turbo",
+      target: "_blank",
+      rel: "noopener noreferrer",
+      children: "v1.4.2 Devs"
+    })
+  });
+};
 // Annotate the CommonJS export names for ESM import in node:
 0 && (module.exports = {
   Button,
@@ -1933,5 +1948,6 @@ var MenuDevs = () => {
   GradientSilver,
   Menu,
   MenuDevs,
-  MenuDomains
+  MenuDomains,
+  Version
 });
