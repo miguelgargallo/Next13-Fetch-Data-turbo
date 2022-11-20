@@ -257,7 +257,7 @@ var Menu = () => {
           /* @__PURE__ */ jsx8("button", {
             className: "hidden py-2 px-4 font-bold text-white md:block",
             children: /* @__PURE__ */ jsx8("a", {
-              href: "http://github.com/miguelgargallo/next13-Fetch-Data-turbo",
+              href: "http://twitter.com/miguelgargallo",
               target: "_blank",
               rel: "noopener noreferrer",
               children: "Twitter"
