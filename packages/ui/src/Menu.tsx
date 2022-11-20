@@ -35,7 +35,7 @@ export const Menu = () => {
       <button className="rounded-xl py-2 px-4 font-bold text-white">
         <div className="hidden md:block">
           <a className="rounded-xl py-2 px-4 font-bold text-white">
-            HNS Name Block & Explorer
+            HNS Names Block Explorer
           </a>
         </div>
       </button>

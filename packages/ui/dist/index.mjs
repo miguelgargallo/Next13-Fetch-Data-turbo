@@ -271,7 +271,7 @@ var Menu = () => {
           className: "hidden md:block",
           children: /* @__PURE__ */ jsx8("a", {
             className: "rounded-xl py-2 px-4 font-bold text-white",
-            children: "HNS Name Block & Explorer"
+            children: "HNS Names Block Explorer"
           })
         })
       }),
