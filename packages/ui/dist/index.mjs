@@ -57,38 +57,41 @@ var Footer = () => {
           ]
         })
       }),
-      /* @__PURE__ */ jsxs2("div", {
-        className: "items-center justify-center flex w-full",
-        children: [
-          /* @__PURE__ */ jsx2("a", {
-            href: "https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fmiguelgargallo%2FNext13-Fetch-Data-turbo&project-name=miguelgargallo-next13-fetch-data-turbo&repo-name=miguelgargallo-next13-fetch-data-turbo",
-            target: "_blank",
-            rel: "noopener noreferrer",
-            className: "hidden p-2 md:block",
-            children: /* @__PURE__ */ jsx2("picture", {
-              children: /* @__PURE__ */ jsx2("img", {
-                src: "https://vercel.com/button",
-                alt: "Landscape picture",
-                width: 75,
-                height: 20
+      /* @__PURE__ */ jsx2("div", {
+        className: "hidden sm:block",
+        children: /* @__PURE__ */ jsxs2("div", {
+          className: "items-center justify-center flex w-full",
+          children: [
+            /* @__PURE__ */ jsx2("a", {
+              href: "https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fmiguelgargallo%2FNext13-Fetch-Data-turbo&project-name=miguelgargallo-next13-fetch-data-turbo&repo-name=miguelgargallo-next13-fetch-data-turbo",
+              target: "_blank",
+              rel: "noopener noreferrer",
+              className: "hidden p-2 md:block",
+              children: /* @__PURE__ */ jsx2("picture", {
+                children: /* @__PURE__ */ jsx2("img", {
+                  src: "https://vercel.com/button",
+                  alt: "Landscape picture",
+                  width: 75,
+                  height: 20
+                })
+              })
+            }),
+            /* @__PURE__ */ jsx2("a", {
+              href: "https://huggingface.co/spaces/superdatas/LICENSE",
+              target: "_blank",
+              rel: "noopener noreferrer",
+              className: "hidden p-2 md:block",
+              children: /* @__PURE__ */ jsx2("picture", {
+                children: /* @__PURE__ */ jsx2("img", {
+                  src: "https://huggingface.co/front/assets/huggingface_logo.svg",
+                  alt: "Landscape picture",
+                  width: 40,
+                  height: 20
+                })
               })
             })
-          }),
-          /* @__PURE__ */ jsx2("a", {
-            href: "https://huggingface.co/spaces/superdatas/LICENSE",
-            target: "_blank",
-            rel: "noopener noreferrer",
-            className: "hidden p-2 md:block",
-            children: /* @__PURE__ */ jsx2("picture", {
-              children: /* @__PURE__ */ jsx2("img", {
-                src: "https://huggingface.co/front/assets/huggingface_logo.svg",
-                alt: "Landscape picture",
-                width: 40,
-                height: 20
-              })
-            })
-          })
-        ]
+          ]
+        })
       })
     ]
   });
