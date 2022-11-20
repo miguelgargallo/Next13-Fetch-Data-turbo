@@ -41,209 +41,194 @@ export default function Home() {
       </Head>
 
       <main className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div className="py-2">
-          <div className="mx-auto max-w-7xl">
-            <div className="overflow-hidden rounded-lg ">
-              <div className="px-4 py-2 text-center sm:p-2">
-                <h1 className="text-3xl font-bold leading-tight text-gray-900">
-                  <a
-                    href="https://twitter.com/pencildomains"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-blue-500 hover:text-yellow-500"
-                  >
-                    Pencil Explorer
-                    <a>
-                      <a
-                        href="https://handshake.org/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="p-2"
-                      ></a>
-                      <picture>
-                        <img
-                          src="https://raw.githubusercontent.com/miguelgargallo/tlds-leveling/main/images/handshake-logo-light.svg"
-                          alt="Landscape picture"
-                          width={95}
-                          height={20}
-                          className="m-2 inline-block p-2"
-                        />
-                      </picture>
-                    </a>
-                    <p className="py-2 text-sm text-gray-500">
-                      Block Explorer and Naming Grading System for Handshake,
-                      the decentralized, open, and extensible naming protocol
-                      for the Internet.
-                      <p>
-                        Now on 🇺🇸 English, 🇫🇷 French, 🇪🇸 Spanish & more
-                        languages coming.
-                      </p>
-                    </p>
-                  </a>
-                  <a
-                    href="https://twitter.com/pencildomains"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-yellow-500 hover:text-yellow-500"
-                  ></a>
-                  <div className="m-8 rounded-xl px-2 py-2 text-sm font-light shadow-md hover:shadow-xl">
-                    <a className="pill m-2 bg-blue-500 px-2 text-white">
-                      {" "}
-                      <a
-                        href="https://github.com/miguelgargallo/Next13-Fetch-Data-turbo"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-white hover:text-gray-200"
-                      >
-                        <a>v 1.2.7 Plates</a>
-                      </a>
-                    </a>
-                    <a>Introducing a new Grading System for Handshake TLDs.</a>
-                  </div>
-                </h1>
-                <div className="py-2 text-center">
-                  <div className="mt-2 max-w-xl text-sm text-gray-500"></div>
-                  <div className="mt-5">
-                    <div className="mt-1">
-                      <input
-                        className="flex w-full items-center justify-center rounded-md px-8 py-2 text-center text-base font-bold text-blue-500 shadow-xl hover:text-blue-500 hover:shadow-md md:py-2 md:px-10 md:text-lg"
-                        type="text"
-                        aria-label="25819 Names, Type & press enter ↵"
-                        placeholder="25819 Names, Type & press enter ↵"
-                        value={input}
-                        onChange={(e) => setInput(e.target.value)}
-                        onKeyPress={(e) => {
-                          if (e.key === "Enter") {
-                            console.log(getData());
-                          }
-                        }}
-                      />
-                      <div className="flex w-full items-center justify-center rounded-md px-8 py-2 text-center text-base font-bold text-blue-500 shadow-xl hover:text-blue-500 hover:shadow-md md:py-2 md:px-10 md:text-lg">
-                        <div className="mt-1 py-2"></div>
-                        <div className="mt-1 py-2">
-                          {list.map((item) => {
-                            if (item === input) {
-                              return (
-                                <div className="mt-1 py-2">
-                                  <p className="text-black">
-                                    .{input} is a valid TLD, on the list is the
-                                    number {list.indexOf(input)}
-                                    <p>
-                                      <a
-                                        href="https://raw.githubusercontent.com/miguelgargallo/Next13-Fetch-Data-turbo/main/apps/web/src/pages/api/list.pylar"
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        className="text-blue-500 hover:text-yellow-500"
-                                      >
-                                        {" "}
-                                        <a>Pylar AI list: source list.pylar</a>
-                                      </a>
-                                    </p>
-                                  </p>
-                                </div>
-                              );
-                            }
-                          })}
-                        </div>
-                        <div className="mt-1 py-2">
-                          {input.length > 0 && input.length < 8 && (
-                            <div>
-                              .{input} has {input.length} characters, this is
-                              <a>
-                                {input.length > 0 && input.length < 4 && (
-                                  <a className="tld_diamond">
-                                    {" "}
-                                    <div>
-                                      <GradientDiamond />
-                                    </div>
-                                    a 💎 Diamond TLD.
-                                  </a>
-                                )}
-                              </a>
-                              <a>
-                                {input.length > 3 && input.length < 6 && (
-                                  <a className="tld_gold">
-                                    {" "}
-                                    <div>
-                                      <GradientGold />
-                                    </div>
-                                    <a className="tld_gold"> a 🥇 Gold TLD.</a>
-                                  </a>
-                                )}
-                              </a>
-                              <a>
-                                {input.length > 5 && input.length < 7 && (
-                                  <a className="tld_silver">
-                                    {" "}
-                                    <div>
-                                      <GradientSilver />
-                                    </div>
-                                    a 🥈 Silver TLD.
-                                  </a>
-                                )}
-                              </a>
-                              <a>
-                                {input.length > 6 && input.length < 8 && (
-                                  <a className="tld_bronze">
-                                    <div>
-                                      <GradientBronze />
-                                    </div>{" "}
-                                    a 🥉 Bronze TLD.
-                                  </a>
-                                )}
-                              </a>
-                            </div>
-                          )}
-                          <p className="center-text text-sm text-gray-500">
-                            .
-                            {input.length > 7 && (
-                              <a>
-                                This is longer than 7 characters, if you
-                                strongly believe in this name, please consider{" "}
-                                <a
-                                  href="https://github.com/miguelgargallo/Next13-Fetch-Data-turbo/issues"
-                                  target="_blank"
-                                  rel="noopener noreferrer"
-                                  className="hyperlink_issue"
-                                >
-                                  {" "}
-                                  <div className="justify-center">
-                                    <Gradient />
-                                  </div>
-                                  opening an issue
-                                </a>{" "}
-                                to discuss it.
-                              </a>
-                            )}
-                          </p>
-                        </div>
-                      </div>
-
-                      <div className="button">
-                        <button
-                          className="button_content"
-                          onClick={() => console.log(getData())}
-                        >
-                          Explore Now, avoid caplocks
-                        </button>
-                      </div>
-                    </div>
-                    <div className="mt-5">
-                      <div className="mt-1">
-                        <textarea
-                          id="about"
-                          name="about"
-                          rows={20}
-                          className="hover:shadow:md mt-1 block w-full rounded-md shadow-xl shadow-sm focus:ring-blue-500 sm:text-sm"
-                          value={JSON.stringify(data, null, 2)}
-                          readOnly
-                        />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+        <div className="mx-auto max-w-7xl overflow-hidden rounded-lg py-2 py-2 px-4 text-center sm:p-2">
+          <h1 className="text-3xl font-bold leading-tight text-gray-900">
+            <a
+              href="https://twitter.com/pencildomains"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-500 hover:text-yellow-500"
+            >
+              Pencil Explorer
+              <a>
+                <a
+                  href="https://handshake.org/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="p-2"
+                ></a>
+                <picture>
+                  <img
+                    src="https://raw.githubusercontent.com/miguelgargallo/tlds-leveling/main/images/handshake-logo-light.svg"
+                    alt="Landscape picture"
+                    width={95}
+                    height={20}
+                    className="m-2 inline-block p-2"
+                  />
+                </picture>
+              </a>
+              <p className="py-2 text-sm text-gray-500">
+                Block Explorer and Naming Grading System for Handshake, the
+                decentralized, open, and extensible naming protocol for the
+                Internet.
+                <p>
+                  Now on 🇺🇸 English, 🇫🇷 French, 🇪🇸 Spanish & more languages
+                  coming.
+                </p>
+              </p>
+            </a>
+            <a
+              href="https://twitter.com/pencildomains"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-yellow-500 hover:text-yellow-500"
+            ></a>
+            <div className="m-8 rounded-xl px-2 py-2 text-sm font-light shadow-md hover:shadow-xl">
+              <a className="pill m-2 bg-blue-500 px-2 text-white">
+                {" "}
+                <a
+                  href="https://github.com/miguelgargallo/Next13-Fetch-Data-turbo"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-white hover:text-gray-200"
+                >
+                  <a>v 1.2.8 Plates</a>
+                </a>
+              </a>
+              <a>Introducing a new Grading System for Handshake TLDs.</a>
             </div>
+          </h1>
+          <div className="mt-6 py-2 text-center">
+            <input
+              className="flex w-full items-center justify-center rounded-md px-8 py-2 text-center text-base font-bold text-blue-500 shadow-xl hover:text-blue-500 hover:shadow-md md:py-2 md:px-10 md:text-lg"
+              type="text"
+              aria-label="25819 Names, Type & press enter ↵"
+              placeholder="25819 Names, Type & press enter ↵"
+              value={input}
+              onChange={(e) => setInput(e.target.value)}
+              onKeyPress={(e) => {
+                if (e.key === "Enter") {
+                  console.log(getData());
+                }
+              }}
+            />
+
+            <div className="flex w-full flex-col items-center justify-center rounded-md px-8 py-2 text-center text-base font-bold text-blue-500 shadow-xl hover:shadow-md md:text-lg">
+              <div className="mt-1 py-2">
+                {list.map((item) => {
+                  if (item === input) {
+                    return (
+                      <div className="mt-1 py-2">
+                        <p className="text-black">
+                          .{input} is a valid TLD, on the list is the number{" "}
+                          {list.indexOf(input)}
+                          <p>
+                            <a
+                              href="https://raw.githubusercontent.com/miguelgargallo/Next13-Fetch-Data-turbo/main/apps/web/src/pages/api/list.pylar"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="text-blue-500 hover:text-yellow-500"
+                            >
+                              {" "}
+                              <a>Pylar AI list: source list.pylar</a>
+                            </a>
+                          </p>
+                        </p>
+                      </div>
+                    );
+                  }
+                })}
+              </div>
+              <div className="mt-1 flex flex-row py-2">
+                {input.length > 0 && input.length < 8 && (
+                  <div>
+                    .{input} has {input.length} characters, this is
+                    <a>
+                      {input.length > 0 && input.length < 4 && (
+                        <a className="tld_diamond">
+                          {" "}
+                          <div>
+                            <GradientDiamond />
+                          </div>
+                          a 💎 Diamond TLD.
+                        </a>
+                      )}
+                    </a>
+                    <a>
+                      {input.length > 3 && input.length < 6 && (
+                        <a className="tld_silver">
+                          {" "}
+                          <div>
+                            <GradientGold />
+                          </div>
+                          a 🥇 Gold TLD.
+                        </a>
+                      )}
+                    </a>
+                    <a>
+                      {input.length > 5 && input.length < 7 && (
+                        <a className="tld_silver">
+                          {" "}
+                          <div>
+                            <GradientSilver />
+                          </div>
+                          a 🥈 Silver TLD.
+                        </a>
+                      )}
+                    </a>
+                    <a>
+                      {input.length > 6 && input.length < 8 && (
+                        <a className="tld_bronze">
+                          <div>
+                            <GradientBronze />
+                          </div>{" "}
+                          a 🥉 Bronze TLD.
+                        </a>
+                      )}
+                    </a>
+                  </div>
+                )}
+              </div>
+              <p className="center-text text-sm text-gray-500">
+                {input.length > 7 && (
+                  <a>
+                    This is longer than 7 characters, if you strongly believe in
+                    this name, please consider{" "}
+                    <a
+                      href="https://github.com/miguelgargallo/Next13-Fetch-Data-turbo/issues"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="hyperlink_issue"
+                    >
+                      {" "}
+                      <div className="justify-center">
+                        <Gradient />
+                      </div>
+                      opening an issue
+                    </a>{" "}
+                    to discuss it.
+                  </a>
+                )}
+              </p>
+            </div>
+            <div className="button">
+              <button
+                className="button_content"
+                onClick={() => console.log(getData())}
+              >
+                Explore Now, avoid caplocks
+              </button>
+            </div>
+          </div>
+          <div className="mt-6">
+            <textarea
+              id="about"
+              name="about"
+              rows={20}
+              className="hover:shadow:md mt-1 block w-full rounded-md shadow-xl shadow-sm focus:ring-blue-500 sm:text-sm"
+              value={JSON.stringify(data, null, 2)}
+              readOnly
+            />
           </div>
         </div>
       </main>
