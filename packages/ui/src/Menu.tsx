@@ -18,7 +18,7 @@ export const Menu = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            v1.3.0 Menu Update
+            v1.3.0
           </a>
         </button>
 
@@ -35,7 +35,7 @@ export const Menu = () => {
       <button className="rounded-xl py-2 px-4 font-bold text-white">
         <div className="hidden md:block">
           <a className="rounded-xl py-2 px-4 font-bold text-white">
-            Handshake Block Explorer & Grading
+            Handshake Name & Block Explorer
           </a>
         </div>
       </button>

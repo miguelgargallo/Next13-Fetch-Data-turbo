@@ -284,7 +284,7 @@ var Menu = () => {
               href: "http://github.com/miguelgargallo/next13-Fetch-Data-turbo",
               target: "_blank",
               rel: "noopener noreferrer",
-              children: "v1.2.9"
+              children: "v1.3.0"
             })
           }),
           /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("button", {
@@ -304,7 +304,7 @@ var Menu = () => {
           className: "hidden md:block",
           children: /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("a", {
             className: "rounded-xl py-2 px-4 font-bold text-white",
-            children: "Handshake Block Explorer & Grading"
+            children: "Handshake Name & Block Explorer"
           })
         })
       }),

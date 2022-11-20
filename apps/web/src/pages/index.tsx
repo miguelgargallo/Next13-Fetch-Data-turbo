@@ -5,7 +5,6 @@ import { GradientDiamond } from "ui";
 import { GradientGold } from "ui";
 import { GradientSilver } from "ui";
 import { GradientBronze } from "ui";
-import { motion } from "framer-motion";
 import { Footer } from "ui";
 import { Menu } from "ui";
 
@@ -45,62 +44,6 @@ export default function Home() {
 
       <main className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-7xl overflow-hidden rounded-lg py-2 py-2 px-4 text-center sm:p-2">
-          <h1 className="text-3xl font-bold leading-tight text-gray-900">
-            <a
-              href="https://twitter.com/pencildomains"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-blue-500 hover:text-yellow-500"
-            >
-              Pencil Explorer
-              <a>
-                <a
-                  href="https://handshake.org/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="p-2"
-                ></a>
-                <picture>
-                  <img
-                    src="https://raw.githubusercontent.com/miguelgargallo/tlds-leveling/main/images/handshake-logo-light.svg"
-                    alt="Landscape picture"
-                    width={95}
-                    height={20}
-                    className="m-2 inline-block p-2"
-                  />
-                </picture>
-              </a>
-              <p className="py-2 text-sm text-gray-500">
-                Block Explorer and Naming Grading System for Handshake, the
-                decentralized, open, and extensible naming protocol for the
-                Internet.
-                <p>
-                  Now on 🇺🇸 English, 🇫🇷 French, 🇪🇸 Spanish & more languages
-                  coming.
-                </p>
-              </p>
-            </a>
-            <a
-              href="https://twitter.com/pencildomains"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-yellow-500 hover:text-yellow-500"
-            ></a>
-            <div className="m-8 rounded-xl px-2 py-2 text-sm font-light shadow-md hover:shadow-xl">
-              <a className="pill m-2 bg-blue-500 px-2 text-white">
-                {" "}
-                <a
-                  href="https://github.com/miguelgargallo/Next13-Fetch-Data-turbo"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-white hover:text-gray-200"
-                >
-                  <a>v 1.2.9 Plates</a>
-                </a>
-              </a>
-              <a>Introducing a new Grading System for Handshake TLDs.</a>
-            </div>
-          </h1>
           <div className="mt-6 py-2 text-center">
             <input
               className="flex w-full items-center justify-center rounded-md px-8 py-2 text-center text-base font-bold text-blue-500 shadow-xl hover:text-blue-500 hover:shadow-md md:py-2 md:px-10 md:text-lg"
