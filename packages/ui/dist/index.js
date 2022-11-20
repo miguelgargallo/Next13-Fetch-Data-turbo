@@ -34,6 +34,7 @@ __export(src_exports, {
   GradientGold: () => GradientGold,
   GradientSilver: () => GradientSilver,
   Menu: () => Menu,
+  MenuDevs: () => MenuDevs,
   MenuDomains: () => MenuDomains
 });
 module.exports = __toCommonJS(src_exports);
@@ -96,6 +97,39 @@ var Footer = () => {
             "."
           ]
         })
+      }),
+      /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)("div", {
+        className: "flex flex-row items-center justify-center",
+        children: [
+          /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("a", {
+            href: "https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fmiguelgargallo%2FNext13-Fetch-Data-turbo&project-name=miguelgargallo-next13-fetch-data-turbo&repo-name=miguelgargallo-next13-fetch-data-turbo",
+            target: "_blank",
+            rel: "noopener noreferrer",
+            className: "hidden p-2 md:block",
+            children: /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("picture", {
+              children: /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("img", {
+                src: "https://vercel.com/button",
+                alt: "Landscape picture",
+                width: 75,
+                height: 20
+              })
+            })
+          }),
+          /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("a", {
+            href: "https://huggingface.co/spaces/superdatas/LICENSE",
+            target: "_blank",
+            rel: "noopener noreferrer",
+            className: "hidden p-2 md:block",
+            children: /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("picture", {
+              children: /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("img", {
+                src: "https://huggingface.co/front/assets/huggingface_logo.svg",
+                alt: "Landscape picture",
+                width: 40,
+                height: 20
+              })
+            })
+          })
+        ]
       })
     ]
   });
@@ -280,8 +314,6 @@ var Menu = () => {
         children: [
           /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("a", {
             href: "https://hns.pencil.li",
-            target: "_blank",
-            rel: "noopener noreferrer",
             className: "text-1xl flex flex-row items-center justify-center font-bold text-white",
             children: /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("picture", {
               children: /* @__PURE__ */ (0, import_jsx_runtime8.jsxs)("svg", {
@@ -451,6 +483,13 @@ var Menu = () => {
               href: "/domains",
               children: "Domains"
             })
+          }),
+          /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("button", {
+            className: "rounded-xl py-2 px-4 font-bold text-white",
+            children: /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("a", {
+              href: "/developer",
+              children: "Developer"
+            })
           })
         ]
       }),
@@ -460,7 +499,7 @@ var Menu = () => {
           href: "http://github.com/miguelgargallo/next13-Fetch-Data-turbo",
           target: "_blank",
           rel: "noopener noreferrer",
-          children: "v1.4.1"
+          children: "v1.4.2 Devs"
         })
       }),
       /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("button", {
@@ -472,60 +511,30 @@ var Menu = () => {
           children: "Twitter"
         })
       }),
-      /* @__PURE__ */ (0, import_jsx_runtime8.jsxs)("div", {
+      /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("div", {
         className: "mt-2",
         style: {
           display: "flex",
           justifyContent: "center",
           alignItems: "center"
         },
-        children: [
-          /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("a", {
-            href: "https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fmiguelgargallo%2FNext13-Fetch-Data-turbo&project-name=miguelgargallo-next13-fetch-data-turbo&repo-name=miguelgargallo-next13-fetch-data-turbo",
-            target: "_blank",
-            rel: "noopener noreferrer",
-            className: "hidden p-2 md:block",
-            children: /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("picture", {
-              children: /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("img", {
-                src: "https://vercel.com/button",
-                alt: "Landscape picture",
-                width: 75,
-                height: 20
-              })
-            })
-          }),
-          /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("a", {
-            href: "https://huggingface.co/spaces/superdatas/LICENSE",
-            target: "_blank",
-            rel: "noopener noreferrer",
-            className: "hidden p-2 md:block",
-            children: /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("picture", {
-              children: /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("img", {
-                src: "https://huggingface.co/front/assets/huggingface_logo.svg",
-                alt: "Landscape picture",
-                width: 40,
-                height: 20
-              })
-            })
-          }),
-          /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("a", {
-            href: "https://github.com/miguelgargallo/Next13-Fetch-Data-turbo",
-            target: "_blank",
-            rel: "noopener noreferrer",
-            className: "hidden p-2 md:block",
-            children: /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("picture", {
-              children: /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("img", {
-                src: "https://img.shields.io/github/stars/miguelgargallo/Next13-Fetch-Data-turbo?style=social",
-                alt: "Landscape picture",
-                width: 100,
-                height: 20
-              })
+        children: /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("a", {
+          href: "https://github.com/miguelgargallo/Next13-Fetch-Data-turbo",
+          target: "_blank",
+          rel: "noopener noreferrer",
+          className: "hidden p-2 md:block",
+          children: /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("picture", {
+            children: /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("img", {
+              src: "https://img.shields.io/github/stars/miguelgargallo/Next13-Fetch-Data-turbo?style=social",
+              alt: "Landscape picture",
+              width: 100,
+              height: 20
             })
           })
-        ]
+        })
       }),
       /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("button", {
-        className: "hidden rounded-xl px-8 font-bold text-white sm:block",
+        className: "rounded-xl px-8 font-bold text-white hidden sm:block",
         children: /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("a", {
           href: "/",
           children: new Date().toLocaleTimeString("en-US", {
@@ -1873,6 +1882,40 @@ var DomainsNew = () => {
     })
   });
 };
+
+// src/MenuDevs.tsx
+var import_jsx_runtime16 = require("react/jsx-runtime");
+var MenuDevs = () => {
+  return /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("div", {
+    className: "hidden sm:block flex flex-row items-center justify-between bg-gradient-to-r from-blue-400 to-blue-500",
+    children: /* @__PURE__ */ (0, import_jsx_runtime16.jsxs)("div", {
+      className: "flex flex-row",
+      children: [
+        /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("button", {
+          className: "rounded-xl py-2 px-4 font-bold text-white",
+          children: /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("a", {
+            href: "/developer",
+            children: "Home"
+          })
+        }),
+        /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("button", {
+          className: "rounded-xl py-2 px-4 font-bold text-white",
+          children: /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("a", {
+            href: "/developer-launch",
+            children: "Launch your TLD"
+          })
+        }),
+        /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("button", {
+          className: "rounded-xl py-2 px-4 font-bold text-white",
+          children: /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("a", {
+            href: "/developer-agreement",
+            children: "Agreement"
+          })
+        })
+      ]
+    })
+  });
+};
 // Annotate the CommonJS export names for ESM import in node:
 0 && (module.exports = {
   Button,
@@ -1889,5 +1932,6 @@ var DomainsNew = () => {
   GradientGold,
   GradientSilver,
   Menu,
+  MenuDevs,
   MenuDomains
 });

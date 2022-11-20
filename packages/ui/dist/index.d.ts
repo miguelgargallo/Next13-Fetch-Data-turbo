@@ -28,4 +28,6 @@ declare const DomainsMeta: () => JSX.Element;
 
 declare const DomainsNew: () => JSX.Element;
 
-export { Button, Card, DomainsAll, DomainsBlocks, DomainsGeo, DomainsMeta, DomainsNew, Footer, Gradient, GradientBronze, GradientDiamond, GradientGold, GradientSilver, Menu, MenuDomains };
+declare const MenuDevs: () => JSX.Element;
+
+export { Button, Card, DomainsAll, DomainsBlocks, DomainsGeo, DomainsMeta, DomainsNew, Footer, Gradient, GradientBronze, GradientDiamond, GradientGold, GradientSilver, Menu, MenuDevs, MenuDomains };

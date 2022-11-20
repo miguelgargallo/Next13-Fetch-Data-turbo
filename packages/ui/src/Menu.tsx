@@ -11,8 +11,6 @@ export const Menu = () => {
       <div className="flex flex-row">
         <a
           href="https://hns.pencil.li"
-          target="_blank"
-          rel="noopener noreferrer"
           className="text-1xl flex flex-row items-center justify-center font-bold text-white"
         >
           <picture>
@@ -112,6 +110,9 @@ export const Menu = () => {
         <button className="rounded-xl py-2 px-4 font-bold text-white">
           <a href="/domains">Domains</a>
         </button>
+        <button className="rounded-xl py-2 px-4 font-bold text-white">
+          <a href="/developer">Developer</a>
+        </button>
       </div>
       <button className="hidden rounded-full bg-black py-2 px-4 text-xs font-bold text-white md:block">
         <a
@@ -119,7 +120,7 @@ export const Menu = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          v1.4.1
+          v1.4.2 Devs
         </a>
       </button>
       <button className="hidden py-2 px-4 font-bold text-white md:block">
@@ -140,36 +141,6 @@ export const Menu = () => {
         }}
       >
         <a
-          href="https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fmiguelgargallo%2FNext13-Fetch-Data-turbo&project-name=miguelgargallo-next13-fetch-data-turbo&repo-name=miguelgargallo-next13-fetch-data-turbo"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="hidden p-2 md:block"
-        >
-          <picture>
-            <img
-              src="https://vercel.com/button"
-              alt="Landscape picture"
-              width={75}
-              height={20}
-            />
-          </picture>
-        </a>
-        <a
-          href="https://huggingface.co/spaces/superdatas/LICENSE"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="hidden p-2 md:block"
-        >
-          <picture>
-            <img
-              src="https://huggingface.co/front/assets/huggingface_logo.svg"
-              alt="Landscape picture"
-              width={40}
-              height={20}
-            />
-          </picture>
-        </a>
-        <a
           href="https://github.com/miguelgargallo/Next13-Fetch-Data-turbo"
           target="_blank"
           rel="noopener noreferrer"
@@ -185,7 +156,7 @@ export const Menu = () => {
           </picture>
         </a>
       </div>
-      <button className="hidden rounded-xl px-8 font-bold text-white sm:block">
+      <button className="rounded-xl px-8 font-bold text-white hidden sm:block">
         <a href="/">
           {new Date().toLocaleTimeString("en-US", {
             hour: "numeric",

@@ -14,3 +14,4 @@ export * from "./MenuDomains";
 export * from "./DomainsBlocks";
 export * from "./DomainsMeta";
 export * from "./DomainsNew";
+export * from "./MenuDevs";
