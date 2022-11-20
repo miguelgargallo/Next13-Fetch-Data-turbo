@@ -444,7 +444,7 @@ var Menu = () => {
             })
           }),
           /* @__PURE__ */ jsx8("button", {
-            className: "rounded-xl py-2 px-4 font-bold text-white",
+            className: "hidden sm:block rounded-xl py-2 px-4 font-bold text-white",
             children: /* @__PURE__ */ jsx8("a", {
               href: "/developer",
               children: "Developer"

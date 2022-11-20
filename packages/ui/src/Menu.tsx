@@ -110,7 +110,7 @@ export const Menu = () => {
         <button className="rounded-xl py-2 px-4 font-bold text-white">
           <a href="/domains">Domains</a>
         </button>
-        <button className="rounded-xl py-2 px-4 font-bold text-white">
+        <button className="hidden sm:block rounded-xl py-2 px-4 font-bold text-white">
           <a href="/developer">Developer</a>
         </button>
       </div>
