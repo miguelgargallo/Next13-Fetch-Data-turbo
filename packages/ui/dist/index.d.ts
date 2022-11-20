@@ -14,6 +14,4 @@ declare const GradientBronze: () => JSX.Element;
 
 declare const Menu: () => JSX.Element;
 
-declare const Header: () => JSX.Element;
-
-export { Button, Footer, Gradient, GradientBronze, GradientDiamond, GradientGold, GradientSilver, Header, Menu };
+export { Button, Footer, Gradient, GradientBronze, GradientDiamond, GradientGold, GradientSilver, Menu };

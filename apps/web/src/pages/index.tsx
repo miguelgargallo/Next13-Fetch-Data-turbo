@@ -1,12 +1,13 @@
-import { Header } from "ui";
+import Head from "next/head";
 import { useState } from "react";
-import { Menu } from "ui";
 import { Gradient } from "ui";
 import { GradientDiamond } from "ui";
 import { GradientGold } from "ui";
 import { GradientSilver } from "ui";
 import { GradientBronze } from "ui";
+import { motion } from "framer-motion";
 import { Footer } from "ui";
+import { Menu } from "ui";
 
 export default function Home() {
   const [input, setInput] = useState("");
@@ -35,7 +36,11 @@ export default function Home() {
 
   return (
     <div className="min-w-screen flex min-h-screen flex-col bg-white">
-      <Header />
+      <Head>
+        <title>Pencil Domains</title>
+        <link rel="icon" href="./favicon.ico" />
+      </Head>
+
       <Menu />
 
       <main className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -90,7 +95,7 @@ export default function Home() {
                   rel="noopener noreferrer"
                   className="text-white hover:text-gray-200"
                 >
-                  <a>v 1.2.0 Plates</a>
+                  <a>v 1.2.9 Plates</a>
                 </a>
               </a>
               <a>Introducing a new Grading System for Handshake TLDs.</a>
