@@ -310,7 +310,7 @@ var Version = () => {
       href: "http://github.com/miguelgargallo/next13-Fetch-Data-turbo",
       target: "_blank",
       rel: "noopener noreferrer",
-      children: "v1.4.3 Devs"
+      children: "v1.4.4 Offices"
     })
   });
 };
@@ -507,6 +507,13 @@ var Menu = () => {
             children: /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("a", {
               href: "/developer",
               children: "Developer"
+            })
+          }),
+          /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("button", {
+            className: "hidden sm:block rounded-xl py-2 px-4 font-bold text-white",
+            children: /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("a", {
+              href: "/office",
+              children: "Office"
             })
           })
         ]
