@@ -7,7 +7,7 @@ export default function Home() {
   const [data, setData] = useState();
 
   const getData = async () => {
-    const res = await fetch(`https://e.hnsfans.com/api/names/${input}`);
+    const res = await fetch(`https://api.niami.io/hsd/${input}`);
     const json = await res.json();
     setData(json);
   };
