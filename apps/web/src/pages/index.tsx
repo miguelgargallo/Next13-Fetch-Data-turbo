@@ -11,8 +11,10 @@ import { Footer } from "ui";
 import { motion } from "framer-motion";
 
 
+
 export default function Home() {
   const ELEMENTS = 1;
+
   const [input, setInput] = useState("");
   const [data, setData] = useState();
 
@@ -28,7 +30,6 @@ export default function Home() {
   } else {
     console.log("This is not a valid TLD");
   }
-
   return (
     <div className="min-w-screen flex min-h-screen flex-col bg-white">
       <Head>

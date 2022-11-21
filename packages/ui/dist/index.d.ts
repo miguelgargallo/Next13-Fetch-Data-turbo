@@ -36,4 +36,14 @@ declare const Footer: () => JSX.Element;
 
 declare const Scrollable: () => JSX.Element;
 
-export { Button, Card, DomainsAll, DomainsBlocks, DomainsGeo, DomainsMeta, DomainsNew, Footer, GradientBronze, GradientDiamond, GradientGold, GradientSilver, GradientWhite, Menu, MenuDevs, MenuDomains, Scrollable, SupportMenu, Version };
+declare const SquareWhite: () => JSX.Element;
+
+declare const SquareDiamond: () => JSX.Element;
+
+declare const SquareGold: () => JSX.Element;
+
+declare const SquareSilver: () => JSX.Element;
+
+declare const SquareBronze: () => JSX.Element;
+
+export { Button, Card, DomainsAll, DomainsBlocks, DomainsGeo, DomainsMeta, DomainsNew, Footer, GradientBronze, GradientDiamond, GradientGold, GradientSilver, GradientWhite, Menu, MenuDevs, MenuDomains, Scrollable, SquareBronze, SquareDiamond, SquareGold, SquareSilver, SquareWhite, SupportMenu, Version };
