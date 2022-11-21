@@ -1,4 +1,6 @@
 import { Version } from "./Version";
+import { motion, useScroll } from "framer-motion";
+import "./styles.css";
 
 {
   // show hour and minute locale
@@ -8,7 +10,11 @@ import { Version } from "./Version";
   });
 }
 export const Menu = () => {
+  const { scrollYProgress } = useScroll();
+
   return (
+    <>
+        <motion.div className="progress-bar" style={{ scaleX: scrollYProgress }} />
     <div className="flex flex-row items-center justify-between bg-gradient-to-r from-blue-400 to-blue-500">
       <div className="flex flex-row">
         <a
@@ -174,5 +180,7 @@ export const Menu = () => {
         </a>
       </button>
     </div>
+    </>
+
   );
 };

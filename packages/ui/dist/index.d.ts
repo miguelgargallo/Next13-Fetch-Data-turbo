@@ -34,4 +34,6 @@ declare const DomainsNew: () => JSX.Element;
 
 declare const Footer: () => JSX.Element;
 
-export { Button, Card, DomainsAll, DomainsBlocks, DomainsGeo, DomainsMeta, DomainsNew, Footer, GradientBronze, GradientDiamond, GradientGold, GradientSilver, GradientWhite, Menu, MenuDevs, MenuDomains, SupportMenu, Version };
+declare const Scrollable: () => JSX.Element;
+
+export { Button, Card, DomainsAll, DomainsBlocks, DomainsGeo, DomainsMeta, DomainsNew, Footer, GradientBronze, GradientDiamond, GradientGold, GradientSilver, GradientWhite, Menu, MenuDevs, MenuDomains, Scrollable, SupportMenu, Version };

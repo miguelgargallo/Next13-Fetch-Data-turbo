@@ -24,3 +24,4 @@ export * from "./DomainsNew";
 // Footer
 export * from "./Footer";
 // Other
+export * from "./Scrollable";
