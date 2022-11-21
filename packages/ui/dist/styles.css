@@ -513,10 +513,6 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.absolute {
-  position: absolute;
-}
-
 .m-10 {
   margin: 2.5rem;
 }
@@ -535,10 +531,6 @@ video {
 
 .mt-2 {
   margin-top: 0.5rem;
-}
-
-.block {
-  display: block;
 }
 
 .flex {
@@ -571,10 +563,6 @@ video {
 
 .flex-row {
   flex-direction: row;
-}
-
-.flex-wrap {
-  flex-wrap: wrap;
 }
 
 .items-center {
@@ -840,14 +828,6 @@ video {
   transition-duration: 150ms;
 }
 
-.transition {
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 150ms;
-}
-
 .ease-in-out {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -861,95 +841,6 @@ video {
   width: 100%;
   --tw-bg-opacity: 1;
   background-color: rgb(14 165 233 / var(--tw-bg-opacity));
-}
-
-.App {
-  font-family: "DM Sans", sans-serif;
-  text-align: center;
-}
-
-html {
-  font-family: "DM Sans", sans-serif;
-}
-
-.circle {
-  position: fixed;
-  z-index: 100;
-  display: flex;
-  flex-flow: row;
-  align-content: center;
-  justify-content: center;
-  top: 0;
-  left: 0;
-  height: 10px;
-  width: 10px;
-  background-color: #1e91d6;
-  border-radius: 200px;
-  pointer-events: none;
-  color: #fff;
-  text-align: center;
-  font-size: 16px;
-}
-
-.cursorText {
-  flex: auto;
-  font-size: inherit;
-  pointer-events: none;
-  margin: auto;
-}
-
-.container {
-  display: flex;
-  flex-flow: row;
-  height: 90vh;
-  width: 98vw;
-  background: #fff;
-  border-radius: 20px;
-  padding: 40px;
-}
-
-.project {
-  display: inline-block;
-  position: relative;
-  z-index: 1;
-  height: 652px;
-  width: 601px;
-  background: #1e91d6;
-  border-radius: 24px;
-  cursor: none;
-  background-image: url("https://cdn.discordapp.com/attachments/577203676108685331/790326977714192465/Tile_Image.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.projectName {
-  background: #fff;
-  border-radius: 34px;
-  position: absolute;
-  bottom: 30px;
-  left: 30px;
-  padding: 12px 20px;
-  display: inline-block;
-  font-weight: 500;
-  font-size: 16px;
-}
-
-.contactWrapper {
-  padding: 120px;
-}
-
-.contact {
-  font-weight: 500;
-  font-size: 36px;
-  line-height: 1.2;
-  text-decoration: underline;
-  transition: 150ms ease;
-}
-
-.contact:hover {
-  color: #1e91d6;
-  cursor: pointer;
 }
 
 .hover\:bg-gray-700:hover {
@@ -1059,4 +950,3 @@ html {
     grid-template-columns: repeat(1, minmax(0, 1fr));
   }
 }
-  
