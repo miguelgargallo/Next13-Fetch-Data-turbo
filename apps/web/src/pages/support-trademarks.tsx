@@ -1,24 +1,23 @@
-/* eslint-disable react/no-unescaped-entities */
-import Head from "next/head";
-import { Footer } from "ui";
-import { Menu } from "ui";
-import { SupportMenu } from "ui";
+import Head from next/head;
+import { Footer } from ui;
+import { Menu } from ui;
+import { SupportMenu } from ui;
 
 export default function SupportTrademarks() {
   return (
-    <div className="min-w-screen flex min-h-screen flex-col bg-white">
+    <div  className="min-w-screen flex min-h-screen flex-col bg-white">
       <Head>
         <title>Pencil Domains</title>
-        <link rel="icon" href="./favicon.ico" />
+        <link rel=icon href=./favicon.ico />
       </Head>
       <Menu />
       <SupportMenu />
-      <a className="m-4 p-4 text-center text-xl font-bold text-black">
+      <a  className="m-4 p-4 text-center text-xl font-bold text-black">
         Pencil Answers.™
       </a>
       <main>
-        <div className="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
-          <div className="bg-light mr-md-3 pt-md-5 px-md-5 overflow-hidden px-3 pt-3 text-left">
+        <div  className="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+          <div  className="bg-light mr-md-3 pt-md-5 px-md-5 overflow-hidden px-3 pt-3 text-left">
           <div> 📃 WWBDC ™ </div>
             <div> ✅ TRADEMARK http://bit.ly/38whEc4 </div>
             <div> ✅ OPENSEA http://bit.ly/3Grg0VG </div>
@@ -28,124 +27,124 @@ export default function SupportTrademarks() {
             <div> 📃 WWDBC ™ </div>
             <div> ✅ TRADEMARK http://bit.ly/3z66lSS </div>
             <div>
-              {" "}
+              { }
               ✅ OPENSEA
               https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/112810460215064636634197866855467852855454550117405354813643459430932117716993
             </div>
             <div> 📃 Canarcoin ™ </div>
             <div>
-              {" "}
+              { }
               ✅ TRADEMARK
-              https://polygonscan.com/tx/0x0059b42e7527e0fa58d2c34eae1cb55f4c3b243dfd42a3c23cf5a7f2abdf120d{" "}
+              https://polygonscan.com/tx/0x0059b42e7527e0fa58d2c34eae1cb55f4c3b243dfd42a3c23cf5a7f2abdf120d{ }
             </div>
             <div>
-              {" "}
+              { }
               ✅ OPENSEA
               https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/112810460215064636634197866855467852855454550117405354813643459430932117716993
             </div>
-            <div> 📃 Logo "Stick" ™ </div>
+            <div> 📃 Logo Stick ™ </div>
             <div>
-              {" "}
+              { }
               ✅ TRADEMARK
-              https://polygonscan.com/tx/0x809a19772430bb6431a49946155c6c35ee5339cc461f3ca6cb7ef1bf702fe924{" "}
+              https://polygonscan.com/tx/0x809a19772430bb6431a49946155c6c35ee5339cc461f3ca6cb7ef1bf702fe924{ }
             </div>
             <div>
-              {" "}
+              { }
               ✅ OPENSEA
               https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/112810460215064636634197866855467852855454550117405354813643459432031629344769/
             </div>
-            <div> 📃 Logo "Triangle" ™ </div>
+            <div> 📃 Logo Triangle ™ </div>
             <div>
-              {" "}
+              { }
               ✅ TRADEMARK
-              https://polygonscan.com/tx/0xe12a4c61994e8c308af6cde054d17ef4164784fe67b0a776e7baefee1df56770{" "}
+              https://polygonscan.com/tx/0xe12a4c61994e8c308af6cde054d17ef4164784fe67b0a776e7baefee1df56770{ }
             </div>
             <div>
-              {" "}
+              { }
               ✅ OPENSEA
               https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/112810460215064636634197866855467852855454550117405354813643459433131140972545/
             </div>
-            <div> 📃 Logo "Dot" ™ </div>
+            <div> 📃 Logo Dot ™ </div>
             <div>
-              {" "}
+              { }
               ✅ TRADEMARK
-              https://polygonscan.com/tx/0xe81eb294b249dfa650d8824a091560f6fa229a1f7d43bf63c7c000e883128a49{" "}
+              https://polygonscan.com/tx/0xe81eb294b249dfa650d8824a091560f6fa229a1f7d43bf63c7c000e883128a49{ }
             </div>
             <div>
-              {" "}
+              { }
               ✅ OPENSEA
               https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/112810460215064636634197866855467852855454550117405354813643459434230652600321/
             </div>
             <div> 📃 Canarchain ™ </div>
             <div>
-              {" "}
+              { }
               ✅ TRADEMARK
-              https://polygonscan.com/tx/0xaf4df01b087e6a31e73a7037609ef23e23b792dc81c69979985ac6de0f52ab67{" "}
+              https://polygonscan.com/tx/0xaf4df01b087e6a31e73a7037609ef23e23b792dc81c69979985ac6de0f52ab67{ }
             </div>
             <div>
-              {" "}
+              { }
               ✅ OPENSEA
               https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/112810460215064636634197866855467852855454550117405354813643459429832606089217/
             </div>
             <div> 📃 Canarcoin ™ </div>
             <div>
-              {" "}
+              { }
               ✅ TRADEMARK
-              https://polygonscan.com/tx/0xe81eb294b249dfa650d8824a091560f6fa229a1f7d43bf63c7c000e883128a49{" "}
+              https://polygonscan.com/tx/0xe81eb294b249dfa650d8824a091560f6fa229a1f7d43bf63c7c000e883128a49{ }
             </div>
             <div>
-              {" "}
+              { }
               ✅ OPENSEA
               https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/112810460215064636634197866855467852855454550117405354813643459434230652600321/
             </div>
             <div> 📃 Other, Pencil ™ </div>
             <div>
-              {" "}
+              { }
               ✅ TRADEMARK
-              https://polygonscan.com/tx/0xab4e0882aa3013b5482fb5564c5b557149d51876717f318e6867430818f5df46{" "}
+              https://polygonscan.com/tx/0xab4e0882aa3013b5482fb5564c5b557149d51876717f318e6867430818f5df46{ }
             </div>
             <div>
-              {" "}
+              { }
               ✅ TRADEMARK
-              https://polygonscan.com/tx/0xfb9e5152659b639572f61c3b2259ab3ba34e4ade6e7af7a7ba043c5371a46d9f{" "}
+              https://polygonscan.com/tx/0xfb9e5152659b639572f61c3b2259ab3ba34e4ade6e7af7a7ba043c5371a46d9f{ }
             </div>
             <div>
-              {" "}
+              { }
               ✅ TRADEMARK
               https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/112810460215064636634197866855467852855454550117405354813643459427633582833665
             </div>
             <div>
-              {" "}
+              { }
               ✅ TRADEMARK
-              https://polygonscan.com/tx/0x09b4d11dc05d04d5cbcef16e97d17e480943aea5d793cbf0c8ecf082deacd047{" "}
+              https://polygonscan.com/tx/0x09b4d11dc05d04d5cbcef16e97d17e480943aea5d793cbf0c8ecf082deacd047{ }
             </div>
             <div>
-              {" "}
+              { }
               ✅ OPENSEA
               https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/112810460215064636634197866855467852855454550117405354813643459428733094461441
             </div>
             <div>
-              {" "}
+              { }
               ✅ TRADEMARK
               https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/112810460215064636634197866855467852855454550117405354813643459428733094461441
             </div>
             <div>
-              {" "}
+              { }
               ✅ OPENSEA, Scrumr App
               https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/112810460215064636634197866855467852855454550117405354813643459435330164228097
             </div>
             <div>
-              {" "}
+              { }
               ✅ TRADEMARK, Scrumr App
               https://polygonscan.com/tx/0x1c6b25b347232ad42445c2430930b83db10b3e8cd39e294b6db8380bc8c6660c
             </div>
             <div>
-              {" "}
+              { }
               ✅ OPENSEA, Canary Islands Map Art, and COSMOSGAMES
               https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/112810460215064636634197866855467852855454550117405354813643459436429675855873/
             </div>
             <div>
-              {" "}
+              { }
               ✅ TRADEMARK, Canary Islands Map Art, and COSMOSGAMES
               https://polygonscan.com/tx/0x081303d8975ce3ce19bc2999368b0d2683bd9db62e9a1e160601f191983c7567
             </div>
@@ -156,7 +155,7 @@ export default function SupportTrademarks() {
             PENCIL - Trademark Details Word Mark: PENCIL Mark Drawing: 5000 -
             Illustration: Drawing with word(s)/letter(s)/number(s) in Stylized
             form Typeset Statements Description of Mark: The mark consists of
-            the word "PENCIL" in stylized font. Goods and Services: Recorded and
+            the word PENCIL in stylized font. Goods and Services: Recorded and
             downloadable computer software for use as a cryptocurrency wallet;
             cryptocurrency hardware wallets being computer hardware and blank
             USB flash drives; downloadable computer software for use as a
@@ -268,7 +267,7 @@ export default function SupportTrademarks() {
             communication with mobile devices, gaming consoles and computers,
             electronic devices; [ USB hardware, USB chargers, adapters; USB
             adapters, pedometers; electronic monitoring devices incorporating
-            indicators that light up and change color based on wearer's
+            indicators that light up and change color based on wearer s
             cumulative activity level ]. FIRST USE: 20001200. FIRST USE IN
             COMMERCE: 20001200, Footwear; headwear; apparel, namely, pants,
             shorts, shirts, t-shirts, sweatshirts, hooded sweatshirts, tank
@@ -434,7 +433,7 @@ export default function SupportTrademarks() {
             gaming consoles and computers, electronic devices; [ USB hardware,
             USB chargers, adapters; USB adapters, pedometers; electronic
             monitoring devices incorporating indicators that light up and change
-            color based on wearer's cumulative activity level ]. FIRST USE:
+            color based on wearer s cumulative activity level ]. FIRST USE:
             20001200. FIRST USE IN COMMERCE: 20001200. IC 025. US 022 039. G
             &amp; S Footwear; headwear; apparel, namely, pants, shorts, shirts,
             t-shirts, sweatshirts, hooded sweatshirts, tank tops, pullovers,
