@@ -5,7 +5,7 @@
 
 /* Diamond */
 .tld_diamond {
-    @apply font-bold text-sky-500;
+    @apply font-bold text-sky-700 shadow-sky-700 border-sky-700;
 }
 
 .tld_diamond:hover {
@@ -18,7 +18,7 @@
 
 /* Gold */
 .tld_gold {
-    @apply font-bold text-yellow-500;
+    @apply font-bold text-yellow-500 shadow-yellow-700 border-yellow-700;;
 }
 
 .tld_gold:hover {
@@ -33,7 +33,7 @@
 
 /* Silver */
 .tld_silver {
-    @apply font-bold text-gray-500;
+    @apply font-bold text-gray-500 shadow-gray-700 border-gray-700;
 }
 
 .tld_silver:hover {
@@ -48,7 +48,7 @@
 
 /* Bronze */
 .tld_bronze {
-    @apply font-bold text-orange-500;
+    @apply font-bold text-orange-500 shadow-orange-700 border-orange-700;
 }
 
 .tld_bronze:hover {
@@ -61,7 +61,7 @@
 
 /* White */
 .tld_white {
-    @apply font-bold text-gray-500;
+    @apply font-bold text-gray-500 shadow-gray-700 border-gray-700;
 }
 
 .tld_white:hover {
@@ -70,17 +70,4 @@
 
 .tld_white_div {
     @apply labase tld_white bg-white border-gray-500;
-}
-
-/* Other */
-.tld_default {
-    @apply font-bold text-orange-500;
-}
-
-.tld_bronze:hover {
-    @apply font-bold text-orange-600;
-}
-
-.tld_bronze_div {
-    @apply labase tld_bronze bg-orange-200 border-orange-500;
 }
