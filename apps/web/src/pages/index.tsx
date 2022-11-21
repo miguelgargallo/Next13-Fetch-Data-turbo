@@ -85,6 +85,11 @@ export default function Home() {
                             <div className="tld_diamond_div">
                               <a>.{input}</a>
                               <GradientDiamond /> is a 💎 Diamond TLD.
+                              <p className="tld_white py-8">
+                                <p>Is a valid TLD on the list</p>
+                                <p>number {list.indexOf(input)}</p>
+                                <p>and has {input.length} characters</p>
+                              </p>
                             </div>
                           </a>
                         </div>
@@ -98,6 +103,11 @@ export default function Home() {
                             <div className="tld_gold_div">
                               <a>.{input}</a>
                               <GradientGold /> a 🥇 Gold TLD.
+                              <p className="tld_white py-8">
+                                <p>Is a valid TLD on the list</p>
+                                <p>number {list.indexOf(input)}</p>
+                                <p>and has {input.length} characters</p>
+                              </p>
                             </div>
                           </a>
                         </div>
@@ -111,6 +121,11 @@ export default function Home() {
                             <div className="tld_silver_div">
                               <a>.{input}</a>
                               <GradientSilver /> a 🥈 Silver TLD.
+                              <p className="tld_white py-8">
+                                <p>Is a valid TLD on the list</p>
+                                <p>number {list.indexOf(input)}</p>
+                                <p>and has {input.length} characters</p>
+                              </p>
                             </div>
                           </a>
                         </div>
@@ -124,16 +139,16 @@ export default function Home() {
                             <div className="tld_bronze_div">
                               <a>.{input}</a>
                               <GradientBronze /> a 🥉 Bronze TLD.
+                              <p className="tld_white py-8">
+                                <p>Is a valid TLD on the list</p>
+                                <p>number {list.indexOf(input)}</p>
+                                <p>and has {input.length} characters</p>
+                              </p>
                             </div>
                           </a>
                         </div>
                       )}
                     </a>
-                    <p className="tld_white py-8">
-                      <p>Is a valid TLD on the list</p>
-                      <p>number {list.indexOf(input)}</p>
-                      <p>and has {input.length} characters</p>
-                    </p>
                   </div>
                 )}
               </div>
@@ -142,15 +157,24 @@ export default function Home() {
                   <div className="tld_white_div">
                     <a>.{input}</a>
                     <GradientWhite /> is a 🎁 New TLD.
-                    <a
-                      href="https://github.com/miguelgargallo/Next13-Fetch-Data-turbo/issues"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-black hover:text-yellow-500"
-                    >
-                      {" "}
-                      <a className="hyperlink_issue">opening an issue </a>
-                    </a>
+                    <p className="tld_white py-8">
+                      <p>
+                        {list.indexOf(input) !== -1
+                          ? "Is a valid TLD, number " + list.indexOf(input)
+                          : "Could be a valid"}
+                      </p>
+                      <a
+                        href="https://github.com/miguelgargallo/Next13-Fetch-Data-turbo/issues"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-black hover:text-yellow-500"
+                      >
+                        {" "}
+                        <a className="hyperlink_issue">Register Today</a>
+                      </a>
+
+                      <p>and has {input.length} characters</p>
+                    </p>
                   </div>
                 )}
               </a>
