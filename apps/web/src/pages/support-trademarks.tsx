@@ -14,12 +14,12 @@ export default function SupportTrademarks() {
       <Menu />
       <SupportMenu />
       <a className="m-4 p-4 text-center text-xl font-bold text-black">
-        Pencil Trademarks.™
+        Pencil Answers.™
       </a>
-      <main className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div className="flex flex-col items-center justify-center">
-          <div>
-            <div> 📃 WWBDC ™ </div>
+      <main>
+        <div className="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+          <div className="bg-light mr-md-3 pt-md-5 px-md-5 overflow-hidden px-3 pt-3 text-left">
+          <div> 📃 WWBDC ™ </div>
             <div> ✅ TRADEMARK http://bit.ly/38whEc4 </div>
             <div> ✅ OPENSEA http://bit.ly/3Grg0VG </div>
             <div> 📃 WWDBC ™ </div>
