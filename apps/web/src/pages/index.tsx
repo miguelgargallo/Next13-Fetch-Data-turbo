@@ -10,8 +10,6 @@ import { GradientBronze } from "ui";
 import { Footer } from "ui";
 import { motion } from "framer-motion";
 
-
-
 export default function Home() {
   const ELEMENTS = 1;
 
@@ -22,8 +20,11 @@ export default function Home() {
     const res = await fetch(`https://e.hnsfans.com/api/names/${input}`);
     const json = await res.json();
     setData(json);
-    console.log(json);
+    setJsonData(true);
+
   };
+
+
 
   if (list.includes(input)) {
     console.log("This is a valid TLD");
@@ -26082,3 +26083,7 @@ const list = [
   "zy",
   "zz",
 ];
+function setJsonData(arg0: boolean) {
+  throw new Error("Function not implemented.");
+}
+
