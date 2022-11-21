@@ -2,7 +2,7 @@ import { generateJSXMeshGradient } from "meshgrad";
 
 const ELEMENTS = 0;
 
-export const Gradient = () => {
+export const GradientWhite = () => {
   return (
     <div>
       <svg

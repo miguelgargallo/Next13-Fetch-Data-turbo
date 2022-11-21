@@ -1,19 +1,26 @@
 import * as React from "react";
+// Buttons
 export * from "./Button";
-export * from "./Footer";
-export * from "./Gradient";
+// Menu
+export * from "./Menu";
+export * from "./MenuDomains";
+export * from "./SupportMenu";
+export * from "./MenuDevs";
+// Version
+export * from "./Version";
+export * from "./Card";
+// Gradients
+export * from "./GradientWhite";
 export * from "./GradientDiamond";
 export * from "./GradientGold";
 export * from "./GradientSilver";
 export * from "./GradientBronze";
-export * from "./Menu";
-export * from "./Card";
+// Domains
 export * from "./DomainsAll";
 export * from "./DomainsGeo";
-export * from "./MenuDomains";
 export * from "./DomainsBlocks";
 export * from "./DomainsMeta";
 export * from "./DomainsNew";
-export * from "./MenuDevs";
-export * from "./Version";
-export * from "./SupportMenu";
+// Footer
+export * from "./Footer";
+// Other

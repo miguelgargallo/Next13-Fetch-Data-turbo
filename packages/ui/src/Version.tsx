@@ -6,7 +6,7 @@ export const Version = () => {
         target="_blank"
         rel="noopener noreferrer"
       >
-        v1.4.6
+        v1.4.7
       </a>
     </button>
   );

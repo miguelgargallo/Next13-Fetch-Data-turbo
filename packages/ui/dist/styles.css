@@ -672,10 +672,6 @@ video {
           background-clip: text;
 }
 
-.fill-current {
-  fill: currentColor;
-}
-
 .fill-orange-500 {
   fill: #f97316;
 }
@@ -690,6 +686,10 @@ video {
 
 .fill-gray-500 {
   fill: #6b7280;
+}
+
+.fill-current {
+  fill: currentColor;
 }
 
 .p-2 {

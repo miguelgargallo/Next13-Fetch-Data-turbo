@@ -1,6 +1,7 @@
+/* eslint-disable react/jsx-no-comment-textnodes */
 import Head from "next/head";
 import { useState } from "react";
-import { Gradient } from "ui";
+import { GradientWhite } from "ui";
 import { GradientDiamond } from "ui";
 import { GradientGold } from "ui";
 import { GradientSilver } from "ui";
@@ -42,7 +43,7 @@ export default function Home() {
 
       <Menu />
       <a className="m-4 p-4 text-center text-xl font-bold text-black">
-      25819 names on this amazing Handshake Blocks and Ranking Names portal.
+        25819 names on this amazing Handshake Blocks and Ranking Names portal.
       </a>
       <main className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-7xl overflow-hidden rounded-lg py-2 py-2 px-4 text-center sm:p-2">
@@ -68,24 +69,22 @@ export default function Home() {
                     return (
                       <div className="mt-1 py-2">
                         <p className="text-black">
-                          .{input} is a valid TLD, on the list is the number{" "}
-                          {list.indexOf(input)}
-                          <p>
-                            <a
-                              href="https://raw.githubusercontent.com/miguelgargallo/Next13-Fetch-Data-turbo/main/apps/web/src/pages/api/list.pylar"
-                              target="_blank"
-                              rel="noopener noreferrer"
-                              className="text-blue-500 hover:text-yellow-500"
-                            >
-                              {" "}
-                              <a>Pylar AI list: source list.pylar</a>
-                            </a>
-                          </p>
+                          <a
+                            href="https://raw.githubusercontent.com/miguelgargallo/Next13-Fetch-Data-turbo/main/apps/web/src/pages/api/list.pylar"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-blue-500 hover:text-yellow-500"
+                          >
+                            {" "}
+                          </a>
                         </p>
                       </div>
                     );
                   }
                 })}
+              </div>
+              <div className="">
+                .{input} or {input}/
               </div>
               <div className="mt-1 flex flex-row py-2">
                 {input.length > 0 && input.length < 8 && (
@@ -93,45 +92,78 @@ export default function Home() {
                     .{input} has {input.length} characters, this is
                     <a>
                       {input.length > 0 && input.length < 4 && (
-                        <a className="tld_diamond">
-                          {" "}
-                          <div>
-                            <GradientDiamond />
-                          </div>
-                          a 💎 Diamond TLD.
-                        </a>
+                        <div>
+                          <a className="tld_diamond">
+                            {" "}
+                            <div className="tld_diamond_div">
+                              <a>.{input}</a>
+                              <GradientDiamond /> is a 💎 Diamond TLD.
+                            </div>
+                            <div className="tld_diamond_div">
+                              <p className="tld_diamond">
+                                .{input} is a valid TLD, on the list is the
+                                number {list.indexOf(input)}
+                              </p>{" "}
+                            </div>
+                          </a>
+                        </div>
                       )}
                     </a>
                     <a>
                       {input.length > 3 && input.length < 6 && (
-                        <a className="tld_silver">
-                          {" "}
-                          <div>
-                            <GradientGold />
-                          </div>
-                          a 🥇 Gold TLD.
-                        </a>
+                        <div>
+                          <a className="tld_gold">
+                            {" "}
+                            <div className="tld_gold_div">
+                              <a>.{input}</a>
+                              <GradientGold /> a 🥇 Gold TLD.
+                            </div>
+                            <div className="tld_gold_div">
+                              <p className="tld_gold">
+                                .{input} is a valid TLD, on the list is the
+                                number {list.indexOf(input)}
+                              </p>{" "}
+                            </div>
+                          </a>
+                        </div>
                       )}
                     </a>
                     <a>
                       {input.length > 5 && input.length < 7 && (
-                        <a className="tld_silver">
-                          {" "}
-                          <div>
-                            <GradientSilver />
-                          </div>
-                          a 🥈 Silver TLD.
-                        </a>
+                        <div>
+                          <a className="tld_silver">
+                            {" "}
+                            <div className="tld_silver_div">
+                              <a>.{input}</a>
+                              <GradientSilver /> a 🥈 Silver TLD.
+                            </div>
+                            <div className="tld_silver_div">
+                              <p className="tld_silver">
+                                .{input} is a valid TLD, on the list is the
+                                number {list.indexOf(input)}
+                              </p>{" "}
+                            </div>
+                          </a>
+                        </div>
                       )}
                     </a>
                     <a>
                       {input.length > 6 && input.length < 8 && (
-                        <a className="tld_bronze">
-                          <div>
-                            <GradientBronze />
-                          </div>{" "}
-                          a 🥉 Bronze TLD.
-                        </a>
+                        <div>
+                          <a className="tld_bronze">
+                            {" "}
+                            <div className="tld_bronze_div">
+                              <a>.{input}</a>
+                              <GradientBronze /> a 🥉 Bronze TLD.
+                            </div>
+                            <div className="tld_bronze_div">
+                              <p className="tld_bronze">
+                                .{input} is a valid TLD, on the list is the
+                                number {list.indexOf(input)}
+                              </p>{" "}
+                            </div>
+                          </a>
+                        </div>
                       )}
                     </a>
                   </div>
@@ -139,45 +171,55 @@ export default function Home() {
               </div>
               <p className="center-text text-sm text-gray-500">
                 {input.length > 7 && (
-                  <a>
-                    This is longer than 7 characters, if you strongly believe in
-                    this name, please consider{" "}
-                    <a
-                      href="https://github.com/miguelgargallo/Next13-Fetch-Data-turbo/issues"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="hyperlink_issue"
-                    >
-                      {" "}
-                      <div className="justify-center">
-                        <Gradient />
-                      </div>
-                      opening an issue
-                    </a>{" "}
-                    to discuss it.
-                  </a>
+                  <div>
+                    <a className="tld_white">
+                      This is longer than 7 characters, if you strongly believe
+                      in this name, please consider
+                      <a
+                        href="https://github.com/miguelgargallo/Next13-Fetch-Data-turbo/issues"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="hyperlink_issue"
+                      >
+                        {" "}
+                        <div className="tld_white_div">
+                          <a>.{input}</a>
+                          <GradientWhite /> a non classified TLD.
+                        </div>
+                        <div className="tld_white_div">
+                          <p className="tld_white">
+                            .{input} is a valid TLD, on the list is the number{" "}
+                            {list.indexOf(input)}
+                          </p>{" "}
+                        </div>
+                        opening an issue
+                      </a>{" "}
+                      to discuss it.
+                    </a>
+                  </div>
                 )}
               </p>
             </div>
-            <div className="button">
-              <button
-                className="button_content"
-                onClick={() => console.log(getData())}
-              >
-                Explore Now, avoid caplocks
-              </button>
-            </div>
           </div>
-          <div className="mt-6">
-            <textarea
-              id="about"
-              name="about"
-              rows={20}
-              className="hover:shadow:md mt-1 block w-full rounded-md shadow-xl shadow-sm focus:ring-blue-500 sm:text-sm"
-              value={JSON.stringify(data, null, 2)}
-              readOnly
-            />
+
+          <div className="button">
+            <button
+              className="button_content"
+              onClick={() => console.log(getData())}
+            >
+              Explore Now, avoid caplocks
+            </button>
           </div>
+        </div>
+        <div className="mt-6">
+          <textarea
+            id="about"
+            name="about"
+            rows={20}
+            className="hover:shadow:md mt-1 block w-full rounded-md shadow-xl shadow-sm focus:ring-blue-500 sm:text-sm"
+            value={JSON.stringify(data, null, 2)}
+            readOnly
+          />
         </div>
       </main>
       <Footer />
