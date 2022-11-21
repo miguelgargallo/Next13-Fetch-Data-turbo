@@ -4,17 +4,17 @@ import { Footer } from "ui";
 import { Menu } from "ui";
 import { SupportMenu } from "ui";
 
-export default function SupportTrademarks() {
+export default function SupportTOS() {
   return (
-    <div  className="min-w-screen flex min-h-screen flex-col bg-white">
+    <div className="min-w-screen flex min-h-screen flex-col bg-white">
       <Head>
         <title>Pencil Domains</title>
         <link rel="icon" href="./favicon.ico" />
       </Head>
       <Menu />
       <SupportMenu />
-      <a  className="m-4 p-4 text-center text-xl font-bold text-black">
-        Pencil Answers.™
+      <a className="m-4 p-4 text-center text-xl font-bold text-black">
+        Pencil Terms of Service.™
       </a>
       <main>
         <div  className="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
