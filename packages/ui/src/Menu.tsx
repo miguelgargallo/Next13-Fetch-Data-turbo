@@ -112,17 +112,26 @@ export const Menu = () => {
         <button className="rounded-xl py-2 px-4 font-bold text-white">
           <a href="/domains">Domains</a>
         </button>
-        <button className="hidden sm:block rounded-xl py-2 px-4 font-bold text-white">
+        <button className="hidden rounded-xl py-2 px-4 font-bold text-white sm:block">
           <a href="/developer">Developer</a>
         </button>
-        <button className="hidden sm:block rounded-xl py-2 px-4 font-bold text-white">
+        <button className="hidden rounded-xl py-2 px-4 font-bold text-white sm:block">
           <a href="/office">Office</a>
         </button>
-        <button className="hidden sm:block rounded-xl py-2 px-4 font-bold text-white">
+        <button className="hidden rounded-xl py-2 px-4 font-bold text-white sm:block">
           <a href="/support-tos">Support</a>
         </button>
+        <button className="hidden rounded-xl py-2 px-4 font-bold text-white sm:block">
+          <a
+            href="https://newsroom.pencil.domains/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Newsroom
+          </a>
+        </button>
       </div>
-       <Version />
+      <Version />
       <button className="hidden py-2 px-4 font-bold text-white md:block">
         <a
           href="http://twitter.com/miguelgargallo"
@@ -156,7 +165,7 @@ export const Menu = () => {
           </picture>
         </a>
       </div>
-      <button className="rounded-xl px-8 font-bold text-white hidden sm:block">
+      <button className="hidden rounded-xl px-8 font-bold text-white sm:block">
         <a href="/">
           {new Date().toLocaleTimeString("en-US", {
             hour: "numeric",

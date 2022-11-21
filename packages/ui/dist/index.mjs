@@ -461,24 +461,33 @@ var Menu = () => {
             })
           }),
           /* @__PURE__ */ jsx9("button", {
-            className: "hidden sm:block rounded-xl py-2 px-4 font-bold text-white",
+            className: "hidden rounded-xl py-2 px-4 font-bold text-white sm:block",
             children: /* @__PURE__ */ jsx9("a", {
               href: "/developer",
               children: "Developer"
             })
           }),
           /* @__PURE__ */ jsx9("button", {
-            className: "hidden sm:block rounded-xl py-2 px-4 font-bold text-white",
+            className: "hidden rounded-xl py-2 px-4 font-bold text-white sm:block",
             children: /* @__PURE__ */ jsx9("a", {
               href: "/office",
               children: "Office"
             })
           }),
           /* @__PURE__ */ jsx9("button", {
-            className: "hidden sm:block rounded-xl py-2 px-4 font-bold text-white",
+            className: "hidden rounded-xl py-2 px-4 font-bold text-white sm:block",
             children: /* @__PURE__ */ jsx9("a", {
               href: "/support-tos",
               children: "Support"
+            })
+          }),
+          /* @__PURE__ */ jsx9("button", {
+            className: "hidden rounded-xl py-2 px-4 font-bold text-white sm:block",
+            children: /* @__PURE__ */ jsx9("a", {
+              href: "https://newsroom.pencil.domains/",
+              target: "_blank",
+              rel: "noopener noreferrer",
+              children: "Newsroom"
             })
           })
         ]
@@ -516,7 +525,7 @@ var Menu = () => {
         })
       }),
       /* @__PURE__ */ jsx9("button", {
-        className: "rounded-xl px-8 font-bold text-white hidden sm:block",
+        className: "hidden rounded-xl px-8 font-bold text-white sm:block",
         children: /* @__PURE__ */ jsx9("a", {
           href: "/",
           children: new Date().toLocaleTimeString("en-US", {

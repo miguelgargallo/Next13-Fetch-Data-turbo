@@ -504,24 +504,33 @@ var Menu = () => {
             })
           }),
           /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("button", {
-            className: "hidden sm:block rounded-xl py-2 px-4 font-bold text-white",
+            className: "hidden rounded-xl py-2 px-4 font-bold text-white sm:block",
             children: /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("a", {
               href: "/developer",
               children: "Developer"
             })
           }),
           /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("button", {
-            className: "hidden sm:block rounded-xl py-2 px-4 font-bold text-white",
+            className: "hidden rounded-xl py-2 px-4 font-bold text-white sm:block",
             children: /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("a", {
               href: "/office",
               children: "Office"
             })
           }),
           /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("button", {
-            className: "hidden sm:block rounded-xl py-2 px-4 font-bold text-white",
+            className: "hidden rounded-xl py-2 px-4 font-bold text-white sm:block",
             children: /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("a", {
               href: "/support-tos",
               children: "Support"
+            })
+          }),
+          /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("button", {
+            className: "hidden rounded-xl py-2 px-4 font-bold text-white sm:block",
+            children: /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("a", {
+              href: "https://newsroom.pencil.domains/",
+              target: "_blank",
+              rel: "noopener noreferrer",
+              children: "Newsroom"
             })
           })
         ]
@@ -559,7 +568,7 @@ var Menu = () => {
         })
       }),
       /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("button", {
-        className: "rounded-xl px-8 font-bold text-white hidden sm:block",
+        className: "hidden rounded-xl px-8 font-bold text-white sm:block",
         children: /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("a", {
           href: "/",
           children: new Date().toLocaleTimeString("en-US", {
