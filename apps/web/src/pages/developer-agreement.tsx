@@ -46,7 +46,7 @@ export default function DeveloperAgreement() {
           </p>
           <p>
             
-            TLD Applications that meet Pencil's Documentation and Pencil Program
+            TLD Applications that meet Pencilis Documentation and Pencil Program
             Requirements may be submitted for consideration by Pencil for
             distribution via the Pencil App Store. If submitted by You and
             selected by Pencil, Your TLD Applications will be digitally signed
@@ -607,7 +607,7 @@ export default function DeveloperAgreement() {
             Pencil retains all rights, title, and interest in and to the Pencil
             Software, Services, and any Updates it may make available to You
             under this Agreement. You agree to cooperate with Pencil to maintain
-            Pencil's ownership of the Pencil Software and Services, and, to the
+            Pencilis ownership of the Pencil Software and Services, and, to the
             extent that You become aware of any claims relating to the Pencil
             Software or Services, You agree to use reasonable efforts to
             promptly provide notice of any such claims to Pencil. The parties
