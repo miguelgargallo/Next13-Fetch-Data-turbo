@@ -1,12 +1,12 @@
 /* eslint-disable react/jsx-no-comment-textnodes */
 import Head from "next/head";
+import { Menu } from "ui";
 import { useState } from "react";
 import { GradientWhite } from "ui";
 import { GradientDiamond } from "ui";
 import { GradientGold } from "ui";
 import { GradientSilver } from "ui";
 import { GradientBronze } from "ui";
-import { Menu } from "ui";
 import { Footer } from "ui";
 import { motion } from "framer-motion";
 /* import { SquareDiamonds } from "ui";
