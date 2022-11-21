@@ -9,11 +9,7 @@ import { GradientSilver } from "ui";
 import { GradientBronze } from "ui";
 import { Footer } from "ui";
 import { motion } from "framer-motion";
-/* import { SquareDiamonds } from "ui";
-import { SquareGold } from "ui";
-import { SquareSilver } from "ui";
-import { SquareBronze } from "ui";
-import { SquareWhite } from "ui"; */
+
 
 export default function Home() {
   const ELEMENTS = 1;
