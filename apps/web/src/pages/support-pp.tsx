@@ -74,7 +74,7 @@ export default function SupportPP() {
           <li>Information contained in any profile you submit to us<em>.</em></li>
         </ul>
         &nbsp;
-        You may choose not to provide Personal Information, (subject to the controls offered by your mobile device’s
+        You may choose not to provide Personal Information, (subject to the controls offered by your mobile device
         operating system), but this may prevent you from receiving certain features of the Services.
 
         We also collect non-Personal Information relating to the Services, that is, information that does not personally
@@ -155,13 +155,13 @@ export default function SupportPP() {
         Every time you use the Services (e.g., access a Service webpage, navigate to a specific location within the
         Service mobile app), we collect non-Personal Information (discussed above in Section 2) regarding that use. For
         example, to improve our Services, we collect how, when, and which parts of the Services or its features you use.
-        Also, we may use your device’s unique identifier (UDID), media access control address (MAC Address), or other
+        Also, we may use your device unique identifier (UDID), media access control address (MAC Address), or other
         unique identifiers to assist us in collecting and analyzing this data.
         To assist us in collecting and storing this non-Personal Information, we may employ a variety of technologies,
         including “Cookies,” and local browser storage. A “Cookie” is a small amount of data a website operator, or a
         third party whose content is embedded in that website, may store in your web browser and that the website
         operator or, as applicable, the third party, can access when you visit the website. A Cookie may also refer to
-        web-browser-based storage provided by Adobe’s Flash plugin (a “Flash Cookie”). The Service’s Cookies may contain
+        web-browser-based storage provided by Adobe Flash plugin (a “Flash Cookie”). The Service Cookies may contain
         user preferences, unique identifiers, and other non-Personal Information.
         Your operating system and web browser may allow you to erase information stored in Cookies, Flash Cookies, and
         local browser storage. But if you do so, you may be forced to login to the Services again and you may lose some
@@ -174,7 +174,7 @@ export default function SupportPP() {
         Cookies is available <a href="https://www.macromedia.com/support/documentation/en/flashplayer/help/settings_manager.html">here</a>. To
         learn how to manage privacy and storage settings for your local browser storage, please refer to the end user
         documentation for your browser.
-        To help us collect this information, we use third-party software and services. These third parties’ collection
+        To help us collect this information, we use third-party software and services. These third parties collection
         and use of non-Personal Information are subject to their own privacy policies, which you can read here:
         <a href="https://www.google.com/intl/en/policies/privacy/">Google Analytics</a>
         <a href="https://www.intercom.com/privacy">Intercom</a>.
@@ -205,9 +205,9 @@ export default function SupportPP() {
         We may use third-party service providers that collect information for interest-based advertising purposes
         (advertisements that are tailored to your likely interests, based on categories in which you have shown an
         interest). To learn more about these third parties and the choices they offer users, please visit the Network
-        Advertising Initiative’s <a href="https://www.networkadvertising.org/choices/">choices page</a> or the Digital
-        Advertising Alliance’s <a href="http://www.aboutads.info/choices/">choices page</a>. If you are reading this
-        Privacy Policy from a mobile device, you can learn more about the DAA's mobile choices program <a href="http://www.aboutads.info/appchoices">here</a>.
+        Advertising Initiative <a href="https://www.networkadvertising.org/choices/">choices page</a> or the Digital
+        Advertising Alliance <a href="http://www.aboutads.info/choices/">choices page</a>. If you are reading this
+        Privacy Policy from a mobile device, you can learn more about the DAAs mobile choices program <a href="http://www.aboutads.info/appchoices">here</a>.
         We support the development and implementation of a standard "do not track" browser feature that provides
         customers with control over the collection and use of information about their web-browsing activities. Once a
         standardized "do not track" feature is released, we intend to adhere to the browser settings accordingly.
@@ -243,12 +243,12 @@ export default function SupportPP() {
         A California resident who has provided Personal Information to a business with whom he/she has established a
         business relationship for personal, family, or household purposes (“California Customer”) is entitled to request
         information about whether the business has disclosed Personal Information to any third parties for the third
-        parties’ direct marketing purposes. In general, if the business has made such a disclosure of Personal
+        parties direct marketing purposes. In general, if the business has made such a disclosure of Personal
         Information, upon receipt of a request by a California Customer, the business is required to provide a list of
         all third parties to whom Personal Information was disclosed in the preceding calendar year, as well as a list
         of the categories of Personal Information that were disclosed.
         However, under the law, a business is not required to provide the above-described lists if the business adopts
-        and discloses to the public (in its privacy policy) a policy of not disclosing a customer’s Personal Information
+        and discloses to the public (in its privacy policy) a policy of not disclosing a customer Personal Information
         to third parties for their direct marketing purposes unless the customer first affirmatively agrees to the
         disclosure, as long as the business maintains and discloses this policy. Rather, the business may comply with
         the law by notifying the customer of his or her right to prevent disclosure of Personal Information to third
@@ -256,11 +256,11 @@ export default function SupportPP() {
         disclosure of your Personal Information for use in direct marketing by a third party for its own purposes, do
         not opt in to or authorize such use when you provide Personal Information through the Services. Please note that
         whenever you allow your Personal Information to be shared with a third party to communicate with you, your
-        information will be subject to that third party’s privacy policy. If you later decide that you do not want that
+        information will be subject to that third party privacy policy. If you later decide that you do not want that
         third party to use your information, you will need to contact the third party directly. You should always review
         the privacy policy of any party that collects your information to determine how that entity will handle your
         information.
-        California Customers may request further information about our compliance with California’s privacy law by
+        California Customers may request further information about our compliance with California privacy law by
         e-mailing <a href="mailto:it@pencil.domains">it@pencil.domains</a> .Please note that we are only required to
         respond to one request per customer each year, and we are not required to respond to requests made by means
         other than through this e-mail address.

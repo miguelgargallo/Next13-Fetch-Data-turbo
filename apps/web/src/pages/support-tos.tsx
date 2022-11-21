@@ -88,12 +88,12 @@ export default function SupportTOS() {
               us, and we will retain all revenue from such activity. You authorize us to do so without any further obligationw
               to you.
               If the change of ownership in the Parked Domain is not completed for any reason, including but not limited to,
-              due to either party’s fraudulent activity, you acknowledge and agree that we have no liability or responsibility
+              due to either party fraudulent activity, you acknowledge and agree that we have no liability or responsibility
               regarding the same. In all cases, we do not make any representations or warranties regarding the change of
               ownership of the Parked Domain, and we expressly disclaim all liability or responsibility regarding the same.
               The Services also enable you to link to Escrow.com, which you can use to sell your Parked Domain. All sales of
-              Parked Domains are subject to Escrow.com’s Terms of Use, and we expressly disclaim all liability or
-              responsibility regarding the sale of a Parked Domain through Escrow.com. You can read Escrow.com’s Terms of Use
+              Parked Domains are subject to Escrow.com Terms of Use, and we expressly disclaim all liability or
+              responsibility regarding the sale of a Parked Domain through Escrow.com. You can read Escrow.com Terms of Use
               by visiting <a href="https://www.escrow.com/escrow-101/terms-of-use">https://www.escrow.com/escrow-101/terms-of-use</a>.
               <p>
               </p><ol>
@@ -106,10 +106,10 @@ export default function SupportTOS() {
                         <li>We do not use email but in case in a future we will:
                           <p>
                           </p><ol>
-                            <li>We’ll send you several emails on the platform, reminding you to renew your Parked Domain
+                            <li>we will send you several emails on the platform, reminding you to renew your Parked Domain
                               before your registration expires. It is your responsibility to ensure that the email address
-                              you’ve associated with your Services account is accurate, current, and equipped to receive our
-                              emails (i.e., your inbox isn’t full), and that you have not unsubscribed from, marked as spam,
+                              you have associated with your Services account is accurate, current, and equipped to receive our
+                              emails (i.e., your inbox is not full), and that you have not unsubscribed from, marked as spam,
                               or otherwise blocked emails from us regarding your Parked Domain. We have no responsibility or
                               liability if your registration expires.We typically send email reminders to renew your Parked
                               Domain: thirty (30) days before expiration, fifteen (15) days before expiration, eight (8) days
@@ -164,7 +164,7 @@ export default function SupportTOS() {
               </ol>
               <p></p>
               You must follow any policies made available to you within the Services, including our acceptable use policy.
-              Don’t misuse our Services. For example, don’t interfere with our Services, try to access them using a method
+              Do not misuse our Services. For example, do not interfere with our Services, try to access them using a method
               other than the interface and the instructions that we provide, or extensively or automatically copy any content
               from the Services (in other words, no scraping). You may use our Services only as permitted by law, including
               applicable export and re-export control laws and regulations. We may suspend or stop providing our Services to
@@ -173,7 +173,7 @@ export default function SupportTOS() {
               Using our Services does not give you ownership of any intellectual property rights in our Services or the
               content you access through them (“Content”). You may not use content from our Services, except as permitted by
               its owner or as otherwise permitted by law. These Terms do not grant you the right to use any branding or logos
-              used in our Services, including the Pencil Works and pencil.domains names and logos. Don’t remove, obscure, or
+              used in our Services, including the Pencil Works and pencil.domains names and logos. Do not remove, obscure, or
               alter any legal notices displayed in or along with our Services.
               Our Services display some Content that is not our own, for example, Content belonging to our advertisers, other
               third parties, you, or other users (collectively, “Third Party Content”). We are not responsible for, and you
@@ -226,9 +226,9 @@ export default function SupportTOS() {
               registration fee and any administrative and/or chargeback fees we incur inconnection with a charge-back. Without
               limiting anything else in this section, interest will also be charged on all unpaid delinquent amounts at the
               rate of 1.5% per month or the highest rate permitted by applicable law, whichever is lesser. You agree to
-              reimburse us for all collection agency fees, attorneys’ fees and other costs we may incur to collect delinquent
+              reimburse us for all collection agency fees, attorneys fees and other costs we may incur to collect delinquent
               amounts you owe to us.
-              You can also prepay for Parked Domains using the Services, in which case we’ll credit your account and apply
+              You can also prepay for Parked Domains using the Services, in which case we will credit your account and apply
               this credit to all new rents or renewals of your existing Parked Domain registrations moving forward.
               <p>
               </p><ol>
@@ -258,7 +258,7 @@ export default function SupportTOS() {
               The rights you grant in this license are for the limited purpose of operating, promoting, and improving our
               Services, and to develop new ones. This license continues even if you stop using our Services. Make sure you
               have the necessary rights to grant us this license for any content that you submit to our Services.
-              You may request that we delete any of Your Content that you submit to the Services by sending us an email at <a href="mailto:it@pencil.domains">it@pencil.domains</a> . To the extent within our control we’ll remove Your
+              You may request that we delete any of Your Content that you submit to the Services by sending us an email at <a href="mailto:it@pencil.domains">it@pencil.domains</a> . To the extent within our control we will remove Your
               Content from public display and mark it for future deletion if permitted by applicable law; however, it may
               persist in backup or residual copies for a reasonable period of time. For purposes of clarification, once you
               submit or share Your Content with others via the Services (<em>e.g.</em>, other users or third parties), we no
@@ -266,10 +266,10 @@ export default function SupportTOS() {
               using it.
               You agree that you will not use the Services to:
               <ul>
-                <li>Violate law or a third-party’s rights;</li>
+                <li>Violate law or a third-party rights;</li>
                 <li>Submit excessive or unsolicited commercial messages or spam any users;</li>
                 <li>Submit malicious content or viruses;</li>
-                <li>Solicit other people’s login information, HNS Wallet numbers, or other sensitive information;</li>
+                <li>Solicit other people login information, HNS Wallet numbers, or other sensitive information;</li>
                 <li>Harass or bully other users; or</li>
                 <li>Post content that is hate speech, threatening or pornographic, that incites violence or that contains
                   nudity or graphic or gratuitous violence.</li>
@@ -330,14 +330,14 @@ export default function SupportTOS() {
               If you believe that any of your intellectual property rights other than copyrights have been infringed, please
               e-mail us at <a href="mailto:it@pencil.domains">it@pencil.domains</a> We reserve the right, in our sole and
               absolute discretion, to suspend or terminate any user who infringes the intellectual property rights of Pencil
-              Works or others, and/or to remove, delete, edit or disable access to such person’s content. You agree that we
+              Works or others, and/or to remove, delete, edit or disable access to such person content. You agree that we
               have no liability for any action taken under this section<strong>.</strong>
               <p>
               </p><ol>
                 <li><strong> About Software in our Services</strong></li>
               </ol>
               <p></p>
-              The Services may enable you to access software running on our (or our vendors’) servers (collectively,
+              The Services may enable you to access software running on our (or our vendors) servers (collectively,
               “Software”). You agree that we retain the ownership of all rights, title, and interest in and to the Software.
               <strong>Pencil Works</strong> gives you a personal, worldwide, royalty-free, non-assignable, and non-exclusive
               license to use the Software to access the Services. This license is for the sole purpose of enabling you to use
@@ -363,7 +363,7 @@ export default function SupportTOS() {
               <p></p>
               We are constantly changing and improving our Services. We may add or remove functionalities or features, and we
               may suspend or stop a Service altogether, at any time, without any notice or liability.
-              You can stop using our Services at any time, although we’ll be sorry to see you go. We may also stop providing
+              You can stop using our Services at any time, although we will be sorry to see you go. We may also stop providing
               Services to you, or add or create new limits to our Services, at any time.
               Sections 12 – 18 will survive termination or expiration of these Terms indefinitely.
               <p>
@@ -372,7 +372,7 @@ export default function SupportTOS() {
               </ol>
               <p></p>
               OTHER THAN AS EXPRESSLY SET OUT IN THESE TERMS, NEITHER PENCIL WORKS NOR ITS LICENSORS, SUPPLIERS, ADVERTISERS,
-              OR DISTRIBUTORS MAKE ANY SPECIFIC PROMISES ABOUT THE SERVICES. FOR EXAMPLE, WE DON’T MAKE ANY COMMITMENTS ABOUT
+              OR DISTRIBUTORS MAKE ANY SPECIFIC PROMISES ABOUT THE SERVICES. FOR EXAMPLE, WE DO not MAKE ANY COMMITMENTS ABOUT
               THE CONTENT WITHIN THE SERVICES, THE SPECIFIC FUNCTIONS OF THE SERVICES, OR THEIR RELIABILITY, AVAILABILITY, OR
               ABILITY TO MEET YOUR NEEDS. WE ALSO DO NOT MAKE ANY WARRANTIES OR COMMITMENT RELATING TO NON-INFRINGEMENT,
               FREEDOM FROM VIRUSES OR OTHER HARMFUL CODE, OR ERROR-FREE OR UNINTERRUPTED OPERATIONS. WE PROVIDE THE SERVICES
@@ -384,7 +384,7 @@ export default function SupportTOS() {
               AGENTS (COLLECTIVELY, “RELEASED PARTIES”) FROM, AND AGREE NOT TO SUE ANY RELEASED PARTY FOR, ANY LIABILITIES,
               CLAIMS, OBLIGATIONS, SUITS, ACTIONS, DEMANDS, EXPENSES, AND DAMAGES WHATSOEVER (COLLECTIVELY, “LIABILITIES”)
               THAT YOU MAY HAVE AGAINST ANY RELEASED PARTY WHETHER EXISTING NOW OR IN THE FUTURE, WHETHER KNOWN OR UNKNOWN,
-              ARISING OUT OF OR IN CONNECTION WITH YOUR OR A THIRD PARTY’S CONDUCT RELATED TO USE OF THE SERVICES. YOU
+              ARISING OUT OF OR IN CONNECTION WITH YOUR OR A THIRD PARTY CONDUCT RELATED TO USE OF THE SERVICES. YOU
               UNDERSTAND AND ACKNOWLEDGE THAT THE FOREGOING SENTENCE RELEASES AND DISCHARGES ALL LIABILITIES, WHETHER OR NOT
               THEY ARE CURRENTLY KNOWN TO YOU, AND YOU WAIVE YOUR RIGHTS UNDER CALIFORNIA CIVIL CODE SECTION 1542.
               <p>
@@ -430,7 +430,7 @@ export default function SupportTOS() {
               <p></p>
               We may modify these Terms or any additional terms that apply to a Service for any reason, for example, to
               reflect changes to the law or changes to our Services. You should look at the Terms regularly and the “Last
-              Updated” date at the beginning of these Terms. We’ll use reasonable efforts to give you notice of these
+              Updated” date at the beginning of these Terms. we will use reasonable efforts to give you notice of these
               modifications, such as posting notice of modifications to these Terms on this web page, through the Services, or
               via email. By continuing to use the Services after we make these modifications, you agree that you will be
               subject to the modified Terms. If you do not agree to the modified terms for a Service, you should discontinue
@@ -439,10 +439,10 @@ export default function SupportTOS() {
               control for that conflict.
               These Terms control the relationship between Pencil Works and you. They do not create any third-party
               beneficiary rights (except in the limited case of Section 17). If you do not comply with these Terms, and we
-              don’t take action right away, this doesn’t mean that we are giving up any rights that we may have (such as
+              do not take action right away, this does not mean that we are giving up any rights that we may have (such as
               taking action in the future). If it turns out that a particular term is not enforceable, this will not affect
               any other terms.
-              The laws of the United States and the Commonwealth of Pennsylvania, excluding Pennsylvania’s conflict of laws
+              The laws of the United States and the Commonwealth of Pennsylvania, excluding Pennsylvania conflict of laws
               rules, will apply to any disputes arising out of or relating to these terms or the Services.
               You may not assign or delegate your rights or obligations relating to these terms or your account for the
               Services without our prior written consent. We may assign these terms or assign or delegate any of our rights or
@@ -496,26 +496,26 @@ export default function SupportTOS() {
                   resolve the Dispute. Unless you and Pencil Works agree otherwise, any arbitration hearing will take place in
                   Philadelphia, PA . The arbitrator will honor claims of privilege recognized by law and will take reasonable
                   steps to protect customer account information and other confidential or proprietary information. The
-                  arbitrator shall issue a reasoned written decision that explains the arbitrator’s essential findings and
-                  conclusions. The arbitrator’s award may be entered in any court having jurisdiction over the parties only if
-                  necessary for purposes of enforcing the arbitrator’s award. An arbitrator’s award that has been fully
+                  arbitrator shall issue a reasoned written decision that explains the arbitrator essential findings and
+                  conclusions. The arbitrator award may be entered in any court having jurisdiction over the parties only if
+                  necessary for purposes of enforcing the arbitrator award. An arbitrator award that has been fully
                   satisfied shall not be entered in any court.</li>
                 <li><strong>Waiver of className Actions and Collective Relief.</strong>THERE SHALL BE NO RIGHT OR AUTHORITY FOR
                   ANY CLAIMS TO BE ARBITRATED OR LITIGATED ON A className ACTION, JOINT OR CONSOLIDATED BASIS OR ON BASES
                   INVOLVING CLAIMS BROUGHT IN A PURPORTED REPRESENTATIVE CAPACITY ON BEHALF OF THE GENERAL PUBLIC (SUCH AS A
                   PRIVATE ATTORNEY GENERAL), OTHER SUBSCRIBERS, OR OTHER PERSONS. THE ARBITRATOR MAY AWARD RELIEF ONLY IN
                   FAVOR OF THE INDIVIDUAL PARTY SEEKING RELIEF AND ONLY TO THE EXTENT NECESSARY TO PROVIDE RELIEF WARRANTED BY
-                  THAT INDIVIDUAL PARTY’S CLAIM. THE ARBITRATOR MAY NOT CONSOLIDATE MORE THAN ONE PERSON’S CLAIMS, AND MAY NOT
+                  THAT INDIVIDUAL PARTY CLAIM. THE ARBITRATOR MAY NOT CONSOLIDATE MORE THAN ONE PERSON CLAIMS, AND MAY NOT
                   OTHERWISE PRESIDE OVER ANY FORM OF A REPRESENTATIVE OR className PROCEEDING.</li>
                 <li><strong>Arbitration Fees and Costs</strong>. If your claim seeks more than $75,000 in the aggregate, the
-                  payment of the JAMS’s fees and costs will be governed by the JAMS Rules. If your claims seek less than
-                  $75,000 in the aggregate, the payment of the JAMS’s fees and costs will be Pencil Works’s responsibility.
+                  payment of the JAMS fees and costs will be governed by the JAMS Rules. If your claims seek less than
+                  $75,000 in the aggregate, the payment of the JAMS fees and costs will be Pencil Works responsibility.
                   However, if the arbitrator finds that your Dispute was frivolous or brought for an improper purpose (as
-                  measured by the standards set forth in Federal Rule of Civil Procedure 11(b)), the payment of the JAMS’s
+                  measured by the standards set forth in Federal Rule of Civil Procedure 11(b)), the payment of the JAMSs
                   fees and costs shall be governed by the JAMS Rules and you shall reimburse Pencil Works for all fees and
                   costs that were your obligation to pay under the JAMS Rules. You may hire an attorney to represent you in
-                  arbitration. You are responsible for your attorneys’ fees and additional costs and may only recover your
-                  attorneys’ fees and costs in the arbitration to the extent that you could in court if the arbitration is
+                  arbitration. You are responsible for your attorneys fees and additional costs and may only recover your
+                  attorneys fees and costs in the arbitration to the extent that you could in court if the arbitration is
                   decided in your favor. Notwithstanding anything in this Arbitration Provision to the contrary, Pencil Works
                   will pay all fees and costs that it is required by law to pay.</li>
                 <li><strong>Severability and Waiver of Jury Trial.</strong> If any part of subsection (f) of this Arbitration
