@@ -53,7 +53,7 @@ export default function Home() {
                 }
               }}
             />
-            <div className="flex w-full flex-col items-center justify-center rounded-md px-8 py-2 text-center text-base font-bold text-black shadow-xl hover:shadow-md md:text-lg">
+            <div className="flex w-full flex-col items-center justify-center rounded-md px-8 py-2 text-center text-base font-bold text-black md:text-lg">
               <div className="mt-1 py-2">
                 {list.map((item) => {
                   if (item === input) {
@@ -137,38 +137,25 @@ export default function Home() {
                   </div>
                 )}
               </div>
-              <p className="center-text text-sm text-gray-500">
+              <a>
                 {input.length > 7 && (
-                  <div>
-                    <a className="tld_white">
-                      <a
-                        href="https://github.com/miguelgargallo/Next13-Fetch-Data-turbo/issues"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="hyperlink_issue"
-                      >
-                        {" "}
-                        <div className="tld_white_div">
-                          <a>.{input}</a>
-                          <GradientWhite /> Register this TLD,
-                          <a className="hyperlink_issue">opening an issue </a>
-                          to discuss it.
-                        </div>
-                      </a>
+                  <div className="tld_white_div">
+                    <a>.{input}</a>
+                    <GradientWhite /> is a 🎁 New TLD.
+                    <a
+                      href="https://github.com/miguelgargallo/Next13-Fetch-Data-turbo/issues"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-black hover:text-yellow-500"
+                    >
+                      {" "}
+                      <a className="hyperlink_issue">opening an issue </a>
                     </a>
-                    <p className="tld_white py-8">
-                      <p>
-                        {" "}
-                        This is longer than 7 characters, if you strongly
-                        believe in this name, please consider
-                      </p>
-                    </p>
                   </div>
                 )}
-              </p>
+              </a>
             </div>
           </div>
-
           <div className="button">
             <button
               className="button_content"
