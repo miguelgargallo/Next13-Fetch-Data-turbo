@@ -8,7 +8,7 @@ export default function SupportAnswers() {
   return (
     <div className="min-w-screen flex min-h-screen flex-col bg-white">
       <Head>
-        <title>Pencil Domains</title>
+        <title>Pencil Domains<q/title>
         <link rel="icon" href="./favicon.ico" />
       </Head>
       <Menu />
