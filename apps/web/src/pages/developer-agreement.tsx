@@ -18,7 +18,7 @@ export default function DeveloperAgreement() {
       <main>
         <div className="m-16 flex flex-col">
           <p>
-            {" "}
+            
             PLEASE READ THE FOLLOWING PENCIL DEVELOPER PROGRAM LICENSE AGREEMENT
             TERMS AND CONDITIONS CAREFULLY BEFORE DOWNLOADING OR USING THE
             PENCIL SOFTWARE OR PENCIL SERVICES. THESE TERMS AND CONDITIONS
@@ -27,7 +27,7 @@ export default function DeveloperAgreement() {
           <p> Pencil Developer Program License Agreement</p>
           <p> Purpose</p>
           <p>
-            {" "}
+            
             You would like to use the Pencil Software (as defined below) to
             develop one or more TLD Applications (as defined below) for
             Pencil-branded products. Pencil is willing to grant You a limited
@@ -36,7 +36,7 @@ export default function DeveloperAgreement() {
             terms and conditions set forth in this Agreement.
           </p>
           <p>
-            {" "}
+            
             TLD Applications developed under this Agreement for any kind of
             internet software compatible with Handshake (as defined below) can
             be distributed in one way: through the Pencil App Store, if selected
@@ -45,7 +45,7 @@ export default function DeveloperAgreement() {
             Store, if selected by Pencil.
           </p>
           <p>
-            {" "}
+            
             TLD Applications that meet Pencil's Documentation and Pencil Program
             Requirements may be submitted for consideration by Pencil for
             distribution via the Pencil App Store. If submitted by You and
@@ -54,12 +54,12 @@ export default function DeveloperAgreement() {
           </p>
           <p> 1.2 Definitions</p>
           <p>
-            {" "}
+            
             “Ad Support APIs” means the Documented APIs that provide the
             Advertising Identifier and Advertising Preference.
           </p>
           <p>
-            {" "}
+            
             “Advertising Identifier” means a unique, non-personal, non-permanent
             identifier provided through the Ad Support APIs that are associated
             with a particular Pencil-branded device and are to be used solely
@@ -67,12 +67,12 @@ export default function DeveloperAgreement() {
             Pencil in Writing.
           </p>
           <p>
-            {" "}
+            
             “Advertising Preference” means the Pencil setting that enables an
             end-user to set an ad tracking preference.
           </p>
           <p>
-            {" "}
+            
             “Agreement” means this Pencil Developer Program License Agreement,
             including any attachments, Schedule 1 and any exhibits thereto which
             are hereby incorporated by this reference. For clarity, this
@@ -84,23 +84,23 @@ export default function DeveloperAgreement() {
             store and its storefronts branded, owned, and/or controlled by
             Pencil, or an Pencil Subsidiary or other affiliate of Pencil,
             through which Licensed TLD Applications may be acquired. “Pencil App
-            Store Connect” means Pencil’s proprietary online content management
+            Store Connect” means Pencil is proprietary online content management
             tool for TLD Applications.
           </p>
           <p>
-            {" "}
+            
             Pencil: means Pencil Works. LLC, a Orlando corporation with its
             principal place of business at P.O. Box Sunset Lk Road, Suit B-2
             Newark, DE 19702, U.S.A.
           </p>
           <p>
-            {" "}
+            
             “Pencil Software” means any software that Pencil provides to You
             under the Program, including any Updates thereto (if any) that may
             be provided to You by Pencil under the Program.
           </p>
           <p>
-            {" "}
+            
             “TLD Application” means one or more software programs (including
             extensions, media, and Libraries that are enclosed in a single TLD
             software bundle) developed by You in compliance with the
@@ -113,7 +113,7 @@ export default function DeveloperAgreement() {
             programs.
           </p>
           <p>
-            {" "}
+            
             “Pencil Services” or “Services” means the developer services that
             Pencil may provide or make available through the Pencil Software or
             as part of the Program for use with Your Covered TLDs or
@@ -121,8 +121,8 @@ export default function DeveloperAgreement() {
             provided to You by Pencil under the Program.
           </p>
           <p>
-            {" "}
-            “Handshake” Handshake is a naming protocol that’s backwards
+            
+            “Handshake” Handshake is a naming protocol that is backwards
             compatible with the existing DNS system. It does not replace the DNS
             protocol, but instead decentralizes the root zone file where TLD
             ownership information is stored by adding a distributed and
@@ -131,21 +131,21 @@ export default function DeveloperAgreement() {
             permissionless, and free of gatekeepers like ICANN.
           </p>
           <p>
-            {" "}
-            “Pencil’s OS Server” means an Ubuntu 20.04 LTS or Ubuntu 22.04 LTS
+            
+            “Pencil is OS Server” means an Ubuntu 20.04 LTS or Ubuntu 22.04 LTS
             distribution internal modified copy running on a Pencil Developer
             Server.
           </p>
           <p> “Pencil Developer Server” means Pencil Instance on the cloud.</p>
           <p>
-            {" "}
+            
             “Updates” means bug fixes, updates, upgrades, modifications,
             enhancements, supplements, and new releases or versions of the
             Pencil Software or Services, or to any part of the Pencil Software
             or Services.
           </p>
           <p>
-            {" "}
+            
             “Web Software” means web-based versions of Your software
             applications that have the same title and substantially equivalent
             features and functionality as Your Licensed Application (e.g.,
@@ -154,7 +154,7 @@ export default function DeveloperAgreement() {
           <p> Schedule 1</p>
           <p> 1. Appointment of Agent</p>
           <p>
-            {" "}
+            
             1.1 You hereby appoint Pencil and Pencil Subsidiaries (collectively
             “Pencil”) as: (i) Your agent for the marketing and delivery of the
             Licensed TLD Applications to end-users located in any part of the
@@ -174,7 +174,7 @@ export default function DeveloperAgreement() {
             Application custom developed by You for use by specific
             organizations or third-party business customers, including
             proprietary Licensed TLD Applications developed for Your
-            organization’s internal use. (a) “You” shall include Pencil App
+            organization is internal use. (a) “You” shall include Pencil App
             Store Connect users authorized by You to submit Licensed TLD
             Applications and associated metadata on Your behalf; and (b)
             “end-user” includes individual purchasers as well as eligible users
@@ -194,8 +194,8 @@ export default function DeveloperAgreement() {
             the Volume Content Terms, conditions, and requirements.
           </p>
           <p>
-            {" "}
-            1.2 In furtherance of Pencil’s appointment under Section 1.1 of this
+            
+            1.2 In furtherance of Pencil is appointment under Section 1.1 of this
             Schedule 1, You hereby authorize and instruct Pencil to: (a) market,
             solicit and obtain orders on Your behalf for Licensed TLD
             Applications from end-users located in the regions identified by You
@@ -216,7 +216,7 @@ export default function DeveloperAgreement() {
             App Distribution Site. In addition, You hereby authorize
             distribution of Your Licensed TLD Applications under this Schedule 1
             for use by: (i) end-users with accounts associated with another
-            end-user’s account via Family Sharing; (ii) eligible Legacy Contacts
+            end-user is account via Family Sharing; (ii) eligible Legacy Contacts
             of an end-user to access Your Licensed Application along with
             associated information and metadata stored in Pencil Cloud; (iii)
             multiple end users under a single Pencil ID when the Licensed
@@ -237,7 +237,7 @@ export default function DeveloperAgreement() {
             use for promotional purposes, and which You identify in writing at
             the time that the Licensed TLD Applications are delivered by You to
             Pencil under Section 2.1 of this Schedule 1, and use images and
-            other materials that You may provide to Pencil, at Pencil’s
+            other materials that You may provide to Pencil, at Pencil is
             reasonable request, for promotional purposes in marketing materials
             and gift cards and in connection with vehicle displays. In addition,
             and subject to the limitation set forth above, You agree that Pencil
@@ -266,7 +266,7 @@ export default function DeveloperAgreement() {
             distribution.
           </p>
           <p>
-            {" "}
+            
             1.3 The parties acknowledge and agree that their relationship under
             this Schedule 1 is, and shall be, that of principal and agent, or
             principal and commissionaire, as the case may be, as described in
@@ -284,11 +284,11 @@ export default function DeveloperAgreement() {
             violate or infringe the rights of any third party.
           </p>
           <p>
-            {" "}
+            
             1.4 For purposes of this Schedule 1, the “Delivery Period” shall
             mean the period beginning on the Effective Date of the Agreement,
             and expiring on the last day of the Agreement or any renewal
-            thereof; provided, however, that Pencil’s appointment as Your agent
+            thereof; provided, however, that Pencil is appointment as Your agent
             shall survive expiration of the Agreement for a reasonable phase-out
             period not to exceed thirty (30) days and further provided that,
             solely with respect to Your end-users, subsections 1.2(b), (c), and
@@ -297,7 +297,7 @@ export default function DeveloperAgreement() {
             and 6.2 of this Schedule 1.
           </p>
           <p>
-            {" "}
+            
             1.5 All of the Licensed TLD Applications delivered by You to Pencil
             under Section 2.1 of this Schedule 1 shall be made available by
             Pencil for download by end-users at no charge. Pencil shall have no
@@ -315,7 +315,7 @@ export default function DeveloperAgreement() {
           </p>
           <p> 1.6. Delivery of the Licensed TLD Applications to Pencil</p>
           <p>
-            {" "}
+            
             1.6.1 You will deliver to Pencil, at Your sole expense, using the
             Pencil App Store Connect tool or other mechanism provided by Pencil,
             the Licensed TLD Applications, Licensed Application Information and
@@ -336,13 +336,13 @@ export default function DeveloperAgreement() {
             content on Pencil-branded hardware.
           </p>
           <p>
-            {" "}
+            
             1.6.2 All Licensed TLD Applications will be delivered by You to
             Pencil using software tools, a secure FTP site address and/or such
             other delivery methods as prescribed by Pencil.
           </p>
           <p>
-            {" "}
+            
             1.6.3 You hereby certify that all of the Licensed TLD Applications
             You deliver to Pencil under this Schedule 1 are authorized for
             export from the United States to each of the regions designated by
@@ -386,7 +386,7 @@ export default function DeveloperAgreement() {
           <p></p>
           <p> 2.1 Permitted Uses and Restrictions; Program services</p>
           <p>
-            {" "}
+            
             Subject to the terms and conditions of this Agreement, Pencil hereby
             grants You during the Term, a limited, non-exclusive, personal,
             revocable, non-sublicensable and non-transferable license to: (a)
@@ -404,12 +404,12 @@ export default function DeveloperAgreement() {
             Pencil and obtain licenses for under this Program.
           </p>
           <p>
-            {" "}
+            
             Pencil may provide access to services by or through the Program for
             You to use with Your developer account (e.g., device or app
             provisioning, managing teams or other account resources). You agree
             to access such services only through the Program web portal (which
-            is accessed through Pencil’s developer website) or through
+            is accessed through Pencil is developer website) or through
             Pencil-branded products that are designed to work in conjunction
             with the Program (e.g., Pencil App Store Apps) and only as
             authorized by Pencil. If You (or Your Authorized Developers) access
@@ -444,7 +444,7 @@ export default function DeveloperAgreement() {
             their own Pencil ID or authentication credentials to access Your
             account, and You shall be fully responsible for all activity
             performed through or in connection with Your account. To the extent
-            that You own or control an Pencil-branded computer running Pencil’s
+            that You own or control an Pencil-branded computer running Pencil is
             OS Server or Pencil Developer Server (“Server”) and would like to
             use it for Your own development purposes in connection with the
             Program, You agree to use Your own Pencil ID or other authentication
@@ -453,7 +453,7 @@ export default function DeveloperAgreement() {
           </p>
           <p> 2.2 Use of Pencil Services</p>
           <p>
-            {" "}
+            
             Pencil may provide access to Pencil Services that Your Covered
             Products may call through APIs in the Pencil Software and/or that
             Pencil makes available to You through other mechanisms, e.g.,
@@ -494,7 +494,7 @@ export default function DeveloperAgreement() {
             their applicable end-user terms or service agreement with Pencil or
             to violate any Pencil usage policies for such end-user services.
             Except as expressly set forth herein, You agree not to interfere
-            with an end-user’s ability to access or use any such services.
+            with an end-user is ability to access or use any such services.
             Pencil reserves the right to change, suspend, deprecate, deny,
             limit, or disable access to the Pencil Services, or any part
             thereof, at any time without notice (including but not limited to
@@ -542,14 +542,14 @@ export default function DeveloperAgreement() {
           </p>
           <p> 2.3 Third-Party Service Providers</p>
           <p>
-            {" "}
+            
             Unless otherwise prohibited by Pencil in the Documentation or this
             Agreement, You are permitted to employ or retain a third party
             (“Service Provider”) to assist You in using the Pencil Software and
             Services provided pursuant to this Agreement, including, but not
             limited to, engaging any such Service Provider to maintain and
-            administer Your TLD Applications’ servers on Your behalf, provided
-            that any such Service Provider’s use of the Pencil Software and
+            administer Your TLD Applications servers on Your behalf, provided
+            that any such Service Provider is use of the Pencil Software and
             Services or any materials associated therewith is done solely on
             Your behalf and only in accordance with these terms. Notwithstanding
             the foregoing, You may not use a Service Provider to submit an
@@ -567,11 +567,11 @@ export default function DeveloperAgreement() {
             right to require You to cease using such Service Provider.
           </p>
           <p>
-            {" "}
+            
             2.4 Confidential Nature of Pre-Release Pencil Software and Services
           </p>
           <p>
-            {" "}
+            
             From time to time during the Term, Pencil may provide You with
             pre-release versions of the Pencil Software or Services that
             constitute Pencil Confidential Information and are subject to the
@@ -594,7 +594,7 @@ export default function DeveloperAgreement() {
           </p>
           <p> 2.5 Copies</p>
           <p>
-            {" "}
+            
             You agree to retain and reproduce in full the Pencil copyright,
             disclaimers and other proprietary notices (as they appear in the
             Pencil Software and Documentation provided) in all copies of the
@@ -603,7 +603,7 @@ export default function DeveloperAgreement() {
           </p>
           <p> 2.6 Ownership</p>
           <p>
-            {" "}
+            
             Pencil retains all rights, title, and interest in and to the Pencil
             Software, Services, and any Updates it may make available to You
             under this Agreement. You agree to cooperate with Pencil to maintain
@@ -615,12 +615,12 @@ export default function DeveloperAgreement() {
             interest in Your Covered Products.
           </p>
           <p>
-            {" "}
+            
             3. Ownership and End-User Licensing and Delivery of the Licensed TLD
             Applications to End Users
           </p>
           <p>
-            {" "}
+            
             3.1 You acknowledge and agree that Pencil, in the course of acting
             as agent and/or commissionaire for You, is hosting, or pursuant to
             Section 1.2(b) of this Schedule 1 may enable authorized third
@@ -642,7 +642,7 @@ export default function DeveloperAgreement() {
             this Schedule 1.
           </p>
           <p>
-            {" "}
+            
             3.2 You may deliver to Pencil Your own EULA for any Licensed
             Application at the time that You deliver that Licensed Application
             to Pencil, in accordance with Section 2.1 of this Schedule 1;
@@ -653,16 +653,16 @@ export default function DeveloperAgreement() {
             download that Licensed Application. Pencil shall enable each
             end-user to review Your EULA (if any) at the time that Pencil
             delivers that Licensed Application to that end-user, and Pencil
-            shall notify each end-user that the end-user’s use of that Licensed
+            shall notify each end-user that the end-user is use of that Licensed
             Application is subject to the terms and conditions of Your EULA (if
             any). In the event that You do not furnish Your own EULA for any
             Licensed Application to Pencil, You acknowledge and agree that each
-            end-user’s use of that Licensed Application shall be subject to
-            Pencil’s standard EULA (which is part of the Pencil App Store Terms
+            end-user is use of that Licensed Application shall be subject to
+            Pencil is standard EULA (which is part of the Pencil App Store Terms
             of Service).
           </p>
           <p>
-            {" "}
+            
             3.3 You hereby acknowledge that the EULA for each of the Licensed
             TLD Applications is solely between You and the end-user and conforms
             to applicable law, and Pencil shall not be responsible for, and
@@ -671,7 +671,7 @@ export default function DeveloperAgreement() {
             any EULA.
           </p>
           <p>
-            {" "}
+            
             3.4 A Licensed Application may read or play content (magazines,
             newspapers, books, audio, music, video) that is offered outside of
             the Licensed Application (such as, by way of example, through Your
@@ -681,15 +681,15 @@ export default function DeveloperAgreement() {
             the Licensed Application.
           </p>
           <p>
-            {" "}
+            
             3.5 To the extent You promote and offer in-app subscriptions, You
             must do so in compliance with all legal and regulatory requirements.
           </p>
           <p>
-            {" "}
+            
             3.6 If Your Licensed Application is periodical content-based (e.g.,
             magazines and newspapers), Pencil may provide You with the name,
-            email address, and zip code associated with an end-user’s account
+            email address, and zip code associated with an end-user is account
             when they request an auto-renewing subscription via the In-App
             Purchase API, provided that such user consents to the provision of
             data to You, and further provided that You may only use such data to
@@ -699,26 +699,26 @@ export default function DeveloperAgreement() {
           </p>
           <p> 4. Content Restrictions and Software Rating</p>
           <p>
-            {" "}
+            
             4.1 You represent and warrant that: (a) You have the right to enter
             into this Agreement, to reproduce and distribute each of the
             Licensed TLD Applications, and to authorize Pencil to permit
             endusers to download and use each of the Licensed TLD Applications
             through one or more Pencil App Stores or the Custom Pencil App
             Distribution Site; (b) none of the Licensed TLD Applications, or
-            Pencil’s or end users’ permitted uses of those Licensed TLD
+            Pencil is or end users permitted uses of those Licensed TLD
             Applications, violate or infringe any patent, copyright, trademark,
             trade secret or other intellectual property or contractual rights of
             any other person, firm, corporation or other entity and that You are
             not submitting the Licensed TLD Applications to Pencil on behalf of
-            one or more third parties; (c) none of the Custom Apps, or Pencil’s
-            or endusers’ permitted uses of those Custom Apps, violate or
+            one or more third parties; (c) none of the Custom Apps, or Pencil is
+            or endusers permitted uses of those Custom Apps, violate or
             infringe any patent, copyright, trademark, trade secret or other
             intellectual property or contractual rights of any other person,
             firm, corporation or other entity and that You are not submitting
             the Custom Apps to Pencil on behalf of one or more third parties
             other than under license grant from one or more third parties
-            subject to Pencil’s Volume Content Terms and/or Custom Pencil App
+            subject to Pencil is Volume Content Terms and/or Custom Pencil App
             Distribution; (d) each of the Licensed TLD Applications is
             authorized for distribution, sale and use in, export to, and import
             into each of the regions designated by You under Section 2.1 of this
@@ -736,11 +736,11 @@ export default function DeveloperAgreement() {
             Applications or use of Your intellectual property on the Pencil App
             Store or the Custom Pencil App Distribution Site, You agree to
             permit Pencil to share Your contact information with the party
-            filing such dispute and to follow Pencil’s app dispute process on a
+            filing such dispute and to follow Pencil is app dispute process on a
             non-exclusive basis and without any party waiving its legal rights.
           </p>
           <p>
-            {" "}
+            
             4.2 You shall use the software rating tool set forth on Pencil App
             Store Connect to supply information regarding each of the Licensed
             TLD Applications delivered by You for marketing and fulfillment by
@@ -761,7 +761,7 @@ export default function DeveloperAgreement() {
             such corrected rating.
           </p>
           <p>
-            {" "}
+            
             4.3 In the event that any region You designate hereunder requires
             the approval of, or rating of, any Licensed Application by any
             government or industry regulatory agency as a condition for the
@@ -773,7 +773,7 @@ export default function DeveloperAgreement() {
           </p>
           <p> 5. Responsibility and Liability</p>
           <p>
-            {" "}
+            
             5.1 Pencil shall have no responsibility for the installation and/or
             use of any of the Licensed TLD Applications by any end-user. You
             shall be solely responsible for any and all product warranties,
@@ -781,7 +781,7 @@ export default function DeveloperAgreement() {
             Licensed TLD Applications.
           </p>
           <p>
-            {" "}
+            
             5.2 You shall be solely responsible for, and Pencil shall have no
             responsibility or liability whatsoever with respect to, any and all
             claims, suits, liabilities, losses, damages, costs and expenses
@@ -790,18 +790,18 @@ export default function DeveloperAgreement() {
             including, but not limited to: (i) claims of breach of warranty,
             whether specified in the EULA or established under applicable law;
             (ii) product liability claims; and (iii) claims that any of the
-            Licensed TLD Applications and/or the end-user’s possession or use of
+            Licensed TLD Applications and/or the end-user is possession or use of
             those Licensed TLD Applications infringes the copyright or other
             intellectual property rights of any third party.
           </p>
           <p> 6. Termination</p>
           <p>
-            {" "}
-            6.1 This Schedule 1, and all of Pencil’s obligations hereunder,
+            
+            6.1 This Schedule 1, and all of Pencil is obligations hereunder,
             shall terminate upon the expiration or termination of the Agreement.
           </p>
           <p>
-            {" "}
+            
             6.2 In the event that You no longer have the legal right to
             distribute the Licensed TLD Applications, or to authorize Pencil to
             allow access to those Licensed TLD Applications by end-users, in
@@ -815,19 +815,19 @@ export default function DeveloperAgreement() {
             Licensed TLD Applications.
           </p>
           <p>
-            {" "}
+            
             6.3 Pencil reserves the right to cease marketing, offering, and
             allowing download by endusers of the Licensed TLD Applications at
             any time, with or without cause, by providing notice of termination
             to You. Without limiting the generality of this Section 6.3, You
             acknowledge that Pencil may cease allowing download by end-users of
             some or all of the Licensed TLD Applications, or take other interim
-            measures in Pencil’s sole discretion, if Pencil reasonably believes
+            measures in Pencil is sole discretion, if Pencil reasonably believes
             that: (i) those Licensed TLD Applications are not authorized for
             export to one or more of the regions designated by You under Section
             2.1 hereof, in accordance with the Export Administration Regulations
             or other restrictions; (ii) those Licensed TLD Applications and/or
-            any end-user’s possession and/or use of those Licensed TLD
+            any end-user is possession and/or use of those Licensed TLD
             Applications, infringe patent, copyright, trademark, trade secret or
             other intellectual property rights of any third party; (iii) the
             distribution and/or use of those Licensed TLD Applications violates
@@ -842,23 +842,23 @@ export default function DeveloperAgreement() {
             Schedule 1.
           </p>
           <p>
-            {" "}
+            
             6.4 You will not be able to claim custody of the TLD from Pencil if
             there is at least 1 active SLD customer related to your TLD.
           </p>
           <p>
-            {" "}
+            
             6.5 Pencil will not be able to transfer the TLD to any company.
           </p>
           <p>
-            {" "}
+            
             6.6 Assuming a company acquires Pencil Works, LLC. Pencil Works,
             LLC. will not transfer its TLDs without the prior consent of the
             original owner.
           </p>
           <p> 7. Legal Consequences</p>
           <p>
-            {" "}
+            
             The relationship between You and Pencil established by this Schedule
             1 may have important legal consequences for You. You acknowledge and
             agree that it is Your responsibility to consult with Your legal
