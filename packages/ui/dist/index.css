@@ -2,6 +2,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-.progress-bar {
+
+.progress-bar
+{
   @apply fixed top-0 left-0 w-full h-1 z-50 bg-sky-500;
 }

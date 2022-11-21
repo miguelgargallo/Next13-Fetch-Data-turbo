@@ -6,7 +6,6 @@ import { GradientDiamond } from "ui";
 import { GradientGold } from "ui";
 import { GradientSilver } from "ui";
 import { GradientBronze } from "ui";
-("ui");
 import { Menu } from "ui";
 import { Footer } from "ui";
 import { motion } from "framer-motion";
