@@ -1,14 +1,15 @@
-import Head from next/head;
-import { Footer } from ui;
-import { Menu } from ui;
-import { SupportMenu } from ui;
+/* eslint-disable react/no-unescaped-entities */
+import Head from "next/head";
+import { Footer } from "ui";
+import { Menu } from "ui";
+import { SupportMenu } from "ui";
 
 export default function SupportTrademarks() {
   return (
     <div  className="min-w-screen flex min-h-screen flex-col bg-white">
       <Head>
         <title>Pencil Domains</title>
-        <link rel=icon href=./favicon.ico />
+        <link rel="icon" href="./favicon.ico" />
       </Head>
       <Menu />
       <SupportMenu />
