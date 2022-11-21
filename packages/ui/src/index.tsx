@@ -25,3 +25,9 @@ export * from "./DomainsNew";
 export * from "./Footer";
 // Other
 export * from "./Scrollable";
+/* Squares */
+export * from "./SquareWhite";
+export * from "./SquareDiamond";
+export * from "./SquareGold";
+export * from "./SquareSilver";
+export * from "./SquareBronze";

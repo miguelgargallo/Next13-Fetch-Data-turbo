@@ -20,6 +20,10 @@
     @apply font-bold text-sky-700 shadow-sky-700 border-sky-700 p-4 text-2xl font-bold;
 }
 
+.square_diamond {
+    @apply max-w-full rounded-3xl shadow-md hover:shadow-xl w-32 h-32 bg-sky-200 border-sky-500;
+}
+
 /* Gold */
 .tld_gold {
     @apply font-bold text-yellow-500 shadow-yellow-700 border-yellow-700;;
@@ -36,6 +40,10 @@
 
 .tld_title_gold {
     @apply font-bold text-yellow-700 shadow-yellow-700 border-yellow-700 p-4 text-2xl font-bold;
+}
+
+.square_gold {
+    @apply max-w-full rounded-3xl shadow-md hover:shadow-xl w-32 h-32 bg-yellow-200 border-yellow-500;
 }
 
 /* Silver */
@@ -56,6 +64,10 @@
     @apply font-bold text-gray-700 shadow-gray-700 border-gray-700 p-4 text-2xl font-bold;
 }
 
+.square_silver {
+    @apply max-w-full rounded-3xl shadow-md hover:shadow-xl w-32 h-32 bg-gray-200 border-gray-500;
+}
+
 /* Bronze */
 .tld_bronze {
     @apply font-bold text-orange-500 shadow-orange-700 border-orange-700;
@@ -73,6 +85,10 @@
     @apply font-bold text-orange-700 shadow-orange-700 border-orange-700 p-4 text-2xl font-bold;
 }
 
+.square_bronze {
+    @apply max-w-full rounded-3xl shadow-md hover:shadow-xl w-32 h-32 bg-orange-200 border-orange-500;
+}
+
 /* White */
 .tld_white {
     @apply font-bold text-gray-500 shadow-gray-700 border-gray-700;
@@ -88,4 +104,8 @@
 
 .tld_title_white {
     @apply font-bold text-gray-700 shadow-gray-700 border-gray-700 p-4 text-2xl font-bold;
+}
+
+.square_white {
+    @apply max-w-full rounded-3xl shadow-md hover:shadow-xl w-32 h-32 bg-gray-200 border-gray-500;
 }
