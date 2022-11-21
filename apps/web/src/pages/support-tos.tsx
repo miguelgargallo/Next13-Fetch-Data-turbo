@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import Head from "next/head";
 import { Footer } from "ui";
 import { Menu } from "ui";
@@ -77,7 +78,7 @@ export default function SupportTOS() {
               these domain names. We have no control over the quality, safety or legality of the domain names listed within
               our Services.
               <p>
-              </p><ol start="2">
+              </p><ol>
                 <li><strong> Parked Domains</strong></li>
               </ol>
               <p></p>

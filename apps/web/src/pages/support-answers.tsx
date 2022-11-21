@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import Head from "next/head";
 import { Footer } from "ui";
 import { Menu } from "ui";
