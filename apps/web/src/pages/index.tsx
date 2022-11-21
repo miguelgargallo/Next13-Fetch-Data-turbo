@@ -12,20 +12,12 @@ import { Menu } from "ui";
 export default function Home() {
   const [input, setInput] = useState("");
   const [data, setData] = useState();
-  const [pylar, setPylar] = useState();
 
   const getData = async () => {
     const res = await fetch(`https://e.hnsfans.com/api/names/${input}`);
     const json = await res.json();
     setData(json);
     console.log(json);
-  };
-
-  const getPylar = async () => {
-    const ans = await fetch(`https://e.hnsfans.com/api/names/${input}`);
-    const data = await ans.json();
-    setPylar(data);
-    console.log(data);
   };
 
   if (list.includes(input)) {
@@ -49,7 +41,7 @@ export default function Home() {
         <div className="mx-auto max-w-7xl overflow-hidden rounded-lg py-2 py-2 px-4 text-center sm:p-2">
           <div className="mt-6 py-2 text-center">
             <input
-              className="flex w-full items-center justify-center rounded-md px-8 py-2 text-center text-base font-bold text-blue-500 shadow-xl hover:text-blue-500 hover:shadow-md md:py-2 md:px-10 md:text-lg"
+              className="flex w-full items-center justify-center rounded-md px-8 py-2 text-center text-base font-bold text-black shadow-xl hover:text-black hover:shadow-md md:py-2 md:px-10 md:text-lg"
               type="text"
               aria-label="Type press enter ↵"
               placeholder="Type & press enter ↵"
@@ -61,8 +53,7 @@ export default function Home() {
                 }
               }}
             />
-
-            <div className="flex w-full flex-col items-center justify-center rounded-md px-8 py-2 text-center text-base font-bold text-blue-500 shadow-xl hover:shadow-md md:text-lg">
+            <div className="flex w-full flex-col items-center justify-center rounded-md px-8 py-2 text-center text-base font-bold text-black shadow-xl hover:shadow-md md:text-lg">
               <div className="mt-1 py-2">
                 {list.map((item) => {
                   if (item === input) {
@@ -73,7 +64,7 @@ export default function Home() {
                             href="https://raw.githubusercontent.com/miguelgargallo/Next13-Fetch-Data-turbo/main/apps/web/src/pages/api/list.pylar"
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="text-blue-500 hover:text-yellow-500"
+                            className="text-black hover:text-yellow-500"
                           >
                             {" "}
                           </a>
@@ -83,13 +74,9 @@ export default function Home() {
                   }
                 })}
               </div>
-              <div className="">
-                .{input} or {input}/
-              </div>
               <div className="mt-1 flex flex-row py-2">
                 {input.length > 0 && input.length < 8 && (
                   <div>
-                    .{input} has {input.length} characters, this is
                     <a>
                       {input.length > 0 && input.length < 4 && (
                         <div>
@@ -98,12 +85,6 @@ export default function Home() {
                             <div className="tld_diamond_div">
                               <a>.{input}</a>
                               <GradientDiamond /> is a 💎 Diamond TLD.
-                            </div>
-                            <div className="tld_diamond_div">
-                              <p className="tld_diamond">
-                                .{input} is a valid TLD, on the list is the
-                                number {list.indexOf(input)}
-                              </p>{" "}
                             </div>
                           </a>
                         </div>
@@ -118,12 +99,6 @@ export default function Home() {
                               <a>.{input}</a>
                               <GradientGold /> a 🥇 Gold TLD.
                             </div>
-                            <div className="tld_gold_div">
-                              <p className="tld_gold">
-                                .{input} is a valid TLD, on the list is the
-                                number {list.indexOf(input)}
-                              </p>{" "}
-                            </div>
                           </a>
                         </div>
                       )}
@@ -136,12 +111,6 @@ export default function Home() {
                             <div className="tld_silver_div">
                               <a>.{input}</a>
                               <GradientSilver /> a 🥈 Silver TLD.
-                            </div>
-                            <div className="tld_silver_div">
-                              <p className="tld_silver">
-                                .{input} is a valid TLD, on the list is the
-                                number {list.indexOf(input)}
-                              </p>{" "}
                             </div>
                           </a>
                         </div>
@@ -156,16 +125,15 @@ export default function Home() {
                               <a>.{input}</a>
                               <GradientBronze /> a 🥉 Bronze TLD.
                             </div>
-                            <div className="tld_bronze_div">
-                              <p className="tld_bronze">
-                                .{input} is a valid TLD, on the list is the
-                                number {list.indexOf(input)}
-                              </p>{" "}
-                            </div>
                           </a>
                         </div>
                       )}
                     </a>
+                    <p className="tld_white py-8">
+                      <p>Is a valid TLD on the list</p>
+                      <p>number {list.indexOf(input)}</p>
+                      <p>and has {input.length} characters</p>
+                    </p>
                   </div>
                 )}
               </div>
@@ -173,8 +141,6 @@ export default function Home() {
                 {input.length > 7 && (
                   <div>
                     <a className="tld_white">
-                      This is longer than 7 characters, if you strongly believe
-                      in this name, please consider
                       <a
                         href="https://github.com/miguelgargallo/Next13-Fetch-Data-turbo/issues"
                         target="_blank"
@@ -184,18 +150,19 @@ export default function Home() {
                         {" "}
                         <div className="tld_white_div">
                           <a>.{input}</a>
-                          <GradientWhite /> a non classified TLD.
+                          <GradientWhite /> Register this TLD,
+                          <a className="hyperlink_issue">opening an issue </a>
+                          to discuss it.
                         </div>
-                        <div className="tld_white_div">
-                          <p className="tld_white">
-                            .{input} is a valid TLD, on the list is the number{" "}
-                            {list.indexOf(input)}
-                          </p>{" "}
-                        </div>
-                        opening an issue
-                      </a>{" "}
-                      to discuss it.
+                      </a>
                     </a>
+                    <p className="tld_white py-8">
+                      <p>
+                        {" "}
+                        This is longer than 7 characters, if you strongly
+                        believe in this name, please consider
+                      </p>
+                    </p>
                   </div>
                 )}
               </p>
