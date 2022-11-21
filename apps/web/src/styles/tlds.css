@@ -16,6 +16,10 @@
     @apply labase tld_diamond bg-sky-200 border-sky-500;
 }
 
+.tld_title_diamond {
+    @apply font-bold text-sky-700 shadow-sky-700 border-sky-700 p-4 text-2xl font-bold;
+}
+
 /* Gold */
 .tld_gold {
     @apply font-bold text-yellow-500 shadow-yellow-700 border-yellow-700;;
@@ -30,6 +34,9 @@
     @apply labase tld_gold bg-yellow-100 shadow-md border-gray-500;
 }
 
+.tld_title_gold {
+    @apply font-bold text-yellow-700 shadow-yellow-700 border-yellow-700 p-4 text-2xl font-bold;
+}
 
 /* Silver */
 .tld_silver {
@@ -45,6 +52,9 @@
     @apply labase tld_silver bg-gray-100 border-sky-500;
 }
 
+.tld_title_silver {
+    @apply font-bold text-gray-700 shadow-gray-700 border-gray-700 p-4 text-2xl font-bold;
+}
 
 /* Bronze */
 .tld_bronze {
@@ -59,6 +69,10 @@
     @apply labase tld_bronze bg-orange-200 border-orange-500;
 }
 
+.tld_title_bronze {
+    @apply font-bold text-orange-700 shadow-orange-700 border-orange-700 p-4 text-2xl font-bold;
+}
+
 /* White */
 .tld_white {
     @apply font-bold text-gray-500 shadow-gray-700 border-gray-700;
@@ -70,4 +84,8 @@
 
 .tld_white_div {
     @apply labase tld_white bg-white border-gray-500;
+}
+
+.tld_title_white {
+    @apply font-bold text-gray-700 shadow-gray-700 border-gray-700 p-4 text-2xl font-bold;
 }

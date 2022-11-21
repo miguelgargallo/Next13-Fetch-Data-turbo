@@ -83,13 +83,28 @@ export default function Home() {
                           <a className="tld_diamond">
                             {" "}
                             <div className="tld_diamond_div">
-                              <a>.{input}</a>
+                              <a className="tld_title_diamond">.{input}</a>
                               <GradientDiamond /> is a 💎 Diamond TLD.
                               <p className="tld_white py-8">
-                                <p>Is a valid TLD on the list</p>
-                                <p>number {list.indexOf(input)}</p>
+                                <p>
+                                  {list.indexOf(input) !== -1
+                                    ? "Is a valid TLD, number " +
+                                      list.indexOf(input)
+                                    : "Could be a valid"}
+                                </p>
+                                <a
+                                  href="https://github.com/miguelgargallo/Next13-Fetch-Data-turbo/issues"
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                  className="text-black hover:text-yellow-500"
+                                >
+                                  {" "}
+                                  <a className="hyperlink_issue">
+                                    Register Today
+                                  </a>
+                                </a>
                                 <p>and has {input.length} characters</p>
-                              </p>
+                              </p>{" "}
                             </div>
                           </a>
                         </div>
@@ -101,13 +116,28 @@ export default function Home() {
                           <a className="tld_gold">
                             {" "}
                             <div className="tld_gold_div">
-                              <a>.{input}</a>
+                              <a className="tld_title_gold">.{input}</a>
                               <GradientGold /> a 🥇 Gold TLD.
                               <p className="tld_white py-8">
-                                <p>Is a valid TLD on the list</p>
-                                <p>number {list.indexOf(input)}</p>
+                                <p>
+                                  {list.indexOf(input) !== -1
+                                    ? "Is a valid TLD, number " +
+                                      list.indexOf(input)
+                                    : "Could be a valid"}
+                                </p>
+                                <a
+                                  href="https://github.com/miguelgargallo/Next13-Fetch-Data-turbo/issues"
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                  className="text-black hover:text-yellow-500"
+                                >
+                                  {" "}
+                                  <a className="hyperlink_issue">
+                                    Register Today
+                                  </a>
+                                </a>
                                 <p>and has {input.length} characters</p>
-                              </p>
+                              </p>{" "}
                             </div>
                           </a>
                         </div>
@@ -119,11 +149,26 @@ export default function Home() {
                           <a className="tld_silver">
                             {" "}
                             <div className="tld_silver_div">
-                              <a>.{input}</a>
+                              <a className="tld_title_silver">.{input}</a>
                               <GradientSilver /> a 🥈 Silver TLD.
                               <p className="tld_white py-8">
-                                <p>Is a valid TLD on the list</p>
-                                <p>number {list.indexOf(input)}</p>
+                                <p>
+                                  {list.indexOf(input) !== -1
+                                    ? "Is a valid TLD, number " +
+                                      list.indexOf(input)
+                                    : "Could be a valid"}
+                                </p>
+                                <a
+                                  href="https://github.com/miguelgargallo/Next13-Fetch-Data-turbo/issues"
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                  className="text-black hover:text-yellow-500"
+                                >
+                                  {" "}
+                                  <a className="hyperlink_issue">
+                                    Register Today
+                                  </a>
+                                </a>
                                 <p>and has {input.length} characters</p>
                               </p>
                             </div>
@@ -137,13 +182,28 @@ export default function Home() {
                           <a className="tld_bronze">
                             {" "}
                             <div className="tld_bronze_div">
-                              <a>.{input}</a>
+                              <a className="tld_title_bronze">.{input}</a>
                               <GradientBronze /> a 🥉 Bronze TLD.
                               <p className="tld_white py-8">
-                                <p>Is a valid TLD on the list</p>
-                                <p>number {list.indexOf(input)}</p>
+                                <p>
+                                  {list.indexOf(input) !== -1
+                                    ? "Is a valid TLD, number " +
+                                      list.indexOf(input)
+                                    : "Could be a valid"}
+                                </p>
+                                <a
+                                  href="https://github.com/miguelgargallo/Next13-Fetch-Data-turbo/issues"
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                  className="text-black hover:text-yellow-500"
+                                >
+                                  {" "}
+                                  <a className="hyperlink_issue">
+                                    Register Today
+                                  </a>
+                                </a>
                                 <p>and has {input.length} characters</p>
-                              </p>
+                              </p>{" "}
                             </div>
                           </a>
                         </div>
@@ -155,7 +215,7 @@ export default function Home() {
               <a>
                 {input.length > 7 && (
                   <div className="tld_white_div">
-                    <a>.{input}</a>
+                    <a className="tld_title_white">.{input}</a>
                     <GradientWhite /> is a 🎁 New TLD.
                     <p className="tld_white py-8">
                       <p>
@@ -172,7 +232,6 @@ export default function Home() {
                         {" "}
                         <a className="hyperlink_issue">Register Today</a>
                       </a>
-
                       <p>and has {input.length} characters</p>
                     </p>
                   </div>
@@ -180,24 +239,6 @@ export default function Home() {
               </a>
             </div>
           </div>
-          <div className="button">
-            <button
-              className="button_content"
-              onClick={() => console.log(getData())}
-            >
-              Explore Now, avoid caplocks
-            </button>
-          </div>
-        </div>
-        <div className="mt-6">
-          <textarea
-            id="about"
-            name="about"
-            rows={20}
-            className="hover:shadow:md mt-1 block w-full rounded-md shadow-xl shadow-sm focus:ring-blue-500 sm:text-sm"
-            value={JSON.stringify(data, null, 2)}
-            readOnly
-          />
         </div>
       </main>
       <Footer />
