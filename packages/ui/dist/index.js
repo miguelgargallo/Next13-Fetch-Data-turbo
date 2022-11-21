@@ -36,6 +36,7 @@ __export(src_exports, {
   Menu: () => Menu,
   MenuDevs: () => MenuDevs,
   MenuDomains: () => MenuDomains,
+  SupportMenu: () => SupportMenu,
   Version: () => Version
 });
 module.exports = __toCommonJS(src_exports);
@@ -310,7 +311,7 @@ var Version = () => {
       href: "http://github.com/miguelgargallo/next13-Fetch-Data-turbo",
       target: "_blank",
       rel: "noopener noreferrer",
-      children: "v1.4.4 Offices"
+      children: "v1.4.5 Support"
     })
   });
 };
@@ -514,6 +515,13 @@ var Menu = () => {
             children: /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("a", {
               href: "/office",
               children: "Office"
+            })
+          }),
+          /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("button", {
+            className: "hidden sm:block rounded-xl py-2 px-4 font-bold text-white",
+            children: /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("a", {
+              href: "/support-tos",
+              children: "Support"
             })
           })
         ]
@@ -1933,6 +1941,47 @@ var MenuDevs = () => {
     })
   });
 };
+
+// src/SupportMenu.tsx
+var import_jsx_runtime18 = require("react/jsx-runtime");
+var SupportMenu = () => {
+  return /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("div", {
+    className: "hidden sm:block flex flex-row items-center justify-between bg-gradient-to-r from-blue-400 to-blue-500",
+    children: /* @__PURE__ */ (0, import_jsx_runtime18.jsxs)("div", {
+      className: "flex flex-row",
+      children: [
+        /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("button", {
+          className: "rounded-xl py-2 px-4 font-bold text-white",
+          children: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("a", {
+            href: "/support-tos",
+            children: "Terms Of Service"
+          })
+        }),
+        /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("button", {
+          className: "rounded-xl py-2 px-4 font-bold text-white",
+          children: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("a", {
+            href: "/support-pp",
+            children: "Privacy Policy"
+          })
+        }),
+        /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("button", {
+          className: "rounded-xl py-2 px-4 font-bold text-white",
+          children: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("a", {
+            href: "/support-answers",
+            children: "Answers"
+          })
+        }),
+        /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("button", {
+          className: "rounded-xl py-2 px-4 font-bold text-white",
+          children: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("a", {
+            href: "/support-trademarks",
+            children: "Trademarks"
+          })
+        })
+      ]
+    })
+  });
+};
 // Annotate the CommonJS export names for ESM import in node:
 0 && (module.exports = {
   Button,
@@ -1951,5 +2000,6 @@ var MenuDevs = () => {
   Menu,
   MenuDevs,
   MenuDomains,
+  SupportMenu,
   Version
 });

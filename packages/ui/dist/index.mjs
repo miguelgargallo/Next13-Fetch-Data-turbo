@@ -268,7 +268,7 @@ var Version = () => {
       href: "http://github.com/miguelgargallo/next13-Fetch-Data-turbo",
       target: "_blank",
       rel: "noopener noreferrer",
-      children: "v1.4.4 Offices"
+      children: "v1.4.5 Support"
     })
   });
 };
@@ -472,6 +472,13 @@ var Menu = () => {
             children: /* @__PURE__ */ jsx9("a", {
               href: "/office",
               children: "Office"
+            })
+          }),
+          /* @__PURE__ */ jsx9("button", {
+            className: "hidden sm:block rounded-xl py-2 px-4 font-bold text-white",
+            children: /* @__PURE__ */ jsx9("a", {
+              href: "/support-tos",
+              children: "Support"
             })
           })
         ]
@@ -1891,6 +1898,47 @@ var MenuDevs = () => {
     })
   });
 };
+
+// src/SupportMenu.tsx
+import { jsx as jsx18, jsxs as jsxs12 } from "react/jsx-runtime";
+var SupportMenu = () => {
+  return /* @__PURE__ */ jsx18("div", {
+    className: "hidden sm:block flex flex-row items-center justify-between bg-gradient-to-r from-blue-400 to-blue-500",
+    children: /* @__PURE__ */ jsxs12("div", {
+      className: "flex flex-row",
+      children: [
+        /* @__PURE__ */ jsx18("button", {
+          className: "rounded-xl py-2 px-4 font-bold text-white",
+          children: /* @__PURE__ */ jsx18("a", {
+            href: "/support-tos",
+            children: "Terms Of Service"
+          })
+        }),
+        /* @__PURE__ */ jsx18("button", {
+          className: "rounded-xl py-2 px-4 font-bold text-white",
+          children: /* @__PURE__ */ jsx18("a", {
+            href: "/support-pp",
+            children: "Privacy Policy"
+          })
+        }),
+        /* @__PURE__ */ jsx18("button", {
+          className: "rounded-xl py-2 px-4 font-bold text-white",
+          children: /* @__PURE__ */ jsx18("a", {
+            href: "/support-answers",
+            children: "Answers"
+          })
+        }),
+        /* @__PURE__ */ jsx18("button", {
+          className: "rounded-xl py-2 px-4 font-bold text-white",
+          children: /* @__PURE__ */ jsx18("a", {
+            href: "/support-trademarks",
+            children: "Trademarks"
+          })
+        })
+      ]
+    })
+  });
+};
 export {
   Button,
   Card,
@@ -1908,5 +1956,6 @@ export {
   Menu,
   MenuDevs,
   MenuDomains,
+  SupportMenu,
   Version
 };

@@ -118,6 +118,9 @@ export const Menu = () => {
         <button className="hidden sm:block rounded-xl py-2 px-4 font-bold text-white">
           <a href="/office">Office</a>
         </button>
+        <button className="hidden sm:block rounded-xl py-2 px-4 font-bold text-white">
+          <a href="/support-tos">Support</a>
+        </button>
       </div>
        <Version />
       <button className="hidden py-2 px-4 font-bold text-white md:block">

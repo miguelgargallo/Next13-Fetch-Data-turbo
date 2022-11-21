@@ -32,4 +32,6 @@ declare const MenuDevs: () => JSX.Element;
 
 declare const Version: () => JSX.Element;
 
-export { Button, Card, DomainsAll, DomainsBlocks, DomainsGeo, DomainsMeta, DomainsNew, Footer, Gradient, GradientBronze, GradientDiamond, GradientGold, GradientSilver, Menu, MenuDevs, MenuDomains, Version };
+declare const SupportMenu: () => JSX.Element;
+
+export { Button, Card, DomainsAll, DomainsBlocks, DomainsGeo, DomainsMeta, DomainsNew, Footer, Gradient, GradientBronze, GradientDiamond, GradientGold, GradientSilver, Menu, MenuDevs, MenuDomains, SupportMenu, Version };
