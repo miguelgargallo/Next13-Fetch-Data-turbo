@@ -2,6 +2,7 @@
 import Head from "next/head";
 import { useState } from "react";
 import { GradientWhite } from "ui";
+import { motion } from "framer-motion";
 import { GradientDiamond } from "ui";
 import { GradientGold } from "ui";
 import { GradientSilver } from "ui";
@@ -34,13 +35,21 @@ export default function Home() {
       </Head>
 
       <Menu />
+
       <a className="m-4 p-4 text-center text-xl font-bold text-black">
         25819 names on this amazing Handshake Blocks and Ranking Names portal.
       </a>
       <main className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-7xl overflow-hidden rounded-lg py-2 py-2 px-4 text-center sm:p-2">
           <div className="mt-6 py-2 text-center">
-            <input
+            <motion.input
+              initial={{ opacity: 0.6 }}
+              whileHover={{
+                scale: 1.05,
+                transition: { duration: 10 },
+              }}
+              whileTap={{ scale: 0.9 }}
+              whileInView={{ opacity: 1 }}
               className="flex w-full items-center justify-center rounded-md px-8 py-2 text-center text-base font-bold text-black shadow-xl hover:text-black hover:shadow-md md:py-2 md:px-10 md:text-lg"
               type="text"
               aria-label="Type press enter ↵"
@@ -82,7 +91,11 @@ export default function Home() {
                         <div>
                           <a className="tld_diamond">
                             {" "}
-                            <div className="tld_diamond_div">
+                            <motion.div
+                              animate={{ scale: [1, 1.1, 1] }}
+                              transition={{ ease: "easeOut", duration: 2 }}
+                              className="tld_diamond_div"
+                            >
                               <a className="tld_title_diamond">.{input}</a>
                               <GradientDiamond /> is a 💎 Diamond TLD.
                               <p className="tld_white py-8">
@@ -105,7 +118,7 @@ export default function Home() {
                                 </a>
                                 <p>and has {input.length} characters</p>
                               </p>{" "}
-                            </div>
+                            </motion.div>
                           </a>
                         </div>
                       )}
