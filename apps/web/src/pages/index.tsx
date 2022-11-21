@@ -9,12 +9,11 @@ import { GradientBronze } from "ui";
 import { Menu } from "ui";
 import { Footer } from "ui";
 import { motion } from "framer-motion";
-import { generateJSXMeshGradient } from "meshgrad";
-import { SquareDiamonds } from "ui";
+/* import { SquareDiamonds } from "ui";
 import { SquareGold } from "ui";
 import { SquareSilver } from "ui";
 import { SquareBronze } from "ui";
-import { SquareWhite } from "ui";
+import { SquareWhite } from "ui"; */
 
 export default function Home() {
   const ELEMENTS = 1;
