@@ -61,7 +61,7 @@ export default function Support() {
               .
             </p>
             <p>
-              <strong>What is an "EPP-based registrar"?</strong>
+              <strong>What is an EPP-based registrar?</strong>
             </p>
             <p>
               <a
