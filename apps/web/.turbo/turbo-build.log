@@ -7,16 +7,16 @@ info  - Generating static pages (0/21)
 undefined
 undefined
 info  - Generating static pages (5/21)
-This is not a valid TLD
 info  - Generating static pages (10/21)
 info  - Generating static pages (15/21)
+This is not a valid TLD
 This is not a valid TLD
 This is not a valid TLD
 info  - Generating static pages (21/21)
 info  - Finalizing page optimization...
 
 Route (pages)                              Size     First Load JS
-┌ ○ /                                      69.9 kB         219 kB
+┌ ○ /                                      70 kB           220 kB
 ├   /_app                                  0 B            73.2 kB
 ├ ○ /404                                   181 B          73.4 kB
 ├ ○ /blog                                  69.9 kB         219 kB
@@ -42,7 +42,7 @@ Route (pages)                              Size     First Load JS
   ├ chunks/main-b8adf948f7f01545.js        26.7 kB
   ├ chunks/pages/_app-433b6bd392de8072.js  317 B
   ├ chunks/webpack-ee7e63bc15b31913.js     815 B
-  └ css/fe24fa1c0b013a0d.css               4.68 kB
+  └ css/771b37537798057c.css               4.71 kB
 
 ○  (Static)  automatically rendered as static HTML (uses no initial props)
 
