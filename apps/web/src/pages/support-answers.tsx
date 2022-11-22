@@ -236,8 +236,8 @@ export default function Support() {
             </p>
             <p>
               Yes - on the Domain details page, simply click on the button
-              labeled Push and enter the email address of the person you want
-              to push the domain to. They will have to create a pencil.domains
+              labeled Push and enter the email address of the person you want to
+              push the domain to. They will have to create a pencil.domains
               account if they do not already have one. There is a fee of 50 HNS
               to push a domain.
             </p>
