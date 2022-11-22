@@ -41,14 +41,7 @@ export default function Home() {
               </button>
             </a>
           </div>
-{/*           <div className="col-span-1">
-            <a href="/blog">
-              <button className="rounded border border-gray-400 bg-white py-2 px-4 font-semibold text-gray-800 shadow hover:bg-gray-100">
-                Blog
-              </button>
-            </a>
-          </div>
- */}        </div>
+        </div>
       </main>
       <Footer />
     </div>
