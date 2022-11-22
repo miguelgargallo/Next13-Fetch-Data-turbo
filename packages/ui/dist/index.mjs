@@ -1002,7 +1002,7 @@ var Version = () => {
       href: "http://github.com/miguelgargallo/next13-Fetch-Data-turbo",
       target: "_blank",
       rel: "noopener noreferrer",
-      children: "v1.6.1"
+      children: "v1.6.6"
     })
   });
 };
@@ -7769,47 +7769,50 @@ var Menu = () => {
               })
             ]
           }),
-          /* @__PURE__ */ jsx3(Version, {}),
-          /* @__PURE__ */ jsx3("button", {
-            className: "hidden py-2 px-4 font-bold text-white md:block",
-            children: /* @__PURE__ */ jsx3("a", {
-              href: "http://twitter.com/miguelgargallo",
-              target: "_blank",
-              rel: "noopener noreferrer",
-              children: "Twitter"
-            })
-          }),
-          /* @__PURE__ */ jsx3("div", {
+          /* @__PURE__ */ jsxs2("div", {
             className: "mt-2",
             style: {
               display: "flex",
               justifyContent: "center",
               alignItems: "center"
             },
-            children: /* @__PURE__ */ jsx3("a", {
-              href: "https://github.com/miguelgargallo/Next13-Fetch-Data-turbo",
-              target: "_blank",
-              rel: "noopener noreferrer",
-              className: "hidden p-2 md:block",
-              children: /* @__PURE__ */ jsx3("picture", {
-                children: /* @__PURE__ */ jsx3("img", {
-                  src: "https://img.shields.io/github/stars/miguelgargallo/Next13-Fetch-Data-turbo?style=social",
-                  alt: "Landscape picture",
-                  width: 100,
-                  height: 20
+            children: [
+              /* @__PURE__ */ jsx3("a", {
+                href: "https://github.com/miguelgargallo/Next13-Fetch-Data-turbo",
+                target: "_blank",
+                rel: "noopener noreferrer",
+                className: "hidden p-2 md:block",
+                children: /* @__PURE__ */ jsx3("picture", {
+                  children: /* @__PURE__ */ jsx3("img", {
+                    src: "https://img.shields.io/github/stars/miguelgargallo/Next13-Fetch-Data-turbo?style=social",
+                    alt: "Landscape picture",
+                    width: 100,
+                    height: 20
+                  })
+                })
+              }),
+              " ",
+              /* @__PURE__ */ jsx3(Version, {}),
+              /* @__PURE__ */ jsx3("button", {
+                className: "hidden py-2 px-4 font-bold text-white md:block",
+                children: /* @__PURE__ */ jsx3("a", {
+                  href: "http://twitter.com/miguelgargallo",
+                  target: "_blank",
+                  rel: "noopener noreferrer",
+                  children: "Twitter"
+                })
+              }),
+              /* @__PURE__ */ jsx3("button", {
+                className: "hidden rounded-xl px-8 font-bold text-white sm:block",
+                children: /* @__PURE__ */ jsx3("a", {
+                  href: "/",
+                  children: new Date().toLocaleTimeString("en-US", {
+                    hour: "numeric",
+                    minute: "numeric"
+                  })
                 })
               })
-            })
-          }),
-          /* @__PURE__ */ jsx3("button", {
-            className: "hidden rounded-xl px-8 font-bold text-white sm:block",
-            children: /* @__PURE__ */ jsx3("a", {
-              href: "/",
-              children: new Date().toLocaleTimeString("en-US", {
-                hour: "numeric",
-                minute: "numeric"
-              })
-            })
+            ]
           })
         ]
       })
@@ -7821,7 +7824,7 @@ var Menu = () => {
 import { jsx as jsx4, jsxs as jsxs3 } from "react/jsx-runtime";
 var MenuDomains = () => {
   return /* @__PURE__ */ jsx4("div", {
-    className: "hidden sm:block flex flex-row items-center justify-between bg-gradient-to-r from-blue-400 to-blue-500",
+    className: "flex hidden flex-row items-center justify-between bg-gradient-to-r from-blue-400 to-blue-500 sm:block",
     children: /* @__PURE__ */ jsxs3("div", {
       className: "flex flex-row",
       children: [
@@ -7869,7 +7872,7 @@ var MenuDomains = () => {
 import { jsx as jsx5, jsxs as jsxs4 } from "react/jsx-runtime";
 var SupportMenu = () => {
   return /* @__PURE__ */ jsx5("div", {
-    className: "hidden sm:block flex flex-row items-center justify-between bg-gradient-to-r from-blue-400 to-blue-500",
+    className: "flex hidden flex-row items-center justify-between bg-gradient-to-r from-blue-400 to-blue-500 sm:block",
     children: /* @__PURE__ */ jsxs4("div", {
       className: "flex flex-row",
       children: [
@@ -7910,7 +7913,7 @@ var SupportMenu = () => {
 import { jsx as jsx6, jsxs as jsxs5 } from "react/jsx-runtime";
 var MenuDevs = () => {
   return /* @__PURE__ */ jsx6("div", {
-    className: "hidden sm:block flex flex-row items-center justify-between bg-gradient-to-r from-blue-400 to-blue-500",
+    className: "flex hidden flex-row items-center justify-between bg-gradient-to-r from-blue-400 to-blue-500 sm:block",
     children: /* @__PURE__ */ jsxs5("div", {
       className: "flex flex-row",
       children: [
@@ -9427,7 +9430,7 @@ var Footer = () => {
       /* @__PURE__ */ jsx18("div", {
         className: "hidden sm:block",
         children: /* @__PURE__ */ jsxs12("div", {
-          className: "items-center justify-center flex w-full",
+          className: "flex w-full items-center justify-center",
           children: [
             /* @__PURE__ */ jsx18("a", {
               href: "https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fmiguelgargallo%2FNext13-Fetch-Data-turbo&project-name=miguelgargallo-next13-fetch-data-turbo&repo-name=miguelgargallo-next13-fetch-data-turbo",

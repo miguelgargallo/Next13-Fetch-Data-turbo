@@ -140,16 +140,6 @@ export const Menu = () => {
             </a>
           </button>
         </div>
-        <Version />
-        <button className="hidden py-2 px-4 font-bold text-white md:block">
-          <a
-            href="http://twitter.com/miguelgargallo"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Twitter
-          </a>
-        </button>
         <div
           className="mt-2"
           style={{
@@ -172,16 +162,26 @@ export const Menu = () => {
                 height={20}
               />
             </picture>
-          </a>
+          </a>{" "}
+          <Version />
+          <button className="hidden py-2 px-4 font-bold text-white md:block">
+            <a
+              href="http://twitter.com/miguelgargallo"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Twitter
+            </a>
+          </button>
+          <button className="hidden rounded-xl px-8 font-bold text-white sm:block">
+            <a href="/">
+              {new Date().toLocaleTimeString("en-US", {
+                hour: "numeric",
+                minute: "numeric",
+              })}
+            </a>
+          </button>
         </div>
-        <button className="hidden rounded-xl px-8 font-bold text-white sm:block">
-          <a href="/">
-            {new Date().toLocaleTimeString("en-US", {
-              hour: "numeric",
-              minute: "numeric",
-            })}
-          </a>
-        </button>
       </div>
     </>
   );

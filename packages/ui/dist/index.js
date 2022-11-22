@@ -1033,7 +1033,7 @@ var Version = () => {
       href: "http://github.com/miguelgargallo/next13-Fetch-Data-turbo",
       target: "_blank",
       rel: "noopener noreferrer",
-      children: "v1.6.1"
+      children: "v1.6.6"
     })
   });
 };
@@ -7800,47 +7800,50 @@ var Menu = () => {
               })
             ]
           }),
-          /* @__PURE__ */ (0, import_jsx_runtime3.jsx)(Version, {}),
-          /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("button", {
-            className: "hidden py-2 px-4 font-bold text-white md:block",
-            children: /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("a", {
-              href: "http://twitter.com/miguelgargallo",
-              target: "_blank",
-              rel: "noopener noreferrer",
-              children: "Twitter"
-            })
-          }),
-          /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("div", {
+          /* @__PURE__ */ (0, import_jsx_runtime3.jsxs)("div", {
             className: "mt-2",
             style: {
               display: "flex",
               justifyContent: "center",
               alignItems: "center"
             },
-            children: /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("a", {
-              href: "https://github.com/miguelgargallo/Next13-Fetch-Data-turbo",
-              target: "_blank",
-              rel: "noopener noreferrer",
-              className: "hidden p-2 md:block",
-              children: /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("picture", {
-                children: /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("img", {
-                  src: "https://img.shields.io/github/stars/miguelgargallo/Next13-Fetch-Data-turbo?style=social",
-                  alt: "Landscape picture",
-                  width: 100,
-                  height: 20
+            children: [
+              /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("a", {
+                href: "https://github.com/miguelgargallo/Next13-Fetch-Data-turbo",
+                target: "_blank",
+                rel: "noopener noreferrer",
+                className: "hidden p-2 md:block",
+                children: /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("picture", {
+                  children: /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("img", {
+                    src: "https://img.shields.io/github/stars/miguelgargallo/Next13-Fetch-Data-turbo?style=social",
+                    alt: "Landscape picture",
+                    width: 100,
+                    height: 20
+                  })
+                })
+              }),
+              " ",
+              /* @__PURE__ */ (0, import_jsx_runtime3.jsx)(Version, {}),
+              /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("button", {
+                className: "hidden py-2 px-4 font-bold text-white md:block",
+                children: /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("a", {
+                  href: "http://twitter.com/miguelgargallo",
+                  target: "_blank",
+                  rel: "noopener noreferrer",
+                  children: "Twitter"
+                })
+              }),
+              /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("button", {
+                className: "hidden rounded-xl px-8 font-bold text-white sm:block",
+                children: /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("a", {
+                  href: "/",
+                  children: new Date().toLocaleTimeString("en-US", {
+                    hour: "numeric",
+                    minute: "numeric"
+                  })
                 })
               })
-            })
-          }),
-          /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("button", {
-            className: "hidden rounded-xl px-8 font-bold text-white sm:block",
-            children: /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("a", {
-              href: "/",
-              children: new Date().toLocaleTimeString("en-US", {
-                hour: "numeric",
-                minute: "numeric"
-              })
-            })
+            ]
           })
         ]
       })
@@ -7852,7 +7855,7 @@ var Menu = () => {
 var import_jsx_runtime4 = require("react/jsx-runtime");
 var MenuDomains = () => {
   return /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("div", {
-    className: "hidden sm:block flex flex-row items-center justify-between bg-gradient-to-r from-blue-400 to-blue-500",
+    className: "flex hidden flex-row items-center justify-between bg-gradient-to-r from-blue-400 to-blue-500 sm:block",
     children: /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)("div", {
       className: "flex flex-row",
       children: [
@@ -7900,7 +7903,7 @@ var MenuDomains = () => {
 var import_jsx_runtime5 = require("react/jsx-runtime");
 var SupportMenu = () => {
   return /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("div", {
-    className: "hidden sm:block flex flex-row items-center justify-between bg-gradient-to-r from-blue-400 to-blue-500",
+    className: "flex hidden flex-row items-center justify-between bg-gradient-to-r from-blue-400 to-blue-500 sm:block",
     children: /* @__PURE__ */ (0, import_jsx_runtime5.jsxs)("div", {
       className: "flex flex-row",
       children: [
@@ -7941,7 +7944,7 @@ var SupportMenu = () => {
 var import_jsx_runtime6 = require("react/jsx-runtime");
 var MenuDevs = () => {
   return /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("div", {
-    className: "hidden sm:block flex flex-row items-center justify-between bg-gradient-to-r from-blue-400 to-blue-500",
+    className: "flex hidden flex-row items-center justify-between bg-gradient-to-r from-blue-400 to-blue-500 sm:block",
     children: /* @__PURE__ */ (0, import_jsx_runtime6.jsxs)("div", {
       className: "flex flex-row",
       children: [
@@ -9458,7 +9461,7 @@ var Footer = () => {
       /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("div", {
         className: "hidden sm:block",
         children: /* @__PURE__ */ (0, import_jsx_runtime18.jsxs)("div", {
-          className: "items-center justify-center flex w-full",
+          className: "flex w-full items-center justify-center",
           children: [
             /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("a", {
               href: "https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fmiguelgargallo%2FNext13-Fetch-Data-turbo&project-name=miguelgargallo-next13-fetch-data-turbo&repo-name=miguelgargallo-next13-fetch-data-turbo",
