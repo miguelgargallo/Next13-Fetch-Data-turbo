@@ -1,10 +1,11 @@
-/* eslint-disable react/no-unescaped-entities */
+/* eslint-disable react/jsx-no-comment-textnodes */
 import Head from "next/head";
-import { Footer } from "ui";
 import { Menu } from "ui";
+import { Footer } from "ui";
+import { MenuCorporate } from "ui";
 import { SupportMenu } from "ui";
 
-export default function SupportTOS() {
+export default function Support() {
   return (
     <div className="min-w-screen flex min-h-screen flex-col bg-white">
       <Head>
@@ -12,7 +13,8 @@ export default function SupportTOS() {
         <link rel="icon" href="./favicon.ico" />
       </Head>
       <Menu />
-      <SupportMenu />
+      <MenuCorporate />
+      <SupportMenu />{" "}
       <a className="m-4 p-4 text-center text-xl font-bold text-black">
         Pencil Terms of Service.™
       </a>

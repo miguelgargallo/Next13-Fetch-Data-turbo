@@ -3,6 +3,7 @@ import Head from "next/head";
 import { Footer } from "ui";
 import { Menu } from "ui";
 import { SupportMenu } from "ui";
+import { MenuCorporate } from "ui";
 
 export default function SupportTOS() {
   return (
@@ -13,6 +14,7 @@ export default function SupportTOS() {
           <link rel="icon" href="./favicon.ico" />
         </Head>
         <Menu />
+        <MenuCorporate />
         <SupportMenu />
         <a className="m-4 p-4 text-center text-xl font-bold text-black">
           Pencil Terms of Service.™

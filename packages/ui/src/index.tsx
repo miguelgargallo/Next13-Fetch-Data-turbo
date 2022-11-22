@@ -6,6 +6,7 @@ export * from "./Menu";
 export * from "./MenuDomains";
 export * from "./SupportMenu";
 export * from "./MenuDevs";
+export * from "./MenuCorporate";
 // Version
 export * from "./Version";
 export * from "./Card";

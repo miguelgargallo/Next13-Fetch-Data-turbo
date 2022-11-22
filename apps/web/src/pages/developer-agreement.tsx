@@ -2,6 +2,7 @@ import Head from "next/head";
 import { Footer } from "ui";
 import { Menu } from "ui";
 import { MenuDevs } from "ui";
+import { MenuCorporate } from "ui";
 
 export default function DeveloperAgreement() {
   return (
@@ -11,6 +12,7 @@ export default function DeveloperAgreement() {
         <link rel="icon" href="./favicon.ico" />
       </Head>
       <Menu />
+      <MenuCorporate />
       <MenuDevs />
       <a className="m-4 p-4 text-center text-xl font-bold text-black">
         Every reason to turn your TLD into a Business.™
