@@ -7935,13 +7935,6 @@ var MenuCorporate = () => {
             href: "/support",
             children: "Support"
           })
-        }),
-        /* @__PURE__ */ jsx7("button", {
-          className: "rounded-xl py-2 px-4 font-bold text-white",
-          children: /* @__PURE__ */ jsx7("a", {
-            href: "/blog",
-            children: "Blog"
-          })
         })
       ]
     })

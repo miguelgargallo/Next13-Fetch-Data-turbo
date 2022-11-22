@@ -7967,13 +7967,6 @@ var MenuCorporate = () => {
             href: "/support",
             children: "Support"
           })
-        }),
-        /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("button", {
-          className: "rounded-xl py-2 px-4 font-bold text-white",
-          children: /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("a", {
-            href: "/blog",
-            children: "Blog"
-          })
         })
       ]
     })

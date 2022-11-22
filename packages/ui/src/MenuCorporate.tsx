@@ -13,9 +13,9 @@ export const MenuCorporate = () => {
         <button className="rounded-xl py-2 px-4 font-bold text-white">
           <a href="/support">Support</a>
         </button>
-        <button className="rounded-xl py-2 px-4 font-bold text-white">
+{/*         <button className="rounded-xl py-2 px-4 font-bold text-white">
           <a href="/blog">Blog</a>
-        </button>
+        </button> */}
       </div>
     </div>
   );
