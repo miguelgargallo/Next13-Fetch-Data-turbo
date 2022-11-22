@@ -1,4 +1,3 @@
-
 Trademark
 📃 WWBDC ™
 ✅ TRADEMARK http://bit.ly/38whEc4

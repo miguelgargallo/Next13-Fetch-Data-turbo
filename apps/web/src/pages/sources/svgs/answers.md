@@ -1,4 +1,3 @@
-
 Pencil Answers
 
 Who are you and what is Pencil Domains?

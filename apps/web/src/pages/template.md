@@ -4,6 +4,7 @@ import { Menu } from "ui";
 
 export default function Domains() {
 return (
+
 <div className="min-w-screen flex min-h-screen flex-col bg-white">
 <Head>
 <title>Pencil Domains</title>

@@ -12,7 +12,7 @@ export default function Home() {
     setData(json);
   };
 
-  const handleChange = (e: { target: { value: SetStateAction<string>; }; }) => {
+  const handleChange = (e: { target: { value: SetStateAction<string> } }) => {
     setInput(e.target.value);
   };
 

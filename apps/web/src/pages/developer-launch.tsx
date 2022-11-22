@@ -18,8 +18,8 @@ export default function DeveloperLaunch() {
       <main className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col items-center justify-center">
           <a className="m-4 p-4 text-center text-xl font-bold text-black">
-            We do not use emails.
-            I agree Pencil Developer Program License Agreement.
+            We do not use emails. I agree Pencil Developer Program License
+            Agreement.
           </a>
           <div className="m-4 p-4 text-center text-xl font-bold text-black">
             <button

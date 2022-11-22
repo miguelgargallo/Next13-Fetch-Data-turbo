@@ -1,4 +1,3 @@
-
 Version 2.9.8
 "Major Clouds."
 New Pencil web domains introduction, such us,pencil.li, canarchain.org, canarcoin.org, docs.pencil.liand fastest.pencil.domains, a Metaverse Office launch, also the World Wide Blockchain Developer Conference announcement confirmed
@@ -97,4 +96,3 @@ Notes: New startup web domain, Metaverse Office launch, World Wide Blockchain De
     We designed new marketing twitter posts.
     We write new descriptions on all social networks.
     We recoded the homepage and implemented into the new pencil.li domain.
-

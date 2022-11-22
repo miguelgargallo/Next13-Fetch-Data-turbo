@@ -17,9 +17,9 @@ export default function SupportTOS() {
         Pencil Terms of Service.™
       </a>
       <main>
-        <div  className="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
-          <div  className="bg-light mr-md-3 pt-md-5 px-md-5 overflow-hidden px-3 pt-3 text-left">
-          <div> 📃 WWBDC ™ </div>
+        <div className="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+          <div className="bg-light mr-md-3 pt-md-5 px-md-5 overflow-hidden px-3 pt-3 text-left">
+            <div> 📃 WWBDC ™ </div>
             <div> ✅ TRADEMARK http://bit.ly/38whEc4 </div>
             <div> ✅ OPENSEA http://bit.ly/3Grg0VG </div>
             <div> 📃 WWDBC ™ </div>
@@ -28,125 +28,111 @@ export default function SupportTOS() {
             <div> 📃 WWDBC ™ </div>
             <div> ✅ TRADEMARK http://bit.ly/3z66lSS </div>
             <div>
-              { }
-              ✅ OPENSEA
+              {}✅ OPENSEA
               https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/112810460215064636634197866855467852855454550117405354813643459430932117716993
             </div>
             <div> 📃 Canarcoin ™ </div>
             <div>
-              { }
-              ✅ TRADEMARK
-              https://polygonscan.com/tx/0x0059b42e7527e0fa58d2c34eae1cb55f4c3b243dfd42a3c23cf5a7f2abdf120d{ }
+              {}✅ TRADEMARK
+              https://polygonscan.com/tx/0x0059b42e7527e0fa58d2c34eae1cb55f4c3b243dfd42a3c23cf5a7f2abdf120d
+              {}
             </div>
             <div>
-              { }
-              ✅ OPENSEA
+              {}✅ OPENSEA
               https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/112810460215064636634197866855467852855454550117405354813643459430932117716993
             </div>
             <div> 📃 Logo Stick ™ </div>
             <div>
-              { }
-              ✅ TRADEMARK
-              https://polygonscan.com/tx/0x809a19772430bb6431a49946155c6c35ee5339cc461f3ca6cb7ef1bf702fe924{ }
+              {}✅ TRADEMARK
+              https://polygonscan.com/tx/0x809a19772430bb6431a49946155c6c35ee5339cc461f3ca6cb7ef1bf702fe924
+              {}
             </div>
             <div>
-              { }
-              ✅ OPENSEA
+              {}✅ OPENSEA
               https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/112810460215064636634197866855467852855454550117405354813643459432031629344769/
             </div>
             <div> 📃 Logo Triangle ™ </div>
             <div>
-              { }
-              ✅ TRADEMARK
-              https://polygonscan.com/tx/0xe12a4c61994e8c308af6cde054d17ef4164784fe67b0a776e7baefee1df56770{ }
+              {}✅ TRADEMARK
+              https://polygonscan.com/tx/0xe12a4c61994e8c308af6cde054d17ef4164784fe67b0a776e7baefee1df56770
+              {}
             </div>
             <div>
-              { }
-              ✅ OPENSEA
+              {}✅ OPENSEA
               https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/112810460215064636634197866855467852855454550117405354813643459433131140972545/
             </div>
             <div> 📃 Logo Dot ™ </div>
             <div>
-              { }
-              ✅ TRADEMARK
-              https://polygonscan.com/tx/0xe81eb294b249dfa650d8824a091560f6fa229a1f7d43bf63c7c000e883128a49{ }
+              {}✅ TRADEMARK
+              https://polygonscan.com/tx/0xe81eb294b249dfa650d8824a091560f6fa229a1f7d43bf63c7c000e883128a49
+              {}
             </div>
             <div>
-              { }
-              ✅ OPENSEA
+              {}✅ OPENSEA
               https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/112810460215064636634197866855467852855454550117405354813643459434230652600321/
             </div>
             <div> 📃 Canarchain ™ </div>
             <div>
-              { }
-              ✅ TRADEMARK
-              https://polygonscan.com/tx/0xaf4df01b087e6a31e73a7037609ef23e23b792dc81c69979985ac6de0f52ab67{ }
+              {}✅ TRADEMARK
+              https://polygonscan.com/tx/0xaf4df01b087e6a31e73a7037609ef23e23b792dc81c69979985ac6de0f52ab67
+              {}
             </div>
             <div>
-              { }
-              ✅ OPENSEA
+              {}✅ OPENSEA
               https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/112810460215064636634197866855467852855454550117405354813643459429832606089217/
             </div>
             <div> 📃 Canarcoin ™ </div>
             <div>
-              { }
-              ✅ TRADEMARK
-              https://polygonscan.com/tx/0xe81eb294b249dfa650d8824a091560f6fa229a1f7d43bf63c7c000e883128a49{ }
+              {}✅ TRADEMARK
+              https://polygonscan.com/tx/0xe81eb294b249dfa650d8824a091560f6fa229a1f7d43bf63c7c000e883128a49
+              {}
             </div>
             <div>
-              { }
-              ✅ OPENSEA
+              {}✅ OPENSEA
               https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/112810460215064636634197866855467852855454550117405354813643459434230652600321/
             </div>
             <div> 📃 Other, Pencil ™ </div>
             <div>
-              { }
-              ✅ TRADEMARK
-              https://polygonscan.com/tx/0xab4e0882aa3013b5482fb5564c5b557149d51876717f318e6867430818f5df46{ }
+              {}✅ TRADEMARK
+              https://polygonscan.com/tx/0xab4e0882aa3013b5482fb5564c5b557149d51876717f318e6867430818f5df46
+              {}
             </div>
             <div>
-              { }
-              ✅ TRADEMARK
-              https://polygonscan.com/tx/0xfb9e5152659b639572f61c3b2259ab3ba34e4ade6e7af7a7ba043c5371a46d9f{ }
+              {}✅ TRADEMARK
+              https://polygonscan.com/tx/0xfb9e5152659b639572f61c3b2259ab3ba34e4ade6e7af7a7ba043c5371a46d9f
+              {}
             </div>
             <div>
-              { }
-              ✅ TRADEMARK
+              {}✅ TRADEMARK
               https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/112810460215064636634197866855467852855454550117405354813643459427633582833665
             </div>
             <div>
-              { }
-              ✅ TRADEMARK
-              https://polygonscan.com/tx/0x09b4d11dc05d04d5cbcef16e97d17e480943aea5d793cbf0c8ecf082deacd047{ }
+              {}✅ TRADEMARK
+              https://polygonscan.com/tx/0x09b4d11dc05d04d5cbcef16e97d17e480943aea5d793cbf0c8ecf082deacd047
+              {}
             </div>
             <div>
-              { }
-              ✅ OPENSEA
+              {}✅ OPENSEA
               https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/112810460215064636634197866855467852855454550117405354813643459428733094461441
             </div>
             <div>
-              { }
-              ✅ TRADEMARK
+              {}✅ TRADEMARK
               https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/112810460215064636634197866855467852855454550117405354813643459428733094461441
             </div>
             <div>
-              { }
-              ✅ OPENSEA, Scrumr App
+              {}✅ OPENSEA, Scrumr App
               https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/112810460215064636634197866855467852855454550117405354813643459435330164228097
             </div>
             <div>
-              { }
-              ✅ TRADEMARK, Scrumr App
+              {}✅ TRADEMARK, Scrumr App
               https://polygonscan.com/tx/0x1c6b25b347232ad42445c2430930b83db10b3e8cd39e294b6db8380bc8c6660c
             </div>
             <div>
-              { }
-              ✅ OPENSEA, Canary Islands Map Art, and COSMOSGAMES
+              {}✅ OPENSEA, Canary Islands Map Art, and COSMOSGAMES
               https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/112810460215064636634197866855467852855454550117405354813643459436429675855873/
             </div>
             <div>
-              { }
-              ✅ TRADEMARK, Canary Islands Map Art, and COSMOSGAMES
+              {}✅ TRADEMARK, Canary Islands Map Art, and COSMOSGAMES
               https://polygonscan.com/tx/0x081303d8975ce3ce19bc2999368b0d2683bd9db62e9a1e160601f191983c7567
             </div>
             <div>

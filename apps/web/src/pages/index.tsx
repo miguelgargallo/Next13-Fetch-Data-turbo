@@ -21,10 +21,7 @@ export default function Home() {
     const json = await res.json();
     setData(json);
     setJsonData(true);
-
   };
-
-
 
   if (list.includes(input)) {
     console.log("This is a valid TLD");
@@ -26086,4 +26083,3 @@ const list = [
 function setJsonData(arg0: boolean) {
   throw new Error("Function not implemented.");
 }
-
