@@ -13,9 +13,10 @@ export default function SupportPP() {
         <link rel="icon" href="./favicon.ico" />
       </Head>
       <Menu />
-      <SupportMenu />
 
       <MenuCorporate />
+      <SupportMenu />
+
       <a className="m-4 p-4 text-center text-xl font-bold text-black">
         Pencil Privacy Policy.™
       </a>
