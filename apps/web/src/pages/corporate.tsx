@@ -19,7 +19,7 @@ export default function Home() {
         25819 names on this amazing Handshake Blocks and Ranking Names portal.
       </a>
       <main className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-4 gap-4">
+        <div className="grid grid-cols-3 gap-4">
           <div className="col-span-1">
             <a href="/developer">
               <button className="rounded border border-gray-400 bg-white py-2 px-4 font-semibold text-gray-800 shadow hover:bg-gray-100">
