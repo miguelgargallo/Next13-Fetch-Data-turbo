@@ -17,7 +17,7 @@ export default function Home() {
   const [data, setData] = useState();
 
   const getData = async () => {
-    const res = await fetch(`https://e.hnsfans.com/names/${input}`);
+    const res = await fetch(`https://e.hnsfans.com/name/${input}`);
     const json = await res.json();
     setData(json);
   };
