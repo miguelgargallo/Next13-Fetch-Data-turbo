@@ -1,6 +1,8 @@
 You can use this as a template for your projects, just use the template or fork! and delete this file and mantain "License.md"
 
 - - - - -
+![Lines of Code](https://user-images.githubusercontent.com/5947268/203647317-1c4d925d-9ab3-4c38-afeb-4ad221e6204e.png)
+- - - - -
 
 Copyright &copy; 2022 Miguel Gargallo, Pencil Works LLC, ITAMAESAN ORG, SUPERDATAS, Pylar Team.
 
