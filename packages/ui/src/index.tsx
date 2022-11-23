@@ -32,3 +32,5 @@ export * from "./SquareDiamond";
 export * from "./SquareGold";
 export * from "./SquareSilver";
 export * from "./SquareBronze";
+/* Analytics */
+export * from "./Analytics";

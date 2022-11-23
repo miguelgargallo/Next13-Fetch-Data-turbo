@@ -1,13 +1,16 @@
 import Head from "next/head";
+import { Analytics } from "ui";
 import { Footer } from "ui";
 import { Menu } from "ui";
 import { MenuDevs } from "ui";
 import { MenuCorporate } from "ui";
 
+
 export default function DeveloperLaunch() {
   return (
     <div className="min-w-screen flex min-h-screen flex-col bg-white">
       <Head>
+        <Analytics />
         <title>Pencil Domains</title>
         <link rel="icon" href="./favicon.ico" />
       </Head>
