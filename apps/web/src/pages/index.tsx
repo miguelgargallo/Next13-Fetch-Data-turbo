@@ -17,7 +17,11 @@ export default function Home() {
   const [data, setData] = useState();
 
   const getData = async () => {
-    const res = await fetch(`https://e.hnsfans.com/name/${input}/history`);
+    /*     const res = await fetch(`https://e.hnsfans.com/name/${input}/history`);
+     */
+    const res = await fetch(
+      `https://api.dictionaryapi.dev/api/v2/entries/en/${input}`
+    ); /* https://api.dictionaryapi.dev/api/v2/entries/en/${entry} https://e.hnsfans.com/names/${input} https://api.niami.io/hsd/${input} */
     const json = await res.json();
     setData(json);
   };

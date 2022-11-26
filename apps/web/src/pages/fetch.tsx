@@ -5,9 +5,10 @@ import { Footer } from "ui";
 export default function Home() {
   const [input, setInput] = useState("");
   const [data, setData] = useState();
+  const [meaning, setMeaning] = useState();
 
   const getData = async () => {
-    const res = await fetch(`https://e.hnsfans.com/name/${input}/history`); /* https://e.hnsfans.com/names/${input} */ /* https://api.niami.io/hsd/${input} */
+    const res = await fetch(`https://api.dictionaryapi.dev/api/v2/entries/en/${input}`); /* https://api.dictionaryapi.dev/api/v2/entries/en/${entry} https://e.hnsfans.com/names/${input} https://api.niami.io/hsd/${input} */
     const json = await res.json();
     setData(json);
   };
@@ -59,6 +60,8 @@ export default function Home() {
                       onKeyPress={(e) => {
                         if (e.key === "Enter") {
                           console.log(getData());
+                          /*                           console.log(getMeaning());
+                           */
                         }
                       }}
                     />
@@ -78,6 +81,8 @@ export default function Home() {
                       className="flex w-full items-center justify-center rounded-md border border-transparent bg-white px-8 py-3 text-base font-bold text-black shadow-md hover:bg-white hover:text-black hover:shadow-xl md:py-4 md:px-10 md:text-lg"
                       onClick={() => {
                         void console.log(JSON.stringify(data));
+                        /*                         void console.log(JSON.stringify(meaning));
+                         */
                       }}
                     >
                       Explore Now, avoid caplocks
