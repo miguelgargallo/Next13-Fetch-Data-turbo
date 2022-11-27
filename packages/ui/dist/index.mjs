@@ -9514,6 +9514,22 @@ var SquareBronze = () => {
     className: "square_bronze"
   });
 };
+
+// src/Fetcher.tsx
+import { jsx as jsx26, jsxs as jsxs14 } from "react/jsx-runtime";
+var Fetcher = () => {
+  return /* @__PURE__ */ jsxs14("div", {
+    className: "",
+    children: [
+      /* @__PURE__ */ jsx26("h1", {
+        children: "Fetcher"
+      }),
+      /* @__PURE__ */ jsx26("p", {
+        children: "Fetcher"
+      })
+    ]
+  });
+};
 export {
   Button,
   Card,
@@ -9522,6 +9538,7 @@ export {
   DomainsGeo,
   DomainsMeta,
   DomainsNew,
+  Fetcher,
   Footer,
   GradientBronze,
   GradientDiamond,

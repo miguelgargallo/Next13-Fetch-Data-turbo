@@ -48,4 +48,6 @@ declare const SquareSilver: () => JSX.Element;
 
 declare const SquareBronze: () => JSX.Element;
 
-export { Button, Card, DomainsAll, DomainsBlocks, DomainsGeo, DomainsMeta, DomainsNew, Footer, GradientBronze, GradientDiamond, GradientGold, GradientSilver, GradientWhite, Menu, MenuCorporate, MenuDevs, MenuDomains, Scrollable, SquareBronze, SquareDiamond, SquareGold, SquareSilver, SquareWhite, SupportMenu, Version };
+declare const Fetcher: () => JSX.Element;
+
+export { Button, Card, DomainsAll, DomainsBlocks, DomainsGeo, DomainsMeta, DomainsNew, Fetcher, Footer, GradientBronze, GradientDiamond, GradientGold, GradientSilver, GradientWhite, Menu, MenuCorporate, MenuDevs, MenuDomains, Scrollable, SquareBronze, SquareDiamond, SquareGold, SquareSilver, SquareWhite, SupportMenu, Version };

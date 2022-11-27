@@ -983,6 +983,7 @@ __export(src_exports, {
   DomainsGeo: () => DomainsGeo,
   DomainsMeta: () => DomainsMeta,
   DomainsNew: () => DomainsNew,
+  Fetcher: () => Fetcher,
   Footer: () => Footer,
   GradientBronze: () => GradientBronze,
   GradientDiamond: () => GradientDiamond,
@@ -9546,6 +9547,22 @@ var SquareBronze = () => {
     className: "square_bronze"
   });
 };
+
+// src/Fetcher.tsx
+var import_jsx_runtime26 = require("react/jsx-runtime");
+var Fetcher = () => {
+  return /* @__PURE__ */ (0, import_jsx_runtime26.jsxs)("div", {
+    className: "",
+    children: [
+      /* @__PURE__ */ (0, import_jsx_runtime26.jsx)("h1", {
+        children: "Fetcher"
+      }),
+      /* @__PURE__ */ (0, import_jsx_runtime26.jsx)("p", {
+        children: "Fetcher"
+      })
+    ]
+  });
+};
 // Annotate the CommonJS export names for ESM import in node:
 0 && (module.exports = {
   Button,
@@ -9555,6 +9572,7 @@ var SquareBronze = () => {
   DomainsGeo,
   DomainsMeta,
   DomainsNew,
+  Fetcher,
   Footer,
   GradientBronze,
   GradientDiamond,
