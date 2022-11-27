@@ -145,6 +145,9 @@ export default function Home() {
               </picture>
             </a>
           </div>
+          <p className="m-2 text-center text-xl font-bold text-black">
+            8 Million TLDs on the Blockchain!
+          </p>
           <p className="text-center text-xl font-bold text-black">
             The Fastest Domains. ™
           </p>
