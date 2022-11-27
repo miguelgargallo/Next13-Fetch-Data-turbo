@@ -302,21 +302,6 @@ export default function Home() {
                             >
                               <a className="tld_title_diamond">.{word}</a>
                               <GradientDiamond /> is a 💎 Diamond TLD.
-                              <p className="tld_white py-8">
-                               
-                                <a
-                                  href="https://github.com/miguelgargallo/Next13-Fetch-Data-turbo/issues"
-                                  target="_blank"
-                                  rel="noopener noreferrer"
-                                  className="text-black hover:text-yellow-500"
-                                >
-                                  {" "}
-                                  <a className="hyperlink_issue">
-                                    Register Today
-                                  </a>
-                                </a>
-                                <p>and has {word.length} characters</p>
-                              </p>{" "}
                             </motion.div>
                           </a>
                         </div>
@@ -330,21 +315,6 @@ export default function Home() {
                             <div className="tld_gold_div">
                               <a className="tld_title_gold">.{word}</a>
                               <GradientGold /> a 🥇 Gold TLD.
-                              <p className="tld_white py-8">
-                               
-                                <a
-                                  href="https://github.com/miguelgargallo/Next13-Fetch-Data-turbo/issues"
-                                  target="_blank"
-                                  rel="noopener noreferrer"
-                                  className="text-black hover:text-yellow-500"
-                                >
-                                  {" "}
-                                  <a className="hyperlink_issue">
-                                    Register Today
-                                  </a>
-                                </a>
-                                <p>and has {word.length} characters</p>
-                              </p>{" "}
                             </div>
                           </a>
                         </div>
@@ -358,21 +328,6 @@ export default function Home() {
                             <div className="tld_silver_div">
                               <a className="tld_title_silver">.{word}</a>
                               <GradientSilver /> a 🥈 Silver TLD.
-                              <p className="tld_white py-8">
-                               
-                                <a
-                                  href="https://github.com/miguelgargallo/Next13-Fetch-Data-turbo/issues"
-                                  target="_blank"
-                                  rel="noopener noreferrer"
-                                  className="text-black hover:text-yellow-500"
-                                >
-                                  {" "}
-                                  <a className="hyperlink_issue">
-                                    Register Today
-                                  </a>
-                                </a>
-                                <p>and has {word.length} characters</p>
-                              </p>
                             </div>
                           </a>
                         </div>
@@ -386,21 +341,6 @@ export default function Home() {
                             <div className="tld_bronze_div">
                               <a className="tld_title_bronze">.{word}</a>
                               <GradientBronze /> a 🥉 Bronze TLD.
-                              <p className="tld_white py-8">
-                               
-                                <a
-                                  href="https://github.com/miguelgargallo/Next13-Fetch-Data-turbo/issues"
-                                  target="_blank"
-                                  rel="noopener noreferrer"
-                                  className="text-black hover:text-yellow-500"
-                                >
-                                  {" "}
-                                  <a className="hyperlink_issue">
-                                    Register Today
-                                  </a>
-                                </a>
-                                <p>and has {word.length} characters</p>
-                              </p>{" "}
                             </div>
                           </a>
                         </div>
@@ -415,23 +355,6 @@ export default function Home() {
                   <div className="tld_white_div">
                     <a className="tld_title_white">.{word}</a>
                     <GradientWhite /> is a 🎁 New TLD.
-                    <p className="tld_white py-8">
-                      <p>
-                        {word.indexOf(word) !== -1
-                          ? "Is a valid TLD, number " + word.indexOf(word)
-                          : "Could be a valid"}
-                      </p>
-                      <a
-                        href="https://github.com/miguelgargallo/Next13-Fetch-Data-turbo/issues"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-black hover:text-yellow-500"
-                      >
-                        {" "}
-                        <a className="hyperlink_issue">Register Today</a>
-                      </a>
-                      <p>and has {word.length} characters</p>
-                    </p>
                   </div>
                 )}
               </a>
