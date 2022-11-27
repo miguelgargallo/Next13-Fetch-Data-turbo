@@ -33,5 +33,3 @@ export * from "./SquareGold";
 export * from "./SquareSilver";
 export * from "./SquareBronze";
 /* Analytics */
-/* Fetcher */
-export * from "./Fetcher";
