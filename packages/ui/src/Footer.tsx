@@ -63,6 +63,7 @@ export const Footer = () => {
           </a>
         </div>
       </div>
+      <p>Please do not consider the score as investment advice.</p>
     </footer>
   );
 };
