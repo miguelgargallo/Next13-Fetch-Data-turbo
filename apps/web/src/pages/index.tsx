@@ -374,15 +374,15 @@ export default function Home() {
                   </a>
                 </div>
               </div>
-              <a>
-                {word.length > definition.length && (
-                  <div className="tld_white_div">
-                    <a className="tld_title_white">.{word}</a>
-                    <GradientWhite />
-                    <p className="tld_white_text"> is a 🎁 new TLD.</p>
-                  </div>
-                )}
-              </a>
+             {/*  <a>
+                {definition.length < 1 && (
+                    <div className="tld_white_div">
+                      <a className="tld_title_white">.{word}</a>
+                      <GradientWhite />
+                      <p className="tld_white_text"> is a 🎁 new TLD.</p>
+                    </div>
+                  )}
+              </a> */}
             </div>
           </div>
         </div>
