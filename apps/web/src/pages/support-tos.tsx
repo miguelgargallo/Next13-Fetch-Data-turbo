@@ -16,7 +16,7 @@ export default function SupportTOS() {
         <Menu />
 
         <MenuCorporate />
-      <SupportMenu />
+        <SupportMenu />
         <a className="m-4 p-4 text-center text-xl font-bold text-black">
           Pencil Terms of Service.™
         </a>

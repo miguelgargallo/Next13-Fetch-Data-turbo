@@ -1,3 +1,4 @@
+yarn run v1.22.19
 $ next build
 info  - Linting and checking validity of types...
 info  - Creating an optimized production build...
@@ -20,3 +21,4 @@ Route (pages)                              Size     First Load JS
 
 ○  (Static)  automatically rendered as static HTML (uses no initial props)
 
+Done in 6.38s.

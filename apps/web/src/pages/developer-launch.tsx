@@ -4,7 +4,6 @@ import { Menu } from "ui";
 import { MenuDevs } from "ui";
 import { MenuCorporate } from "ui";
 
-
 export default function DeveloperLaunch() {
   return (
     <div className="min-w-screen flex min-h-screen flex-col bg-white">
