@@ -9,7 +9,11 @@ import { GradientSilver } from "ui";
 import { GradientBronze } from "ui";
 import { Footer } from "ui";
 import { motion } from "framer-motion";
-import pylar
+import { emoji } from "./data/emoji.pylar";
+import { list } from "./data/list.pylar";
+import { maths } from "./data/maths.pylar";
+import { numbers } from "./data/numbers.pylar";
+import { symbols } from "./data/symbols.pylar";
 
 export default function Home() {
   const ELEMENTS = 1;

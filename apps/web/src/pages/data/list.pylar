@@ -1,4 +1,4 @@
-const pylarlist = [
+const list = [
 "a",
 "aa",
 "aaa",

@@ -1,4 +1,4 @@
-const pylaremojilist = [
+const emoji = [
   {
     "emoji": "😀",
     "description": "grinning face",

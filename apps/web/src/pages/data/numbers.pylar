@@ -1,4 +1,4 @@
-const pylarnumberslist = [
+const numbers = [
   {
     "emoji": "0",
     "description": "zero",

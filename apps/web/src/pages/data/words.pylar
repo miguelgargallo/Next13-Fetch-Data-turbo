@@ -1,4 +1,4 @@
-const pylarwordslist = [
+const words = [
 "a",
 "b",
 "c",
