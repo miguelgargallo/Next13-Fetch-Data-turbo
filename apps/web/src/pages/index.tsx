@@ -301,7 +301,11 @@ export default function Home() {
                               className="tld_diamond_div"
                             >
                               <a className="tld_title_diamond">.{word}</a>
-                              <GradientDiamond /> is a 💎 Diamond TLD.
+                              <GradientDiamond />
+                              <p className="tlg_diamond_text">
+                                {" "}
+                                is a 💎 Diamond TLD.{" "}
+                              </p>
                             </motion.div>
                           </a>
                         </div>
@@ -314,7 +318,9 @@ export default function Home() {
                             {" "}
                             <div className="tld_gold_div">
                               <a className="tld_title_gold">.{word}</a>
-                              <GradientGold /> a 🥇 Gold TLD.
+
+                              <GradientGold />
+                              <p className="tlg_gold_text"> a 🥇 Gold TLD.</p>
                             </div>
                           </a>
                         </div>
@@ -327,7 +333,11 @@ export default function Home() {
                             {" "}
                             <div className="tld_silver_div">
                               <a className="tld_title_silver">.{word}</a>
-                              <GradientSilver /> a 🥈 Silver TLD.
+                              <GradientSilver />
+                              <p className="tld_silver_text">
+                                {" "}
+                                a 🥈 Silver TLD.
+                              </p>
                             </div>
                           </a>
                         </div>
@@ -340,7 +350,11 @@ export default function Home() {
                             {" "}
                             <div className="tld_bronze_div">
                               <a className="tld_title_bronze">.{word}</a>
-                              <GradientBronze /> a 🥉 Bronze TLD.
+                              <GradientBronze />
+                              <p className="tlg_bronze_text">
+                                {" "}
+                                a 🥉 Bronze TLD.{" "}
+                              </p>
                             </div>
                           </a>
                         </div>
@@ -349,12 +363,12 @@ export default function Home() {
                   </div>
                 )}
               </div>
-
               <a>
                 {word.length > 7 && (
                   <div className="tld_white_div">
                     <a className="tld_title_white">.{word}</a>
-                    <GradientWhite /> is a 🎁 New TLD.
+                    <GradientWhite />
+                    <p className="tld_white_text"> is a 🎁 new TLD.</p>
                   </div>
                 )}
               </a>
