@@ -291,31 +291,28 @@ export default function Home() {
               <div className="mt-6 py-2 text-center">
                 <div className="mt-1 flex flex-row py-2">
                   <a>
-                    {word.length > 0 &&
-                      word.length < 4 &&
-                      definition.length > 0 &&
-                      definition.length < 100 && (
-                        <div>
-                          <a className="tld_diamond">
-                            {" "}
-                            <motion.div
-                              animate={{ scale: [1, 1.1, 1] }}
-                              transition={{ ease: "easeOut", duration: 2 }}
-                              className="tld_diamond_div"
-                            >
-                              <a className="tld_title_diamond">.{word}</a>
-                              <GradientDiamond />
-                              <p className="tlg_diamond_text">
-                                {" "}
-                                is a 💎 Diamond TLD.{" "}
-                              </p>
-                            </motion.div>
-                          </a>
-                        </div>
-                      )}
+                    {word.length > 0 && word.length < 4 && (
+                      <div>
+                        <a className="tld_diamond">
+                          {" "}
+                          <motion.div
+                            animate={{ scale: [1, 1.1, 1] }}
+                            transition={{ ease: "easeOut", duration: 2 }}
+                            className="tld_diamond_div"
+                          >
+                            <a className="tld_title_diamond">.{word}</a>
+                            <GradientDiamond />
+                            <p className="tlg_diamond_text">
+                              {" "}
+                              is a 💎 Diamond TLD.{" "}
+                            </p>
+                          </motion.div>
+                        </a>
+                      </div>
+                    )}
                   </a>
                   <a>
-                    {word.length > 4 &&
+                    {word.length > 3 &&
                       word.length < 6 &&
                       definition.length > 0 &&
                       definition.length < 100 && (
@@ -333,10 +330,10 @@ export default function Home() {
                       )}
                   </a>
                   <a>
-                    {word.length > 6 &&
+                    {word.length > 5 &&
                       word.length < 8 &&
                       definition.length > 0 &&
-                      definition.length < 100 && (
+                      definition.length < 150 && (
                         <div>
                           <a className="tld_silver">
                             {" "}
@@ -353,10 +350,10 @@ export default function Home() {
                       )}
                   </a>
                   <a>
-                    {word.length > 8 &&
+                    {word.length > 7 &&
                       word.length < 10 &&
                       definition.length > 0 &&
-                      definition.length < 100 && (
+                      definition.length < 200 && (
                         <div>
                           <a className="tld_bronze">
                             {" "}
@@ -374,7 +371,7 @@ export default function Home() {
                   </a>
                 </div>
               </div>
-             {/*  <a>
+              {/*  <a>
                 {definition.length < 1 && (
                     <div className="tld_white_div">
                       <a className="tld_title_white">.{word}</a>
