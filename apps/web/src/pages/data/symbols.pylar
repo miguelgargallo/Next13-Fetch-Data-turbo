@@ -1,0 +1,377 @@
+[
+  {
+    "emoji": ".",
+    "description": "dot",
+    "category": "Type",
+    "aliases": [
+      "dots"
+    ],
+    "tags": [
+      "dot",
+      "write"
+    ],
+    "unicode_version": "1.1",
+    "ios_version": "1.0"
+  },
+  {
+    "emoji": "/",
+    "description": "bar",
+    "category": "Type",
+    "aliases": [
+      "slash"
+    ],
+    "tags": [
+      "bar",
+      "slash"
+    ],
+    "unicode_version": "1.1",
+    "ios_version": "1.0"
+  },
+  {
+    "emoji": "!",
+    "description": "exclamation",
+    "category": "Type",
+    "aliases": [
+      "exclamation"
+    ],
+    "tags": [
+      "exclamation"
+    ],
+    "unicode_version": "1.1",
+    "ios_version": "1.0"
+  },
+  {
+    "emoji": "?",
+    "description": "question",
+    "category": "Type",
+    "aliases": [
+      "question"
+    ],
+    "tags": [
+      "question"
+    ],
+    "unicode_version": "1.1",
+    "ios_version": "1.0"
+  },
+  {
+    "emoji": "❕",
+    "description": "white exclamation mark",
+    "category": "Type",
+    "aliases": [
+      "grey_exclamation"
+    ],
+    "tags": [
+      "exclamation",
+      "mark",
+      "white"
+    ],
+    "unicode_version": "1.1",
+    "ios_version": "1.0"
+  },
+  {
+    "emoji": "❔",
+    "description": "white question mark",
+    "category": "Type",
+    "aliases": [
+      "grey_question"
+    ],
+    "tags": [
+      "mark",
+      "question",
+      "white"
+    ],
+    "unicode_version": "1.1",
+    "ios_version": "1.0"
+  },
+  {
+    "emoji": "❗",
+    "description": "exclamation mark",
+    "category": "Type",
+    "aliases": [
+      "exclamation",
+      "heavy_exclamation_mark"
+    ],
+    "tags": [
+      "exclamation",
+      "mark"
+    ],
+    "unicode_version": "1.1",
+    "ios_version": "1.0"
+  },
+  {
+    "emoji": "❓",
+    "description": "question mark",
+    "category": "Type",
+    "aliases": [
+      "question"
+    ],
+    "tags": [
+      "mark",
+      "question"
+    ],
+    "unicode_version": "1.1",
+    "ios_version": "1.0"
+  },
+  {
+    "emoji": "〰️",
+    "description": "wavy dash",
+    "category": "Type",
+    "aliases": [
+      "wavy_dash"
+    ],
+    "tags": [
+      "dash",
+      "wavy"
+    ],
+    "unicode_version": "1.1",
+    "ios_version": "1.0"
+  },
+  {
+    "emoji": "💱",
+    "description": "currency exchange",
+    "category": "Type",
+    "aliases": [
+      "currency_exchange"
+    ],
+    "tags": [
+      "currency",
+      "exchange"
+    ],
+    "unicode_version": "1.1",
+    "ios_version": "1.0"
+  },
+  {
+    "emoji": "💲",
+    "description": "heavy dollar sign",
+    "category": "Type",
+    "aliases": [
+      "heavy_dollar_sign"
+    ],
+    "tags": [
+      "dollar",
+      "heavy",
+      "sign"
+    ],
+    "unicode_version": "1.1",
+    "ios_version": "1.0"
+  },
+  {
+    "emoji": "⚕️",
+    "description": "medical symbol",
+    "category": "Type",
+    "aliases": [
+      "medical_symbol"
+    ],
+    "tags": [
+      "medical",
+      "symbol"
+    ],
+    "unicode_version": "1.1",
+    "ios_version": "1.0"
+  },
+  {
+    "emoji": "♻️",
+    "description": "recycling symbol",
+    "category": "Type",
+    "aliases": [
+      "recycle"
+    ],
+    "tags": [
+      "recycle",
+      "symbol"
+    ],
+    "unicode_version": "1.1",
+    "ios_version": "1.0"
+  },
+  {
+    "emoji": "⚜️",
+    "description": "fleur-de-lis",
+    "category": "Type",
+    "aliases": [
+      "fleur_de_lis"
+    ],
+    "tags": [
+      "fleur",
+      "lis"
+    ],
+    "unicode_version": "1.1",
+    "ios_version": "1.0"
+  },
+  {
+    "emoji": "🔱",
+    "description": "trident emblem",
+    "category": "Type",
+    "aliases": [
+      "trident"
+    ],
+    "tags": [
+      "emblem",
+      "trident"
+    ],
+    "unicode_version": "1.1",
+    "ios_version": "1.0"
+  },
+  {
+    "emoji": "📛",
+    "description": "name badge",
+    "category": "Type",
+    "aliases": [
+      "name_badge"
+    ],
+    "tags": [
+      "badge",
+      "name"
+    ],
+    "unicode_version": "1.1",
+    "ios_version": "1.0"
+  },
+  {
+    "emoji": "🔰",
+    "description": "Japanese symbol for beginner",
+    "category": "Type",
+    "aliases": [
+      "beginner"
+    ],
+    "tags": [
+      "beginner",
+      "japanese",
+      "symbol"
+    ],
+    "unicode_version": "1.1",
+    "ios_version": "1.0"
+  },
+  {
+    "emoji": "⭕",
+    "description": "hollow red circle",
+    "category": "Type",
+    "aliases": [
+      "o"
+    ],
+    "tags": [
+      "circle",
+      "hollow",
+      "red"
+    ],
+    "unicode_version": "1.1",
+    "ios_version": "1.0"
+  },
+  {
+    "emoji": "o",
+    "description": "hollow small circle",
+    "category": "Type",
+    "aliases": [
+      "o"
+    ],
+    "tags": [
+      "circle",
+      "hollow",
+      "small"
+    ],
+    "unicode_version": "1.1",
+    "ios_version": "1.0"
+  },
+  {
+    "emoji": "🔘",
+    "description": "radio button",
+    "category": "Type",
+    "aliases": [
+      "radio_button"
+    ],
+    "tags": [
+      "button",
+      "radio"
+    ],
+    "unicode_version": "1.1",
+    "ios_version": "1.0"
+  },
+  {
+    "emoji": "⚪",
+    "description": "white medium circle",
+    "category": "Type",
+    "aliases": [
+      "white_circle"
+    ],
+    "tags": [
+      "circle",
+      "medium",
+      "white"
+    ],
+    "unicode_version": "1.1",
+    "ios_version": "1.0"
+  },
+  {
+    "emoji": "⚫",
+    "description": "black medium circle",
+    "category": "Type",
+    "aliases": [
+      "black_circle"
+    ],
+    "tags": [
+      "black",
+      "circle",
+      "medium"
+    ],
+    "unicode_version": "1.1",
+    "ios_version": "1.0"
+  },
+  {
+    "emoji": "🔴",
+    "description": "red circle",
+    "category": "Type",
+    "aliases": [
+      "red_circle"
+    ],
+    "tags": [
+      "circle",
+      "red"
+    ],
+    "unicode_version": "1.1",
+    "ios_version": "1.0"
+  },
+  {
+    "emoji": "🔵",
+    "description": "blue circle",
+    "category": "Type",
+    "aliases": [
+      "large_blue_circle"
+    ],
+    "tags": [
+      "blue",
+      "circle",
+      "large"
+    ],
+    "unicode_version": "1.1",
+    "ios_version": "1.0"
+  },
+  {
+    "emoji": "🔺",
+    "description": "red triangle pointed up",
+    "category": "Type",
+    "aliases": [
+      "small_red_triangle"
+    ],
+    "tags": [
+      "pointed",
+      "red",
+      "triangle"
+    ],
+    "unicode_version": "1.1",
+    "ios_version": "1.0"
+  },
+  {
+    "emoji": "🔻",
+    "description": "red triangle pointed down",
+    "category": "Type",
+    "aliases": [
+      "small_red_triangle_down"
+    ],
+    "tags": [
+      "down",
+      "pointed",
+      "red",
+      "triangle"
+    ],
+    "unicode_version": "1.1",
+    "ios_version": "1.0"
+  }
+]
