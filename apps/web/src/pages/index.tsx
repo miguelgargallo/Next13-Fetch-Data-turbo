@@ -9,6 +9,7 @@ import { GradientSilver } from "ui";
 import { GradientBronze } from "ui";
 import { Footer } from "ui";
 import { motion } from "framer-motion";
+import pylar
 
 export default function Home() {
   const ELEMENTS = 1;
