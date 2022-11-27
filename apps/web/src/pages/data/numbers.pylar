@@ -1,4 +1,4 @@
-[
+const pylarnumberslist = [
   {
     "emoji": "0",
     "description": "zero",

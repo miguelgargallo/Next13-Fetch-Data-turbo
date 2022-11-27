@@ -1,4 +1,4 @@
-[
+const pylarmathlist = [
   {
     "emoji": "🔟",
     "description": "keycap: 10",
