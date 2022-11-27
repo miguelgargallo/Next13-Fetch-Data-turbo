@@ -290,6 +290,15 @@ export default function Home() {
               <div className="mt-1 flex flex-row py-2">
                 {word.length > 0 && word.length < 8 && (
                   <div>
+                    {definition.length / word.length > 18.5 ? (
+                      <p className="font-regular py-8 text-center text-xl text-black">
+                        Exactly
+                      </p>
+                    ) : (
+                      <p className="font-regular py-8 text-center text-xl text-black">
+                        Nope
+                      </p>
+                    )}
                     <a>
                       {word.length > 0 && word.length < 4 && (
                         <div>
