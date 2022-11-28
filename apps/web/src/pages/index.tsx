@@ -23,7 +23,7 @@ export default function Home() {
   const [loading, setLoading] = useState<boolean>(false);
   const [error, setError] = useState<string | null>(null);
 
-// const fetch data but if no data is found then return a sentence "no data found"
+  // const fetch data but if no data is found then return a sentence "no data found"
 
   const fetchData = async () => {
     setLoading(true);
@@ -320,7 +320,7 @@ export default function Home() {
                     {word.length > 3 &&
                       word.length < 7 &&
                       definition.length > 0 && (
-                      /* definition.length < 100 && ( */
+                        /* definition.length < 100 && ( */
                         <div>
                           <a className="tld_gold">
                             {" "}
@@ -342,8 +342,8 @@ export default function Home() {
                     {word.length > 6 &&
                       word.length < 10 &&
                       definition.length > 0 && (
-                      /* definition.length < 100 && ( */
-                      <div>
+                        /* definition.length < 100 && ( */
+                        <div>
                           <a className="tld_silver">
                             {" "}
                             <motion.div
@@ -366,8 +366,8 @@ export default function Home() {
                     {word.length > 9 &&
                       word.length < 13 &&
                       definition.length > 0 && (
-                      /* definition.length < 100 && ( */
-                      <div>
+                        /* definition.length < 100 && ( */
+                        <div>
                           <a className="tld_bronze">
                             {" "}
                             <motion.div
@@ -405,3 +405,213 @@ export default function Home() {
     </div>
   );
 }
+
+// comienzo_a_buscar al inicio
+
+const word = [
+  "a",
+  "á",
+  "b",
+  "c",
+  "d",
+  "e",
+  "é",
+  "f",
+  "g",
+  "h",
+  "i",
+  "í",
+  "j",
+  "k",
+  "l",
+  "m",
+  "n",
+  "ñ",
+  "o",
+  "ó",
+  "p",
+  "q",
+  "r",
+  "s",
+  "t",
+  "u",
+  "ú",
+  "ü",
+  "v",
+  "w",
+  "x",
+  "y",
+  "z",
+];
+
+// La 'a' tiene más de 30 resultados con lo que se expande
+
+// EXAPEND: a
+
+const a_word = [
+  "aá",
+  "ab",
+  "ac",
+  "ad",
+  "ae",
+  "aé",
+  "af",
+  "ag",
+  "ah",
+  "ai",
+  "aí",
+  "aj",
+  "ak",
+  "al",
+  "am",
+  "an",
+  "añ",
+  "ao",
+  "aó",
+  "ap",
+  "aq",
+  "ar",
+  "as",
+  "at",
+  "au",
+  "aú",
+  "aü",
+  "av",
+  "aw",
+  "ax",
+  "ay",
+  "az",
+  "á",
+  "b",
+  "c",
+  "d",
+  "e",
+  "é",
+  "f",
+  "g",
+  "h",
+  "i",
+  "í",
+  "j",
+  "k",
+  "l",
+  "m",
+  "n",
+  "ñ",
+  "o",
+  "ó",
+  "p",
+  "q",
+  "r",
+  "s",
+  "t",
+  "u",
+  "ú",
+  "ü",
+  "v",
+  "w",
+  "x",
+  "y",
+  "z",
+];
+
+// Seguimos buscando consumiendo 'aa', 'aá' y en 'ab' tenemos más de 30... la expandimos
+
+//EXAPEND: ab
+
+const ab_word = [
+  "abá",
+  "abb",
+  "abc",
+  "abd",
+  "abe",
+  "abé",
+  "abf",
+  "abg",
+  "abh",
+  "abi",
+  "abí",
+  "abj",
+  "abk",
+  "abl",
+  "abm",
+  "abn",
+  "abñ",
+  "abo",
+  "abó",
+  "abp",
+  "abq",
+  "abr",
+  "abs",
+  "abt",
+  "abu",
+  "abú",
+  "abü",
+  "abv",
+  "abw",
+  "abx",
+  "aby",
+  "abz",
+  "ac",
+  "ad",
+  "ae",
+  "aé",
+  "af",
+  "ag",
+  "ah",
+  "ai",
+  "aí",
+  "aj",
+  "ak",
+  "al",
+  "am",
+  "an",
+  "añ",
+  "ao",
+  "aó",
+  "ap",
+  "aq",
+  "ar",
+  "as",
+  "at",
+  "au",
+  "aú",
+  "aü",
+  "av",
+  "aw",
+  "ax",
+  "ay",
+  "az",
+  "á",
+  "b",
+  "c",
+  "d",
+  "e",
+  "é",
+  "f",
+  "g",
+  "h",
+  "i",
+  "í",
+  "j",
+  "k",
+  "l",
+  "m",
+  "n",
+  "ñ",
+  "o",
+  "ó",
+  "p",
+  "q",
+  "r",
+  "s",
+  "t",
+  "u",
+  "ú",
+  "ü",
+  "v",
+  "w",
+  "x",
+  "y",
+  "z",
+];
