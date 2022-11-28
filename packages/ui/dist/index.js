@@ -1034,7 +1034,7 @@ var Version = () => {
       href: "http://github.com/miguelgargallo/next13-Fetch-Data-turbo",
       target: "_blank",
       rel: "noopener noreferrer",
-      children: "v1.8.0"
+      children: "v1.8.1"
     })
   });
 };
@@ -9492,6 +9492,9 @@ var Footer = () => {
             })
           ]
         })
+      }),
+      /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("p", {
+        children: "Please do not consider the score as investment advice."
       })
     ]
   });

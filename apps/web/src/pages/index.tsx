@@ -23,23 +23,25 @@ export default function Home() {
   const [loading, setLoading] = useState<boolean>(false);
   const [error, setError] = useState<string | null>(null);
 
-  const fetchDefinition = async () => {
+// const fetch data but if no data is found then return a sentence "no data found"
+
+  const fetchData = async () => {
     setLoading(true);
+    setError(null);
     try {
       const response = await fetch(
         `https://api.dictionaryapi.dev/api/v2/entries/en/${word}`
       );
       const data = await response.json();
-      setDefinition(data[0].meanings[0].definitions[0].definition);
+      if (data.title === "No Definitions Found") {
+        setDefinition("No data found");
+      } else {
+        setDefinition(data[0].meanings[0].definitions[0].definition);
+      }
     } catch (error) {
-      setError(error.message);
+      setError("Something went wrong");
     }
     setLoading(false);
-
-    if (definition === "") {
-      return null;
-    }
-    return <p>{definition}</p>;
   };
 
   return (
@@ -174,19 +176,19 @@ export default function Home() {
                             className="m-2 rounded-md border border-gray-300 px-4 py-2 text-black"
                             value={word}
                             onChange={(e) => setWord(e.target.value)}
-                            onClick={fetchDefinition}
+                            onClick={fetchData}
                             onKeyPress={(e) => {
                               if (e.key === "Enter") {
-                                fetchDefinition();
+                                fetchData();
                               }
                             }}
                           />
                           <button
                             className="m-2 rounded-md bg-blue-500 px-4 py-2 text-white"
-                            onClick={fetchDefinition}
+                            onClick={fetchData}
                             onKeyPress={(e) => {
                               if (e.key === "Enter") {
-                                fetchDefinition();
+                                fetchData();
                               }
                             }}
                           >
@@ -243,19 +245,19 @@ export default function Home() {
                     className="m-2 rounded-md border border-gray-300 px-4 py-2 text-black"
                     value={word}
                     onChange={(e) => setWord(e.target.value)}
-                    onClick={fetchDefinition}
+                    onClick={fetchData}
                     onKeyPress={(e) => {
                       if (e.key === "Enter") {
-                        fetchDefinition();
+                        fetchData();
                       }
                     }}
                   />
                   <button
                     className="m-2 rounded-md bg-blue-500 px-4 py-2 text-white"
-                    onClick={fetchDefinition}
+                    onClick={fetchData}
                     onKeyPress={(e) => {
                       if (e.key === "Enter") {
-                        fetchDefinition();
+                        fetchData();
                       }
                     }}
                   >
@@ -316,58 +318,70 @@ export default function Home() {
                   </a>
                   <a>
                     {word.length > 3 &&
-                      word.length < 6 &&
-                      definition.length > 0 &&
-                      definition.length < 100 && (
+                      word.length < 7 &&
+                      definition.length > 0 && (
+                      /* definition.length < 100 && ( */
                         <div>
                           <a className="tld_gold">
                             {" "}
-                            <div className="tld_gold_div">
+                            <motion.div
+                              animate={{ scale: [1, 1.1, 1] }}
+                              transition={{ ease: "easeOut", duration: 2 }}
+                              className="tld_gold_div"
+                            >
                               <a className="tld_title_gold">.{word}</a>
 
                               <GradientGold />
                               <p className="tlg_gold_text"> a 🥇 Gold TLD.</p>
-                            </div>
+                            </motion.div>
                           </a>
                         </div>
                       )}
                   </a>
                   <a>
-                    {word.length > 5 &&
-                      word.length < 8 &&
-                      definition.length > 0 &&
-                      definition.length < 150 && (
-                        <div>
+                    {word.length > 6 &&
+                      word.length < 10 &&
+                      definition.length > 0 && (
+                      /* definition.length < 100 && ( */
+                      <div>
                           <a className="tld_silver">
                             {" "}
-                            <div className="tld_silver_div">
+                            <motion.div
+                              animate={{ scale: [1, 1.1, 1] }}
+                              transition={{ ease: "easeOut", duration: 2 }}
+                              className="tld_silver_div"
+                            >
                               <a className="tld_title_silver">.{word}</a>
                               <GradientSilver />
                               <p className="tld_silver_text">
                                 {" "}
                                 a 🥈 Silver TLD.
                               </p>
-                            </div>
+                            </motion.div>
                           </a>
                         </div>
                       )}
                   </a>
                   <a>
-                    {word.length > 7 &&
-                      word.length < 10 &&
-                      definition.length > 0 &&
-                      definition.length < 200 && (
-                        <div>
+                    {word.length > 9 &&
+                      word.length < 13 &&
+                      definition.length > 0 && (
+                      /* definition.length < 100 && ( */
+                      <div>
                           <a className="tld_bronze">
                             {" "}
-                            <div className="tld_bronze_div">
+                            <motion.div
+                              animate={{ scale: [1, 1.1, 1] }}
+                              transition={{ ease: "easeOut", duration: 2 }}
+                              className="tld_bronze_div"
+                            >
                               <a className="tld_title_bronze">.{word}</a>
                               <GradientBronze />
                               <p className="tlg_bronze_text">
                                 {" "}
                                 a 🥉 Bronze TLD.{" "}
                               </p>
-                            </div>
+                            </motion.div>
                           </a>
                         </div>
                       )}
