@@ -406,7 +406,7 @@ export default function Home() {
   );
 }
 
-// comienzo_a_buscar al inicio
+/* // comienzo_a_buscar al inicio
 
 const word = [
   "a",
@@ -615,3 +615,4 @@ const ab_word = [
   "y",
   "z",
 ];
+ */
