@@ -25,21 +25,21 @@ export default function Home() {
           <div className="col-span-1">
             <a href="/support-tos">
               <button className="rounded border border-gray-400 bg-white py-2 px-4 font-semibold text-gray-800 shadow hover:bg-gray-100">
-                terms of service
+                Terms of service
               </button>
             </a>
           </div>
           <div className="col-span-1">
             <a href="/support-pp">
               <button className="rounded border border-gray-400 bg-white py-2 px-4 font-semibold text-gray-800 shadow hover:bg-gray-100">
-                Pruvacy Policy
+                Privacy Policy
               </button>
             </a>
           </div>
           <div className="col-span-1">
             <a href="/support-answers">
               <button className="rounded border border-gray-400 bg-white py-2 px-4 font-semibold text-gray-800 shadow hover:bg-gray-100">
-                Answers
+                Questions and Answers
               </button>
             </a>
           </div>
