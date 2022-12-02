@@ -4,7 +4,7 @@ const ELEMENTS = 8;
 export const Version = () => {
   return (
     <button
-      className="m-2 hidden rounded-full bg-black py-2 px-4 text-xs font-bold text-black shadow-md hover:shadow-xl md:block"
+      className="m-2 hidden rounded-full py-2 px-4 text-xs font-bold text-black shadow-md hover:shadow-xl md:block"
       style={generateJSXMeshGradient(ELEMENTS)}
     >
       <a

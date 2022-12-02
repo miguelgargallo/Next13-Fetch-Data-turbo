@@ -1045,7 +1045,7 @@ import { jsx as jsx2 } from "react/jsx-runtime";
 var ELEMENTS = 8;
 var Version = () => {
   return /* @__PURE__ */ jsx2("button", {
-    className: "m-2 hidden rounded-full bg-black py-2 px-4 text-xs font-bold text-black shadow-md hover:shadow-xl md:block",
+    className: "m-2 hidden rounded-full py-2 px-4 text-xs font-bold text-black shadow-md hover:shadow-xl md:block",
     style: k(ELEMENTS),
     children: /* @__PURE__ */ jsx2("a", {
       href: "http://github.com/miguelgargallo/next13-Fetch-Data-turbo",
