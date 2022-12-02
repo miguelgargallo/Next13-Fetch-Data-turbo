@@ -109,3 +109,24 @@
 .square_white {
     @apply max-w-full rounded-3xl shadow-md hover:shadow-xl w-32 h-32 bg-gray-200 border-gray-500;
 }
+
+
+.tld_card_diamond
+{
+    @apply text-2xl font-bold text-center justify-center tld_title_diamond;
+}
+
+.tld_card_gold
+{
+    @apply text-2xl font-bold text-center justify-center tld_title_gold;
+}
+
+.tld_card_silver
+{
+    @apply text-2xl font-bold text-center justify-center tld_title_silver;
+}
+
+.tld_card_bronze
+{
+    @apply text-2xl font-bold text-center justify-center tld_title_bronze;
+}

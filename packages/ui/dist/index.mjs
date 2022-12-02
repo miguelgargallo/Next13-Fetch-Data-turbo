@@ -1051,7 +1051,7 @@ var Version = () => {
       href: "http://github.com/miguelgargallo/next13-Fetch-Data-turbo",
       target: "_blank",
       rel: "noopener noreferrer",
-      children: "v1.8.5"
+      children: "v1.8.6"
     })
   });
 };
