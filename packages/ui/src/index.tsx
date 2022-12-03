@@ -47,3 +47,5 @@ export * from "./SquareBronze";
 /* Blog Pylar */
 export * from "./BlogPylar/blog";
 export * from "./BlogPylar/post12032022";
+/* Maths */
+export * from "./MoneyCalculator";
