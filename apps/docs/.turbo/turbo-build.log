@@ -1,4 +1,4 @@
-yarn run v1.22.19
+yarn run v1.22.17
 $ next build
 info  - Linting and checking validity of types...
 info  - Creating an optimized production build...
@@ -17,8 +17,8 @@ Route (pages)                              Size     First Load JS
   ├ chunks/main-b8adf948f7f01545.js        26.7 kB
   ├ chunks/pages/_app-8198e3d352f586ca.js  309 B
   ├ chunks/webpack-ee7e63bc15b31913.js     815 B
-  └ css/0d49874f03bd2413.css               3.9 kB
+  └ css/20ff6b28a95fd3d5.css               3.92 kB
 
 ○  (Static)  automatically rendered as static HTML (uses no initial props)
 
-Done in 6.38s.
+Done in 12.84s.

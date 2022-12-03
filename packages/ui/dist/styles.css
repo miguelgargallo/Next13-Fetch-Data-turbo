@@ -659,12 +659,6 @@ video {
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
-.from-blue-500 {
-  --tw-gradient-from: #3b82f6;
-  --tw-gradient-to: rgb(59 130 246 / 0);
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
-}
-
 .to-brandblue {
   --tw-gradient-to: #3b82f6;
 }
