@@ -73,7 +73,7 @@ export default function Home() {
                   </thead>
                   <tbody>
                     <tr>
-                      <td className="border px-4 py-2">
+                      <td className="global_td">
                         <input
                           type="text"
                           className="m-2 rounded-md border border-gray-300 px-4 py-2 text-black"
@@ -98,8 +98,8 @@ export default function Home() {
                           Get Punctuation
                         </button>
                       </td>
-                      <td className="border px-4 py-2">{definition.length}</td>
-                      <td className="border px-4 py-2">
+                      <td className="global_td">{definition.length}</td>
+                      <td className="global_td">
                         {definition.split(" ").length < 10 ? (
                           <p className="font-regular py-8 text-center text-xl text-black">
                             This is a short definition
@@ -110,8 +110,8 @@ export default function Home() {
                           </p>
                         )}
                       </td>
-                      <td className="border px-4 py-2">{word.length}</td>
-                      <td className="border px-4 py-2">
+                      <td className="global_td">{word.length}</td>
+                      <td className="global_td">
                         {word.length < 7 ? (
                           <p className="font-regular py-8 text-center text-xl text-black">
                             This is a short word
@@ -122,7 +122,7 @@ export default function Home() {
                           </p>
                         )}
                       </td>
-                      <td className="border px-4 py-2">
+                      <td className="global_td">
                         {definition && (
                           <p className="font-regular py-8 text-center text-xl text-black">
                             {loading && <p>Loading...</p>}
