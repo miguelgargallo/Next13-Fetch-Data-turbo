@@ -10,6 +10,8 @@ declare const MenuDevs: () => JSX.Element;
 
 declare const MenuCorporate: () => JSX.Element;
 
+declare const MenuPylar: () => JSX.Element;
+
 declare const Logo: () => JSX.Element;
 
 declare const MenuLogo: () => JSX.Element;
@@ -21,6 +23,8 @@ declare const TitleExplorer: () => JSX.Element;
 declare const TitlePylar: () => JSX.Element;
 
 declare const TitleCorporate: () => JSX.Element;
+
+declare const ListPylar: () => JSX.Element;
 
 declare const Version: () => JSX.Element;
 
@@ -60,4 +64,4 @@ declare const SquareSilver: () => JSX.Element;
 
 declare const SquareBronze: () => JSX.Element;
 
-export { Button, Card, DomainsAll, DomainsBlocks, DomainsGeo, DomainsMeta, DomainsNew, Footer, GradientBronze, GradientDiamond, GradientGold, GradientSilver, GradientWhite, Logo, Menu, MenuCorporate, MenuDevs, MenuDomains, MenuLogo, Scrollable, SquareBronze, SquareDiamond, SquareGold, SquareSilver, SquareWhite, SupportMenu, TitleCorporate, TitleExplorer, TitleIndex, TitlePylar, Version };
+export { Button, Card, DomainsAll, DomainsBlocks, DomainsGeo, DomainsMeta, DomainsNew, Footer, GradientBronze, GradientDiamond, GradientGold, GradientSilver, GradientWhite, ListPylar, Logo, Menu, MenuCorporate, MenuDevs, MenuDomains, MenuLogo, MenuPylar, Scrollable, SquareBronze, SquareDiamond, SquareGold, SquareSilver, SquareWhite, SupportMenu, TitleCorporate, TitleExplorer, TitleIndex, TitlePylar, Version };

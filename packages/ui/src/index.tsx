@@ -7,6 +7,7 @@ export * from "./MenuDomains";
 export * from "./SupportMenu";
 export * from "./MenuDevs";
 export * from "./MenuCorporate";
+export * from "./MenuPylar";
 // Branding
 // Logo
 export * from "./Logo";
@@ -16,6 +17,8 @@ export * from "./TitleIndex";
 export * from "./TitleExplorer";
 export * from "./TitlePylar";
 export * from "./TitleCorporate";
+// List
+export * from "./ListPylar";
 // Version
 export * from "./Version";
 export * from "./Card";
