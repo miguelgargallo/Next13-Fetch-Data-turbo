@@ -5,7 +5,6 @@ import { MenuPylar } from "ui";
 import { TitlePylar } from "ui";
 import { ListPylar } from "ui";
 import { Footer } from "ui";
-import { motion } from "framer-motion";
 
 export default function Home() {
   console.log("✅ Pylar AI");
@@ -20,7 +19,6 @@ export default function Home() {
       <main>
         <TitlePylar />
         <ListPylar />
-        
       </main>
       <Footer />
     </div>
