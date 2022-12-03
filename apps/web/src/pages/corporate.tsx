@@ -1,6 +1,7 @@
 /* eslint-disable react/jsx-no-comment-textnodes */
 import Head from "next/head";
 import { Menu } from "ui";
+import { TitleCorporate } from "ui";
 import { Footer } from "ui";
 import { MenuCorporate } from "ui";
 
@@ -11,13 +12,9 @@ export default function Home() {
         <title>Pencil Domains</title>
         <link rel="icon" href="./favicon.ico" />
       </Head>
-
       <Menu />
       <MenuCorporate />
-
-      <a className="m-4 p-4 text-center text-xl font-bold text-black">
-        25819 names on this amazing Handshake Blocks and Ranking Names portal.
-      </a>
+      <TitleCorporate />
       <main className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-3 gap-4">
           <div className="col-span-1">

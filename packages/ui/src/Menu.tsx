@@ -23,7 +23,7 @@ export const Menu = () => {
         <MenuLogo />
         {" "}
         <button className="rounded-xl py-2 px-4 font-bold text-white">
-          <a href="/">Explorer</a>
+          <a href="/explorer">Explorer</a>
         </button>
         <button className="rounded-xl py-2 px-4 font-bold text-white">
           <a href="/domains">Domains</a>

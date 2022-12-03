@@ -1,7 +1,7 @@
 /* eslint-disable react/jsx-no-comment-textnodes */
 import Head from "next/head";
 import { Menu } from "ui";
-import { TitleIndex } from "ui";
+import { TitleExplorer } from "ui";
 import { Footer } from "ui";
 import {
   JSXElementConstructor,
@@ -54,7 +54,7 @@ export default function Home() {
       </Head>
       <Menu />
       <main>
-        <TitleIndex />
+        <TitleExplorer />
         <div className="hidden md:block">
           <div className="flex flex-row justify-center">
             <div className="flex justify-center">

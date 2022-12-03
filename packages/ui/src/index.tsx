@@ -8,8 +8,14 @@ export * from "./SupportMenu";
 export * from "./MenuDevs";
 export * from "./MenuCorporate";
 // Branding
+// Logo
 export * from "./Logo";
 export * from "./MenuLogo";
+// Title and subtitle
+export * from "./TitleIndex";
+export * from "./TitleExplorer";
+export * from "./TitlePylar";
+export * from "./TitleCorporate";
 // Version
 export * from "./Version";
 export * from "./Card";
