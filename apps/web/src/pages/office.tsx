@@ -5,6 +5,7 @@ import { MenuDevs } from "ui";
 import { MenuCorporate } from "ui";
 
 export default function Developer() {
+  console.log("✅ Developer");
   return (
     <div className="min-w-screen flex min-h-screen flex-col bg-white">
       <Head>

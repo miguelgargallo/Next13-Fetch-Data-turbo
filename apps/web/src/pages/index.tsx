@@ -25,6 +25,7 @@ const ELEMENTSBRONZE = 3;
 const ELEMENTSWHITE = 1;
 
 export default function Home() {
+  console.log("✅ Home");
   // word a word and find the definition
   const [word, setWord] = useState<string>("");
   const [definition, setDefinition] = useState<string>("");
