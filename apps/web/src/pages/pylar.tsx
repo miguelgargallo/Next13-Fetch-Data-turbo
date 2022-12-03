@@ -5,41 +5,92 @@ import { Footer } from "ui";
 import { motion } from "framer-motion";
 
 export default function Home() {
-console.log("✅ Pylar AI");
+  console.log("✅ Pylar AI");
   return (
     <div className="min-w-screen flex min-h-screen flex-col bg-white">
       <Head>
-        <title>Pencil Domains</title>
+        <title>Pylar AI by Pencil</title>
         <link rel="icon" href="./favicon.ico" />
       </Head>
       <Menu />
       <main>
         <div>
           <motion.div
-            initial={{ y: 200, opacity: 0 }}
-            animate={{ y: 0, opacity: 1 }}
-            transition={{
-              delay: 0.5,
-              duration: 1,
-              type: "spring",
-              stiffness: 120,
-            }}
-            className="flex flex-col items-center justify-center text-center pt-10 pb-10"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 0.5, duration: 1.5 }}
           >
-            <h1 className="text-4xl font-bold">Pylar AI</h1>
-            <p className="text-xl font-normal">Pencil Domains</p>
+            <h1 className="text-center text-5xl font-bold">
+              <motion.span
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ delay: 0.5, duration: 1.5 }}
+              >
+                P
+              </motion.span>
+              <motion.span
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ delay: 0.6, duration: 1.5 }}
+              >
+                y
+              </motion.span>
+              <motion.span
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ delay: 0.7, duration: 1.5 }}
+              >
+                l
+              </motion.span>
+              <motion.span
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ delay: 0.8, duration: 1.5 }}
+              >
+                a
+              </motion.span>
+              <motion.span
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ delay: 0.9, duration: 1.5 }}
+              >
+                r
+              </motion.span>
+              <motion.span
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ delay: 1, duration: 1.5 }}
+              >
+                &nbsp;
+              </motion.span>
+              <motion.span
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ delay: 1.1, duration: 1.5 }}
+              >
+                A
+              </motion.span>
+              <motion.span
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ delay: 1.2, duration: 1.5 }}
+              >
+                I
+              </motion.span>
+            </h1>
           </motion.div>
-          <h2
-          className="text-4xl font-bold text-center text-gray-800 py-8"
-          >
-            Pylar AI
-          </h2>
-          <p className="m-2 text-center text-xl font-bold text-black">
-            A StableDiffusion 2.0 from HugginFace modified by Pencil Domains
-          </p>
-          <p className="text-center text-xl font-bold text-black">
-            The Fastest Domains. ™
-          </p>
+          <div>
+            <motion.p
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ delay: 1.5, duration: 1.5 }}
+              className="text-center text-2xl font-bold text-gray-900"
+            >
+              A simple, easy to use and fast Artificial Intelligence Technology
+              that helps to build, train, deploy and manage Machine Learning models.
+            </motion.p>
+            
+          </div>
         </div>
       </main>
       <Footer />
