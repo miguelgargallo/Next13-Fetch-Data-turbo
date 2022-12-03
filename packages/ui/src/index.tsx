@@ -48,4 +48,3 @@ export * from "./SquareBronze";
 export * from "./BlogPylar/blog";
 export * from "./BlogPylar/post12032022";
 /* Maths */
-export * from "./MoneyCalculator";
