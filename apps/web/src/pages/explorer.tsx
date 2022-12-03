@@ -1,6 +1,7 @@
 /* eslint-disable react/jsx-no-comment-textnodes */
 import Head from "next/head";
 import { Menu } from "ui";
+import { motion } from "framer-motion";
 import { TitleExplorer } from "ui";
 import { Footer } from "ui";
 import {
@@ -35,7 +36,7 @@ export default function Home() {
         `https://api.dictionaryapi.dev/api/v2/entries/en/${word}`
       );
       const data = await response.json();
-      if (data.title === "No Definitions Found") {
+      if (data.title === "") {
         setDefinition("No data found");
       } else {
         setDefinition(data[0].meanings[0].definitions[0].definition);
@@ -199,7 +200,12 @@ export default function Home() {
                   <div>
                     <a className="tld_diamond">
                       {" "}
-                      <div>
+                      <motion.div
+                        animate={{ scale: [1, 1.1, 1] }}
+                        transition={{ ease: "easeOut", duration: 2 }}
+                        className="tld_diamond_div"
+                        style={generateJSXMeshGradient(ELEMENTSDIAMOND)}
+                      >
                         <a className="tld_title_diamond">
                           <svg>
                             {" "}
@@ -215,7 +221,7 @@ export default function Home() {
                           {" "}
                           is a 💎 Diamond TLD.{" "}
                         </p>
-                      </div>
+                      </motion.div>
                     </a>
                   </div>
                 )}
@@ -226,7 +232,12 @@ export default function Home() {
                   <div>
                     <a className="tld_gold">
                       {" "}
-                      <div>
+                      <motion.div
+                        animate={{ scale: [1, 1.1, 1] }}
+                        transition={{ ease: "easeOut", duration: 2 }}
+                        className="tld_gold_div"
+                        style={generateJSXMeshGradient(ELEMENTSGOLD)}
+                      >
                         <a className="tld_card_gold">
                           <svg>
                             {" "}
@@ -240,7 +251,7 @@ export default function Home() {
                         </a>
 
                         <p className="tld_gold_text"> a 🥇 Gold TLD.</p>
-                      </div>
+                      </motion.div>
                     </a>
                   </div>
                 )}
@@ -251,7 +262,12 @@ export default function Home() {
                   <div>
                     <a className="tld_silver">
                       {" "}
-                      <div>
+                      <motion.div
+                        animate={{ scale: [1, 1.1, 1] }}
+                        transition={{ ease: "easeOut", duration: 2 }}
+                        className="tld_silver_div"
+                        style={generateJSXMeshGradient(ELEMENTSSILVER)}
+                      >
                         <a className="tld_card_silver">
                           <svg>
                             {" "}
@@ -264,7 +280,7 @@ export default function Home() {
                           .{word}
                         </a>
                         <p className="tld_silver_text"> a 🥈 Silver TLD.</p>
-                      </div>
+                      </motion.div>
                     </a>
                   </div>
                 )}
@@ -275,7 +291,12 @@ export default function Home() {
                   <div>
                     <a className="tld_bronze">
                       {" "}
-                      <div>
+                      <motion.div
+                        animate={{ scale: [1, 1.1, 1] }}
+                        transition={{ ease: "easeOut", duration: 2 }}
+                        className="tld_bronze_div"
+                        style={generateJSXMeshGradient(ELEMENTSBRONZE)}
+                      >
                         <a className="tld_card_bronze">
                           <svg>
                             {" "}
@@ -288,7 +309,7 @@ export default function Home() {
                           .{word}
                         </a>
                         <p className="tld_bronze_text"> a 🥉 Bronze TLD.</p>
-                      </div>
+                      </motion.div>
                     </a>
                   </div>
                 )}
