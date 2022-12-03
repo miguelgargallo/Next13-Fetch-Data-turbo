@@ -8,7 +8,7 @@ export * from "./SupportMenu";
 export * from "./MenuDevs";
 export * from "./MenuCorporate";
 // Branding
-export * from "./logo";
+export * from "./Logo";
 export * from "./MenuLogo";
 // Version
 export * from "./Version";

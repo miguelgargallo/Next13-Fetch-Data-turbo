@@ -7963,7 +7963,7 @@ var MenuCorporate = () => {
   });
 };
 
-// src/logo.tsx
+// src/Logo.tsx
 var import_jsx_runtime9 = require("react/jsx-runtime");
 var Logo = () => {
   return /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("div", {

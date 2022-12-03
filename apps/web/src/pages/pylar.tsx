@@ -5,7 +5,7 @@ import { Footer } from "ui";
 import { motion } from "framer-motion";
 
 export default function Pylar() {
-
+console.log("✅ Pylar AI");
   return (
     <div className="min-w-screen flex min-h-screen flex-col bg-white">
       <Head>

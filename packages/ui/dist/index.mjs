@@ -7929,7 +7929,7 @@ var MenuCorporate = () => {
   });
 };
 
-// src/logo.tsx
+// src/Logo.tsx
 import { jsx as jsx9, jsxs as jsxs8 } from "react/jsx-runtime";
 var Logo = () => {
   return /* @__PURE__ */ jsx9("div", {
