@@ -27,3 +27,16 @@
 {
     @apply border px-4 py-2;
 }
+/*
+.ipad-cursor {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 50%;
+    pointer-events: none;
+    transition: all 0.2s ease-in-out;
+}
+*/
+
+
