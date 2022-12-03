@@ -1083,7 +1083,7 @@ var Version = () => {
       href: "http://github.com/miguelgargallo/next13-Fetch-Data-turbo",
       target: "_blank",
       rel: "noopener noreferrer",
-      children: "v1.8.6"
+      children: "v1.8.7"
     })
   });
 };
@@ -7645,8 +7645,8 @@ var Menu = () => {
         className: "flex flex-row items-center justify-between bg-gradient-to-r from-blue-400 to-blue-500",
         children: [
           /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("a", {
-            href: "https://hns.pencil.li",
-            className: "text-1xl flex flex-row items-center justify-center font-bold text-white",
+            href: "https://pencil.li",
+            className: "",
             children: /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("picture", {
               children: /* @__PURE__ */ (0, import_jsx_runtime3.jsxs)("svg", {
                 xmlns: "http://www.w3.org/2000/svg",
@@ -7654,116 +7654,39 @@ var Menu = () => {
                 height: "25",
                 viewBox: "0 0 2344 678",
                 children: [
-                  /* @__PURE__ */ (0, import_jsx_runtime3.jsxs)("defs", {
-                    children: [
-                      /* @__PURE__ */ (0, import_jsx_runtime3.jsxs)("linearGradient", {
-                        id: "a",
-                        x1: "0%",
-                        x2: "100%",
-                        y1: "50%",
-                        y2: "50%",
-                        children: [
-                          /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("stop", {
-                            offset: "0%",
-                            "stop-color": "#B620E0"
-                          }),
-                          /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("stop", {
-                            offset: "16.68%",
-                            "stop-color": "#6236FF"
-                          }),
-                          /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("stop", {
-                            offset: "33.433%",
-                            "stop-color": "#0091FF"
-                          }),
-                          /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("stop", {
-                            offset: "49.949%",
-                            "stop-color": "#6DD400"
-                          }),
-                          /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("stop", {
-                            offset: "66.61%",
-                            "stop-color": "#F7B500"
-                          }),
-                          /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("stop", {
-                            offset: "83.281%",
-                            "stop-color": "#FA6400"
-                          }),
-                          /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("stop", {
-                            offset: "100%",
-                            "stop-color": "#E02020"
-                          })
-                        ]
-                      }),
-                      /* @__PURE__ */ (0, import_jsx_runtime3.jsxs)("linearGradient", {
-                        id: "b",
-                        x1: "100%",
-                        x2: "0%",
-                        y1: "50%",
-                        y2: "50%",
-                        children: [
-                          /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("stop", {
-                            offset: "0%",
-                            "stop-color": "#E02020"
-                          }),
-                          /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("stop", {
-                            offset: "16.719%",
-                            "stop-color": "#FA6400"
-                          }),
-                          /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("stop", {
-                            offset: "33.39%",
-                            "stop-color": "#F7B500"
-                          }),
-                          /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("stop", {
-                            offset: "50.051%",
-                            "stop-color": "#6DD400"
-                          }),
-                          /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("stop", {
-                            offset: "66.567%",
-                            "stop-color": "#0091FF"
-                          }),
-                          /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("stop", {
-                            offset: "83.32%",
-                            "stop-color": "#6236FF"
-                          }),
-                          /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("stop", {
-                            offset: "100%",
-                            "stop-color": "#B620E0"
-                          })
-                        ]
-                      })
-                    ]
-                  }),
+                  /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("defs", {}),
                   /* @__PURE__ */ (0, import_jsx_runtime3.jsxs)("g", {
-                    fill: "none",
+                    fill: "#be0aff",
                     "fill-rule": "evenodd",
                     transform: "translate(-151 -173)",
                     children: [
                       /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("path", {
-                        fill: "url(#a)",
+                        fill: "#be0aff",
                         d: "M508.516097,232.032195 L783.120976,781.241951 C791.271621,797.543242 784.664217,817.365452 768.362927,825.516097 C763.780698,827.807212 758.727967,829 753.604878,829 L204.395122,829 C186.169725,829 171.395122,814.225397 171.395122,796 C171.395122,790.876912 172.58791,785.824181 174.879024,781.241951 L449.483903,232.032195 C457.634548,215.730904 477.456758,209.123501 493.758049,217.274146 C500.144453,220.467348 505.322895,225.64579 508.516097,232.032195 Z",
                         transform: "matrix(0 -1 -1 0 980 980)"
                       }),
                       /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("path", {
-                        fill: "url(#b)",
+                        fill: "#147df5",
                         d: "M419.705262,277.910524 L658,754.5 L658,754.5 L151,754.5 L389.294738,277.910524 C393.493555,269.51289 403.704997,266.109076 412.102631,270.307893 C415.392597,271.952876 418.060279,274.620559 419.705262,277.910524 Z",
                         transform: "matrix(0 -1 -1 0 905.5 905.5)"
                       }),
                       /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("path", {
-                        fill: "url(#a)",
+                        fill: "#0aff99",
                         d: "M356.705262,340.910524 L532,691.5 L532,691.5 L151,691.5 L326.294738,340.910524 C330.493555,332.51289 340.704997,329.109076 349.102631,333.307893 C352.392597,334.952876 355.060279,337.620559 356.705262,340.910524 Z",
                         transform: "matrix(0 -1 -1 0 842.5 842.5)"
                       }),
                       /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("path", {
-                        fill: "url(#b)",
+                        fill: "#deff0a",
                         d: "M293.205262,404.410524 L405,628 L405,628 L151,628 L262.794738,404.410524 C266.993555,396.01289 277.204997,392.609076 285.602631,396.807893 C288.892597,398.452876 291.560279,401.120559 293.205262,404.410524 Z",
                         transform: "matrix(0 -1 -1 0 779 779)"
                       }),
                       /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("path", {
-                        fill: "url(#a)",
+                        fill: "#ff0000",
                         d: "M230.599689,469.699379 L278,564.5 L278,564.5 L151,564.5 L198.400311,469.699379 C202.846117,460.807766 213.658232,457.203728 222.549845,461.649534 C226.033338,463.391281 228.857943,466.215886 230.599689,469.699379 Z",
                         transform: "matrix(0 -1 -1 0 715.5 715.5)"
                       }),
                       /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("text", {
-                        fill: "#FFF",
+                        fill: "#ffffff",
                         "font-family": "Roboto, sans-serif",
                         "font-size": "500",
                         "font-weight": "500",
@@ -7774,7 +7697,7 @@ var Menu = () => {
                         })
                       }),
                       /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("text", {
-                        fill: "#FFF",
+                        fill: "#ffffff",
                         "font-family": "Roboto, sans-serif",
                         "font-size": "100",
                         "font-weight": "500",
@@ -7785,7 +7708,7 @@ var Menu = () => {
                         })
                       }),
                       /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("text", {
-                        fill: "#FFF",
+                        fill: "#ffffff",
                         "font-family": "Roboto, sans-serif",
                         "font-size": "75",
                         "font-weight": "500",
