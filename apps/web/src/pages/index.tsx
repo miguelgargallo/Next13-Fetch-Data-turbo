@@ -61,7 +61,7 @@ export default function Home() {
       <main>
         <div>
           <div className="flex flex-col items-center justify-center py-16 px-20 text-center">
-            <a href="https://hns.pencil.li" className="">
+            <a href="https://pencil.li" className="">
               <picture>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
