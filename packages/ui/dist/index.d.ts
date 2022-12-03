@@ -64,4 +64,8 @@ declare const SquareSilver: () => JSX.Element;
 
 declare const SquareBronze: () => JSX.Element;
 
-export { Button, Card, DomainsAll, DomainsBlocks, DomainsGeo, DomainsMeta, DomainsNew, Footer, GradientBronze, GradientDiamond, GradientGold, GradientSilver, GradientWhite, ListPylar, Logo, Menu, MenuCorporate, MenuDevs, MenuDomains, MenuLogo, MenuPylar, Scrollable, SquareBronze, SquareDiamond, SquareGold, SquareSilver, SquareWhite, SupportMenu, TitleCorporate, TitleExplorer, TitleIndex, TitlePylar, Version };
+declare const blog: () => JSX.Element;
+
+declare const post12032022: () => JSX.Element;
+
+export { Button, Card, DomainsAll, DomainsBlocks, DomainsGeo, DomainsMeta, DomainsNew, Footer, GradientBronze, GradientDiamond, GradientGold, GradientSilver, GradientWhite, ListPylar, Logo, Menu, MenuCorporate, MenuDevs, MenuDomains, MenuLogo, MenuPylar, Scrollable, SquareBronze, SquareDiamond, SquareGold, SquareSilver, SquareWhite, SupportMenu, TitleCorporate, TitleExplorer, TitleIndex, TitlePylar, Version, blog, post12032022 };

@@ -44,4 +44,6 @@ export * from "./SquareDiamond";
 export * from "./SquareGold";
 export * from "./SquareSilver";
 export * from "./SquareBronze";
-/* Analytics */
+/* Blog Pylar */
+export * from "./BlogPylar/blog";
+export * from "./BlogPylar/post12032022";
