@@ -24,7 +24,7 @@ export const Footer = () => {
             rel="noopener noreferrer"
             className="hover:text-blue text-indigo-600"
           >
-            Pylar AI creative ML license
+            Pylar&trade; AI creative ML license
           </a>
           .
         </a>

@@ -20,8 +20,7 @@ export const Menu = () => {
         style={{ scaleX: scrollYProgress }}
       />
       <div className="flex flex-row items-center justify-between bg-gradient-to-r from-blue-400 to-blue-500">
-        <MenuLogo />
-        {" "}
+        <MenuLogo />{" "}
         <button className="rounded-xl py-2 px-4 font-bold text-white">
           <a href="/explorer">Explorer</a>
         </button>
@@ -29,7 +28,7 @@ export const Menu = () => {
           <a href="/domains">Domains</a>
         </button>
         <button className="hidden rounded-xl py-2 px-4 font-bold text-white sm:block">
-          <a href="/pylar">Pylar AI</a>
+          <a href="/pylar">Pylar&trade; AI</a>
         </button>
         <button className="hidden rounded-xl py-2 px-4 font-bold text-white sm:block">
           <a href="/corporate">Corporate</a>

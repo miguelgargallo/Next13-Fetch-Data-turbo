@@ -17,6 +17,15 @@ export default function Home() {
       <MenuPylar />
       <main>
         <TitlePylar />
+        <h1 className="py-8 text-center text-4xl font-bold">
+          <span className="text-blue-500">Py</span>thon{" "}
+          <span className="text-blue-500">L</span>earning{" "}
+          <span className="text-blue-500">A</span>rtificial{" "}
+          <span className="text-blue-500">R</span>esearch&trade;{" "}
+          <span className="text-black"> </span>
+          <span className="text-blue-500">A</span>rtificial{" "}
+          <span className="text-blue-500">I</span>ntelligence{" "}
+        </h1>
       </main>
       <Footer />
     </div>

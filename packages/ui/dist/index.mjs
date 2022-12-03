@@ -7720,7 +7720,7 @@ var Menu = () => {
             className: "hidden rounded-xl py-2 px-4 font-bold text-white sm:block",
             children: /* @__PURE__ */ jsx4("a", {
               href: "/pylar",
-              children: "Pylar AI"
+              children: "Pylar\u2122 AI"
             })
           }),
           /* @__PURE__ */ jsx4("button", {
@@ -8282,7 +8282,7 @@ var TitlePylar = () => {
           initial: { opacity: 0 },
           animate: { opacity: 1 },
           transition: { delay: 0.9, duration: 1.5 },
-          children: "r"
+          children: "r\u2122"
         }),
         /* @__PURE__ */ jsx13(motion.span, {
           initial: { opacity: 0 },
@@ -9909,7 +9909,7 @@ var Footer = () => {
               target: "_blank",
               rel: "noopener noreferrer",
               className: "hover:text-blue text-indigo-600",
-              children: "Pylar AI creative ML license"
+              children: "Pylar\u2122 AI creative ML license"
             }),
             "."
           ]
