@@ -15,7 +15,6 @@ export default function Pylar() {
       <Menu />
       <main>
         <div>
-          // motion.div that when I scroll it reveals the words of the sentence "Pylar AI"
           <motion.div
             initial={{ y: 200, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
