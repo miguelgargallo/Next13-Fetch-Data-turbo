@@ -7,7 +7,6 @@ export * from "./MenuDomains";
 export * from "./SupportMenu";
 export * from "./MenuDevs";
 export * from "./MenuCorporate";
-export * from "./MenuPylar";
 // Branding
 // Logo
 export * from "./Logo";
@@ -15,7 +14,6 @@ export * from "./MenuLogo";
 // Title and subtitle
 export * from "./TitleIndex";
 export * from "./TitleExplorer";
-export * from "./TitlePylar";
 export * from "./TitleCorporate";
 // List
 export * from "./ListPylar";
@@ -44,7 +42,4 @@ export * from "./SquareDiamond";
 export * from "./SquareGold";
 export * from "./SquareSilver";
 export * from "./SquareBronze";
-/* Blog Pylar */
-export * from "./BlogPylar/blog";
-export * from "./BlogPylar/post12032022";
 /* Maths */
