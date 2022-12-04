@@ -28,7 +28,7 @@ export const Menu = () => {
           <a href="/domains">Domains</a>
         </button>
         <button className="hidden rounded-xl py-2 px-4 font-bold text-white sm:block">
-          <a href="https://pylar.org"
+          <a href="https://pylar-org-web.vercel.app/"
           target="_blank"
           rel="noopener noreferrer"
           >Pylar&trade; AI</a>
