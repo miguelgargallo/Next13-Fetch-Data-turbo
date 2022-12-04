@@ -12,7 +12,7 @@ export const Version = () => {
         target="_blank"
         rel="noopener noreferrer"
       >
-        v1.9.0 Pylar
+        v1.9.0
       </a>
     </button>
   );
