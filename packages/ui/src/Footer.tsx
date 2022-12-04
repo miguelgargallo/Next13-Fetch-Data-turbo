@@ -32,21 +32,6 @@ export const Footer = () => {
       <div className="hidden sm:block">
         <div className="flex w-full items-center justify-center">
           <a
-            href="https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fmiguelgargallo%2FNext13-Fetch-Data-turbo&project-name=miguelgargallo-next13-fetch-data-turbo&repo-name=miguelgargallo-next13-fetch-data-turbo"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hidden p-2 md:block"
-          >
-            <picture>
-              <img
-                src="https://vercel.com/button"
-                alt="Landscape picture"
-                width={75}
-                height={20}
-              />
-            </picture>
-          </a>
-          <a
             href="https://huggingface.co/spaces/superdatas/LICENSE"
             target="_blank"
             rel="noopener noreferrer"
@@ -67,3 +52,21 @@ export const Footer = () => {
     </footer>
   );
 };
+
+/*
+<a
+            href="https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fmiguelgargallo%2FNext13-Fetch-Data-turbo&project-name=miguelgargallo-next13-fetch-data-turbo&repo-name=miguelgargallo-next13-fetch-data-turbo"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hidden p-2 md:block"
+          >
+            <picture>
+              <img
+                src="https://vercel.com/button"
+                alt="Landscape picture"
+                width={75}
+                height={20}
+              />
+            </picture>
+          </a>
+*/

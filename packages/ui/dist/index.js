@@ -976,7 +976,6 @@ var require_tslib2 = __commonJS({
 // src/index.tsx
 var src_exports = {};
 __export(src_exports, {
-  Button: () => Button,
   Card: () => Card,
   DomainsAll: () => DomainsAll,
   DomainsBlocks: () => DomainsBlocks,
@@ -989,14 +988,12 @@ __export(src_exports, {
   GradientGold: () => GradientGold,
   GradientSilver: () => GradientSilver,
   GradientWhite: () => GradientWhite,
-  ListPylar: () => ListPylar,
   Logo: () => Logo,
   Menu: () => Menu,
   MenuCorporate: () => MenuCorporate,
   MenuDevs: () => MenuDevs,
   MenuDomains: () => MenuDomains,
   MenuLogo: () => MenuLogo,
-  MenuPylar: () => MenuPylar,
   Scrollable: () => Scrollable,
   SquareBronze: () => SquareBronze,
   SquareDiamond: () => SquareDiamond,
@@ -1007,33 +1004,9 @@ __export(src_exports, {
   TitleCorporate: () => TitleCorporate,
   TitleExplorer: () => TitleExplorer,
   TitleIndex: () => TitleIndex,
-  TitlePylar: () => TitlePylar,
-  Version: () => Version,
-  blog: () => blog,
-  post12032022: () => post12032022
+  Version: () => Version
 });
 module.exports = __toCommonJS(src_exports);
-
-// src/Button.tsx
-var import_jsx_runtime = require("react/jsx-runtime");
-var Button = () => {
-  return /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-    className: "rounded-md ",
-    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
-      href: "https://turbo.build/repo/docs",
-      children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-        className: "flex w-full items-center justify-center rounded-md border border-transparent bg-black px-8 py-3 text-base font-medium text-white no-underline hover:bg-gray-700 dark:bg-white dark:text-black dark:hover:bg-gray-300 md:py-3 md:px-10 md:text-lg md:leading-6",
-        children: [
-          "Read the docs",
-          /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
-            className: "ml-2 bg-gradient-to-r from-brandred to-brandblue bg-clip-text text-transparent",
-            children: "\u2192"
-          })
-        ]
-      })
-    })
-  });
-};
 
 // ../../node_modules/meshgrad/dist/index.mjs
 var i = () => Math.round(Math.random() * 360);
@@ -1083,95 +1056,95 @@ var k = (n, t, e) => {
 };
 
 // src/Version.tsx
-var import_jsx_runtime2 = require("react/jsx-runtime");
+var import_jsx_runtime = require("react/jsx-runtime");
 var ELEMENTS = 8;
 var Version = () => {
-  return /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("button", {
+  return /* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", {
     className: "m-2 hidden rounded-full py-2 px-4 text-xs font-bold text-black shadow-md hover:shadow-xl md:block",
     style: k(ELEMENTS),
-    children: /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("a", {
+    children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
       href: "http://github.com/miguelgargallo/next13-Fetch-Data-turbo",
       target: "_blank",
       rel: "noopener noreferrer",
-      children: "v1.8.8"
+      children: "v1.8.5"
     })
   });
 };
 
 // src/MenuLogo.tsx
-var import_jsx_runtime3 = require("react/jsx-runtime");
+var import_jsx_runtime2 = require("react/jsx-runtime");
 var MenuLogo = () => {
-  return /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("div", {
+  return /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("div", {
     className: "flex flex-col items-center justify-center text-center",
-    children: /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("a", {
+    children: /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("a", {
       href: "https://pencil.li",
       className: "",
-      children: /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("picture", {
-        children: /* @__PURE__ */ (0, import_jsx_runtime3.jsxs)("svg", {
+      children: /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("picture", {
+        children: /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)("svg", {
           xmlns: "http://www.w3.org/2000/svg",
           width: "150",
           height: "25",
           viewBox: "0 0 2344 678",
           children: [
-            /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("defs", {}),
-            /* @__PURE__ */ (0, import_jsx_runtime3.jsxs)("g", {
+            /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("defs", {}),
+            /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)("g", {
               fill: "#be0aff",
               "fill-rule": "evenodd",
               transform: "translate(-151 -173)",
               children: [
-                /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("path", {
+                /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("path", {
                   fill: "#be0aff",
                   d: "M508.516097,232.032195 L783.120976,781.241951 C791.271621,797.543242 784.664217,817.365452 768.362927,825.516097 C763.780698,827.807212 758.727967,829 753.604878,829 L204.395122,829 C186.169725,829 171.395122,814.225397 171.395122,796 C171.395122,790.876912 172.58791,785.824181 174.879024,781.241951 L449.483903,232.032195 C457.634548,215.730904 477.456758,209.123501 493.758049,217.274146 C500.144453,220.467348 505.322895,225.64579 508.516097,232.032195 Z",
                   transform: "matrix(0 -1 -1 0 980 980)"
                 }),
-                /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("path", {
+                /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("path", {
                   fill: "#147df5",
                   d: "M419.705262,277.910524 L658,754.5 L658,754.5 L151,754.5 L389.294738,277.910524 C393.493555,269.51289 403.704997,266.109076 412.102631,270.307893 C415.392597,271.952876 418.060279,274.620559 419.705262,277.910524 Z",
                   transform: "matrix(0 -1 -1 0 905.5 905.5)"
                 }),
-                /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("path", {
+                /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("path", {
                   fill: "#0aff99",
                   d: "M356.705262,340.910524 L532,691.5 L532,691.5 L151,691.5 L326.294738,340.910524 C330.493555,332.51289 340.704997,329.109076 349.102631,333.307893 C352.392597,334.952876 355.060279,337.620559 356.705262,340.910524 Z",
                   transform: "matrix(0 -1 -1 0 842.5 842.5)"
                 }),
-                /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("path", {
+                /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("path", {
                   fill: "#deff0a",
                   d: "M293.205262,404.410524 L405,628 L405,628 L151,628 L262.794738,404.410524 C266.993555,396.01289 277.204997,392.609076 285.602631,396.807893 C288.892597,398.452876 291.560279,401.120559 293.205262,404.410524 Z",
                   transform: "matrix(0 -1 -1 0 779 779)"
                 }),
-                /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("path", {
+                /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("path", {
                   fill: "#ff0000",
                   d: "M230.599689,469.699379 L278,564.5 L278,564.5 L151,564.5 L198.400311,469.699379 C202.846117,460.807766 213.658232,457.203728 222.549845,461.649534 C226.033338,463.391281 228.857943,466.215886 230.599689,469.699379 Z",
                   transform: "matrix(0 -1 -1 0 715.5 715.5)"
                 }),
-                /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("text", {
+                /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("text", {
                   fill: "#ffffff",
                   "font-family": "Roboto, sans-serif",
                   "font-size": "500",
                   "font-weight": "500",
-                  children: /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("tspan", {
+                  children: /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("tspan", {
                     x: "993.25",
                     y: "697",
                     children: "Pencil"
                   })
                 }),
-                /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("text", {
+                /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("text", {
                   fill: "#ffffff",
                   "font-family": "Roboto, sans-serif",
                   "font-size": "100",
                   "font-weight": "500",
-                  children: /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("tspan", {
+                  children: /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("tspan", {
                     x: "690.95",
                     y: "829",
                     children: "\xA9"
                   })
                 }),
-                /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("text", {
+                /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("text", {
                   fill: "#ffffff",
                   "font-family": "Roboto, sans-serif",
                   "font-size": "75",
                   "font-weight": "500",
-                  children: /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("tspan", {
+                  children: /* @__PURE__ */ (0, import_jsx_runtime2.jsx)("tspan", {
                     x: "2386.5",
                     y: "248",
                     children: "TM"
@@ -7723,7 +7696,7 @@ function useScroll(_a = {}) {
 }
 
 // src/Menu.tsx
-var import_jsx_runtime4 = require("react/jsx-runtime");
+var import_jsx_runtime3 = require("react/jsx-runtime");
 {
   new Date().toLocaleTimeString("en-US", {
     hour: "numeric",
@@ -7732,47 +7705,40 @@ var import_jsx_runtime4 = require("react/jsx-runtime");
 }
 var Menu = () => {
   const { scrollYProgress } = useScroll();
-  return /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)("div", {
+  return /* @__PURE__ */ (0, import_jsx_runtime3.jsxs)("div", {
     className: "hidden sm:block",
     children: [
-      /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(motion.div, {
+      /* @__PURE__ */ (0, import_jsx_runtime3.jsx)(motion.div, {
         className: "progress-bar",
         style: { scaleX: scrollYProgress }
       }),
-      /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)("div", {
+      /* @__PURE__ */ (0, import_jsx_runtime3.jsxs)("div", {
         className: "flex flex-row items-center justify-between bg-gradient-to-r from-blue-400 to-blue-500",
         children: [
-          /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(MenuLogo, {}),
+          /* @__PURE__ */ (0, import_jsx_runtime3.jsx)(MenuLogo, {}),
           " ",
-          /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("button", {
+          /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("button", {
             className: "rounded-xl py-2 px-4 font-bold text-white",
-            children: /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("a", {
+            children: /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("a", {
               href: "/explorer",
               children: "Explorer"
             })
           }),
-          /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("button", {
+          /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("button", {
             className: "rounded-xl py-2 px-4 font-bold text-white",
-            children: /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("a", {
+            children: /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("a", {
               href: "/domains",
               children: "Domains"
             })
           }),
-          /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("button", {
+          /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("button", {
             className: "hidden rounded-xl py-2 px-4 font-bold text-white sm:block",
-            children: /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("a", {
-              href: "/pylar",
-              children: "Pylar\u2122 AI"
-            })
-          }),
-          /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("button", {
-            className: "hidden rounded-xl py-2 px-4 font-bold text-white sm:block",
-            children: /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("a", {
+            children: /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("a", {
               href: "/corporate",
               children: "Corporate"
             })
           }),
-          /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)("div", {
+          /* @__PURE__ */ (0, import_jsx_runtime3.jsxs)("div", {
             className: "hidden py-2 px-4 font-bold text-white md:block",
             style: {
               display: "flex",
@@ -7781,22 +7747,22 @@ var Menu = () => {
             },
             children: [
               " ",
-              /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("button", {
+              /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("button", {
                 className: "hidden py-2 px-4 font-bold text-white md:block",
-                children: /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("a", {
+                children: /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("a", {
                   href: "http://twitter.com/miguelgargallo",
                   target: "_blank",
                   rel: "noopener noreferrer",
                   children: "Twitter"
                 })
               }),
-              /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("a", {
+              /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("a", {
                 href: "https://github.com/miguelgargallo/Next13-Fetch-Data-turbo",
                 target: "_blank",
                 rel: "noopener noreferrer",
                 className: "hidden py-2 px-4 font-bold text-white md:block",
-                children: /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("picture", {
-                  children: /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("img", {
+                children: /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("picture", {
+                  children: /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("img", {
                     src: "https://img.shields.io/github/stars/miguelgargallo/Next13-Fetch-Data-turbo?style=social",
                     alt: "Landscape picture",
                     width: 100,
@@ -7805,7 +7771,7 @@ var Menu = () => {
                 })
               }),
               " ",
-              /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(Version, {})
+              /* @__PURE__ */ (0, import_jsx_runtime3.jsx)(Version, {})
             ]
           })
         ]
@@ -7815,44 +7781,44 @@ var Menu = () => {
 };
 
 // src/MenuDomains.tsx
-var import_jsx_runtime5 = require("react/jsx-runtime");
+var import_jsx_runtime4 = require("react/jsx-runtime");
 var MenuDomains = () => {
-  return /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("div", {
+  return /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("div", {
     className: "flex hidden flex-row items-center justify-between bg-gradient-to-r from-blue-400 to-blue-500 sm:block",
-    children: /* @__PURE__ */ (0, import_jsx_runtime5.jsxs)("div", {
+    children: /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)("div", {
       className: "flex flex-row",
       children: [
-        /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("button", {
+        /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("button", {
           className: "rounded-xl py-2 px-4 font-bold text-white",
-          children: /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("a", {
+          children: /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("a", {
             href: "/domains",
             children: "All Domains"
           })
         }),
-        /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("button", {
+        /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("button", {
           className: "rounded-xl py-2 px-4 font-bold text-white",
-          children: /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("a", {
+          children: /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("a", {
             href: "/domains-geographic",
             children: "Geographic"
           })
         }),
-        /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("button", {
+        /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("button", {
           className: "rounded-xl py-2 px-4 font-bold text-white",
-          children: /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("a", {
+          children: /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("a", {
             href: "/domains-blockchain",
             children: "Blockchain"
           })
         }),
-        /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("button", {
+        /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("button", {
           className: "rounded-xl py-2 px-4 font-bold text-white",
-          children: /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("a", {
+          children: /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("a", {
             href: "/domains-metaverse",
             children: "Metaverse"
           })
         }),
-        /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("button", {
+        /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("button", {
           className: "rounded-xl py-2 px-4 font-bold text-white",
-          children: /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("a", {
+          children: /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("a", {
             href: "/domains-new",
             children: "New"
           })
@@ -7863,37 +7829,37 @@ var MenuDomains = () => {
 };
 
 // src/SupportMenu.tsx
-var import_jsx_runtime6 = require("react/jsx-runtime");
+var import_jsx_runtime5 = require("react/jsx-runtime");
 var SupportMenu = () => {
-  return /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("div", {
+  return /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("div", {
     className: "flex hidden flex-row items-center justify-between bg-gradient-to-r from-blue-400 to-blue-500 sm:block",
-    children: /* @__PURE__ */ (0, import_jsx_runtime6.jsxs)("div", {
+    children: /* @__PURE__ */ (0, import_jsx_runtime5.jsxs)("div", {
       className: "flex flex-row",
       children: [
-        /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("button", {
+        /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("button", {
           className: "rounded-xl py-2 px-4 font-bold text-white",
-          children: /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("a", {
+          children: /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("a", {
             href: "/support-tos",
             children: "Terms Of Service"
           })
         }),
-        /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("button", {
+        /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("button", {
           className: "rounded-xl py-2 px-4 font-bold text-white",
-          children: /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("a", {
+          children: /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("a", {
             href: "/support-pp",
             children: "Privacy Policy"
           })
         }),
-        /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("button", {
+        /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("button", {
           className: "rounded-xl py-2 px-4 font-bold text-white",
-          children: /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("a", {
+          children: /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("a", {
             href: "/support-answers",
             children: "Answers"
           })
         }),
-        /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("button", {
+        /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("button", {
           className: "rounded-xl py-2 px-4 font-bold text-white",
-          children: /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("a", {
+          children: /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("a", {
             href: "/support-trademarks",
             children: "Trademarks"
           })
@@ -7904,30 +7870,30 @@ var SupportMenu = () => {
 };
 
 // src/MenuDevs.tsx
-var import_jsx_runtime7 = require("react/jsx-runtime");
+var import_jsx_runtime6 = require("react/jsx-runtime");
 var MenuDevs = () => {
-  return /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("div", {
+  return /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("div", {
     className: "flex hidden flex-row items-center justify-between bg-gradient-to-r from-blue-400 to-blue-500 sm:block",
-    children: /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", {
+    children: /* @__PURE__ */ (0, import_jsx_runtime6.jsxs)("div", {
       className: "flex flex-row",
       children: [
-        /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("button", {
+        /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("button", {
           className: "rounded-xl py-2 px-4 font-bold text-white",
-          children: /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("a", {
+          children: /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("a", {
             href: "/developer",
             children: "Home"
           })
         }),
-        /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("button", {
+        /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("button", {
           className: "rounded-xl py-2 px-4 font-bold text-white",
-          children: /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("a", {
+          children: /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("a", {
             href: "/developer-launch",
             children: "Launch your TLD"
           })
         }),
-        /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("button", {
+        /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("button", {
           className: "rounded-xl py-2 px-4 font-bold text-white",
-          children: /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("a", {
+          children: /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("a", {
             href: "/developer-agreement",
             children: "Agreement"
           })
@@ -7938,30 +7904,30 @@ var MenuDevs = () => {
 };
 
 // src/MenuCorporate.tsx
-var import_jsx_runtime8 = require("react/jsx-runtime");
+var import_jsx_runtime7 = require("react/jsx-runtime");
 var MenuCorporate = () => {
-  return /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("div", {
+  return /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("div", {
     className: "flex hidden flex-row items-center justify-between bg-gradient-to-r from-blue-400 to-blue-500 sm:block",
-    children: /* @__PURE__ */ (0, import_jsx_runtime8.jsxs)("div", {
+    children: /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", {
       className: "flex flex-row",
       children: [
-        /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("button", {
+        /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("button", {
           className: "rounded-xl py-2 px-4 font-bold text-white",
-          children: /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("a", {
+          children: /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("a", {
             href: "/developer",
             children: "Developer"
           })
         }),
-        /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("button", {
+        /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("button", {
           className: "rounded-xl py-2 px-4 font-bold text-white",
-          children: /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("a", {
+          children: /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("a", {
             href: "/office",
             children: "Office"
           })
         }),
-        /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("button", {
+        /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("button", {
           className: "rounded-xl py-2 px-4 font-bold text-white",
-          children: /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("a", {
+          children: /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("a", {
             href: "/support",
             children: "Support"
           })
@@ -7971,114 +7937,80 @@ var MenuCorporate = () => {
   });
 };
 
-// src/MenuPylar.tsx
-var import_jsx_runtime9 = require("react/jsx-runtime");
-var MenuPylar = () => {
-  return /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("div", {
-    className: "flex hidden flex-row items-center justify-between bg-gradient-to-r from-blue-400 to-blue-500 sm:block",
-    children: /* @__PURE__ */ (0, import_jsx_runtime9.jsxs)("div", {
-      className: "flex flex-row",
-      children: [
-        /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("button", {
-          className: "rounded-xl py-2 px-4 font-bold text-white",
-          children: /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("a", {
-            href: "/blog",
-            children: "Our Daily Work"
-          })
-        }),
-        /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("button", {
-          className: "rounded-xl py-2 px-4 font-bold text-white",
-          children: /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("a", {
-            href: "/what-is-pylar",
-            children: "What is Pylar AI"
-          })
-        }),
-        /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("button", {
-          className: "rounded-xl py-2 px-4 font-bold text-white",
-          children: /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("a", {
-            href: "/pylar-license",
-            children: "License"
-          })
-        })
-      ]
-    })
-  });
-};
-
 // src/Logo.tsx
-var import_jsx_runtime10 = require("react/jsx-runtime");
+var import_jsx_runtime8 = require("react/jsx-runtime");
 var Logo = () => {
-  return /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("div", {
+  return /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("div", {
     className: "flex flex-col items-center justify-center py-16 px-20 text-center",
-    children: /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("a", {
+    children: /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("a", {
       href: "https://pencil.li",
       className: "",
-      children: /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("picture", {
-        children: /* @__PURE__ */ (0, import_jsx_runtime10.jsxs)("svg", {
+      children: /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("picture", {
+        children: /* @__PURE__ */ (0, import_jsx_runtime8.jsxs)("svg", {
           xmlns: "http://www.w3.org/2000/svg",
           width: "300",
           height: "50",
           viewBox: "0 0 2344 678",
           children: [
-            /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("defs", {}),
-            /* @__PURE__ */ (0, import_jsx_runtime10.jsxs)("g", {
+            /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("defs", {}),
+            /* @__PURE__ */ (0, import_jsx_runtime8.jsxs)("g", {
               fill: "#be0aff",
               "fill-rule": "evenodd",
               transform: "translate(-151 -173)",
               children: [
-                /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("path", {
+                /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("path", {
                   fill: "#be0aff",
                   d: "M508.516097,232.032195 L783.120976,781.241951 C791.271621,797.543242 784.664217,817.365452 768.362927,825.516097 C763.780698,827.807212 758.727967,829 753.604878,829 L204.395122,829 C186.169725,829 171.395122,814.225397 171.395122,796 C171.395122,790.876912 172.58791,785.824181 174.879024,781.241951 L449.483903,232.032195 C457.634548,215.730904 477.456758,209.123501 493.758049,217.274146 C500.144453,220.467348 505.322895,225.64579 508.516097,232.032195 Z",
                   transform: "matrix(0 -1 -1 0 980 980)"
                 }),
-                /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("path", {
+                /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("path", {
                   fill: "#147df5",
                   d: "M419.705262,277.910524 L658,754.5 L658,754.5 L151,754.5 L389.294738,277.910524 C393.493555,269.51289 403.704997,266.109076 412.102631,270.307893 C415.392597,271.952876 418.060279,274.620559 419.705262,277.910524 Z",
                   transform: "matrix(0 -1 -1 0 905.5 905.5)"
                 }),
-                /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("path", {
+                /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("path", {
                   fill: "#0aff99",
                   d: "M356.705262,340.910524 L532,691.5 L532,691.5 L151,691.5 L326.294738,340.910524 C330.493555,332.51289 340.704997,329.109076 349.102631,333.307893 C352.392597,334.952876 355.060279,337.620559 356.705262,340.910524 Z",
                   transform: "matrix(0 -1 -1 0 842.5 842.5)"
                 }),
-                /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("path", {
+                /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("path", {
                   fill: "#deff0a",
                   d: "M293.205262,404.410524 L405,628 L405,628 L151,628 L262.794738,404.410524 C266.993555,396.01289 277.204997,392.609076 285.602631,396.807893 C288.892597,398.452876 291.560279,401.120559 293.205262,404.410524 Z",
                   transform: "matrix(0 -1 -1 0 779 779)"
                 }),
-                /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("path", {
+                /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("path", {
                   fill: "#ff0000",
                   d: "M230.599689,469.699379 L278,564.5 L278,564.5 L151,564.5 L198.400311,469.699379 C202.846117,460.807766 213.658232,457.203728 222.549845,461.649534 C226.033338,463.391281 228.857943,466.215886 230.599689,469.699379 Z",
                   transform: "matrix(0 -1 -1 0 715.5 715.5)"
                 }),
-                /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("text", {
+                /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("text", {
                   fill: "#000000",
                   "font-family": "Roboto, sans-serif",
                   "font-size": "500",
                   "font-weight": "500",
-                  children: /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("tspan", {
+                  children: /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("tspan", {
                     x: "993.25",
                     y: "697",
                     children: "Pencil"
                   })
                 }),
-                /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("text", {
+                /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("text", {
                   fill: "#000000",
                   "font-family": "Roboto, sans-serif",
                   "font-size": "100",
                   "font-weight": "500",
-                  children: /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("tspan", {
+                  children: /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("tspan", {
                     x: "690.95",
                     y: "829",
                     children: "\xA9"
                   })
                 }),
-                /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("text", {
+                /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("text", {
                   fill: "#000000",
                   "font-family": "Roboto, sans-serif",
                   "font-size": "75",
                   "font-weight": "500",
-                  children: /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("tspan", {
+                  children: /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("tspan", {
                     x: "2386.5",
                     y: "248",
                     children: "TM"
@@ -8094,8 +8026,204 @@ var Logo = () => {
 };
 
 // src/TitleIndex.tsx
-var import_jsx_runtime11 = require("react/jsx-runtime");
+var import_jsx_runtime9 = require("react/jsx-runtime");
 var TitleIndex = () => {
+  return /* @__PURE__ */ (0, import_jsx_runtime9.jsxs)("div", {
+    children: [
+      /* @__PURE__ */ (0, import_jsx_runtime9.jsxs)("h1", {
+        className: "py-8 text-center text-5xl font-bold",
+        children: [
+          /* @__PURE__ */ (0, import_jsx_runtime9.jsx)(motion.span, {
+            initial: { opacity: 0 },
+            animate: { opacity: 1 },
+            transition: { delay: 0.5, duration: 1.5 },
+            children: "P"
+          }),
+          /* @__PURE__ */ (0, import_jsx_runtime9.jsx)(motion.span, {
+            initial: { opacity: 0 },
+            animate: { opacity: 1 },
+            transition: { delay: 0.6, duration: 1.5 },
+            children: "e"
+          }),
+          /* @__PURE__ */ (0, import_jsx_runtime9.jsx)(motion.span, {
+            initial: { opacity: 0 },
+            animate: { opacity: 1 },
+            transition: { delay: 0.7, duration: 1.5 },
+            children: "n"
+          }),
+          /* @__PURE__ */ (0, import_jsx_runtime9.jsx)(motion.span, {
+            initial: { opacity: 0 },
+            animate: { opacity: 1 },
+            transition: { delay: 0.8, duration: 1.5 },
+            children: "c"
+          }),
+          /* @__PURE__ */ (0, import_jsx_runtime9.jsx)(motion.span, {
+            initial: { opacity: 0 },
+            animate: { opacity: 1 },
+            transition: { delay: 0.9, duration: 1.5 },
+            children: "i"
+          }),
+          /* @__PURE__ */ (0, import_jsx_runtime9.jsx)(motion.span, {
+            initial: { opacity: 0 },
+            animate: { opacity: 1 },
+            transition: { delay: 1, duration: 1.5 },
+            children: "l"
+          }),
+          /* @__PURE__ */ (0, import_jsx_runtime9.jsx)(motion.span, {
+            initial: { opacity: 0 },
+            animate: { opacity: 1 },
+            transition: { delay: 1.1, duration: 1.5 },
+            children: "\xA0"
+          }),
+          /* @__PURE__ */ (0, import_jsx_runtime9.jsx)(motion.span, {
+            initial: { opacity: 0 },
+            animate: { opacity: 1 },
+            transition: { delay: 1.2, duration: 1.5 },
+            children: "D"
+          }),
+          /* @__PURE__ */ (0, import_jsx_runtime9.jsx)(motion.span, {
+            initial: { opacity: 0 },
+            animate: { opacity: 1 },
+            transition: { delay: 1.3, duration: 1.5 },
+            children: "o"
+          }),
+          /* @__PURE__ */ (0, import_jsx_runtime9.jsx)(motion.span, {
+            initial: { opacity: 0 },
+            animate: { opacity: 1 },
+            transition: { delay: 1.4, duration: 1.5 },
+            children: "m"
+          }),
+          /* @__PURE__ */ (0, import_jsx_runtime9.jsx)(motion.span, {
+            initial: { opacity: 0 },
+            animate: { opacity: 1 },
+            transition: { delay: 1.5, duration: 1.5 },
+            children: "a"
+          }),
+          /* @__PURE__ */ (0, import_jsx_runtime9.jsx)(motion.span, {
+            initial: { opacity: 0 },
+            animate: { opacity: 1 },
+            transition: { delay: 1.6, duration: 1.5 },
+            children: "i"
+          }),
+          /* @__PURE__ */ (0, import_jsx_runtime9.jsx)(motion.span, {
+            initial: { opacity: 0 },
+            animate: { opacity: 1 },
+            transition: { delay: 1.7, duration: 1.5 },
+            children: "n"
+          }),
+          /* @__PURE__ */ (0, import_jsx_runtime9.jsx)(motion.span, {
+            initial: { opacity: 0 },
+            animate: { opacity: 1 },
+            transition: { delay: 1.8, duration: 1.5 },
+            children: "s"
+          })
+        ]
+      }),
+      /* @__PURE__ */ (0, import_jsx_runtime9.jsx)(motion.div, {
+        initial: { opacity: 0 },
+        animate: { opacity: 1 },
+        transition: { delay: 2.2, duration: 1.5 },
+        className: "py-8 text-center text-2xl font-bold text-gray-900",
+        children: /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("p", {
+          children: " 8 Million TLDs on the Blockchain!"
+        })
+      }),
+      /* @__PURE__ */ (0, import_jsx_runtime9.jsx)(motion.div, {
+        initial: { opacity: 0 },
+        animate: { opacity: 1 },
+        transition: { delay: 2.4, duration: 1.5 },
+        className: "py-8 text-center text-2xl font-bold text-gray-900",
+        children: /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("p", {
+          children: "Find the perfect domain name for your business or idea."
+        })
+      })
+    ]
+  });
+};
+
+// src/TitleExplorer.tsx
+var import_jsx_runtime10 = require("react/jsx-runtime");
+var TitleExplorer = () => {
+  return /* @__PURE__ */ (0, import_jsx_runtime10.jsxs)("div", {
+    children: [
+      /* @__PURE__ */ (0, import_jsx_runtime10.jsxs)("h1", {
+        className: "py-8 text-center text-5xl font-bold",
+        children: [
+          /* @__PURE__ */ (0, import_jsx_runtime10.jsx)(motion.span, {
+            initial: { opacity: 0 },
+            animate: { opacity: 1 },
+            transition: { delay: 0.5, duration: 1.5 },
+            children: "E"
+          }),
+          /* @__PURE__ */ (0, import_jsx_runtime10.jsx)(motion.span, {
+            initial: { opacity: 0 },
+            animate: { opacity: 1 },
+            transition: { delay: 0.6, duration: 1.5 },
+            children: "x"
+          }),
+          /* @__PURE__ */ (0, import_jsx_runtime10.jsx)(motion.span, {
+            initial: { opacity: 0 },
+            animate: { opacity: 1 },
+            transition: { delay: 0.7, duration: 1.5 },
+            children: "p"
+          }),
+          /* @__PURE__ */ (0, import_jsx_runtime10.jsx)(motion.span, {
+            initial: { opacity: 0 },
+            animate: { opacity: 1 },
+            transition: { delay: 0.8, duration: 1.5 },
+            children: "l"
+          }),
+          /* @__PURE__ */ (0, import_jsx_runtime10.jsx)(motion.span, {
+            initial: { opacity: 0 },
+            animate: { opacity: 1 },
+            transition: { delay: 0.9, duration: 1.5 },
+            children: "o"
+          }),
+          /* @__PURE__ */ (0, import_jsx_runtime10.jsx)(motion.span, {
+            initial: { opacity: 0 },
+            animate: { opacity: 1 },
+            transition: { delay: 1, duration: 1.5 },
+            children: "r"
+          }),
+          /* @__PURE__ */ (0, import_jsx_runtime10.jsx)(motion.span, {
+            initial: { opacity: 0 },
+            animate: { opacity: 1 },
+            transition: { delay: 1.1, duration: 1.5 },
+            children: "e"
+          }),
+          /* @__PURE__ */ (0, import_jsx_runtime10.jsx)(motion.span, {
+            initial: { opacity: 0 },
+            animate: { opacity: 1 },
+            transition: { delay: 1.3, duration: 1.5 },
+            children: "r"
+          })
+        ]
+      }),
+      /* @__PURE__ */ (0, import_jsx_runtime10.jsx)(motion.div, {
+        initial: { opacity: 0 },
+        animate: { opacity: 1 },
+        transition: { delay: 2.2, duration: 1.5 },
+        className: "py-8 text-center text-2xl font-bold text-gray-900",
+        children: /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("p", {
+          children: " 8 Million TLDs on the Blockchain!"
+        })
+      }),
+      /* @__PURE__ */ (0, import_jsx_runtime10.jsx)(motion.div, {
+        initial: { opacity: 0 },
+        animate: { opacity: 1 },
+        transition: { delay: 2.4, duration: 1.5 },
+        className: "py-8 text-center text-2xl font-bold text-gray-900",
+        children: /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("p", {
+          children: "Find the perfect domain name for your business or idea."
+        })
+      })
+    ]
+  });
+};
+
+// src/TitleCorporate.tsx
+var import_jsx_runtime11 = require("react/jsx-runtime");
+var TitleCorporate = () => {
   return /* @__PURE__ */ (0, import_jsx_runtime11.jsxs)("div", {
     children: [
       /* @__PURE__ */ (0, import_jsx_runtime11.jsxs)("h1", {
@@ -8202,312 +8330,6 @@ var TitleIndex = () => {
         transition: { delay: 2.4, duration: 1.5 },
         className: "py-8 text-center text-2xl font-bold text-gray-900",
         children: /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("p", {
-          children: "Find the perfect domain name for your business or idea."
-        })
-      })
-    ]
-  });
-};
-
-// src/TitleExplorer.tsx
-var import_jsx_runtime12 = require("react/jsx-runtime");
-var TitleExplorer = () => {
-  return /* @__PURE__ */ (0, import_jsx_runtime12.jsxs)("div", {
-    children: [
-      /* @__PURE__ */ (0, import_jsx_runtime12.jsxs)("h1", {
-        className: "py-8 text-center text-5xl font-bold",
-        children: [
-          /* @__PURE__ */ (0, import_jsx_runtime12.jsx)(motion.span, {
-            initial: { opacity: 0 },
-            animate: { opacity: 1 },
-            transition: { delay: 0.5, duration: 1.5 },
-            children: "E"
-          }),
-          /* @__PURE__ */ (0, import_jsx_runtime12.jsx)(motion.span, {
-            initial: { opacity: 0 },
-            animate: { opacity: 1 },
-            transition: { delay: 0.6, duration: 1.5 },
-            children: "x"
-          }),
-          /* @__PURE__ */ (0, import_jsx_runtime12.jsx)(motion.span, {
-            initial: { opacity: 0 },
-            animate: { opacity: 1 },
-            transition: { delay: 0.7, duration: 1.5 },
-            children: "p"
-          }),
-          /* @__PURE__ */ (0, import_jsx_runtime12.jsx)(motion.span, {
-            initial: { opacity: 0 },
-            animate: { opacity: 1 },
-            transition: { delay: 0.8, duration: 1.5 },
-            children: "l"
-          }),
-          /* @__PURE__ */ (0, import_jsx_runtime12.jsx)(motion.span, {
-            initial: { opacity: 0 },
-            animate: { opacity: 1 },
-            transition: { delay: 0.9, duration: 1.5 },
-            children: "o"
-          }),
-          /* @__PURE__ */ (0, import_jsx_runtime12.jsx)(motion.span, {
-            initial: { opacity: 0 },
-            animate: { opacity: 1 },
-            transition: { delay: 1, duration: 1.5 },
-            children: "r"
-          }),
-          /* @__PURE__ */ (0, import_jsx_runtime12.jsx)(motion.span, {
-            initial: { opacity: 0 },
-            animate: { opacity: 1 },
-            transition: { delay: 1.1, duration: 1.5 },
-            children: "e"
-          }),
-          /* @__PURE__ */ (0, import_jsx_runtime12.jsx)(motion.span, {
-            initial: { opacity: 0 },
-            animate: { opacity: 1 },
-            transition: { delay: 1.3, duration: 1.5 },
-            children: "r"
-          })
-        ]
-      }),
-      /* @__PURE__ */ (0, import_jsx_runtime12.jsx)(motion.div, {
-        initial: { opacity: 0 },
-        animate: { opacity: 1 },
-        transition: { delay: 2.2, duration: 1.5 },
-        className: "py-8 text-center text-2xl font-bold text-gray-900",
-        children: /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("p", {
-          children: " 8 Million TLDs on the Blockchain!"
-        })
-      }),
-      /* @__PURE__ */ (0, import_jsx_runtime12.jsx)(motion.div, {
-        initial: { opacity: 0 },
-        animate: { opacity: 1 },
-        transition: { delay: 2.4, duration: 1.5 },
-        className: "py-8 text-center text-2xl font-bold text-gray-900",
-        children: /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("p", {
-          children: "Find the perfect domain name for your business or idea."
-        })
-      })
-    ]
-  });
-};
-
-// src/TitlePylar.tsx
-var import_jsx_runtime13 = require("react/jsx-runtime");
-var TitlePylar = () => {
-  return /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("div", {
-    children: [
-      /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("h1", {
-        className: "py-8 text-center text-5xl font-bold",
-        children: [
-          /* @__PURE__ */ (0, import_jsx_runtime13.jsx)(motion.span, {
-            initial: { opacity: 0 },
-            animate: { opacity: 1 },
-            transition: { delay: 0.5, duration: 1.5 },
-            children: "P"
-          }),
-          /* @__PURE__ */ (0, import_jsx_runtime13.jsx)(motion.span, {
-            initial: { opacity: 0 },
-            animate: { opacity: 1 },
-            transition: { delay: 0.6, duration: 1.5 },
-            children: "y"
-          }),
-          /* @__PURE__ */ (0, import_jsx_runtime13.jsx)(motion.span, {
-            initial: { opacity: 0 },
-            animate: { opacity: 1 },
-            transition: { delay: 0.7, duration: 1.5 },
-            children: "l"
-          }),
-          /* @__PURE__ */ (0, import_jsx_runtime13.jsx)(motion.span, {
-            initial: { opacity: 0 },
-            animate: { opacity: 1 },
-            transition: { delay: 0.8, duration: 1.5 },
-            children: "a"
-          }),
-          /* @__PURE__ */ (0, import_jsx_runtime13.jsx)(motion.span, {
-            initial: { opacity: 0 },
-            animate: { opacity: 1 },
-            transition: { delay: 0.9, duration: 1.5 },
-            children: "r\u2122"
-          }),
-          /* @__PURE__ */ (0, import_jsx_runtime13.jsx)(motion.span, {
-            initial: { opacity: 0 },
-            animate: { opacity: 1 },
-            transition: { delay: 1, duration: 1.5 },
-            children: "\xA0"
-          }),
-          /* @__PURE__ */ (0, import_jsx_runtime13.jsx)(motion.span, {
-            initial: { opacity: 0 },
-            animate: { opacity: 1 },
-            transition: { delay: 1.1, duration: 1.5 },
-            children: "A"
-          }),
-          /* @__PURE__ */ (0, import_jsx_runtime13.jsx)(motion.span, {
-            initial: { opacity: 0 },
-            animate: { opacity: 1 },
-            transition: { delay: 1.2, duration: 1.5 },
-            children: "I"
-          })
-        ]
-      }),
-      /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)(motion.h2, {
-        className: "py-8 text-center text-4xl font-bold",
-        initial: { opacity: 0 },
-        animate: { opacity: 1 },
-        transition: { delay: 1.4, duration: 1.5 },
-        children: [
-          /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("span", {
-            className: "text-blue-500",
-            children: "Py"
-          }),
-          "thon",
-          " ",
-          /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("span", {
-            className: "text-blue-500",
-            children: "L"
-          }),
-          "earning",
-          " ",
-          /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("span", {
-            className: "text-blue-500",
-            children: "A"
-          }),
-          "rtificial",
-          " ",
-          /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("span", {
-            className: "text-blue-500",
-            children: "R"
-          }),
-          "esearch\u2122",
-          " ",
-          /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("span", {
-            className: "text-black",
-            children: " "
-          }),
-          /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("span", {
-            className: "text-blue-500",
-            children: "A"
-          }),
-          "rtificial",
-          " ",
-          /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("span", {
-            className: "text-blue-500",
-            children: "I"
-          }),
-          "ntelligence",
-          " "
-        ]
-      })
-    ]
-  });
-};
-
-// src/TitleCorporate.tsx
-var import_jsx_runtime14 = require("react/jsx-runtime");
-var TitleCorporate = () => {
-  return /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("div", {
-    children: [
-      /* @__PURE__ */ (0, import_jsx_runtime14.jsxs)("h1", {
-        className: "py-8 text-center text-5xl font-bold",
-        children: [
-          /* @__PURE__ */ (0, import_jsx_runtime14.jsx)(motion.span, {
-            initial: { opacity: 0 },
-            animate: { opacity: 1 },
-            transition: { delay: 0.5, duration: 1.5 },
-            children: "P"
-          }),
-          /* @__PURE__ */ (0, import_jsx_runtime14.jsx)(motion.span, {
-            initial: { opacity: 0 },
-            animate: { opacity: 1 },
-            transition: { delay: 0.6, duration: 1.5 },
-            children: "e"
-          }),
-          /* @__PURE__ */ (0, import_jsx_runtime14.jsx)(motion.span, {
-            initial: { opacity: 0 },
-            animate: { opacity: 1 },
-            transition: { delay: 0.7, duration: 1.5 },
-            children: "n"
-          }),
-          /* @__PURE__ */ (0, import_jsx_runtime14.jsx)(motion.span, {
-            initial: { opacity: 0 },
-            animate: { opacity: 1 },
-            transition: { delay: 0.8, duration: 1.5 },
-            children: "c"
-          }),
-          /* @__PURE__ */ (0, import_jsx_runtime14.jsx)(motion.span, {
-            initial: { opacity: 0 },
-            animate: { opacity: 1 },
-            transition: { delay: 0.9, duration: 1.5 },
-            children: "i"
-          }),
-          /* @__PURE__ */ (0, import_jsx_runtime14.jsx)(motion.span, {
-            initial: { opacity: 0 },
-            animate: { opacity: 1 },
-            transition: { delay: 1, duration: 1.5 },
-            children: "l"
-          }),
-          /* @__PURE__ */ (0, import_jsx_runtime14.jsx)(motion.span, {
-            initial: { opacity: 0 },
-            animate: { opacity: 1 },
-            transition: { delay: 1.1, duration: 1.5 },
-            children: "\xA0"
-          }),
-          /* @__PURE__ */ (0, import_jsx_runtime14.jsx)(motion.span, {
-            initial: { opacity: 0 },
-            animate: { opacity: 1 },
-            transition: { delay: 1.2, duration: 1.5 },
-            children: "D"
-          }),
-          /* @__PURE__ */ (0, import_jsx_runtime14.jsx)(motion.span, {
-            initial: { opacity: 0 },
-            animate: { opacity: 1 },
-            transition: { delay: 1.3, duration: 1.5 },
-            children: "o"
-          }),
-          /* @__PURE__ */ (0, import_jsx_runtime14.jsx)(motion.span, {
-            initial: { opacity: 0 },
-            animate: { opacity: 1 },
-            transition: { delay: 1.4, duration: 1.5 },
-            children: "m"
-          }),
-          /* @__PURE__ */ (0, import_jsx_runtime14.jsx)(motion.span, {
-            initial: { opacity: 0 },
-            animate: { opacity: 1 },
-            transition: { delay: 1.5, duration: 1.5 },
-            children: "a"
-          }),
-          /* @__PURE__ */ (0, import_jsx_runtime14.jsx)(motion.span, {
-            initial: { opacity: 0 },
-            animate: { opacity: 1 },
-            transition: { delay: 1.6, duration: 1.5 },
-            children: "i"
-          }),
-          /* @__PURE__ */ (0, import_jsx_runtime14.jsx)(motion.span, {
-            initial: { opacity: 0 },
-            animate: { opacity: 1 },
-            transition: { delay: 1.7, duration: 1.5 },
-            children: "n"
-          }),
-          /* @__PURE__ */ (0, import_jsx_runtime14.jsx)(motion.span, {
-            initial: { opacity: 0 },
-            animate: { opacity: 1 },
-            transition: { delay: 1.8, duration: 1.5 },
-            children: "s"
-          })
-        ]
-      }),
-      /* @__PURE__ */ (0, import_jsx_runtime14.jsx)(motion.div, {
-        initial: { opacity: 0 },
-        animate: { opacity: 1 },
-        transition: { delay: 2.2, duration: 1.5 },
-        className: "py-8 text-center text-2xl font-bold text-gray-900",
-        children: /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("p", {
-          children: " 8 Million TLDs on the Blockchain!"
-        })
-      }),
-      /* @__PURE__ */ (0, import_jsx_runtime14.jsx)(motion.div, {
-        initial: { opacity: 0 },
-        animate: { opacity: 1 },
-        transition: { delay: 2.4, duration: 1.5 },
-        className: "py-8 text-center text-2xl font-bold text-gray-900",
-        children: /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("p", {
           children: "25819 names on this amazing Handshake Blocks and Ranking Names portal."
         })
       })
@@ -8515,155 +8337,100 @@ var TitleCorporate = () => {
   });
 };
 
-// src/ListPylar.tsx
-var import_jsx_runtime15 = require("react/jsx-runtime");
-var ListPylar = () => {
-  return /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("div", {
-    className: "mt-8 flex flex-row justify-center",
-    children: /* @__PURE__ */ (0, import_jsx_runtime15.jsxs)("div", {
-      className: "flex w-3/4 flex-col",
-      children: [
-        /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("h2", {
-          className: "text-2xl font-bold",
-          children: "Welcome to the Pylar AI Blog"
-        }),
-        /* @__PURE__ */ (0, import_jsx_runtime15.jsxs)("p", {
-          className: "mt-4 text-lg",
-          children: [
-            "Pylar AI is:",
-            /* @__PURE__ */ (0, import_jsx_runtime15.jsxs)("ul", {
-              className: "list-inside list-disc",
-              children: [
-                /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("li", {
-                  children: "Generative art results"
-                }),
-                /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("a", {
-                  children: "What is generative art? Generative art is a form of art that uses a computer to create art. The computer is programmed to create art based on a set of rules."
-                }),
-                /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("p", {
-                  children: "\xA0"
-                }),
-                /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("li", {
-                  children: "Promt Engineering design"
-                }),
-                /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("a", {
-                  children: "Promt Engineering is a form of engineering that uses a computer to create engineering. The computer is programmed to create engineering based on a set of rules."
-                }),
-                /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("p", {
-                  children: "\xA0"
-                }),
-                /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("li", {
-                  children: "StableDiffusion 2.0 modified"
-                }),
-                /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("a", {
-                  children: "StableDiffusion 2.0 is a computer program that is used to create art based on a set of rules."
-                }),
-                /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("p", {
-                  children: "\xA0"
-                })
-              ]
-            })
-          ]
-        })
-      ]
-    })
-  });
-};
-
 // src/Card.tsx
-var import_jsx_runtime16 = require("react/jsx-runtime");
+var import_jsx_runtime12 = require("react/jsx-runtime");
 var Card = () => {
-  return /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("div", {
+  return /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("div", {
     className: "shaddow-md duration-800 cols-span-1 m-10 rounded-lg border border-sky-500 px-10 py-5 text-center shadow transition-shadow ease-in-out hover:shadow-2xl",
-    children: /* @__PURE__ */ (0, import_jsx_runtime16.jsxs)("div", {
+    children: /* @__PURE__ */ (0, import_jsx_runtime12.jsxs)("div", {
       className: "overflow-hidden bg-white shadow sm:rounded-lg",
       children: [
-        /* @__PURE__ */ (0, import_jsx_runtime16.jsxs)("div", {
+        /* @__PURE__ */ (0, import_jsx_runtime12.jsxs)("div", {
           className: "px-4 py-5 sm:px-6",
           children: [
-            /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("a", {
+            /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("a", {
               href: "https://hns.pencil.li",
               target: "_blank",
               rel: "noopener noreferrer",
               className: "p-2",
-              children: /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("picture", {
-                children: /* @__PURE__ */ (0, import_jsx_runtime16.jsxs)("svg", {
+              children: /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("picture", {
+                children: /* @__PURE__ */ (0, import_jsx_runtime12.jsxs)("svg", {
                   xmlns: "http://www.w3.org/2000/svg",
                   width: "150",
                   height: "25",
                   viewBox: "0 0 2344 678",
                   children: [
-                    /* @__PURE__ */ (0, import_jsx_runtime16.jsxs)("defs", {
+                    /* @__PURE__ */ (0, import_jsx_runtime12.jsxs)("defs", {
                       children: [
-                        /* @__PURE__ */ (0, import_jsx_runtime16.jsxs)("linearGradient", {
+                        /* @__PURE__ */ (0, import_jsx_runtime12.jsxs)("linearGradient", {
                           id: "a",
                           x1: "0%",
                           x2: "100%",
                           y1: "50%",
                           y2: "50%",
                           children: [
-                            /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("stop", {
+                            /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("stop", {
                               offset: "0%",
                               "stop-color": "#B620E0"
                             }),
-                            /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("stop", {
+                            /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("stop", {
                               offset: "16.68%",
                               "stop-color": "#6236FF"
                             }),
-                            /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("stop", {
+                            /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("stop", {
                               offset: "33.433%",
                               "stop-color": "#0091FF"
                             }),
-                            /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("stop", {
+                            /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("stop", {
                               offset: "49.949%",
                               "stop-color": "#6DD400"
                             }),
-                            /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("stop", {
+                            /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("stop", {
                               offset: "66.61%",
                               "stop-color": "#F7B500"
                             }),
-                            /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("stop", {
+                            /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("stop", {
                               offset: "83.281%",
                               "stop-color": "#FA6400"
                             }),
-                            /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("stop", {
+                            /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("stop", {
                               offset: "100%",
                               "stop-color": "#E02020"
                             })
                           ]
                         }),
-                        /* @__PURE__ */ (0, import_jsx_runtime16.jsxs)("linearGradient", {
+                        /* @__PURE__ */ (0, import_jsx_runtime12.jsxs)("linearGradient", {
                           id: "b",
                           x1: "100%",
                           x2: "0%",
                           y1: "50%",
                           y2: "50%",
                           children: [
-                            /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("stop", {
+                            /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("stop", {
                               offset: "0%",
                               "stop-color": "#E02020"
                             }),
-                            /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("stop", {
+                            /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("stop", {
                               offset: "16.719%",
                               "stop-color": "#FA6400"
                             }),
-                            /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("stop", {
+                            /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("stop", {
                               offset: "33.39%",
                               "stop-color": "#F7B500"
                             }),
-                            /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("stop", {
+                            /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("stop", {
                               offset: "50.051%",
                               "stop-color": "#6DD400"
                             }),
-                            /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("stop", {
+                            /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("stop", {
                               offset: "66.567%",
                               "stop-color": "#0091FF"
                             }),
-                            /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("stop", {
+                            /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("stop", {
                               offset: "83.32%",
                               "stop-color": "#6236FF"
                             }),
-                            /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("stop", {
+                            /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("stop", {
                               offset: "100%",
                               "stop-color": "#B620E0"
                             })
@@ -8671,64 +8438,64 @@ var Card = () => {
                         })
                       ]
                     }),
-                    /* @__PURE__ */ (0, import_jsx_runtime16.jsxs)("g", {
+                    /* @__PURE__ */ (0, import_jsx_runtime12.jsxs)("g", {
                       fill: "none",
                       "fill-rule": "evenodd",
                       transform: "translate(-151 -173)",
                       children: [
-                        /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("path", {
+                        /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("path", {
                           fill: "url(#a)",
                           d: "M508.516097,232.032195 L783.120976,781.241951 C791.271621,797.543242 784.664217,817.365452 768.362927,825.516097 C763.780698,827.807212 758.727967,829 753.604878,829 L204.395122,829 C186.169725,829 171.395122,814.225397 171.395122,796 C171.395122,790.876912 172.58791,785.824181 174.879024,781.241951 L449.483903,232.032195 C457.634548,215.730904 477.456758,209.123501 493.758049,217.274146 C500.144453,220.467348 505.322895,225.64579 508.516097,232.032195 Z",
                           transform: "matrix(0 -1 -1 0 980 980)"
                         }),
-                        /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("path", {
+                        /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("path", {
                           fill: "url(#b)",
                           d: "M419.705262,277.910524 L658,754.5 L658,754.5 L151,754.5 L389.294738,277.910524 C393.493555,269.51289 403.704997,266.109076 412.102631,270.307893 C415.392597,271.952876 418.060279,274.620559 419.705262,277.910524 Z",
                           transform: "matrix(0 -1 -1 0 905.5 905.5)"
                         }),
-                        /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("path", {
+                        /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("path", {
                           fill: "url(#a)",
                           d: "M356.705262,340.910524 L532,691.5 L532,691.5 L151,691.5 L326.294738,340.910524 C330.493555,332.51289 340.704997,329.109076 349.102631,333.307893 C352.392597,334.952876 355.060279,337.620559 356.705262,340.910524 Z",
                           transform: "matrix(0 -1 -1 0 842.5 842.5)"
                         }),
-                        /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("path", {
+                        /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("path", {
                           fill: "url(#b)",
                           d: "M293.205262,404.410524 L405,628 L405,628 L151,628 L262.794738,404.410524 C266.993555,396.01289 277.204997,392.609076 285.602631,396.807893 C288.892597,398.452876 291.560279,401.120559 293.205262,404.410524 Z",
                           transform: "matrix(0 -1 -1 0 779 779)"
                         }),
-                        /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("path", {
+                        /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("path", {
                           fill: "url(#a)",
                           d: "M230.599689,469.699379 L278,564.5 L278,564.5 L151,564.5 L198.400311,469.699379 C202.846117,460.807766 213.658232,457.203728 222.549845,461.649534 C226.033338,463.391281 228.857943,466.215886 230.599689,469.699379 Z",
                           transform: "matrix(0 -1 -1 0 715.5 715.5)"
                         }),
-                        /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("text", {
+                        /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("text", {
                           fill: "#6CD300",
                           "font-family": "Roboto-Regular, Roboto",
                           "font-size": "500",
                           "font-weight": "500",
-                          children: /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("tspan", {
+                          children: /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("tspan", {
                             x: "993.25",
                             y: "697",
                             children: "Pencil"
                           })
                         }),
-                        /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("text", {
+                        /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("text", {
                           fill: "#1C78FF",
                           "font-family": "Roboto-Regular, Roboto",
                           "font-size": "100",
                           "font-weight": "500",
-                          children: /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("tspan", {
+                          children: /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("tspan", {
                             x: "690.95",
                             y: "829",
                             children: "\xA9"
                           })
                         }),
-                        /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("text", {
+                        /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("text", {
                           fill: "#F75B04",
                           "font-family": "Roboto-Regular, Roboto",
                           "font-size": "75",
                           "font-weight": "500",
-                          children: /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("tspan", {
+                          children: /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("tspan", {
                             x: "2386.5",
                             y: "248",
                             children: "TM"
@@ -8740,41 +8507,41 @@ var Card = () => {
                 })
               })
             }),
-            /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("h3", {
+            /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("h3", {
               className: "text-lg font-medium leading-6 text-gray-900",
               children: "Pencil Domains"
             }),
-            /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("p", {
+            /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("p", {
               className: "mt-1 max-w-2xl text-sm text-gray-500",
               children: "Pencil Domains is a domain name registrar that allows you to register in this new namespace."
             })
           ]
         }),
-        /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("div", {
+        /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("div", {
           className: "border-t border-gray-200",
-          children: /* @__PURE__ */ (0, import_jsx_runtime16.jsxs)("dl", {
+          children: /* @__PURE__ */ (0, import_jsx_runtime12.jsxs)("dl", {
             children: [
-              /* @__PURE__ */ (0, import_jsx_runtime16.jsxs)("div", {
+              /* @__PURE__ */ (0, import_jsx_runtime12.jsxs)("div", {
                 className: "bg-gray-50 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6",
                 children: [
-                  /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("dt", {
+                  /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("dt", {
                     className: "text-sm font-medium text-gray-500",
                     children: "Blockchain"
                   }),
-                  /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("dd", {
+                  /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("dd", {
                     className: "mt-1 text-sm text-gray-900 sm:col-span-2 sm:mt-0",
                     children: "Handshake"
                   })
                 ]
               }),
-              /* @__PURE__ */ (0, import_jsx_runtime16.jsxs)("div", {
+              /* @__PURE__ */ (0, import_jsx_runtime12.jsxs)("div", {
                 className: "bg-white px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6",
                 children: [
-                  /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("dt", {
+                  /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("dt", {
                     className: "text-sm font-medium text-gray-500",
                     children: "Domain Owner"
                   }),
-                  /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("dd", {
+                  /* @__PURE__ */ (0, import_jsx_runtime12.jsx)("dd", {
                     className: "mt-1 text-sm text-gray-900 sm:col-span-2 sm:mt-0",
                     children: "Custody"
                   })
@@ -8789,11 +8556,11 @@ var Card = () => {
 };
 
 // src/GradientWhite.tsx
-var import_jsx_runtime17 = require("react/jsx-runtime");
+var import_jsx_runtime13 = require("react/jsx-runtime");
 var ELEMENTS2 = 0;
 var GradientWhite = () => {
-  return /* @__PURE__ */ (0, import_jsx_runtime17.jsx)("div", {
-    children: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)("svg", {
+  return /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("div", {
+    children: /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("svg", {
       xmlns: "http://www.w3.org/2000/svg",
       width: "95",
       height: "95",
@@ -8802,7 +8569,7 @@ var GradientWhite = () => {
       viewBox: "0 0 95 95",
       className: "m-2 rounded-xl py-2 shadow-md hover:shadow-xl",
       style: k(ELEMENTS2),
-      children: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)("path", {
+      children: /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("path", {
         d: "M32.816,12.95,30.349,8.568h4.78a.439.439,0,0,1,.346.2l.931,1.534c.558.92,1.225,2.02,1.607,2.648ZM23.975,39.495a.339.339,0,0,1-.315.207H18.772l7.595-13.635a.731.731,0,0,0-.636-1.087h0L12.787,25l-2.574-4.456H29.076c.011,0,.02,0,.031,0a.677.677,0,0,0,.217-.045l.047-.02a.722.722,0,0,0,.346-.313l3.108-5.745h5.13Zm-6.468-.518-.613-1.009c-.785-1.3-1.791-2.955-1.9-3.137a.385.385,0,0,1,.024-.355l4.457-8.027,5.019-.006ZM8.948,30.444,6.453,26.011,8.968,21.3l2.522,4.367C10.706,27.14,9.483,29.442,8.948,30.444Zm-3.348.69H2.881a.443.443,0,0,1-.343-.2L1.726,29.6C1.147,28.641.409,27.425,0,26.752H5.2l2.466,4.383ZM14.037.208A.338.338,0,0,1,14.351,0h4.91L11.646,13.636c-.006.011-.01.023-.016.035s-.021.046-.03.07-.015.046-.021.069-.011.044-.014.066a.648.648,0,0,0-.008.081c0,.012,0,.023,0,.036s0,.018,0,.027a.591.591,0,0,0,.008.079.538.538,0,0,0,.012.066c.006.023.013.045.021.068s.016.045.025.066.021.041.033.062.023.04.037.059a.644.644,0,0,0,.045.055c.016.017.031.035.048.051s.035.029.053.043a.634.634,0,0,0,.063.045l.023.016c.008,0,.018.006.027.011a.729.729,0,0,0,.119.048c.015,0,.029.01.044.013a.7.7,0,0,0,.164.021h.33l12.619-.017c.334.58.957,1.673,1.489,2.6q.612,1.072,1.01,1.768H8.949c-.008,0-.016,0-.024,0a.725.725,0,0,0-.631.382L5.185,25.29H.059Zm6.479.534.456.75c.8,1.321,1.932,3.185,2.052,3.379A.383.383,0,0,1,23,5.227l-4.457,8.027-5.017.006Zm8.546,8.511,2.5,4.435-2.545,4.7c-.3-.529-.68-1.189-1.034-1.808-.7-1.224-1.208-2.115-1.495-2.613C27.028,12.977,28.462,10.349,29.062,9.253Z",
         id: "Fill-1",
         className: "fill-current"
@@ -8812,10 +8579,10 @@ var GradientWhite = () => {
 };
 
 // src/GradientDiamond.tsx
-var import_jsx_runtime18 = require("react/jsx-runtime");
+var import_jsx_runtime14 = require("react/jsx-runtime");
 var ELEMENTS3 = 25;
 var GradientDiamond = () => {
-  return /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("svg", {
+  return /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("svg", {
     xmlns: "http://www.w3.org/2000/svg",
     width: "95",
     height: "95",
@@ -8824,7 +8591,7 @@ var GradientDiamond = () => {
     viewBox: "0 0 95 95",
     className: "m-2 rounded-xl py-2 shadow-md hover:shadow-xl",
     style: k(ELEMENTS3),
-    children: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("path", {
+    children: /* @__PURE__ */ (0, import_jsx_runtime14.jsx)("path", {
       d: "M32.816,12.95,30.349,8.568h4.78a.439.439,0,0,1,.346.2l.931,1.534c.558.92,1.225,2.02,1.607,2.648ZM23.975,39.495a.339.339,0,0,1-.315.207H18.772l7.595-13.635a.731.731,0,0,0-.636-1.087h0L12.787,25l-2.574-4.456H29.076c.011,0,.02,0,.031,0a.677.677,0,0,0,.217-.045l.047-.02a.722.722,0,0,0,.346-.313l3.108-5.745h5.13Zm-6.468-.518-.613-1.009c-.785-1.3-1.791-2.955-1.9-3.137a.385.385,0,0,1,.024-.355l4.457-8.027,5.019-.006ZM8.948,30.444,6.453,26.011,8.968,21.3l2.522,4.367C10.706,27.14,9.483,29.442,8.948,30.444Zm-3.348.69H2.881a.443.443,0,0,1-.343-.2L1.726,29.6C1.147,28.641.409,27.425,0,26.752H5.2l2.466,4.383ZM14.037.208A.338.338,0,0,1,14.351,0h4.91L11.646,13.636c-.006.011-.01.023-.016.035s-.021.046-.03.07-.015.046-.021.069-.011.044-.014.066a.648.648,0,0,0-.008.081c0,.012,0,.023,0,.036s0,.018,0,.027a.591.591,0,0,0,.008.079.538.538,0,0,0,.012.066c.006.023.013.045.021.068s.016.045.025.066.021.041.033.062.023.04.037.059a.644.644,0,0,0,.045.055c.016.017.031.035.048.051s.035.029.053.043a.634.634,0,0,0,.063.045l.023.016c.008,0,.018.006.027.011a.729.729,0,0,0,.119.048c.015,0,.029.01.044.013a.7.7,0,0,0,.164.021h.33l12.619-.017c.334.58.957,1.673,1.489,2.6q.612,1.072,1.01,1.768H8.949c-.008,0-.016,0-.024,0a.725.725,0,0,0-.631.382L5.185,25.29H.059Zm6.479.534.456.75c.8,1.321,1.932,3.185,2.052,3.379A.383.383,0,0,1,23,5.227l-4.457,8.027-5.017.006Zm8.546,8.511,2.5,4.435-2.545,4.7c-.3-.529-.68-1.189-1.034-1.808-.7-1.224-1.208-2.115-1.495-2.613C27.028,12.977,28.462,10.349,29.062,9.253Z",
       id: "Fill-1",
       className: "fill-sky-500"
@@ -8833,11 +8600,11 @@ var GradientDiamond = () => {
 };
 
 // src/GradientGold.tsx
-var import_jsx_runtime19 = require("react/jsx-runtime");
+var import_jsx_runtime15 = require("react/jsx-runtime");
 var ELEMENTS4 = 5;
 var GradientGold = () => {
-  return /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("div", {
-    children: /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("svg", {
+  return /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("div", {
+    children: /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("svg", {
       xmlns: "http://www.w3.org/2000/svg",
       width: "95",
       height: "95",
@@ -8846,7 +8613,7 @@ var GradientGold = () => {
       viewBox: "0 0 95 95",
       className: "m-2 rounded-xl py-2 shadow-md hover:shadow-xl",
       style: k(ELEMENTS4),
-      children: /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("path", {
+      children: /* @__PURE__ */ (0, import_jsx_runtime15.jsx)("path", {
         d: "M32.816,12.95,30.349,8.568h4.78a.439.439,0,0,1,.346.2l.931,1.534c.558.92,1.225,2.02,1.607,2.648ZM23.975,39.495a.339.339,0,0,1-.315.207H18.772l7.595-13.635a.731.731,0,0,0-.636-1.087h0L12.787,25l-2.574-4.456H29.076c.011,0,.02,0,.031,0a.677.677,0,0,0,.217-.045l.047-.02a.722.722,0,0,0,.346-.313l3.108-5.745h5.13Zm-6.468-.518-.613-1.009c-.785-1.3-1.791-2.955-1.9-3.137a.385.385,0,0,1,.024-.355l4.457-8.027,5.019-.006ZM8.948,30.444,6.453,26.011,8.968,21.3l2.522,4.367C10.706,27.14,9.483,29.442,8.948,30.444Zm-3.348.69H2.881a.443.443,0,0,1-.343-.2L1.726,29.6C1.147,28.641.409,27.425,0,26.752H5.2l2.466,4.383ZM14.037.208A.338.338,0,0,1,14.351,0h4.91L11.646,13.636c-.006.011-.01.023-.016.035s-.021.046-.03.07-.015.046-.021.069-.011.044-.014.066a.648.648,0,0,0-.008.081c0,.012,0,.023,0,.036s0,.018,0,.027a.591.591,0,0,0,.008.079.538.538,0,0,0,.012.066c.006.023.013.045.021.068s.016.045.025.066.021.041.033.062.023.04.037.059a.644.644,0,0,0,.045.055c.016.017.031.035.048.051s.035.029.053.043a.634.634,0,0,0,.063.045l.023.016c.008,0,.018.006.027.011a.729.729,0,0,0,.119.048c.015,0,.029.01.044.013a.7.7,0,0,0,.164.021h.33l12.619-.017c.334.58.957,1.673,1.489,2.6q.612,1.072,1.01,1.768H8.949c-.008,0-.016,0-.024,0a.725.725,0,0,0-.631.382L5.185,25.29H.059Zm6.479.534.456.75c.8,1.321,1.932,3.185,2.052,3.379A.383.383,0,0,1,23,5.227l-4.457,8.027-5.017.006Zm8.546,8.511,2.5,4.435-2.545,4.7c-.3-.529-.68-1.189-1.034-1.808-.7-1.224-1.208-2.115-1.495-2.613C27.028,12.977,28.462,10.349,29.062,9.253Z",
         id: "Fill-1",
         className: "fill-yellow-500"
@@ -8856,10 +8623,10 @@ var GradientGold = () => {
 };
 
 // src/GradientSilver.tsx
-var import_jsx_runtime20 = require("react/jsx-runtime");
+var import_jsx_runtime16 = require("react/jsx-runtime");
 var ELEMENTS5 = 3;
 var GradientSilver = () => {
-  return /* @__PURE__ */ (0, import_jsx_runtime20.jsx)("svg", {
+  return /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("svg", {
     xmlns: "http://www.w3.org/2000/svg",
     width: "95",
     height: "95",
@@ -8868,7 +8635,7 @@ var GradientSilver = () => {
     viewBox: "0 0 95 95",
     className: "m-2 rounded-xl py-2 shadow-md hover:shadow-xl",
     style: k(ELEMENTS5),
-    children: /* @__PURE__ */ (0, import_jsx_runtime20.jsx)("path", {
+    children: /* @__PURE__ */ (0, import_jsx_runtime16.jsx)("path", {
       d: "M32.816,12.95,30.349,8.568h4.78a.439.439,0,0,1,.346.2l.931,1.534c.558.92,1.225,2.02,1.607,2.648ZM23.975,39.495a.339.339,0,0,1-.315.207H18.772l7.595-13.635a.731.731,0,0,0-.636-1.087h0L12.787,25l-2.574-4.456H29.076c.011,0,.02,0,.031,0a.677.677,0,0,0,.217-.045l.047-.02a.722.722,0,0,0,.346-.313l3.108-5.745h5.13Zm-6.468-.518-.613-1.009c-.785-1.3-1.791-2.955-1.9-3.137a.385.385,0,0,1,.024-.355l4.457-8.027,5.019-.006ZM8.948,30.444,6.453,26.011,8.968,21.3l2.522,4.367C10.706,27.14,9.483,29.442,8.948,30.444Zm-3.348.69H2.881a.443.443,0,0,1-.343-.2L1.726,29.6C1.147,28.641.409,27.425,0,26.752H5.2l2.466,4.383ZM14.037.208A.338.338,0,0,1,14.351,0h4.91L11.646,13.636c-.006.011-.01.023-.016.035s-.021.046-.03.07-.015.046-.021.069-.011.044-.014.066a.648.648,0,0,0-.008.081c0,.012,0,.023,0,.036s0,.018,0,.027a.591.591,0,0,0,.008.079.538.538,0,0,0,.012.066c.006.023.013.045.021.068s.016.045.025.066.021.041.033.062.023.04.037.059a.644.644,0,0,0,.045.055c.016.017.031.035.048.051s.035.029.053.043a.634.634,0,0,0,.063.045l.023.016c.008,0,.018.006.027.011a.729.729,0,0,0,.119.048c.015,0,.029.01.044.013a.7.7,0,0,0,.164.021h.33l12.619-.017c.334.58.957,1.673,1.489,2.6q.612,1.072,1.01,1.768H8.949c-.008,0-.016,0-.024,0a.725.725,0,0,0-.631.382L5.185,25.29H.059Zm6.479.534.456.75c.8,1.321,1.932,3.185,2.052,3.379A.383.383,0,0,1,23,5.227l-4.457,8.027-5.017.006Zm8.546,8.511,2.5,4.435-2.545,4.7c-.3-.529-.68-1.189-1.034-1.808-.7-1.224-1.208-2.115-1.495-2.613C27.028,12.977,28.462,10.349,29.062,9.253Z",
       id: "Fill-1",
       className: "fill-gray-500"
@@ -8877,11 +8644,11 @@ var GradientSilver = () => {
 };
 
 // src/GradientBronze.tsx
-var import_jsx_runtime21 = require("react/jsx-runtime");
+var import_jsx_runtime17 = require("react/jsx-runtime");
 var ELEMENTS6 = 1;
 var GradientBronze = () => {
-  return /* @__PURE__ */ (0, import_jsx_runtime21.jsx)("div", {
-    children: /* @__PURE__ */ (0, import_jsx_runtime21.jsx)("svg", {
+  return /* @__PURE__ */ (0, import_jsx_runtime17.jsx)("div", {
+    children: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)("svg", {
       xmlns: "http://www.w3.org/2000/svg",
       width: "95",
       height: "95",
@@ -8890,7 +8657,7 @@ var GradientBronze = () => {
       viewBox: "0 0 95 95",
       className: "m-2 rounded-xl py-2 shadow-md hover:shadow-xl",
       style: k(ELEMENTS6),
-      children: /* @__PURE__ */ (0, import_jsx_runtime21.jsx)("path", {
+      children: /* @__PURE__ */ (0, import_jsx_runtime17.jsx)("path", {
         d: "M32.816,12.95,30.349,8.568h4.78a.439.439,0,0,1,.346.2l.931,1.534c.558.92,1.225,2.02,1.607,2.648ZM23.975,39.495a.339.339,0,0,1-.315.207H18.772l7.595-13.635a.731.731,0,0,0-.636-1.087h0L12.787,25l-2.574-4.456H29.076c.011,0,.02,0,.031,0a.677.677,0,0,0,.217-.045l.047-.02a.722.722,0,0,0,.346-.313l3.108-5.745h5.13Zm-6.468-.518-.613-1.009c-.785-1.3-1.791-2.955-1.9-3.137a.385.385,0,0,1,.024-.355l4.457-8.027,5.019-.006ZM8.948,30.444,6.453,26.011,8.968,21.3l2.522,4.367C10.706,27.14,9.483,29.442,8.948,30.444Zm-3.348.69H2.881a.443.443,0,0,1-.343-.2L1.726,29.6C1.147,28.641.409,27.425,0,26.752H5.2l2.466,4.383ZM14.037.208A.338.338,0,0,1,14.351,0h4.91L11.646,13.636c-.006.011-.01.023-.016.035s-.021.046-.03.07-.015.046-.021.069-.011.044-.014.066a.648.648,0,0,0-.008.081c0,.012,0,.023,0,.036s0,.018,0,.027a.591.591,0,0,0,.008.079.538.538,0,0,0,.012.066c.006.023.013.045.021.068s.016.045.025.066.021.041.033.062.023.04.037.059a.644.644,0,0,0,.045.055c.016.017.031.035.048.051s.035.029.053.043a.634.634,0,0,0,.063.045l.023.016c.008,0,.018.006.027.011a.729.729,0,0,0,.119.048c.015,0,.029.01.044.013a.7.7,0,0,0,.164.021h.33l12.619-.017c.334.58.957,1.673,1.489,2.6q.612,1.072,1.01,1.768H8.949c-.008,0-.016,0-.024,0a.725.725,0,0,0-.631.382L5.185,25.29H.059Zm6.479.534.456.75c.8,1.321,1.932,3.185,2.052,3.379A.383.383,0,0,1,23,5.227l-4.457,8.027-5.017.006Zm8.546,8.511,2.5,4.435-2.545,4.7c-.3-.529-.68-1.189-1.034-1.808-.7-1.224-1.208-2.115-1.495-2.613C27.028,12.977,28.462,10.349,29.062,9.253Z",
         id: "Fill-1",
         className: "fill-orange-500"
@@ -8900,462 +8667,462 @@ var GradientBronze = () => {
 };
 
 // src/DomainsAll.tsx
-var import_jsx_runtime22 = require("react/jsx-runtime");
+var import_jsx_runtime18 = require("react/jsx-runtime");
 var DomainsAll = () => {
-  return /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("div", {
+  return /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("div", {
     className: "shaddow-md duration-800 cols-span-1 m-10 rounded-lg border border-sky-500 px-10 py-5 text-center shadow transition-shadow ease-in-out hover:shadow-2xl",
-    children: /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("div", {
+    children: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("div", {
       className: "overflow-hidden rounded-lg",
-      children: /* @__PURE__ */ (0, import_jsx_runtime22.jsxs)("div", {
+      children: /* @__PURE__ */ (0, import_jsx_runtime18.jsxs)("div", {
         className: "grid grid-cols-1 gap-4 sm:grid-cols-4 lg:grid-cols-4",
         children: [
-          /* @__PURE__ */ (0, import_jsx_runtime22.jsxs)("div", {
+          /* @__PURE__ */ (0, import_jsx_runtime18.jsxs)("div", {
             className: "shaddow-md duration-800 cols-span-1 m-10 overflow-hidden rounded-lg rounded-lg border border-sky-500 bg-sky-200 px-10 py-5 py-5 px-4 text-center shadow shadow transition-shadow ease-in-out hover:shadow-2xl sm:px-6",
             children: [
-              /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("p", {
-                children: /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("a", {
+              /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("p", {
+                children: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("a", {
                   className: "font-slim text-xl text-black",
                   children: "Espa\xF1a"
                 })
               }),
-              /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("a", {
+              /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("a", {
                 className: "text-2xl font-bold text-black",
                 children: ".es\xF1"
               }),
-              /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("p", {
+              /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("p", {
                 className: "grid grid-cols-1 gap-4 sm:grid-cols-4 lg:grid-cols-1",
-                children: /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("a", {
+                children: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("a", {
                   className: "text-sm text-black",
                   children: "soon"
                 })
               })
             ]
           }),
-          /* @__PURE__ */ (0, import_jsx_runtime22.jsxs)("div", {
+          /* @__PURE__ */ (0, import_jsx_runtime18.jsxs)("div", {
             className: "shaddow-md duration-800 cols-span-1 m-10 overflow-hidden rounded-lg rounded-lg border border-sky-500 bg-sky-200 px-10 py-5 py-5 px-4 text-center shadow shadow transition-shadow ease-in-out hover:shadow-2xl sm:px-6",
             children: [
-              /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("p", {
-                children: /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("a", {
+              /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("p", {
+                children: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("a", {
                   className: "font-slim text-xl text-black",
                   children: "Espa\xF1a"
                 })
               }),
-              /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("a", {
+              /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("a", {
                 className: "text-2xl font-bold text-black",
                 children: ".madrd"
               }),
-              /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("p", {
+              /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("p", {
                 className: "grid grid-cols-1 gap-4 sm:grid-cols-4 lg:grid-cols-1",
-                children: /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("a", {
+                children: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("a", {
                   className: "text-sm text-black",
                   children: "soon"
                 })
               })
             ]
           }),
-          /* @__PURE__ */ (0, import_jsx_runtime22.jsxs)("div", {
+          /* @__PURE__ */ (0, import_jsx_runtime18.jsxs)("div", {
             className: "shaddow-md duration-800 cols-span-1 m-10 overflow-hidden rounded-lg rounded-lg border border-sky-500 bg-sky-200 px-10 py-5 py-5 px-4 text-center shadow shadow transition-shadow ease-in-out hover:shadow-2xl sm:px-6",
             children: [
-              /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("p", {
-                children: /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("a", {
+              /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("p", {
+                children: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("a", {
                   className: "font-slim text-xl text-black",
                   children: "Espa\xF1a"
                 })
               }),
-              /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("a", {
+              /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("a", {
                 className: "text-2xl font-bold text-black",
                 children: ".bcln"
               }),
-              /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("p", {
+              /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("p", {
                 className: "grid grid-cols-1 gap-4 sm:grid-cols-4 lg:grid-cols-1",
-                children: /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("a", {
+                children: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("a", {
                   className: "text-sm text-black",
                   children: "soon"
                 })
               })
             ]
           }),
-          /* @__PURE__ */ (0, import_jsx_runtime22.jsxs)("div", {
+          /* @__PURE__ */ (0, import_jsx_runtime18.jsxs)("div", {
             className: "shaddow-md duration-800 cols-span-1 m-10 overflow-hidden rounded-lg rounded-lg border border-sky-500 bg-sky-200 px-10 py-5 py-5 px-4 text-center shadow shadow transition-shadow ease-in-out hover:shadow-2xl sm:px-6",
             children: [
-              /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("p", {
-                children: /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("a", {
+              /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("p", {
+                children: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("a", {
                   className: "font-slim text-xl text-black",
                   children: "Espa\xF1a"
                 })
               }),
-              /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("a", {
+              /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("a", {
                 className: "text-2xl font-bold text-black",
                 children: ".valenc"
               }),
-              /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("p", {
+              /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("p", {
                 className: "grid grid-cols-1 gap-4 sm:grid-cols-4 lg:grid-cols-1",
-                children: /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("a", {
+                children: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("a", {
                   className: "text-sm text-black",
                   children: "soon"
                 })
               })
             ]
           }),
-          /* @__PURE__ */ (0, import_jsx_runtime22.jsxs)("div", {
+          /* @__PURE__ */ (0, import_jsx_runtime18.jsxs)("div", {
             className: "shaddow-md duration-800 cols-span-1 m-10 overflow-hidden rounded-lg rounded-lg border border-sky-500 bg-sky-200 px-10 py-5 py-5 px-4 text-center shadow shadow transition-shadow ease-in-out hover:shadow-2xl sm:px-6",
             children: [
-              /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("p", {
-                children: /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("a", {
+              /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("p", {
+                children: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("a", {
                   className: "font-slim text-xl text-black",
                   children: "Espa\xF1a"
                 })
               }),
-              /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("a", {
+              /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("a", {
                 className: "text-2xl font-bold text-black",
                 children: ".mestalla"
               }),
-              /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("p", {
+              /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("p", {
                 className: "grid grid-cols-1 gap-4 sm:grid-cols-4 lg:grid-cols-1",
-                children: /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("a", {
+                children: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("a", {
                   className: "text-sm text-black",
                   children: "soon"
                 })
               })
             ]
           }),
-          /* @__PURE__ */ (0, import_jsx_runtime22.jsxs)("div", {
+          /* @__PURE__ */ (0, import_jsx_runtime18.jsxs)("div", {
             className: "shaddow-md duration-800 cols-span-1 m-10 overflow-hidden rounded-lg rounded-lg border border-sky-500 bg-sky-200 px-10 py-5 py-5 px-4 text-center shadow shadow transition-shadow ease-in-out hover:shadow-2xl sm:px-6",
             children: [
-              /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("p", {
-                children: /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("a", {
+              /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("p", {
+                children: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("a", {
                   className: "font-slim text-xl text-black",
                   children: "Espa\xF1a"
                 })
               }),
-              /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("a", {
+              /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("a", {
                 className: "text-2xl font-bold text-black",
                 children: ".isbals"
               }),
               " ",
-              /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("p", {
+              /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("p", {
                 className: "grid grid-cols-1 gap-4 sm:grid-cols-4 lg:grid-cols-1",
-                children: /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("a", {
+                children: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("a", {
                   className: "text-sm text-black",
                   children: "soon"
                 })
               })
             ]
           }),
-          /* @__PURE__ */ (0, import_jsx_runtime22.jsxs)("div", {
+          /* @__PURE__ */ (0, import_jsx_runtime18.jsxs)("div", {
             className: "shaddow-md duration-800 cols-span-1 m-10 overflow-hidden rounded-lg rounded-lg border border-sky-500 bg-sky-200 px-10 py-5 py-5 px-4 text-center shadow shadow transition-shadow ease-in-out hover:shadow-2xl sm:px-6",
             children: [
-              /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("p", {
-                children: /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("a", {
+              /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("p", {
+                children: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("a", {
                   className: "font-slim text-xl text-black",
                   children: "Espa\xF1a"
                 })
               }),
-              /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("a", {
+              /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("a", {
                 className: "text-2xl font-bold text-black",
                 children: ".cil"
               }),
               " ",
-              /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("p", {
+              /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("p", {
                 className: "grid grid-cols-1 gap-4 sm:grid-cols-4 lg:grid-cols-1",
-                children: /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("a", {
+                children: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("a", {
                   className: "text-sm text-black",
                   children: "soon"
                 })
               })
             ]
           }),
-          /* @__PURE__ */ (0, import_jsx_runtime22.jsxs)("div", {
+          /* @__PURE__ */ (0, import_jsx_runtime18.jsxs)("div", {
             className: "shaddow-md duration-800 cols-span-1 m-10 overflow-hidden rounded-lg rounded-lg border border-sky-500 bg-sky-200 px-10 py-5 py-5 px-4 text-center shadow shadow transition-shadow ease-in-out hover:shadow-2xl sm:px-6",
             children: [
-              /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("p", {
-                children: /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("a", {
+              /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("p", {
+                children: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("a", {
                   className: "font-slim text-xl text-black",
                   children: "Espa\xF1a"
                 })
               }),
-              /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("a", {
+              /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("a", {
                 className: "text-2xl font-bold text-black",
                 children: ".catc"
               }),
               " ",
-              /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("p", {
+              /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("p", {
                 className: "grid grid-cols-1 gap-4 sm:grid-cols-4 lg:grid-cols-1",
-                children: /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("a", {
+                children: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("a", {
                   className: "text-sm text-black",
                   children: "soon"
                 })
               })
             ]
           }),
-          /* @__PURE__ */ (0, import_jsx_runtime22.jsxs)("div", {
+          /* @__PURE__ */ (0, import_jsx_runtime18.jsxs)("div", {
             className: "shaddow-md duration-800 cols-span-1 m-10 overflow-hidden rounded-lg rounded-lg border border-sky-500 bg-sky-200 px-10 py-5 py-5 px-4 text-center shadow shadow transition-shadow ease-in-out hover:shadow-2xl sm:px-6",
             children: [
-              /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("p", {
-                children: /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("a", {
+              /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("p", {
+                children: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("a", {
                   className: "font-slim text-xl text-black",
                   children: "Espa\xF1a"
                 })
               }),
-              /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("a", {
+              /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("a", {
                 className: "text-2xl font-bold text-black",
                 children: ".teide"
               }),
               " ",
-              /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("p", {
+              /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("p", {
                 className: "grid grid-cols-1 gap-4 sm:grid-cols-4 lg:grid-cols-1",
-                children: /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("a", {
+                children: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("a", {
                   className: "text-sm text-black",
                   children: "soon"
                 })
               })
             ]
           }),
-          /* @__PURE__ */ (0, import_jsx_runtime22.jsxs)("div", {
+          /* @__PURE__ */ (0, import_jsx_runtime18.jsxs)("div", {
             className: "shaddow-md duration-800 cols-span-1 m-10 overflow-hidden rounded-lg rounded-lg border border-sky-500 bg-sky-200 px-10 py-5 py-5 px-4 text-center shadow shadow transition-shadow ease-in-out hover:shadow-2xl sm:px-6",
             children: [
-              /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("p", {
-                children: /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("a", {
+              /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("p", {
+                children: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("a", {
                   className: "font-slim text-xl text-black",
                   children: "Espa\xF1a"
                 })
               }),
-              /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("a", {
+              /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("a", {
                 className: "text-2xl font-bold text-black",
                 children: ".granca"
               }),
               " ",
-              /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("p", {
+              /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("p", {
                 className: "grid grid-cols-1 gap-4 sm:grid-cols-4 lg:grid-cols-1",
-                children: /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("a", {
+                children: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("a", {
                   className: "text-sm text-black",
                   children: "soon"
                 })
               })
             ]
           }),
-          /* @__PURE__ */ (0, import_jsx_runtime22.jsxs)("div", {
+          /* @__PURE__ */ (0, import_jsx_runtime18.jsxs)("div", {
             className: "shaddow-md duration-800 cols-span-1 m-10 overflow-hidden rounded-lg rounded-lg border border-sky-500 bg-sky-200 px-10 py-5 py-5 px-4 text-center shadow shadow transition-shadow ease-in-out hover:shadow-2xl sm:px-6",
             children: [
-              /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("p", {
-                children: /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("a", {
+              /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("p", {
+                children: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("a", {
                   className: "font-slim text-xl text-black",
                   children: "Espa\xF1a"
                 })
               }),
-              /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("a", {
+              /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("a", {
                 className: "text-2xl font-bold text-black",
                 children: ".tenef"
               }),
               " ",
-              /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("p", {
+              /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("p", {
                 className: "grid grid-cols-1 gap-4 sm:grid-cols-4 lg:grid-cols-1",
-                children: /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("a", {
+                children: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("a", {
                   className: "text-sm text-black",
                   children: "soon"
                 })
               })
             ]
           }),
-          /* @__PURE__ */ (0, import_jsx_runtime22.jsxs)("div", {
+          /* @__PURE__ */ (0, import_jsx_runtime18.jsxs)("div", {
             className: "shaddow-md duration-800 cols-span-1 m-10 overflow-hidden rounded-lg rounded-lg border border-sky-500 bg-sky-200 px-10 py-5 py-5 px-4 text-center shadow shadow transition-shadow ease-in-out hover:shadow-2xl sm:px-6",
             children: [
-              /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("p", {
-                children: /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("a", {
+              /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("p", {
+                children: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("a", {
                   className: "font-slim text-xl text-black",
                   children: "Espa\xF1a"
                 })
               }),
-              /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("a", {
+              /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("a", {
                 className: "text-2xl font-bold text-black",
                 children: ".elhie"
               }),
               " ",
-              /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("p", {
+              /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("p", {
                 className: "grid grid-cols-1 gap-4 sm:grid-cols-4 lg:grid-cols-1",
-                children: /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("a", {
+                children: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("a", {
                   className: "text-sm text-black",
                   children: "soon"
                 })
               })
             ]
           }),
-          /* @__PURE__ */ (0, import_jsx_runtime22.jsxs)("div", {
+          /* @__PURE__ */ (0, import_jsx_runtime18.jsxs)("div", {
             className: "shaddow-md duration-800 cols-span-1 m-10 overflow-hidden rounded-lg rounded-lg border border-sky-500 bg-sky-200 px-10 py-5 py-5 px-4 text-center shadow shadow transition-shadow ease-in-out hover:shadow-2xl sm:px-6",
             children: [
-              /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("p", {
-                children: /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("a", {
+              /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("p", {
+                children: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("a", {
                   className: "font-slim text-xl text-black",
                   children: "Espa\xF1a"
                 })
               }),
-              /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("a", {
+              /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("a", {
                 className: "text-2xl font-bold text-black",
                 children: ".lagmr"
               }),
               " ",
-              /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("p", {
+              /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("p", {
                 className: "grid grid-cols-1 gap-4 sm:grid-cols-4 lg:grid-cols-1",
-                children: /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("a", {
+                children: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("a", {
                   className: "text-sm text-black",
                   children: "soon"
                 })
               })
             ]
           }),
-          /* @__PURE__ */ (0, import_jsx_runtime22.jsxs)("div", {
+          /* @__PURE__ */ (0, import_jsx_runtime18.jsxs)("div", {
             className: "shaddow-md duration-800 cols-span-1 m-10 overflow-hidden rounded-lg rounded-lg border border-sky-500 bg-sky-200 px-10 py-5 py-5 px-4 text-center shadow shadow transition-shadow ease-in-out hover:shadow-2xl sm:px-6",
             children: [
-              /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("p", {
-                children: /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("a", {
+              /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("p", {
+                children: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("a", {
                   className: "font-slim text-xl text-black",
                   children: "Espa\xF1a"
                 })
               }),
-              /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("a", {
+              /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("a", {
                 className: "text-2xl font-bold text-black",
                 children: ".laplm"
               }),
               " ",
-              /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("p", {
+              /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("p", {
                 className: "grid grid-cols-1 gap-4 sm:grid-cols-4 lg:grid-cols-1",
-                children: /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("a", {
+                children: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("a", {
                   className: "text-sm text-black",
                   children: "soon"
                 })
               })
             ]
           }),
-          /* @__PURE__ */ (0, import_jsx_runtime22.jsxs)("div", {
+          /* @__PURE__ */ (0, import_jsx_runtime18.jsxs)("div", {
             className: "shaddow-md duration-800 cols-span-1 m-10 overflow-hidden rounded-lg rounded-lg border border-sky-500 bg-sky-200 px-10 py-5 py-5 px-4 text-center shadow shadow transition-shadow ease-in-out hover:shadow-2xl sm:px-6",
             children: [
-              /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("p", {
-                children: /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("a", {
+              /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("p", {
+                children: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("a", {
                   className: "font-slim text-xl text-black",
                   children: "Espa\xF1a"
                 })
               }),
-              /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("a", {
+              /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("a", {
                 className: "text-xl font-bold text-black",
                 children: ".lagraciosa"
               }),
               " ",
-              /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("p", {
+              /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("p", {
                 className: "grid grid-cols-1 gap-4 sm:grid-cols-4 lg:grid-cols-1",
-                children: /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("a", {
+                children: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("a", {
                   className: "text-sm text-black",
                   children: "soon"
                 })
               })
             ]
           }),
-          /* @__PURE__ */ (0, import_jsx_runtime22.jsxs)("div", {
+          /* @__PURE__ */ (0, import_jsx_runtime18.jsxs)("div", {
             className: "shaddow-md duration-800 cols-span-1 m-10 overflow-hidden rounded-lg rounded-lg border border-sky-500 bg-sky-200 px-10 py-5 py-5 px-4 text-center shadow shadow transition-shadow ease-in-out hover:shadow-2xl sm:px-6",
             children: [
-              /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("p", {
-                children: /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("a", {
+              /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("p", {
+                children: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("a", {
                   className: "font-slim text-xl text-black",
                   children: "Espa\xF1a"
                 })
               }),
-              /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("a", {
+              /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("a", {
                 className: "text-2xl font-bold text-black",
                 children: ".fuertev"
               }),
               " ",
-              /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("p", {
+              /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("p", {
                 className: "grid grid-cols-1 gap-4 sm:grid-cols-4 lg:grid-cols-1",
-                children: /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("a", {
+                children: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("a", {
                   className: "text-sm text-black",
                   children: "soon"
                 })
               })
             ]
           }),
-          /* @__PURE__ */ (0, import_jsx_runtime22.jsxs)("div", {
+          /* @__PURE__ */ (0, import_jsx_runtime18.jsxs)("div", {
             className: "shaddow-md duration-800 cols-span-1 m-10 overflow-hidden rounded-lg rounded-lg border border-sky-500 bg-sky-200 px-10 py-5 py-5 px-4 text-center shadow shadow transition-shadow ease-in-out hover:shadow-2xl sm:px-6",
             children: [
-              /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("p", {
-                children: /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("a", {
+              /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("p", {
+                children: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("a", {
                   className: "font-slim text-xl text-black",
                   children: "Espa\xF1a"
                 })
               }),
-              /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("a", {
+              /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("a", {
                 className: "text-2xl font-bold text-black",
                 children: ".lnzrt"
               }),
               " ",
-              /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("p", {
+              /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("p", {
                 className: "grid grid-cols-1 gap-4 sm:grid-cols-4 lg:grid-cols-1",
-                children: /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("a", {
+                children: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("a", {
                   className: "text-sm text-black",
                   children: "soon"
                 })
               })
             ]
           }),
-          /* @__PURE__ */ (0, import_jsx_runtime22.jsxs)("div", {
+          /* @__PURE__ */ (0, import_jsx_runtime18.jsxs)("div", {
             className: "shaddow-md duration-800 cols-span-1 m-10 overflow-hidden rounded-lg rounded-lg border border-sky-500 bg-sky-200 px-10 py-5 py-5 px-4 text-center shadow shadow transition-shadow ease-in-out hover:shadow-2xl sm:px-6",
             children: [
-              /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("p", {
-                children: /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("a", {
+              /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("p", {
+                children: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("a", {
                   className: "font-slim text-xl text-black",
                   children: "Andorra"
                 })
               }),
-              /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("a", {
+              /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("a", {
                 className: "text-2xl font-bold text-black",
                 children: ".andors"
               }),
               " ",
-              /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("p", {
+              /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("p", {
                 className: "grid grid-cols-1 gap-4 sm:grid-cols-4 lg:grid-cols-1",
-                children: /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("a", {
+                children: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("a", {
                   className: "text-sm text-black",
                   children: "soon"
                 })
               })
             ]
           }),
-          /* @__PURE__ */ (0, import_jsx_runtime22.jsxs)("div", {
+          /* @__PURE__ */ (0, import_jsx_runtime18.jsxs)("div", {
             className: "shaddow-md duration-800 cols-span-1 m-10 overflow-hidden rounded-lg rounded-lg border border-sky-500 bg-sky-200 px-10 py-5 py-5 px-4 text-center shadow shadow transition-shadow ease-in-out hover:shadow-2xl sm:px-6",
             children: [
-              /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("p", {
-                children: /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("a", {
+              /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("p", {
+                children: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("a", {
                   className: "font-slim text-xl text-black",
                   children: "Blocks"
                 })
               }),
-              /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("a", {
+              /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("a", {
                 className: "text-2xl font-bold text-black",
                 children: ".\u{1F9CA}\u{1F9CA}"
               }),
-              /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("p", {
+              /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("p", {
                 className: "grid grid-cols-1 gap-4 sm:grid-cols-4 lg:grid-cols-1",
-                children: /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("a", {
+                children: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("a", {
                   className: "text-sm text-black",
                   children: "soon"
                 })
               })
             ]
           }),
-          /* @__PURE__ */ (0, import_jsx_runtime22.jsxs)("div", {
+          /* @__PURE__ */ (0, import_jsx_runtime18.jsxs)("div", {
             className: "shaddow-md duration-800 cols-span-1 m-10 overflow-hidden rounded-lg rounded-lg border border-sky-500 bg-sky-200 px-10 py-5 py-5 px-4 text-center shadow shadow transition-shadow ease-in-out hover:shadow-2xl sm:px-6",
             children: [
-              /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("p", {
-                children: /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("a", {
+              /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("p", {
+                children: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("a", {
                   className: "font-slim text-xl text-black",
                   children: "Metaverse"
                 })
               }),
-              /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("a", {
+              /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("a", {
                 className: "text-2xl font-bold text-black",
                 children: ".myplot"
               }),
-              /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("p", {
+              /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("p", {
                 className: "grid grid-cols-1 gap-4 sm:grid-cols-4 lg:grid-cols-1",
-                children: /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("a", {
+                children: /* @__PURE__ */ (0, import_jsx_runtime18.jsx)("a", {
                   className: "text-sm text-black",
                   children: "soon"
                 })
@@ -9369,418 +9136,418 @@ var DomainsAll = () => {
 };
 
 // src/DomainsGeo.tsx
-var import_jsx_runtime23 = require("react/jsx-runtime");
+var import_jsx_runtime19 = require("react/jsx-runtime");
 var DomainsGeo = () => {
-  return /* @__PURE__ */ (0, import_jsx_runtime23.jsx)("div", {
+  return /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("div", {
     className: "shaddow-md duration-800 cols-span-1 m-10 rounded-lg border border-sky-500 px-10 py-5 text-center shadow transition-shadow ease-in-out hover:shadow-2xl",
-    children: /* @__PURE__ */ (0, import_jsx_runtime23.jsx)("div", {
+    children: /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("div", {
       className: "overflow-hidden rounded-lg",
-      children: /* @__PURE__ */ (0, import_jsx_runtime23.jsxs)("div", {
+      children: /* @__PURE__ */ (0, import_jsx_runtime19.jsxs)("div", {
         className: "grid grid-cols-1 gap-4 sm:grid-cols-4 lg:grid-cols-4",
         children: [
-          /* @__PURE__ */ (0, import_jsx_runtime23.jsxs)("div", {
+          /* @__PURE__ */ (0, import_jsx_runtime19.jsxs)("div", {
             className: "shaddow-md duration-800 cols-span-1 m-10 overflow-hidden rounded-lg rounded-lg border border-sky-500 bg-sky-200 px-10 py-5 py-5 px-4 text-center shadow shadow transition-shadow ease-in-out hover:shadow-2xl sm:px-6",
             children: [
-              /* @__PURE__ */ (0, import_jsx_runtime23.jsx)("p", {
-                children: /* @__PURE__ */ (0, import_jsx_runtime23.jsx)("a", {
+              /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("p", {
+                children: /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("a", {
                   className: "font-slim text-xl text-black",
                   children: "Espa\xF1a"
                 })
               }),
-              /* @__PURE__ */ (0, import_jsx_runtime23.jsx)("a", {
+              /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("a", {
                 className: "text-2xl font-bold text-black",
                 children: ".es\xF1"
               }),
-              /* @__PURE__ */ (0, import_jsx_runtime23.jsx)("p", {
+              /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("p", {
                 className: "grid grid-cols-1 gap-4 sm:grid-cols-4 lg:grid-cols-1",
-                children: /* @__PURE__ */ (0, import_jsx_runtime23.jsx)("a", {
+                children: /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("a", {
                   className: "text-sm text-black",
                   children: "soon"
                 })
               })
             ]
           }),
-          /* @__PURE__ */ (0, import_jsx_runtime23.jsxs)("div", {
+          /* @__PURE__ */ (0, import_jsx_runtime19.jsxs)("div", {
             className: "shaddow-md duration-800 cols-span-1 m-10 overflow-hidden rounded-lg rounded-lg border border-sky-500 bg-sky-200 px-10 py-5 py-5 px-4 text-center shadow shadow transition-shadow ease-in-out hover:shadow-2xl sm:px-6",
             children: [
-              /* @__PURE__ */ (0, import_jsx_runtime23.jsx)("p", {
-                children: /* @__PURE__ */ (0, import_jsx_runtime23.jsx)("a", {
+              /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("p", {
+                children: /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("a", {
                   className: "font-slim text-xl text-black",
                   children: "Espa\xF1a"
                 })
               }),
-              /* @__PURE__ */ (0, import_jsx_runtime23.jsx)("a", {
+              /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("a", {
                 className: "text-2xl font-bold text-black",
                 children: ".madrd"
               }),
-              /* @__PURE__ */ (0, import_jsx_runtime23.jsx)("p", {
+              /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("p", {
                 className: "grid grid-cols-1 gap-4 sm:grid-cols-4 lg:grid-cols-1",
-                children: /* @__PURE__ */ (0, import_jsx_runtime23.jsx)("a", {
+                children: /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("a", {
                   className: "text-sm text-black",
                   children: "soon"
                 })
               })
             ]
           }),
-          /* @__PURE__ */ (0, import_jsx_runtime23.jsxs)("div", {
+          /* @__PURE__ */ (0, import_jsx_runtime19.jsxs)("div", {
             className: "shaddow-md duration-800 cols-span-1 m-10 overflow-hidden rounded-lg rounded-lg border border-sky-500 bg-sky-200 px-10 py-5 py-5 px-4 text-center shadow shadow transition-shadow ease-in-out hover:shadow-2xl sm:px-6",
             children: [
-              /* @__PURE__ */ (0, import_jsx_runtime23.jsx)("p", {
-                children: /* @__PURE__ */ (0, import_jsx_runtime23.jsx)("a", {
+              /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("p", {
+                children: /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("a", {
                   className: "font-slim text-xl text-black",
                   children: "Espa\xF1a"
                 })
               }),
-              /* @__PURE__ */ (0, import_jsx_runtime23.jsx)("a", {
+              /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("a", {
                 className: "text-2xl font-bold text-black",
                 children: ".bcln"
               }),
-              /* @__PURE__ */ (0, import_jsx_runtime23.jsx)("p", {
+              /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("p", {
                 className: "grid grid-cols-1 gap-4 sm:grid-cols-4 lg:grid-cols-1",
-                children: /* @__PURE__ */ (0, import_jsx_runtime23.jsx)("a", {
+                children: /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("a", {
                   className: "text-sm text-black",
                   children: "soon"
                 })
               })
             ]
           }),
-          /* @__PURE__ */ (0, import_jsx_runtime23.jsxs)("div", {
+          /* @__PURE__ */ (0, import_jsx_runtime19.jsxs)("div", {
             className: "shaddow-md duration-800 cols-span-1 m-10 overflow-hidden rounded-lg rounded-lg border border-sky-500 bg-sky-200 px-10 py-5 py-5 px-4 text-center shadow shadow transition-shadow ease-in-out hover:shadow-2xl sm:px-6",
             children: [
-              /* @__PURE__ */ (0, import_jsx_runtime23.jsx)("p", {
-                children: /* @__PURE__ */ (0, import_jsx_runtime23.jsx)("a", {
+              /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("p", {
+                children: /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("a", {
                   className: "font-slim text-xl text-black",
                   children: "Espa\xF1a"
                 })
               }),
-              /* @__PURE__ */ (0, import_jsx_runtime23.jsx)("a", {
+              /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("a", {
                 className: "text-2xl font-bold text-black",
                 children: ".valenc"
               }),
-              /* @__PURE__ */ (0, import_jsx_runtime23.jsx)("p", {
+              /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("p", {
                 className: "grid grid-cols-1 gap-4 sm:grid-cols-4 lg:grid-cols-1",
-                children: /* @__PURE__ */ (0, import_jsx_runtime23.jsx)("a", {
+                children: /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("a", {
                   className: "text-sm text-black",
                   children: "soon"
                 })
               })
             ]
           }),
-          /* @__PURE__ */ (0, import_jsx_runtime23.jsxs)("div", {
+          /* @__PURE__ */ (0, import_jsx_runtime19.jsxs)("div", {
             className: "shaddow-md duration-800 cols-span-1 m-10 overflow-hidden rounded-lg rounded-lg border border-sky-500 bg-sky-200 px-10 py-5 py-5 px-4 text-center shadow shadow transition-shadow ease-in-out hover:shadow-2xl sm:px-6",
             children: [
-              /* @__PURE__ */ (0, import_jsx_runtime23.jsx)("p", {
-                children: /* @__PURE__ */ (0, import_jsx_runtime23.jsx)("a", {
+              /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("p", {
+                children: /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("a", {
                   className: "font-slim text-xl text-black",
                   children: "Espa\xF1a"
                 })
               }),
-              /* @__PURE__ */ (0, import_jsx_runtime23.jsx)("a", {
+              /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("a", {
                 className: "text-2xl font-bold text-black",
                 children: ".mestalla"
               }),
-              /* @__PURE__ */ (0, import_jsx_runtime23.jsx)("p", {
+              /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("p", {
                 className: "grid grid-cols-1 gap-4 sm:grid-cols-4 lg:grid-cols-1",
-                children: /* @__PURE__ */ (0, import_jsx_runtime23.jsx)("a", {
+                children: /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("a", {
                   className: "text-sm text-black",
                   children: "soon"
                 })
               })
             ]
           }),
-          /* @__PURE__ */ (0, import_jsx_runtime23.jsxs)("div", {
+          /* @__PURE__ */ (0, import_jsx_runtime19.jsxs)("div", {
             className: "shaddow-md duration-800 cols-span-1 m-10 overflow-hidden rounded-lg rounded-lg border border-sky-500 bg-sky-200 px-10 py-5 py-5 px-4 text-center shadow shadow transition-shadow ease-in-out hover:shadow-2xl sm:px-6",
             children: [
-              /* @__PURE__ */ (0, import_jsx_runtime23.jsx)("p", {
-                children: /* @__PURE__ */ (0, import_jsx_runtime23.jsx)("a", {
+              /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("p", {
+                children: /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("a", {
                   className: "font-slim text-xl text-black",
                   children: "Espa\xF1a"
                 })
               }),
-              /* @__PURE__ */ (0, import_jsx_runtime23.jsx)("a", {
+              /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("a", {
                 className: "text-2xl font-bold text-black",
                 children: ".isbals"
               }),
               " ",
-              /* @__PURE__ */ (0, import_jsx_runtime23.jsx)("p", {
+              /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("p", {
                 className: "grid grid-cols-1 gap-4 sm:grid-cols-4 lg:grid-cols-1",
-                children: /* @__PURE__ */ (0, import_jsx_runtime23.jsx)("a", {
+                children: /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("a", {
                   className: "text-sm text-black",
                   children: "soon"
                 })
               })
             ]
           }),
-          /* @__PURE__ */ (0, import_jsx_runtime23.jsxs)("div", {
+          /* @__PURE__ */ (0, import_jsx_runtime19.jsxs)("div", {
             className: "shaddow-md duration-800 cols-span-1 m-10 overflow-hidden rounded-lg rounded-lg border border-sky-500 bg-sky-200 px-10 py-5 py-5 px-4 text-center shadow shadow transition-shadow ease-in-out hover:shadow-2xl sm:px-6",
             children: [
-              /* @__PURE__ */ (0, import_jsx_runtime23.jsx)("p", {
-                children: /* @__PURE__ */ (0, import_jsx_runtime23.jsx)("a", {
+              /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("p", {
+                children: /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("a", {
                   className: "font-slim text-xl text-black",
                   children: "Espa\xF1a"
                 })
               }),
-              /* @__PURE__ */ (0, import_jsx_runtime23.jsx)("a", {
+              /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("a", {
                 className: "text-2xl font-bold text-black",
                 children: ".cil"
               }),
               " ",
-              /* @__PURE__ */ (0, import_jsx_runtime23.jsx)("p", {
+              /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("p", {
                 className: "grid grid-cols-1 gap-4 sm:grid-cols-4 lg:grid-cols-1",
-                children: /* @__PURE__ */ (0, import_jsx_runtime23.jsx)("a", {
+                children: /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("a", {
                   className: "text-sm text-black",
                   children: "soon"
                 })
               })
             ]
           }),
-          /* @__PURE__ */ (0, import_jsx_runtime23.jsxs)("div", {
+          /* @__PURE__ */ (0, import_jsx_runtime19.jsxs)("div", {
             className: "shaddow-md duration-800 cols-span-1 m-10 overflow-hidden rounded-lg rounded-lg border border-sky-500 bg-sky-200 px-10 py-5 py-5 px-4 text-center shadow shadow transition-shadow ease-in-out hover:shadow-2xl sm:px-6",
             children: [
-              /* @__PURE__ */ (0, import_jsx_runtime23.jsx)("p", {
-                children: /* @__PURE__ */ (0, import_jsx_runtime23.jsx)("a", {
+              /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("p", {
+                children: /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("a", {
                   className: "font-slim text-xl text-black",
                   children: "Espa\xF1a"
                 })
               }),
-              /* @__PURE__ */ (0, import_jsx_runtime23.jsx)("a", {
+              /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("a", {
                 className: "text-2xl font-bold text-black",
                 children: ".catc"
               }),
               " ",
-              /* @__PURE__ */ (0, import_jsx_runtime23.jsx)("p", {
+              /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("p", {
                 className: "grid grid-cols-1 gap-4 sm:grid-cols-4 lg:grid-cols-1",
-                children: /* @__PURE__ */ (0, import_jsx_runtime23.jsx)("a", {
+                children: /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("a", {
                   className: "text-sm text-black",
                   children: "soon"
                 })
               })
             ]
           }),
-          /* @__PURE__ */ (0, import_jsx_runtime23.jsxs)("div", {
+          /* @__PURE__ */ (0, import_jsx_runtime19.jsxs)("div", {
             className: "shaddow-md duration-800 cols-span-1 m-10 overflow-hidden rounded-lg rounded-lg border border-sky-500 bg-sky-200 px-10 py-5 py-5 px-4 text-center shadow shadow transition-shadow ease-in-out hover:shadow-2xl sm:px-6",
             children: [
-              /* @__PURE__ */ (0, import_jsx_runtime23.jsx)("p", {
-                children: /* @__PURE__ */ (0, import_jsx_runtime23.jsx)("a", {
+              /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("p", {
+                children: /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("a", {
                   className: "font-slim text-xl text-black",
                   children: "Espa\xF1a"
                 })
               }),
-              /* @__PURE__ */ (0, import_jsx_runtime23.jsx)("a", {
+              /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("a", {
                 className: "text-2xl font-bold text-black",
                 children: ".teide"
               }),
               " ",
-              /* @__PURE__ */ (0, import_jsx_runtime23.jsx)("p", {
+              /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("p", {
                 className: "grid grid-cols-1 gap-4 sm:grid-cols-4 lg:grid-cols-1",
-                children: /* @__PURE__ */ (0, import_jsx_runtime23.jsx)("a", {
+                children: /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("a", {
                   className: "text-sm text-black",
                   children: "soon"
                 })
               })
             ]
           }),
-          /* @__PURE__ */ (0, import_jsx_runtime23.jsxs)("div", {
+          /* @__PURE__ */ (0, import_jsx_runtime19.jsxs)("div", {
             className: "shaddow-md duration-800 cols-span-1 m-10 overflow-hidden rounded-lg rounded-lg border border-sky-500 bg-sky-200 px-10 py-5 py-5 px-4 text-center shadow shadow transition-shadow ease-in-out hover:shadow-2xl sm:px-6",
             children: [
-              /* @__PURE__ */ (0, import_jsx_runtime23.jsx)("p", {
-                children: /* @__PURE__ */ (0, import_jsx_runtime23.jsx)("a", {
+              /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("p", {
+                children: /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("a", {
                   className: "font-slim text-xl text-black",
                   children: "Espa\xF1a"
                 })
               }),
-              /* @__PURE__ */ (0, import_jsx_runtime23.jsx)("a", {
+              /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("a", {
                 className: "text-2xl font-bold text-black",
                 children: ".granca"
               }),
               " ",
-              /* @__PURE__ */ (0, import_jsx_runtime23.jsx)("p", {
+              /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("p", {
                 className: "grid grid-cols-1 gap-4 sm:grid-cols-4 lg:grid-cols-1",
-                children: /* @__PURE__ */ (0, import_jsx_runtime23.jsx)("a", {
+                children: /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("a", {
                   className: "text-sm text-black",
                   children: "soon"
                 })
               })
             ]
           }),
-          /* @__PURE__ */ (0, import_jsx_runtime23.jsxs)("div", {
+          /* @__PURE__ */ (0, import_jsx_runtime19.jsxs)("div", {
             className: "shaddow-md duration-800 cols-span-1 m-10 overflow-hidden rounded-lg rounded-lg border border-sky-500 bg-sky-200 px-10 py-5 py-5 px-4 text-center shadow shadow transition-shadow ease-in-out hover:shadow-2xl sm:px-6",
             children: [
-              /* @__PURE__ */ (0, import_jsx_runtime23.jsx)("p", {
-                children: /* @__PURE__ */ (0, import_jsx_runtime23.jsx)("a", {
+              /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("p", {
+                children: /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("a", {
                   className: "font-slim text-xl text-black",
                   children: "Espa\xF1a"
                 })
               }),
-              /* @__PURE__ */ (0, import_jsx_runtime23.jsx)("a", {
+              /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("a", {
                 className: "text-2xl font-bold text-black",
                 children: ".tenef"
               }),
               " ",
-              /* @__PURE__ */ (0, import_jsx_runtime23.jsx)("p", {
+              /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("p", {
                 className: "grid grid-cols-1 gap-4 sm:grid-cols-4 lg:grid-cols-1",
-                children: /* @__PURE__ */ (0, import_jsx_runtime23.jsx)("a", {
+                children: /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("a", {
                   className: "text-sm text-black",
                   children: "soon"
                 })
               })
             ]
           }),
-          /* @__PURE__ */ (0, import_jsx_runtime23.jsxs)("div", {
+          /* @__PURE__ */ (0, import_jsx_runtime19.jsxs)("div", {
             className: "shaddow-md duration-800 cols-span-1 m-10 overflow-hidden rounded-lg rounded-lg border border-sky-500 bg-sky-200 px-10 py-5 py-5 px-4 text-center shadow shadow transition-shadow ease-in-out hover:shadow-2xl sm:px-6",
             children: [
-              /* @__PURE__ */ (0, import_jsx_runtime23.jsx)("p", {
-                children: /* @__PURE__ */ (0, import_jsx_runtime23.jsx)("a", {
+              /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("p", {
+                children: /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("a", {
                   className: "font-slim text-xl text-black",
                   children: "Espa\xF1a"
                 })
               }),
-              /* @__PURE__ */ (0, import_jsx_runtime23.jsx)("a", {
+              /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("a", {
                 className: "text-2xl font-bold text-black",
                 children: ".elhie"
               }),
               " ",
-              /* @__PURE__ */ (0, import_jsx_runtime23.jsx)("p", {
+              /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("p", {
                 className: "grid grid-cols-1 gap-4 sm:grid-cols-4 lg:grid-cols-1",
-                children: /* @__PURE__ */ (0, import_jsx_runtime23.jsx)("a", {
+                children: /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("a", {
                   className: "text-sm text-black",
                   children: "soon"
                 })
               })
             ]
           }),
-          /* @__PURE__ */ (0, import_jsx_runtime23.jsxs)("div", {
+          /* @__PURE__ */ (0, import_jsx_runtime19.jsxs)("div", {
             className: "shaddow-md duration-800 cols-span-1 m-10 overflow-hidden rounded-lg rounded-lg border border-sky-500 bg-sky-200 px-10 py-5 py-5 px-4 text-center shadow shadow transition-shadow ease-in-out hover:shadow-2xl sm:px-6",
             children: [
-              /* @__PURE__ */ (0, import_jsx_runtime23.jsx)("p", {
-                children: /* @__PURE__ */ (0, import_jsx_runtime23.jsx)("a", {
+              /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("p", {
+                children: /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("a", {
                   className: "font-slim text-xl text-black",
                   children: "Espa\xF1a"
                 })
               }),
-              /* @__PURE__ */ (0, import_jsx_runtime23.jsx)("a", {
+              /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("a", {
                 className: "text-2xl font-bold text-black",
                 children: ".lagmr"
               }),
               " ",
-              /* @__PURE__ */ (0, import_jsx_runtime23.jsx)("p", {
+              /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("p", {
                 className: "grid grid-cols-1 gap-4 sm:grid-cols-4 lg:grid-cols-1",
-                children: /* @__PURE__ */ (0, import_jsx_runtime23.jsx)("a", {
+                children: /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("a", {
                   className: "text-sm text-black",
                   children: "soon"
                 })
               })
             ]
           }),
-          /* @__PURE__ */ (0, import_jsx_runtime23.jsxs)("div", {
+          /* @__PURE__ */ (0, import_jsx_runtime19.jsxs)("div", {
             className: "shaddow-md duration-800 cols-span-1 m-10 overflow-hidden rounded-lg rounded-lg border border-sky-500 bg-sky-200 px-10 py-5 py-5 px-4 text-center shadow shadow transition-shadow ease-in-out hover:shadow-2xl sm:px-6",
             children: [
-              /* @__PURE__ */ (0, import_jsx_runtime23.jsx)("p", {
-                children: /* @__PURE__ */ (0, import_jsx_runtime23.jsx)("a", {
+              /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("p", {
+                children: /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("a", {
                   className: "font-slim text-xl text-black",
                   children: "Espa\xF1a"
                 })
               }),
-              /* @__PURE__ */ (0, import_jsx_runtime23.jsx)("a", {
+              /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("a", {
                 className: "text-2xl font-bold text-black",
                 children: ".laplm"
               }),
               " ",
-              /* @__PURE__ */ (0, import_jsx_runtime23.jsx)("p", {
+              /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("p", {
                 className: "grid grid-cols-1 gap-4 sm:grid-cols-4 lg:grid-cols-1",
-                children: /* @__PURE__ */ (0, import_jsx_runtime23.jsx)("a", {
+                children: /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("a", {
                   className: "text-sm text-black",
                   children: "soon"
                 })
               })
             ]
           }),
-          /* @__PURE__ */ (0, import_jsx_runtime23.jsxs)("div", {
+          /* @__PURE__ */ (0, import_jsx_runtime19.jsxs)("div", {
             className: "shaddow-md duration-800 cols-span-1 m-10 overflow-hidden rounded-lg rounded-lg border border-sky-500 bg-sky-200 px-10 py-5 py-5 px-4 text-center shadow shadow transition-shadow ease-in-out hover:shadow-2xl sm:px-6",
             children: [
-              /* @__PURE__ */ (0, import_jsx_runtime23.jsx)("p", {
-                children: /* @__PURE__ */ (0, import_jsx_runtime23.jsx)("a", {
+              /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("p", {
+                children: /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("a", {
                   className: "font-slim text-xl text-black",
                   children: "Espa\xF1a"
                 })
               }),
-              /* @__PURE__ */ (0, import_jsx_runtime23.jsx)("a", {
+              /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("a", {
                 className: "text-xl font-bold text-black",
                 children: ".lagraciosa"
               }),
               " ",
-              /* @__PURE__ */ (0, import_jsx_runtime23.jsx)("p", {
+              /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("p", {
                 className: "grid grid-cols-1 gap-4 sm:grid-cols-4 lg:grid-cols-1",
-                children: /* @__PURE__ */ (0, import_jsx_runtime23.jsx)("a", {
+                children: /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("a", {
                   className: "text-sm text-black",
                   children: "soon"
                 })
               })
             ]
           }),
-          /* @__PURE__ */ (0, import_jsx_runtime23.jsxs)("div", {
+          /* @__PURE__ */ (0, import_jsx_runtime19.jsxs)("div", {
             className: "shaddow-md duration-800 cols-span-1 m-10 overflow-hidden rounded-lg rounded-lg border border-sky-500 bg-sky-200 px-10 py-5 py-5 px-4 text-center shadow shadow transition-shadow ease-in-out hover:shadow-2xl sm:px-6",
             children: [
-              /* @__PURE__ */ (0, import_jsx_runtime23.jsx)("p", {
-                children: /* @__PURE__ */ (0, import_jsx_runtime23.jsx)("a", {
+              /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("p", {
+                children: /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("a", {
                   className: "font-slim text-xl text-black",
                   children: "Espa\xF1a"
                 })
               }),
-              /* @__PURE__ */ (0, import_jsx_runtime23.jsx)("a", {
+              /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("a", {
                 className: "text-2xl font-bold text-black",
                 children: ".fuertev"
               }),
               " ",
-              /* @__PURE__ */ (0, import_jsx_runtime23.jsx)("p", {
+              /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("p", {
                 className: "grid grid-cols-1 gap-4 sm:grid-cols-4 lg:grid-cols-1",
-                children: /* @__PURE__ */ (0, import_jsx_runtime23.jsx)("a", {
+                children: /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("a", {
                   className: "text-sm text-black",
                   children: "soon"
                 })
               })
             ]
           }),
-          /* @__PURE__ */ (0, import_jsx_runtime23.jsxs)("div", {
+          /* @__PURE__ */ (0, import_jsx_runtime19.jsxs)("div", {
             className: "shaddow-md duration-800 cols-span-1 m-10 overflow-hidden rounded-lg rounded-lg border border-sky-500 bg-sky-200 px-10 py-5 py-5 px-4 text-center shadow shadow transition-shadow ease-in-out hover:shadow-2xl sm:px-6",
             children: [
-              /* @__PURE__ */ (0, import_jsx_runtime23.jsx)("p", {
-                children: /* @__PURE__ */ (0, import_jsx_runtime23.jsx)("a", {
+              /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("p", {
+                children: /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("a", {
                   className: "font-slim text-xl text-black",
                   children: "Espa\xF1a"
                 })
               }),
-              /* @__PURE__ */ (0, import_jsx_runtime23.jsx)("a", {
+              /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("a", {
                 className: "text-2xl font-bold text-black",
                 children: ".lnzrt"
               }),
               " ",
-              /* @__PURE__ */ (0, import_jsx_runtime23.jsx)("p", {
+              /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("p", {
                 className: "grid grid-cols-1 gap-4 sm:grid-cols-4 lg:grid-cols-1",
-                children: /* @__PURE__ */ (0, import_jsx_runtime23.jsx)("a", {
+                children: /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("a", {
                   className: "text-sm text-black",
                   children: "soon"
                 })
               })
             ]
           }),
-          /* @__PURE__ */ (0, import_jsx_runtime23.jsxs)("div", {
+          /* @__PURE__ */ (0, import_jsx_runtime19.jsxs)("div", {
             className: "shaddow-md duration-800 cols-span-1 m-10 overflow-hidden rounded-lg rounded-lg border border-sky-500 bg-sky-200 px-10 py-5 py-5 px-4 text-center shadow shadow transition-shadow ease-in-out hover:shadow-2xl sm:px-6",
             children: [
-              /* @__PURE__ */ (0, import_jsx_runtime23.jsx)("p", {
-                children: /* @__PURE__ */ (0, import_jsx_runtime23.jsx)("a", {
+              /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("p", {
+                children: /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("a", {
                   className: "font-slim text-xl text-black",
                   children: "Andorra"
                 })
               }),
-              /* @__PURE__ */ (0, import_jsx_runtime23.jsx)("a", {
+              /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("a", {
                 className: "text-2xl font-bold text-black",
                 children: ".andors"
               }),
               " ",
-              /* @__PURE__ */ (0, import_jsx_runtime23.jsx)("p", {
+              /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("p", {
                 className: "grid grid-cols-1 gap-4 sm:grid-cols-4 lg:grid-cols-1",
-                children: /* @__PURE__ */ (0, import_jsx_runtime23.jsx)("a", {
+                children: /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("a", {
                   className: "text-sm text-black",
                   children: "soon"
                 })
@@ -9794,30 +9561,30 @@ var DomainsGeo = () => {
 };
 
 // src/DomainsBlocks.tsx
-var import_jsx_runtime24 = require("react/jsx-runtime");
+var import_jsx_runtime20 = require("react/jsx-runtime");
 var DomainsBlocks = () => {
-  return /* @__PURE__ */ (0, import_jsx_runtime24.jsx)("div", {
+  return /* @__PURE__ */ (0, import_jsx_runtime20.jsx)("div", {
     className: "shaddow-md duration-800 cols-span-1 m-10 rounded-lg border border-sky-500 px-10 py-5 text-center shadow transition-shadow ease-in-out hover:shadow-2xl",
-    children: /* @__PURE__ */ (0, import_jsx_runtime24.jsx)("div", {
+    children: /* @__PURE__ */ (0, import_jsx_runtime20.jsx)("div", {
       className: "overflow-hidden rounded-lg",
-      children: /* @__PURE__ */ (0, import_jsx_runtime24.jsx)("div", {
+      children: /* @__PURE__ */ (0, import_jsx_runtime20.jsx)("div", {
         className: "grid grid-cols-1 gap-4 sm:grid-cols-4 lg:grid-cols-4",
-        children: /* @__PURE__ */ (0, import_jsx_runtime24.jsxs)("div", {
+        children: /* @__PURE__ */ (0, import_jsx_runtime20.jsxs)("div", {
           className: "shaddow-md duration-800 cols-span-1 m-10 overflow-hidden rounded-lg rounded-lg border border-sky-500 bg-sky-200 px-10 py-5 py-5 px-4 text-center shadow shadow transition-shadow ease-in-out hover:shadow-2xl sm:px-6",
           children: [
-            /* @__PURE__ */ (0, import_jsx_runtime24.jsx)("p", {
-              children: /* @__PURE__ */ (0, import_jsx_runtime24.jsx)("a", {
+            /* @__PURE__ */ (0, import_jsx_runtime20.jsx)("p", {
+              children: /* @__PURE__ */ (0, import_jsx_runtime20.jsx)("a", {
                 className: "font-slim text-xl text-black",
                 children: "Blocks"
               })
             }),
-            /* @__PURE__ */ (0, import_jsx_runtime24.jsx)("a", {
+            /* @__PURE__ */ (0, import_jsx_runtime20.jsx)("a", {
               className: "text-2xl font-bold text-black",
               children: ".\u{1F9CA}\u{1F9CA}"
             }),
-            /* @__PURE__ */ (0, import_jsx_runtime24.jsx)("p", {
+            /* @__PURE__ */ (0, import_jsx_runtime20.jsx)("p", {
               className: "grid grid-cols-1 gap-4 sm:grid-cols-4 lg:grid-cols-1",
-              children: /* @__PURE__ */ (0, import_jsx_runtime24.jsx)("a", {
+              children: /* @__PURE__ */ (0, import_jsx_runtime20.jsx)("a", {
                 className: "text-sm text-black",
                 children: "soon"
               })
@@ -9830,30 +9597,30 @@ var DomainsBlocks = () => {
 };
 
 // src/DomainsMeta.tsx
-var import_jsx_runtime25 = require("react/jsx-runtime");
+var import_jsx_runtime21 = require("react/jsx-runtime");
 var DomainsMeta = () => {
-  return /* @__PURE__ */ (0, import_jsx_runtime25.jsx)("div", {
+  return /* @__PURE__ */ (0, import_jsx_runtime21.jsx)("div", {
     className: "shaddow-md duration-800 cols-span-1 m-10 rounded-lg border border-sky-500 px-10 py-5 text-center shadow transition-shadow ease-in-out hover:shadow-2xl",
-    children: /* @__PURE__ */ (0, import_jsx_runtime25.jsx)("div", {
+    children: /* @__PURE__ */ (0, import_jsx_runtime21.jsx)("div", {
       className: "overflow-hidden rounded-lg",
-      children: /* @__PURE__ */ (0, import_jsx_runtime25.jsx)("div", {
+      children: /* @__PURE__ */ (0, import_jsx_runtime21.jsx)("div", {
         className: "grid grid-cols-1 gap-4 sm:grid-cols-4 lg:grid-cols-4",
-        children: /* @__PURE__ */ (0, import_jsx_runtime25.jsxs)("div", {
+        children: /* @__PURE__ */ (0, import_jsx_runtime21.jsxs)("div", {
           className: "shaddow-md duration-800 cols-span-1 m-10 overflow-hidden rounded-lg rounded-lg border border-sky-500 bg-sky-200 px-10 py-5 py-5 px-4 text-center shadow shadow transition-shadow ease-in-out hover:shadow-2xl sm:px-6",
           children: [
-            /* @__PURE__ */ (0, import_jsx_runtime25.jsx)("p", {
-              children: /* @__PURE__ */ (0, import_jsx_runtime25.jsx)("a", {
+            /* @__PURE__ */ (0, import_jsx_runtime21.jsx)("p", {
+              children: /* @__PURE__ */ (0, import_jsx_runtime21.jsx)("a", {
                 className: "font-slim text-xl text-black",
                 children: "Metaverse"
               })
             }),
-            /* @__PURE__ */ (0, import_jsx_runtime25.jsx)("a", {
+            /* @__PURE__ */ (0, import_jsx_runtime21.jsx)("a", {
               className: "text-2xl font-bold text-black",
               children: ".myplot"
             }),
-            /* @__PURE__ */ (0, import_jsx_runtime25.jsx)("p", {
+            /* @__PURE__ */ (0, import_jsx_runtime21.jsx)("p", {
               className: "grid grid-cols-1 gap-4 sm:grid-cols-4 lg:grid-cols-1",
-              children: /* @__PURE__ */ (0, import_jsx_runtime25.jsx)("a", {
+              children: /* @__PURE__ */ (0, import_jsx_runtime21.jsx)("a", {
                 className: "text-sm text-black",
                 children: "soon"
               })
@@ -9866,97 +9633,97 @@ var DomainsMeta = () => {
 };
 
 // src/DomainsNew.tsx
-var import_jsx_runtime26 = require("react/jsx-runtime");
+var import_jsx_runtime22 = require("react/jsx-runtime");
 var DomainsNew = () => {
-  return /* @__PURE__ */ (0, import_jsx_runtime26.jsx)("div", {
+  return /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("div", {
     className: "shaddow-md duration-800 cols-span-1 m-10 rounded-lg border border-sky-500 px-10 py-5 text-center shadow transition-shadow ease-in-out hover:shadow-2xl",
-    children: /* @__PURE__ */ (0, import_jsx_runtime26.jsx)("div", {
+    children: /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("div", {
       className: "overflow-hidden rounded-lg",
-      children: /* @__PURE__ */ (0, import_jsx_runtime26.jsxs)("div", {
+      children: /* @__PURE__ */ (0, import_jsx_runtime22.jsxs)("div", {
         className: "grid grid-cols-1 gap-4 sm:grid-cols-4 lg:grid-cols-4",
         children: [
-          /* @__PURE__ */ (0, import_jsx_runtime26.jsxs)("div", {
+          /* @__PURE__ */ (0, import_jsx_runtime22.jsxs)("div", {
             className: "shaddow-md duration-800 cols-span-1 m-10 overflow-hidden rounded-lg rounded-lg border border-sky-500 bg-sky-200 px-10 py-5 py-5 px-4 text-center shadow shadow transition-shadow ease-in-out hover:shadow-2xl sm:px-6",
             children: [
-              /* @__PURE__ */ (0, import_jsx_runtime26.jsx)("p", {
-                children: /* @__PURE__ */ (0, import_jsx_runtime26.jsx)("a", {
+              /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("p", {
+                children: /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("a", {
                   className: "font-slim text-xl text-black",
                   children: "Education"
                 })
               }),
-              /* @__PURE__ */ (0, import_jsx_runtime26.jsx)("a", {
+              /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("a", {
                 className: "text-2xl font-bold text-black",
                 children: ".eedu"
               }),
-              /* @__PURE__ */ (0, import_jsx_runtime26.jsx)("p", {
+              /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("p", {
                 className: "grid grid-cols-1 gap-4 sm:grid-cols-4 lg:grid-cols-1",
-                children: /* @__PURE__ */ (0, import_jsx_runtime26.jsx)("a", {
+                children: /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("a", {
                   className: "text-sm text-black",
                   children: "soon"
                 })
               })
             ]
           }),
-          /* @__PURE__ */ (0, import_jsx_runtime26.jsxs)("div", {
+          /* @__PURE__ */ (0, import_jsx_runtime22.jsxs)("div", {
             className: "shaddow-md duration-800 cols-span-1 m-10 overflow-hidden rounded-lg rounded-lg border border-sky-500 bg-sky-200 px-10 py-5 py-5 px-4 text-center shadow shadow transition-shadow ease-in-out hover:shadow-2xl sm:px-6",
             children: [
-              /* @__PURE__ */ (0, import_jsx_runtime26.jsx)("p", {
-                children: /* @__PURE__ */ (0, import_jsx_runtime26.jsx)("a", {
+              /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("p", {
+                children: /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("a", {
                   className: "font-slim text-xl text-black",
                   children: "Finance"
                 })
               }),
-              /* @__PURE__ */ (0, import_jsx_runtime26.jsx)("a", {
+              /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("a", {
                 className: "text-2xl font-bold text-black",
                 children: ".fincy"
               }),
-              /* @__PURE__ */ (0, import_jsx_runtime26.jsx)("p", {
+              /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("p", {
                 className: "grid grid-cols-1 gap-4 sm:grid-cols-4 lg:grid-cols-1",
-                children: /* @__PURE__ */ (0, import_jsx_runtime26.jsx)("a", {
+                children: /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("a", {
                   className: "text-sm text-black",
                   children: "soon"
                 })
               })
             ]
           }),
-          /* @__PURE__ */ (0, import_jsx_runtime26.jsxs)("div", {
+          /* @__PURE__ */ (0, import_jsx_runtime22.jsxs)("div", {
             className: "shaddow-md duration-800 cols-span-1 m-10 overflow-hidden rounded-lg rounded-lg border border-sky-500 bg-sky-200 px-10 py-5 py-5 px-4 text-center shadow shadow transition-shadow ease-in-out hover:shadow-2xl sm:px-6",
             children: [
-              /* @__PURE__ */ (0, import_jsx_runtime26.jsx)("p", {
-                children: /* @__PURE__ */ (0, import_jsx_runtime26.jsx)("a", {
+              /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("p", {
+                children: /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("a", {
                   className: "font-slim text-xl text-black",
                   children: "Virtual FX"
                 })
               }),
-              /* @__PURE__ */ (0, import_jsx_runtime26.jsx)("a", {
+              /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("a", {
                 className: "text-2xl font-bold text-black",
                 children: ".virtualfx"
               }),
-              /* @__PURE__ */ (0, import_jsx_runtime26.jsx)("p", {
+              /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("p", {
                 className: "grid grid-cols-1 gap-4 sm:grid-cols-4 lg:grid-cols-1",
-                children: /* @__PURE__ */ (0, import_jsx_runtime26.jsx)("a", {
+                children: /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("a", {
                   className: "text-sm text-black",
                   children: "soon"
                 })
               })
             ]
           }),
-          /* @__PURE__ */ (0, import_jsx_runtime26.jsxs)("div", {
+          /* @__PURE__ */ (0, import_jsx_runtime22.jsxs)("div", {
             className: "shaddow-md duration-800 cols-span-1 m-10 overflow-hidden rounded-lg rounded-lg border border-sky-500 bg-sky-200 px-10 py-5 py-5 px-4 text-center shadow shadow transition-shadow ease-in-out hover:shadow-2xl sm:px-6",
             children: [
-              /* @__PURE__ */ (0, import_jsx_runtime26.jsx)("p", {
-                children: /* @__PURE__ */ (0, import_jsx_runtime26.jsx)("a", {
+              /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("p", {
+                children: /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("a", {
                   className: "font-slim text-xl text-black",
                   children: "Startups"
                 })
               }),
-              /* @__PURE__ */ (0, import_jsx_runtime26.jsx)("a", {
+              /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("a", {
                 className: "text-2xl font-bold text-black",
                 children: "..nextco"
               }),
-              /* @__PURE__ */ (0, import_jsx_runtime26.jsx)("p", {
+              /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("p", {
                 className: "grid grid-cols-1 gap-4 sm:grid-cols-4 lg:grid-cols-1",
-                children: /* @__PURE__ */ (0, import_jsx_runtime26.jsx)("a", {
+                children: /* @__PURE__ */ (0, import_jsx_runtime22.jsx)("a", {
                   className: "text-sm text-black",
                   children: "soon"
                 })
@@ -9970,17 +9737,17 @@ var DomainsNew = () => {
 };
 
 // src/Footer.tsx
-var import_jsx_runtime27 = require("react/jsx-runtime");
+var import_jsx_runtime23 = require("react/jsx-runtime");
 var Footer = () => {
-  return /* @__PURE__ */ (0, import_jsx_runtime27.jsxs)("footer", {
+  return /* @__PURE__ */ (0, import_jsx_runtime23.jsxs)("footer", {
     className: "bg-white py-8 text-center",
     children: [
-      /* @__PURE__ */ (0, import_jsx_runtime27.jsx)("div", {
-        children: /* @__PURE__ */ (0, import_jsx_runtime27.jsxs)("a", {
+      /* @__PURE__ */ (0, import_jsx_runtime23.jsx)("div", {
+        children: /* @__PURE__ */ (0, import_jsx_runtime23.jsxs)("a", {
           children: [
             "Made with \u2764\uFE0F by",
             " ",
-            /* @__PURE__ */ (0, import_jsx_runtime27.jsx)("a", {
+            /* @__PURE__ */ (0, import_jsx_runtime23.jsx)("a", {
               href: "https://twitter.com/miguelgargallo",
               target: "_blank",
               rel: "noopener noreferrer",
@@ -9991,12 +9758,12 @@ var Footer = () => {
           ]
         })
       }),
-      /* @__PURE__ */ (0, import_jsx_runtime27.jsx)("div", {
-        children: /* @__PURE__ */ (0, import_jsx_runtime27.jsxs)("a", {
+      /* @__PURE__ */ (0, import_jsx_runtime23.jsx)("div", {
+        children: /* @__PURE__ */ (0, import_jsx_runtime23.jsxs)("a", {
           children: [
             "2022 \xA9",
             " ",
-            /* @__PURE__ */ (0, import_jsx_runtime27.jsx)("a", {
+            /* @__PURE__ */ (0, import_jsx_runtime23.jsx)("a", {
               href: "https://huggingface.co/spaces/superdatas/LICENSE",
               target: "_blank",
               rel: "noopener noreferrer",
@@ -10007,18 +9774,18 @@ var Footer = () => {
           ]
         })
       }),
-      /* @__PURE__ */ (0, import_jsx_runtime27.jsx)("div", {
+      /* @__PURE__ */ (0, import_jsx_runtime23.jsx)("div", {
         className: "hidden sm:block",
-        children: /* @__PURE__ */ (0, import_jsx_runtime27.jsxs)("div", {
+        children: /* @__PURE__ */ (0, import_jsx_runtime23.jsxs)("div", {
           className: "flex w-full items-center justify-center",
           children: [
-            /* @__PURE__ */ (0, import_jsx_runtime27.jsx)("a", {
+            /* @__PURE__ */ (0, import_jsx_runtime23.jsx)("a", {
               href: "https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fmiguelgargallo%2FNext13-Fetch-Data-turbo&project-name=miguelgargallo-next13-fetch-data-turbo&repo-name=miguelgargallo-next13-fetch-data-turbo",
               target: "_blank",
               rel: "noopener noreferrer",
               className: "hidden p-2 md:block",
-              children: /* @__PURE__ */ (0, import_jsx_runtime27.jsx)("picture", {
-                children: /* @__PURE__ */ (0, import_jsx_runtime27.jsx)("img", {
+              children: /* @__PURE__ */ (0, import_jsx_runtime23.jsx)("picture", {
+                children: /* @__PURE__ */ (0, import_jsx_runtime23.jsx)("img", {
                   src: "https://vercel.com/button",
                   alt: "Landscape picture",
                   width: 75,
@@ -10026,13 +9793,13 @@ var Footer = () => {
                 })
               })
             }),
-            /* @__PURE__ */ (0, import_jsx_runtime27.jsx)("a", {
+            /* @__PURE__ */ (0, import_jsx_runtime23.jsx)("a", {
               href: "https://huggingface.co/spaces/superdatas/LICENSE",
               target: "_blank",
               rel: "noopener noreferrer",
               className: "hidden p-2 md:block",
-              children: /* @__PURE__ */ (0, import_jsx_runtime27.jsx)("picture", {
-                children: /* @__PURE__ */ (0, import_jsx_runtime27.jsx)("img", {
+              children: /* @__PURE__ */ (0, import_jsx_runtime23.jsx)("picture", {
+                children: /* @__PURE__ */ (0, import_jsx_runtime23.jsx)("img", {
                   src: "https://huggingface.co/front/assets/huggingface_logo.svg",
                   alt: "Landscape picture",
                   width: 40,
@@ -10043,7 +9810,7 @@ var Footer = () => {
           ]
         })
       }),
-      /* @__PURE__ */ (0, import_jsx_runtime27.jsx)("p", {
+      /* @__PURE__ */ (0, import_jsx_runtime23.jsx)("p", {
         children: "Please do not consider the score as investment advice."
       })
     ]
@@ -10051,103 +9818,56 @@ var Footer = () => {
 };
 
 // src/Scrollable.tsx
-var import_jsx_runtime28 = require("react/jsx-runtime");
+var import_jsx_runtime24 = require("react/jsx-runtime");
 var Scrollable = () => {
   const { scrollYProgress } = useScroll();
-  return /* @__PURE__ */ (0, import_jsx_runtime28.jsx)(motion.div, {
+  return /* @__PURE__ */ (0, import_jsx_runtime24.jsx)(motion.div, {
     className: "progress-bar",
     style: { scaleX: scrollYProgress }
   });
 };
 
 // src/SquareWhite.tsx
-var import_jsx_runtime29 = require("react/jsx-runtime");
+var import_jsx_runtime25 = require("react/jsx-runtime");
 var SquareWhite = () => {
-  return /* @__PURE__ */ (0, import_jsx_runtime29.jsx)("div", {
+  return /* @__PURE__ */ (0, import_jsx_runtime25.jsx)("div", {
     className: "square_white"
   });
 };
 
 // src/SquareDiamond.tsx
-var import_jsx_runtime30 = require("react/jsx-runtime");
+var import_jsx_runtime26 = require("react/jsx-runtime");
 var SquareDiamond = () => {
-  return /* @__PURE__ */ (0, import_jsx_runtime30.jsx)("div", {
+  return /* @__PURE__ */ (0, import_jsx_runtime26.jsx)("div", {
     className: "square_diamond"
   });
 };
 
 // src/SquareGold.tsx
-var import_jsx_runtime31 = require("react/jsx-runtime");
+var import_jsx_runtime27 = require("react/jsx-runtime");
 var SquareGold = () => {
-  return /* @__PURE__ */ (0, import_jsx_runtime31.jsx)("div", {
+  return /* @__PURE__ */ (0, import_jsx_runtime27.jsx)("div", {
     className: "square_gold"
   });
 };
 
 // src/SquareSilver.tsx
-var import_jsx_runtime32 = require("react/jsx-runtime");
+var import_jsx_runtime28 = require("react/jsx-runtime");
 var SquareSilver = () => {
-  return /* @__PURE__ */ (0, import_jsx_runtime32.jsx)("div", {
+  return /* @__PURE__ */ (0, import_jsx_runtime28.jsx)("div", {
     className: "square_silver"
   });
 };
 
 // src/SquareBronze.tsx
-var import_jsx_runtime33 = require("react/jsx-runtime");
+var import_jsx_runtime29 = require("react/jsx-runtime");
 var SquareBronze = () => {
-  return /* @__PURE__ */ (0, import_jsx_runtime33.jsx)("div", {
+  return /* @__PURE__ */ (0, import_jsx_runtime29.jsx)("div", {
     className: "square_bronze"
-  });
-};
-
-// src/BlogPylar/blog.tsx
-var import_jsx_runtime34 = require("react/jsx-runtime");
-var ELEMENTS7 = 5;
-var blog = () => {
-  return /* @__PURE__ */ (0, import_jsx_runtime34.jsx)("div", {
-    children: /* @__PURE__ */ (0, import_jsx_runtime34.jsx)("svg", {
-      xmlns: "http://www.w3.org/2000/svg",
-      width: "95",
-      height: "95",
-      stroke: "#FFF",
-      "stroke-width": "0",
-      viewBox: "0 0 95 95",
-      className: "m-2 rounded-xl py-2 shadow-md hover:shadow-xl",
-      style: k(ELEMENTS7),
-      children: /* @__PURE__ */ (0, import_jsx_runtime34.jsx)("path", {
-        d: "M32.816,12.95,30.349,8.568h4.78a.439.439,0,0,1,.346.2l.931,1.534c.558.92,1.225,2.02,1.607,2.648ZM23.975,39.495a.339.339,0,0,1-.315.207H18.772l7.595-13.635a.731.731,0,0,0-.636-1.087h0L12.787,25l-2.574-4.456H29.076c.011,0,.02,0,.031,0a.677.677,0,0,0,.217-.045l.047-.02a.722.722,0,0,0,.346-.313l3.108-5.745h5.13Zm-6.468-.518-.613-1.009c-.785-1.3-1.791-2.955-1.9-3.137a.385.385,0,0,1,.024-.355l4.457-8.027,5.019-.006ZM8.948,30.444,6.453,26.011,8.968,21.3l2.522,4.367C10.706,27.14,9.483,29.442,8.948,30.444Zm-3.348.69H2.881a.443.443,0,0,1-.343-.2L1.726,29.6C1.147,28.641.409,27.425,0,26.752H5.2l2.466,4.383ZM14.037.208A.338.338,0,0,1,14.351,0h4.91L11.646,13.636c-.006.011-.01.023-.016.035s-.021.046-.03.07-.015.046-.021.069-.011.044-.014.066a.648.648,0,0,0-.008.081c0,.012,0,.023,0,.036s0,.018,0,.027a.591.591,0,0,0,.008.079.538.538,0,0,0,.012.066c.006.023.013.045.021.068s.016.045.025.066.021.041.033.062.023.04.037.059a.644.644,0,0,0,.045.055c.016.017.031.035.048.051s.035.029.053.043a.634.634,0,0,0,.063.045l.023.016c.008,0,.018.006.027.011a.729.729,0,0,0,.119.048c.015,0,.029.01.044.013a.7.7,0,0,0,.164.021h.33l12.619-.017c.334.58.957,1.673,1.489,2.6q.612,1.072,1.01,1.768H8.949c-.008,0-.016,0-.024,0a.725.725,0,0,0-.631.382L5.185,25.29H.059Zm6.479.534.456.75c.8,1.321,1.932,3.185,2.052,3.379A.383.383,0,0,1,23,5.227l-4.457,8.027-5.017.006Zm8.546,8.511,2.5,4.435-2.545,4.7c-.3-.529-.68-1.189-1.034-1.808-.7-1.224-1.208-2.115-1.495-2.613C27.028,12.977,28.462,10.349,29.062,9.253Z",
-        id: "Fill-1",
-        className: "fill-yellow-500"
-      })
-    })
-  });
-};
-
-// src/BlogPylar/post12032022.tsx
-var import_jsx_runtime35 = require("react/jsx-runtime");
-var ELEMENTS8 = 5;
-var post12032022 = () => {
-  return /* @__PURE__ */ (0, import_jsx_runtime35.jsx)("div", {
-    children: /* @__PURE__ */ (0, import_jsx_runtime35.jsx)("svg", {
-      xmlns: "http://www.w3.org/2000/svg",
-      width: "95",
-      height: "95",
-      stroke: "#FFF",
-      "stroke-width": "0",
-      viewBox: "0 0 95 95",
-      className: "m-2 rounded-xl py-2 shadow-md hover:shadow-xl",
-      style: k(ELEMENTS8),
-      children: /* @__PURE__ */ (0, import_jsx_runtime35.jsx)("path", {
-        d: "M32.816,12.95,30.349,8.568h4.78a.439.439,0,0,1,.346.2l.931,1.534c.558.92,1.225,2.02,1.607,2.648ZM23.975,39.495a.339.339,0,0,1-.315.207H18.772l7.595-13.635a.731.731,0,0,0-.636-1.087h0L12.787,25l-2.574-4.456H29.076c.011,0,.02,0,.031,0a.677.677,0,0,0,.217-.045l.047-.02a.722.722,0,0,0,.346-.313l3.108-5.745h5.13Zm-6.468-.518-.613-1.009c-.785-1.3-1.791-2.955-1.9-3.137a.385.385,0,0,1,.024-.355l4.457-8.027,5.019-.006ZM8.948,30.444,6.453,26.011,8.968,21.3l2.522,4.367C10.706,27.14,9.483,29.442,8.948,30.444Zm-3.348.69H2.881a.443.443,0,0,1-.343-.2L1.726,29.6C1.147,28.641.409,27.425,0,26.752H5.2l2.466,4.383ZM14.037.208A.338.338,0,0,1,14.351,0h4.91L11.646,13.636c-.006.011-.01.023-.016.035s-.021.046-.03.07-.015.046-.021.069-.011.044-.014.066a.648.648,0,0,0-.008.081c0,.012,0,.023,0,.036s0,.018,0,.027a.591.591,0,0,0,.008.079.538.538,0,0,0,.012.066c.006.023.013.045.021.068s.016.045.025.066.021.041.033.062.023.04.037.059a.644.644,0,0,0,.045.055c.016.017.031.035.048.051s.035.029.053.043a.634.634,0,0,0,.063.045l.023.016c.008,0,.018.006.027.011a.729.729,0,0,0,.119.048c.015,0,.029.01.044.013a.7.7,0,0,0,.164.021h.33l12.619-.017c.334.58.957,1.673,1.489,2.6q.612,1.072,1.01,1.768H8.949c-.008,0-.016,0-.024,0a.725.725,0,0,0-.631.382L5.185,25.29H.059Zm6.479.534.456.75c.8,1.321,1.932,3.185,2.052,3.379A.383.383,0,0,1,23,5.227l-4.457,8.027-5.017.006Zm8.546,8.511,2.5,4.435-2.545,4.7c-.3-.529-.68-1.189-1.034-1.808-.7-1.224-1.208-2.115-1.495-2.613C27.028,12.977,28.462,10.349,29.062,9.253Z",
-        id: "Fill-1",
-        className: "fill-yellow-500"
-      })
-    })
   });
 };
 // Annotate the CommonJS export names for ESM import in node:
 0 && (module.exports = {
-  Button,
   Card,
   DomainsAll,
   DomainsBlocks,
@@ -10160,14 +9880,12 @@ var post12032022 = () => {
   GradientGold,
   GradientSilver,
   GradientWhite,
-  ListPylar,
   Logo,
   Menu,
   MenuCorporate,
   MenuDevs,
   MenuDomains,
   MenuLogo,
-  MenuPylar,
   Scrollable,
   SquareBronze,
   SquareDiamond,
@@ -10178,8 +9896,5 @@ var post12032022 = () => {
   TitleCorporate,
   TitleExplorer,
   TitleIndex,
-  TitlePylar,
-  Version,
-  blog,
-  post12032022
+  Version
 });
