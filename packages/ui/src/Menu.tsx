@@ -54,21 +54,6 @@ export const Menu = () => {
               Twitter
             </a>
           </button>
-          <a
-            href="https://github.com/miguelgargallo/Next13-Fetch-Data-turbo"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hidden py-2 px-4 font-bold text-white md:block"
-          >
-            <picture>
-              <img
-                src="https://img.shields.io/github/stars/miguelgargallo/Next13-Fetch-Data-turbo?style=social"
-                alt="Landscape picture"
-                width={100}
-                height={20}
-              />
-            </picture>
-          </a>{" "}
           <Version />
         </div>
       </div>
@@ -97,4 +82,20 @@ export const Menu = () => {
   Newsroom
 </a>
 </button>
+
+ <a
+            href="https://github.com/miguelgargallo/Next13-Fetch-Data-turbo"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hidden py-2 px-4 font-bold text-white md:block"
+          >
+            <picture>
+              <img
+                src="https://img.shields.io/github/stars/miguelgargallo/Next13-Fetch-Data-turbo?style=social"
+                alt="Landscape picture"
+                width={100}
+                height={20}
+              />
+            </picture>
+          </a>{" "}
 */
