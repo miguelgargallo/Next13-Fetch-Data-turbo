@@ -8,7 +8,7 @@ export const Version = () => {
       style={generateJSXMeshGradient(ELEMENTS)}
     >
       <a
-        href="http://github.com/miguelgargallo/next13-Fetch-Data-turbo"
+        href="http://twitter.com/miguelgargallo"
         target="_blank"
         rel="noopener noreferrer"
       >
