@@ -1,0 +1,121 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.progress-bar
+{
+    @apply fixed top-0 left-0 w-full h-1 z-50 bg-sky-500;
+}
+
+/* Colors by lenghts */
+.labase {
+    @apply px-8 py-2 flex flex-col items-center justify-center rounded-md text-center text-base shadow-md hover:shadow-xl md:text-lg border-2;
+}
+
+/* Diamond */
+.tld_diamond {
+    @apply font-bold text-sky-700 shadow-sky-700 border-sky-700;
+}
+
+.tld_diamond:hover {
+    @apply font-bold text-sky-600;
+}
+
+.tld_diamond_div {
+    @apply labase tld_diamond bg-sky-200 border-sky-500;
+}
+
+.tld_title_diamond {
+    @apply font-bold text-sky-700 shadow-sky-700 border-sky-700 p-4 text-2xl font-bold;
+}
+
+.square_diamond {
+    @apply max-w-full rounded-3xl shadow-md hover:shadow-xl w-32 h-32 bg-sky-200 border-sky-500;
+}
+
+/* Gold */
+.tld_gold {
+    @apply font-bold text-yellow-500 shadow-yellow-700 border-yellow-700;;
+}
+
+.tld_gold:hover {
+    @apply font-bold text-yellow-600;
+}
+
+
+.tld_gold_div {
+    @apply labase tld_gold bg-yellow-100 shadow-md border-gray-500;
+}
+
+.tld_title_gold {
+    @apply font-bold text-yellow-700 shadow-yellow-700 border-yellow-700 p-4 text-2xl font-bold;
+}
+
+.square_gold {
+    @apply max-w-full rounded-3xl shadow-md hover:shadow-xl w-32 h-32 bg-yellow-200 border-yellow-500;
+}
+
+/* Silver */
+.tld_silver {
+    @apply font-bold text-gray-500 shadow-gray-700 border-gray-700;
+}
+
+.tld_silver:hover {
+    @apply font-bold text-gray-600;
+}
+
+
+.tld_silver_div {
+    @apply labase tld_silver bg-gray-100 border-sky-500;
+}
+
+.tld_title_silver {
+    @apply font-bold text-gray-700 shadow-gray-700 border-gray-700 p-4 text-2xl font-bold;
+}
+
+.square_silver {
+    @apply max-w-full rounded-3xl shadow-md hover:shadow-xl w-32 h-32 bg-gray-200 border-gray-500;
+}
+
+/* Bronze */
+.tld_bronze {
+    @apply font-bold text-orange-500 shadow-orange-700 border-orange-700;
+}
+
+.tld_bronze:hover {
+    @apply font-bold text-orange-600;
+}
+
+.tld_bronze_div {
+    @apply labase tld_bronze bg-orange-200 border-orange-500;
+}
+
+.tld_title_bronze {
+    @apply font-bold text-orange-700 shadow-orange-700 border-orange-700 p-4 text-2xl font-bold;
+}
+
+.square_bronze {
+    @apply max-w-full rounded-3xl shadow-md hover:shadow-xl w-32 h-32 bg-orange-200 border-orange-500;
+}
+
+/* White */
+.tld_white {
+    @apply font-bold text-gray-500 shadow-gray-700 border-gray-700;
+}
+
+.tld_white:hover {
+    @apply font-bold text-gray-600;
+}
+
+.tld_white_div {
+    @apply labase tld_white bg-white border-gray-500;
+}
+
+.tld_title_white {
+    @apply font-bold text-gray-700 shadow-gray-700 border-gray-700 p-4 text-2xl font-bold;
+}
+
+.square_white {
+    @apply max-w-full rounded-3xl shadow-md hover:shadow-xl w-32 h-32 bg-gray-200 border-gray-500;
+}

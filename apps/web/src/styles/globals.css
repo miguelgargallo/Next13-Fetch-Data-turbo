@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.pill
+{
+    @apply text-xs font-bold rounded-full;
+}
+
+.button
+{
+    @apply mx-auto mt-6 grid max-w-lg gap-5 md:hidden lg:max-w-xl lg:grid-cols-1;
+}
+
+.button_content
+{
+    @apply flex w-full items-center justify-center rounded-md px-8 py-2 text-center text-base font-bold text-sky-500 hover:text-sky-500 shadow-xl hover:shadow-md md:py-2 md:px-10 md:text-lg;
+}
+
+.hyperlink_issue
+{
+    @apply font-bold text-sky-500 hover:text-yellow-500;
+}
+
+.global_td
+{
+    @apply border px-4 py-2;
+}
+/*
+.ipad-cursor {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 50%;
+    pointer-events: none;
+    transition: all 0.2s ease-in-out;
+}
+*/
+
+
