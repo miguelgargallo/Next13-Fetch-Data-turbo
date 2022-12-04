@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.pylarDimension
+{
+    @apply w-64 h-64 rounded-lg shadow-sm overflow-hidden hover:shadow-xl m-4 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110;
+}
+
+.pylarDiv
+{
+    @apply flex flex-row flex-wrap justify-center;
+}
+
