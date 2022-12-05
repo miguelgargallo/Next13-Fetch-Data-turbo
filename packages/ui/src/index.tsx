@@ -42,4 +42,7 @@ export * from "./SquareDiamond";
 export * from "./SquareGold";
 export * from "./SquareSilver";
 export * from "./SquareBronze";
-/* Maths */
+/* Logos */
+export * from "./PylarLogo";
+export * from "./SuperdataLogo";
+export * from "./PencilLogo";
