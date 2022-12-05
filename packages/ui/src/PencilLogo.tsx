@@ -1,6 +1,9 @@
+import { generateJSXMeshGradient } from "meshgrad";
+const ELEMENTS = 12;
+
 export const PencilLogo = () => {
   return (
-    <div className="flex flex-col items-center justify-center text-center">
+    <div className="m-2 hidden rounded-full text-xs font-bold text-black shadow-md hover:shadow-xl md:block" style={generateJSXMeshGradient(ELEMENTS)}>
       <a href="https://pencil.li" className="">
         <picture>
           <svg
