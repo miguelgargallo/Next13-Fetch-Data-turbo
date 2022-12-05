@@ -2,6 +2,7 @@ import * as React from "react";
 // Buttons
 export * from "./Button";
 // Menu
+export * from "./Supermenu";
 export * from "./Menu";
 export * from "./MenuDomains";
 export * from "./SupportMenu";
