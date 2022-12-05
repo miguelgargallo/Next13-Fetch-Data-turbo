@@ -1,4 +1,5 @@
 import { Version } from "./Version";
+import { Supermenu } from "./Supermenu";
 import { MenuLogo } from "./MenuLogo";
 import { motion, useScroll } from "framer-motion";
 import "./styles.css";
@@ -19,6 +20,8 @@ export const Menu = () => {
         className="progress-bar"
         style={{ scaleX: scrollYProgress }}
       />
+            <Supermenu />
+
       <div className="flex flex-row items-center justify-between bg-gradient-to-r from-blue-400 to-blue-500">
         <MenuLogo />{" "}
         <button className="rounded-xl py-2 px-4 font-bold text-white">
