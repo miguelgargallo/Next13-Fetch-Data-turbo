@@ -19,7 +19,6 @@ export const Menu = () => {
         className="progress-bar"
         style={{ scaleX: scrollYProgress }}
       />
-      <Supermenu />
 
       <div className="flex flex-row items-center justify-between bg-gradient-to-r from-blue-400 to-blue-500">
         <button className="rounded-xl py-2 px-4 font-bold text-white">
