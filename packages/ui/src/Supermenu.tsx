@@ -1,6 +1,5 @@
 import { motion, useScroll } from "framer-motion";
 import "./styles.css";
-import { Version } from "./Version";
 import { PencilLogo } from "./PencilLogo";
 import { PylarLogo } from "./PylarLogo";
 import { SuperdataLogo } from "./SuperdataLogo";
