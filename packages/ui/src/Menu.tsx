@@ -20,7 +20,7 @@ export const Menu = () => {
         className="progress-bar"
         style={{ scaleX: scrollYProgress }}
       />
-            <Supermenu />
+      <Supermenu />
 
       <div className="flex flex-row items-center justify-between bg-gradient-to-r from-blue-400 to-blue-500">
         <MenuLogo />{" "}
@@ -31,10 +31,9 @@ export const Menu = () => {
           <a href="/domains">Domains</a>
         </button>
         <button className="hidden rounded-xl py-2 px-4 font-bold text-white sm:block">
-        <a href="https://pylar.org"
-        target="_blank"
-        rel="noopener noreferrer"
-        >Pylar&trade; AI</a>
+          <a href="https://pylar.org" target="_blank" rel="noopener noreferrer">
+            Pylar&trade; AI
+          </a>
         </button>
         <button className="hidden rounded-xl py-2 px-4 font-bold text-white sm:block">
           <a href="/corporate">Corporate</a>
@@ -63,42 +62,3 @@ export const Menu = () => {
     </div>
   );
 };
-
-/* 
-<button className="hidden rounded-xl px-8 font-bold text-white sm:block">
-<a href="/">
-  {new Date().toLocaleTimeString("en-US", {
-    hour: "numeric",
-    minute: "numeric",
-  })}
-</a>
-</button>ç
-*/
-
-/*
-<button className="hidden rounded-xl py-2 px-4 font-bold text-white sm:block">
-<a
-  href="https://newsroom.pencil.domains/"
-  target="_blank"
-  rel="noopener noreferrer"
->
-  Newsroom
-</a>
-</button>
-
- <a
-            href="https://github.com/miguelgargallo/Next13-Fetch-Data-turbo"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hidden py-2 px-4 font-bold text-white md:block"
-          >
-            <picture>
-              <img
-                src="https://img.shields.io/github/stars/miguelgargallo/Next13-Fetch-Data-turbo?style=social"
-                alt="Landscape picture"
-                width={100}
-                height={20}
-              />
-            </picture>
-          </a>{" "}
-*/
