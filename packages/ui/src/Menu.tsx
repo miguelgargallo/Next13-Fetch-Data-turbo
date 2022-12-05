@@ -2,6 +2,7 @@ import { Version } from "./Version";
 import { Supermenu } from "./Supermenu";
 import { motion, useScroll } from "framer-motion";
 import "./styles.css";
+import { MenuLogo } from "ui";
 
 {
   // show hour and minute locale
@@ -19,7 +20,7 @@ export const Menu = () => {
         className="progress-bar"
         style={{ scaleX: scrollYProgress }}
       />
-
+<MenuLogo />
       <div className="flex flex-row items-center justify-between bg-gradient-to-r from-blue-400 to-blue-500">
         <button className="rounded-xl py-2 px-4 font-bold text-white">
           <a href="/explorer">Explorer</a>
