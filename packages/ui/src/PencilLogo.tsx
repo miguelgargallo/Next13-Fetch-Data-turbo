@@ -3,16 +3,19 @@ const ELEMENTS = 12;
 
 export const PencilLogo = () => {
   return (
-    <div className="m-2 hidden rounded-full text-xs font-bold text-black shadow-md hover:shadow-xl md:block" style={generateJSXMeshGradient(ELEMENTS)}>
-      <a href="https://pencil.li" className="">
+    <div
+      className="m-2 hidden rounded-full text-xs font-bold text-black shadow-md hover:shadow-xl md:block"
+      style={generateJSXMeshGradient(ELEMENTS)}
+    >
+      <a href="https://pylar.org" className="">
         <picture>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="150" /* 150 x 2 = 300 */
             height="25" /* 25 x 2 = 50 */
-            viewBox="0 0 2344 678"
+            viewBox="0 0 3060 678"
+            className="m-3 h-6 w-24"
           >
-            <defs></defs>
             <g
               fill="#be0aff"
               fill-rule="evenodd"
@@ -44,17 +47,17 @@ export const PencilLogo = () => {
                 transform="matrix(0 -1 -1 0 715.5 715.5)"
               ></path>
               <text
-                fill="#ffffff"
+                fill="#000000"
                 font-family="Roboto, sans-serif"
                 font-size="500"
                 font-weight="500"
               >
-                <tspan x="993.25" y="697">
-                  Pencil
+                <tspan x="993.25" y="697" className="underline">
+                  Pencil Domains&trade;
                 </tspan>
               </text>
               <text
-                fill="#ffffff"
+                fill="#000000"
                 font-family="Roboto, sans-serif"
                 font-size="100"
                 font-weight="500"
@@ -64,15 +67,11 @@ export const PencilLogo = () => {
                 </tspan>
               </text>
               <text
-                fill="#ffffff"
+                fill="#000000"
                 font-family="Roboto, sans-serif"
                 font-size="75"
                 font-weight="500"
-              >
-                <tspan x="2386.5" y="248">
-                  TM
-                </tspan>
-              </text>
+              ></text>
             </g>
           </svg>
         </picture>
