@@ -19,7 +19,7 @@ export * from "./TitleCorporate";
 // List
 export * from "./ListPylar";
 // Version
-export * from "./Version";
+export * from "./Versions";
 export * from "./Card";
 // Gradients
 export * from "./GradientWhite";
