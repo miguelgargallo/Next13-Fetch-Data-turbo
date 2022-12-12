@@ -1,40 +1,67 @@
-yarn run v1.22.17
+yarn run v1.22.19
 $ tsup src/index.tsx --format esm,cjs --dts --external react && tailwindcss -i ./src/styles.css -o ./dist/styles.css
-[34mCLI[39m Building entry: src/index.tsx
-[34mCLI[39m Using tsconfig: tsconfig.json
-[34mCLI[39m tsup v6.5.0
-[34mCLI[39m Target: es6
-[34mESM[39m Build start
-[34mCJS[39m Build start
+CLI Building entry: src/index.tsx
+CLI Using tsconfig: tsconfig.json
+CLI tsup v6.5.0
+CLI Target: es6
+ESM Build start
+CJS Build start
+✘ [ERROR] Could not resolve "ui"
 
- WARN  [33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mUse "src/Logo.tsx" instead of "src/logo.tsx" to avoid issues with case-sensitive file systems[0m [different-path-case]
+    src/Menu.tsx:3:25:
+      3 │ import { MenuLogo } from "ui";
+        ╵                          ~~~~
 
-    src/index.tsx:11:14:
-[37m      11 │ export * from [32m"./logo"[37m;
-         ╵               [32m~~~~~~~~[0m
+  Importing the directory "./dist" is forbidden by this package:
 
+    package.json:7:9:
+      7 │     ".": "./dist",
+        ╵          ~~~~~~~~
 
+  The presence of "exports" here makes importing a directory forbidden:
 
+    package.json:6:2:
+      6 │   "exports": {
+        ╵   ~~~~~~~~~
 
- WARN  [33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mUse "src/Logo.tsx" instead of "src/logo.tsx" to avoid issues with case-sensitive file systems[0m [different-path-case]
+  You can mark the path "ui" as external to exclude it from the bundle, which will remove this error.
 
-    src/index.tsx:11:14:
-[37m      11 │ export * from [32m"./logo"[37m;
-         ╵               [32m~~~~~~~~[0m
+✘ [ERROR] Could not resolve "ui"
 
+    src/Menu.tsx:3:25:
+      3 │ import { MenuLogo } from "ui";
+        ╵                          ~~~~
 
+  Importing the directory "./dist" is forbidden by this package:
 
-[32mCJS[39m [1mdist\index.css [22m[32m2.48 KB[39m
-[32mCJS[39m [1mdist\index.js  [22m[32m376.60 KB[39m
-[32mCJS[39m ⚡️ Build success in 236ms
-[32mESM[39m [1mdist\index.css [22m[32m2.48 KB[39m
-[32mESM[39m [1mdist\index.mjs [22m[32m364.42 KB[39m
-[32mESM[39m ⚡️ Build success in 237ms
-[34mDTS[39m Build start
-[32mDTS[39m ⚡️ Build success in 2110ms
-[32mDTS[39m [1mdist\index.d.ts [22m[32m1.54 KB[39m
+    package.json:7:9:
+      7 │     ".": "./dist",
+        ╵          ~~~~~~~~
 
-Rebuilding...
+  The presence of "exports" here makes importing a directory forbidden:
 
-Done in 307ms.
-Done in 4.11s.
+    package.json:6:2:
+      6 │   "exports": {
+        ╵   ~~~~~~~~~
+
+  You can mark the path "ui" as external to exclude it from the bundle, which will remove this error.
+
+ESM Build failed
+CJS Build failed
+Error: Build failed with 1 error:
+src/Menu.tsx:3:25: ERROR: Could not resolve "ui"
+    at failureErrorWithLog (/Users/miguel/pure/Next13-Fetch-Data-turbo/node_modules/esbuild/lib/main.js:1566:15)
+    at /Users/miguel/pure/Next13-Fetch-Data-turbo/node_modules/esbuild/lib/main.js:1024:28
+    at runOnEndCallbacks (/Users/miguel/pure/Next13-Fetch-Data-turbo/node_modules/esbuild/lib/main.js:1438:61)
+    at buildResponseToResult (/Users/miguel/pure/Next13-Fetch-Data-turbo/node_modules/esbuild/lib/main.js:1022:7)
+    at /Users/miguel/pure/Next13-Fetch-Data-turbo/node_modules/esbuild/lib/main.js:1134:14
+    at responseCallbacks.<computed> (/Users/miguel/pure/Next13-Fetch-Data-turbo/node_modules/esbuild/lib/main.js:671:9)
+    at handleIncomingPacket (/Users/miguel/pure/Next13-Fetch-Data-turbo/node_modules/esbuild/lib/main.js:726:9)
+    at Socket.readFromStdout (/Users/miguel/pure/Next13-Fetch-Data-turbo/node_modules/esbuild/lib/main.js:647:7)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+DTS Build start
+DTS ⚡️ Build success in 8365ms
+DTS dist/index.d.ts 1.96 KB
+error Command failed with exit code 1.
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
