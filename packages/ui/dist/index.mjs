@@ -7617,43 +7617,90 @@ var MenuLogo = () => {
   });
 };
 
-// src/Menu.tsx
+// src/MenuAlpha.tsx
 import { jsx as jsx3, jsxs as jsxs3 } from "react/jsx-runtime";
+var MenuAlpha = () => {
+  return /* @__PURE__ */ jsxs3("div", {
+    className: "flex flex-row items-center justify-between bg-gradient-to-r from-blue-400 to-blue-500",
+    children: [
+      /* @__PURE__ */ jsx3("button", {
+        className: "px-8 py-2 font-bold text-white",
+        children: /* @__PURE__ */ jsx3("a", {
+          href: "https://superdatas.org",
+          target: "_blank",
+          rel: "noopener noreferrer",
+          children: "SuperData"
+        })
+      }),
+      /* @__PURE__ */ jsx3("button", {
+        className: "py-2 font-bold text-white",
+        children: /* @__PURE__ */ jsx3("a", {
+          href: "https://pylar.org",
+          target: "_blank",
+          rel: "noopener noreferrer",
+          children: "PylarAI"
+        })
+      }),
+      /* @__PURE__ */ jsx3("button", {
+        className: "py-2 font-bold text-white",
+        children: /* @__PURE__ */ jsx3("a", {
+          href: "https://itamaesan.org",
+          target: "_blank",
+          rel: "noopener noreferrer",
+          children: "ITAMAESAN"
+        })
+      }),
+      /* @__PURE__ */ jsx3("button", {
+        className: "px-8 py-2 underline font-bold text-white",
+        children: /* @__PURE__ */ jsx3("a", {
+          href: "https://pencil.li",
+          target: "_blank",
+          rel: "noopener noreferrer",
+          children: "Pencil"
+        })
+      })
+    ]
+  });
+};
+
+// src/Menu.tsx
+import { jsx as jsx4, jsxs as jsxs4 } from "react/jsx-runtime";
 var Menu = () => {
   const { scrollYProgress } = useScroll();
-  return /* @__PURE__ */ jsxs3("div", {
+  return /* @__PURE__ */ jsxs4("div", {
     className: "hidden sm:block",
     children: [
-      /* @__PURE__ */ jsx3(motion.div, {
+      /* @__PURE__ */ jsx4(motion.div, {
         className: "progress-bar",
         style: { scaleX: scrollYProgress }
       }),
-      /* @__PURE__ */ jsxs3("div", {
+      /* @__PURE__ */ jsx4(MenuAlpha, {}),
+      /* @__PURE__ */ jsxs4("div", {
         className: "flex flex-row items-center justify-between bg-gradient-to-r from-blue-400 to-blue-500",
         children: [
-          /* @__PURE__ */ jsx3(MenuLogo, {}),
-          /* @__PURE__ */ jsx3("button", {
+          /* @__PURE__ */ jsx4(MenuLogo, {}),
+          /* @__PURE__ */ jsx4("button", {
             className: "rounded-xl py-2 px-4 font-bold text-white",
-            children: /* @__PURE__ */ jsx3("a", {
+            children: /* @__PURE__ */ jsx4("a", {
               href: "/explorer",
               children: "Explorer"
             })
           }),
-          /* @__PURE__ */ jsx3("button", {
+          /* @__PURE__ */ jsx4("button", {
             className: "rounded-xl py-2 px-4 font-bold text-white",
-            children: /* @__PURE__ */ jsx3("a", {
+            children: /* @__PURE__ */ jsx4("a", {
               href: "/domains",
               children: "Domains"
             })
           }),
-          /* @__PURE__ */ jsx3("button", {
+          /* @__PURE__ */ jsx4("button", {
             className: "hidden rounded-xl py-2 px-4 font-bold text-white sm:block",
-            children: /* @__PURE__ */ jsx3("a", {
+            children: /* @__PURE__ */ jsx4("a", {
               href: "/corporate",
               children: "Corporate"
             })
           }),
-          /* @__PURE__ */ jsxs3("div", {
+          /* @__PURE__ */ jsxs4("div", {
             className: "hidden py-2 px-4 font-bold text-white md:block",
             style: {
               display: "flex",
@@ -7662,9 +7709,9 @@ var Menu = () => {
             },
             children: [
               " ",
-              /* @__PURE__ */ jsx3("button", {
+              /* @__PURE__ */ jsx4("button", {
                 className: "hidden py-2 px-4 font-bold text-white md:block",
-                children: /* @__PURE__ */ jsx3("a", {
+                children: /* @__PURE__ */ jsx4("a", {
                   href: "http://twitter.com/pencildomains",
                   target: "_blank",
                   rel: "noopener noreferrer",
@@ -7680,44 +7727,44 @@ var Menu = () => {
 };
 
 // src/MenuDomains.tsx
-import { jsx as jsx4, jsxs as jsxs4 } from "react/jsx-runtime";
+import { jsx as jsx5, jsxs as jsxs5 } from "react/jsx-runtime";
 var MenuDomains = () => {
-  return /* @__PURE__ */ jsx4("div", {
+  return /* @__PURE__ */ jsx5("div", {
     className: "flex hidden flex-row items-center justify-between bg-gradient-to-r from-blue-400 to-blue-500 sm:block",
-    children: /* @__PURE__ */ jsxs4("div", {
+    children: /* @__PURE__ */ jsxs5("div", {
       className: "flex flex-row",
       children: [
-        /* @__PURE__ */ jsx4("button", {
+        /* @__PURE__ */ jsx5("button", {
           className: "rounded-xl py-2 px-4 font-bold text-white",
-          children: /* @__PURE__ */ jsx4("a", {
+          children: /* @__PURE__ */ jsx5("a", {
             href: "/domains",
             children: "All Domains"
           })
         }),
-        /* @__PURE__ */ jsx4("button", {
+        /* @__PURE__ */ jsx5("button", {
           className: "rounded-xl py-2 px-4 font-bold text-white",
-          children: /* @__PURE__ */ jsx4("a", {
+          children: /* @__PURE__ */ jsx5("a", {
             href: "/domains-geographic",
             children: "Geographic"
           })
         }),
-        /* @__PURE__ */ jsx4("button", {
+        /* @__PURE__ */ jsx5("button", {
           className: "rounded-xl py-2 px-4 font-bold text-white",
-          children: /* @__PURE__ */ jsx4("a", {
+          children: /* @__PURE__ */ jsx5("a", {
             href: "/domains-blockchain",
             children: "Blockchain"
           })
         }),
-        /* @__PURE__ */ jsx4("button", {
+        /* @__PURE__ */ jsx5("button", {
           className: "rounded-xl py-2 px-4 font-bold text-white",
-          children: /* @__PURE__ */ jsx4("a", {
+          children: /* @__PURE__ */ jsx5("a", {
             href: "/domains-metaverse",
             children: "Metaverse"
           })
         }),
-        /* @__PURE__ */ jsx4("button", {
+        /* @__PURE__ */ jsx5("button", {
           className: "rounded-xl py-2 px-4 font-bold text-white",
-          children: /* @__PURE__ */ jsx4("a", {
+          children: /* @__PURE__ */ jsx5("a", {
             href: "/domains-new",
             children: "New"
           })
@@ -7728,37 +7775,37 @@ var MenuDomains = () => {
 };
 
 // src/SupportMenu.tsx
-import { jsx as jsx5, jsxs as jsxs5 } from "react/jsx-runtime";
+import { jsx as jsx6, jsxs as jsxs6 } from "react/jsx-runtime";
 var SupportMenu = () => {
-  return /* @__PURE__ */ jsx5("div", {
+  return /* @__PURE__ */ jsx6("div", {
     className: "flex hidden flex-row items-center justify-between bg-gradient-to-r from-blue-400 to-blue-500 sm:block",
-    children: /* @__PURE__ */ jsxs5("div", {
+    children: /* @__PURE__ */ jsxs6("div", {
       className: "flex flex-row",
       children: [
-        /* @__PURE__ */ jsx5("button", {
+        /* @__PURE__ */ jsx6("button", {
           className: "rounded-xl py-2 px-4 font-bold text-white",
-          children: /* @__PURE__ */ jsx5("a", {
+          children: /* @__PURE__ */ jsx6("a", {
             href: "/support-tos",
             children: "Terms Of Service"
           })
         }),
-        /* @__PURE__ */ jsx5("button", {
+        /* @__PURE__ */ jsx6("button", {
           className: "rounded-xl py-2 px-4 font-bold text-white",
-          children: /* @__PURE__ */ jsx5("a", {
+          children: /* @__PURE__ */ jsx6("a", {
             href: "/support-pp",
             children: "Privacy Policy"
           })
         }),
-        /* @__PURE__ */ jsx5("button", {
+        /* @__PURE__ */ jsx6("button", {
           className: "rounded-xl py-2 px-4 font-bold text-white",
-          children: /* @__PURE__ */ jsx5("a", {
+          children: /* @__PURE__ */ jsx6("a", {
             href: "/support-answers",
             children: "Answers"
           })
         }),
-        /* @__PURE__ */ jsx5("button", {
+        /* @__PURE__ */ jsx6("button", {
           className: "rounded-xl py-2 px-4 font-bold text-white",
-          children: /* @__PURE__ */ jsx5("a", {
+          children: /* @__PURE__ */ jsx6("a", {
             href: "/support-trademarks",
             children: "Trademarks"
           })
@@ -7769,30 +7816,30 @@ var SupportMenu = () => {
 };
 
 // src/MenuDevs.tsx
-import { jsx as jsx6, jsxs as jsxs6 } from "react/jsx-runtime";
+import { jsx as jsx7, jsxs as jsxs7 } from "react/jsx-runtime";
 var MenuDevs = () => {
-  return /* @__PURE__ */ jsx6("div", {
+  return /* @__PURE__ */ jsx7("div", {
     className: "flex hidden flex-row items-center justify-between bg-gradient-to-r from-blue-400 to-blue-500 sm:block",
-    children: /* @__PURE__ */ jsxs6("div", {
+    children: /* @__PURE__ */ jsxs7("div", {
       className: "flex flex-row",
       children: [
-        /* @__PURE__ */ jsx6("button", {
+        /* @__PURE__ */ jsx7("button", {
           className: "rounded-xl py-2 px-4 font-bold text-white",
-          children: /* @__PURE__ */ jsx6("a", {
+          children: /* @__PURE__ */ jsx7("a", {
             href: "/developer",
             children: "Home"
           })
         }),
-        /* @__PURE__ */ jsx6("button", {
+        /* @__PURE__ */ jsx7("button", {
           className: "rounded-xl py-2 px-4 font-bold text-white",
-          children: /* @__PURE__ */ jsx6("a", {
+          children: /* @__PURE__ */ jsx7("a", {
             href: "/developer-launch",
             children: "Launch your TLD"
           })
         }),
-        /* @__PURE__ */ jsx6("button", {
+        /* @__PURE__ */ jsx7("button", {
           className: "rounded-xl py-2 px-4 font-bold text-white",
-          children: /* @__PURE__ */ jsx6("a", {
+          children: /* @__PURE__ */ jsx7("a", {
             href: "/developer-agreement",
             children: "Agreement"
           })
@@ -7803,30 +7850,30 @@ var MenuDevs = () => {
 };
 
 // src/MenuCorporate.tsx
-import { jsx as jsx7, jsxs as jsxs7 } from "react/jsx-runtime";
+import { jsx as jsx8, jsxs as jsxs8 } from "react/jsx-runtime";
 var MenuCorporate = () => {
-  return /* @__PURE__ */ jsx7("div", {
+  return /* @__PURE__ */ jsx8("div", {
     className: "flex hidden flex-row items-center justify-between bg-gradient-to-r from-blue-400 to-blue-500 sm:block",
-    children: /* @__PURE__ */ jsxs7("div", {
+    children: /* @__PURE__ */ jsxs8("div", {
       className: "flex flex-row",
       children: [
-        /* @__PURE__ */ jsx7("button", {
+        /* @__PURE__ */ jsx8("button", {
           className: "rounded-xl py-2 px-4 font-bold text-white",
-          children: /* @__PURE__ */ jsx7("a", {
+          children: /* @__PURE__ */ jsx8("a", {
             href: "/developer",
             children: "Developer"
           })
         }),
-        /* @__PURE__ */ jsx7("button", {
+        /* @__PURE__ */ jsx8("button", {
           className: "rounded-xl py-2 px-4 font-bold text-white",
-          children: /* @__PURE__ */ jsx7("a", {
+          children: /* @__PURE__ */ jsx8("a", {
             href: "/office",
             children: "Office"
           })
         }),
-        /* @__PURE__ */ jsx7("button", {
+        /* @__PURE__ */ jsx8("button", {
           className: "rounded-xl py-2 px-4 font-bold text-white",
-          children: /* @__PURE__ */ jsx7("a", {
+          children: /* @__PURE__ */ jsx8("a", {
             href: "/support",
             children: "Support"
           })
@@ -7837,79 +7884,79 @@ var MenuCorporate = () => {
 };
 
 // src/Logo.tsx
-import { jsx as jsx8, jsxs as jsxs8 } from "react/jsx-runtime";
+import { jsx as jsx9, jsxs as jsxs9 } from "react/jsx-runtime";
 var Logo = () => {
-  return /* @__PURE__ */ jsx8("div", {
+  return /* @__PURE__ */ jsx9("div", {
     className: "flex flex-col items-center justify-center py-16 px-20 text-center",
-    children: /* @__PURE__ */ jsx8("a", {
+    children: /* @__PURE__ */ jsx9("a", {
       href: "https://pencil.li",
       className: "",
-      children: /* @__PURE__ */ jsx8("picture", {
-        children: /* @__PURE__ */ jsxs8("svg", {
+      children: /* @__PURE__ */ jsx9("picture", {
+        children: /* @__PURE__ */ jsxs9("svg", {
           xmlns: "http://www.w3.org/2000/svg",
           width: "300",
           height: "50",
           viewBox: "0 0 2344 678",
           children: [
-            /* @__PURE__ */ jsx8("defs", {}),
-            /* @__PURE__ */ jsxs8("g", {
+            /* @__PURE__ */ jsx9("defs", {}),
+            /* @__PURE__ */ jsxs9("g", {
               fill: "#be0aff",
               "fill-rule": "evenodd",
               transform: "translate(-151 -173)",
               children: [
-                /* @__PURE__ */ jsx8("path", {
+                /* @__PURE__ */ jsx9("path", {
                   fill: "#be0aff",
                   d: "M508.516097,232.032195 L783.120976,781.241951 C791.271621,797.543242 784.664217,817.365452 768.362927,825.516097 C763.780698,827.807212 758.727967,829 753.604878,829 L204.395122,829 C186.169725,829 171.395122,814.225397 171.395122,796 C171.395122,790.876912 172.58791,785.824181 174.879024,781.241951 L449.483903,232.032195 C457.634548,215.730904 477.456758,209.123501 493.758049,217.274146 C500.144453,220.467348 505.322895,225.64579 508.516097,232.032195 Z",
                   transform: "matrix(0 -1 -1 0 980 980)"
                 }),
-                /* @__PURE__ */ jsx8("path", {
+                /* @__PURE__ */ jsx9("path", {
                   fill: "#147df5",
                   d: "M419.705262,277.910524 L658,754.5 L658,754.5 L151,754.5 L389.294738,277.910524 C393.493555,269.51289 403.704997,266.109076 412.102631,270.307893 C415.392597,271.952876 418.060279,274.620559 419.705262,277.910524 Z",
                   transform: "matrix(0 -1 -1 0 905.5 905.5)"
                 }),
-                /* @__PURE__ */ jsx8("path", {
+                /* @__PURE__ */ jsx9("path", {
                   fill: "#0aff99",
                   d: "M356.705262,340.910524 L532,691.5 L532,691.5 L151,691.5 L326.294738,340.910524 C330.493555,332.51289 340.704997,329.109076 349.102631,333.307893 C352.392597,334.952876 355.060279,337.620559 356.705262,340.910524 Z",
                   transform: "matrix(0 -1 -1 0 842.5 842.5)"
                 }),
-                /* @__PURE__ */ jsx8("path", {
+                /* @__PURE__ */ jsx9("path", {
                   fill: "#deff0a",
                   d: "M293.205262,404.410524 L405,628 L405,628 L151,628 L262.794738,404.410524 C266.993555,396.01289 277.204997,392.609076 285.602631,396.807893 C288.892597,398.452876 291.560279,401.120559 293.205262,404.410524 Z",
                   transform: "matrix(0 -1 -1 0 779 779)"
                 }),
-                /* @__PURE__ */ jsx8("path", {
+                /* @__PURE__ */ jsx9("path", {
                   fill: "#ff0000",
                   d: "M230.599689,469.699379 L278,564.5 L278,564.5 L151,564.5 L198.400311,469.699379 C202.846117,460.807766 213.658232,457.203728 222.549845,461.649534 C226.033338,463.391281 228.857943,466.215886 230.599689,469.699379 Z",
                   transform: "matrix(0 -1 -1 0 715.5 715.5)"
                 }),
-                /* @__PURE__ */ jsx8("text", {
+                /* @__PURE__ */ jsx9("text", {
                   fill: "#000000",
                   "font-family": "Roboto, sans-serif",
                   "font-size": "500",
                   "font-weight": "500",
-                  children: /* @__PURE__ */ jsx8("tspan", {
+                  children: /* @__PURE__ */ jsx9("tspan", {
                     x: "993.25",
                     y: "697",
                     children: "Pencil"
                   })
                 }),
-                /* @__PURE__ */ jsx8("text", {
+                /* @__PURE__ */ jsx9("text", {
                   fill: "#000000",
                   "font-family": "Roboto, sans-serif",
                   "font-size": "100",
                   "font-weight": "500",
-                  children: /* @__PURE__ */ jsx8("tspan", {
+                  children: /* @__PURE__ */ jsx9("tspan", {
                     x: "690.95",
                     y: "829",
                     children: "\xA9"
                   })
                 }),
-                /* @__PURE__ */ jsx8("text", {
+                /* @__PURE__ */ jsx9("text", {
                   fill: "#000000",
                   "font-family": "Roboto, sans-serif",
                   "font-size": "75",
                   "font-weight": "500",
-                  children: /* @__PURE__ */ jsx8("tspan", {
+                  children: /* @__PURE__ */ jsx9("tspan", {
                     x: "2386.5",
                     y: "248",
                     children: "TM"
@@ -7925,124 +7972,8 @@ var Logo = () => {
 };
 
 // src/TitleIndex.tsx
-import { jsx as jsx9, jsxs as jsxs9 } from "react/jsx-runtime";
-var TitleIndex = () => {
-  return /* @__PURE__ */ jsxs9("div", {
-    children: [
-      /* @__PURE__ */ jsxs9("h1", {
-        className: "py-8 text-center text-5xl font-bold",
-        children: [
-          /* @__PURE__ */ jsx9(motion.span, {
-            initial: { opacity: 0 },
-            animate: { opacity: 1 },
-            transition: { delay: 0.5, duration: 1.5 },
-            children: "P"
-          }),
-          /* @__PURE__ */ jsx9(motion.span, {
-            initial: { opacity: 0 },
-            animate: { opacity: 1 },
-            transition: { delay: 0.6, duration: 1.5 },
-            children: "e"
-          }),
-          /* @__PURE__ */ jsx9(motion.span, {
-            initial: { opacity: 0 },
-            animate: { opacity: 1 },
-            transition: { delay: 0.7, duration: 1.5 },
-            children: "n"
-          }),
-          /* @__PURE__ */ jsx9(motion.span, {
-            initial: { opacity: 0 },
-            animate: { opacity: 1 },
-            transition: { delay: 0.8, duration: 1.5 },
-            children: "c"
-          }),
-          /* @__PURE__ */ jsx9(motion.span, {
-            initial: { opacity: 0 },
-            animate: { opacity: 1 },
-            transition: { delay: 0.9, duration: 1.5 },
-            children: "i"
-          }),
-          /* @__PURE__ */ jsx9(motion.span, {
-            initial: { opacity: 0 },
-            animate: { opacity: 1 },
-            transition: { delay: 1, duration: 1.5 },
-            children: "l"
-          }),
-          /* @__PURE__ */ jsx9(motion.span, {
-            initial: { opacity: 0 },
-            animate: { opacity: 1 },
-            transition: { delay: 1.1, duration: 1.5 },
-            children: "\xA0"
-          }),
-          /* @__PURE__ */ jsx9(motion.span, {
-            initial: { opacity: 0 },
-            animate: { opacity: 1 },
-            transition: { delay: 1.2, duration: 1.5 },
-            children: "D"
-          }),
-          /* @__PURE__ */ jsx9(motion.span, {
-            initial: { opacity: 0 },
-            animate: { opacity: 1 },
-            transition: { delay: 1.3, duration: 1.5 },
-            children: "o"
-          }),
-          /* @__PURE__ */ jsx9(motion.span, {
-            initial: { opacity: 0 },
-            animate: { opacity: 1 },
-            transition: { delay: 1.4, duration: 1.5 },
-            children: "m"
-          }),
-          /* @__PURE__ */ jsx9(motion.span, {
-            initial: { opacity: 0 },
-            animate: { opacity: 1 },
-            transition: { delay: 1.5, duration: 1.5 },
-            children: "a"
-          }),
-          /* @__PURE__ */ jsx9(motion.span, {
-            initial: { opacity: 0 },
-            animate: { opacity: 1 },
-            transition: { delay: 1.6, duration: 1.5 },
-            children: "i"
-          }),
-          /* @__PURE__ */ jsx9(motion.span, {
-            initial: { opacity: 0 },
-            animate: { opacity: 1 },
-            transition: { delay: 1.7, duration: 1.5 },
-            children: "n"
-          }),
-          /* @__PURE__ */ jsx9(motion.span, {
-            initial: { opacity: 0 },
-            animate: { opacity: 1 },
-            transition: { delay: 1.8, duration: 1.5 },
-            children: "s"
-          })
-        ]
-      }),
-      /* @__PURE__ */ jsx9(motion.div, {
-        initial: { opacity: 0 },
-        animate: { opacity: 1 },
-        transition: { delay: 2.2, duration: 1.5 },
-        className: "py-8 text-center text-2xl font-bold text-gray-900",
-        children: /* @__PURE__ */ jsx9("p", {
-          children: " 8 Million TLDs on the Blockchain!"
-        })
-      }),
-      /* @__PURE__ */ jsx9(motion.div, {
-        initial: { opacity: 0 },
-        animate: { opacity: 1 },
-        transition: { delay: 2.4, duration: 1.5 },
-        className: "py-8 text-center text-2xl font-bold text-gray-900",
-        children: /* @__PURE__ */ jsx9("p", {
-          children: "Find the perfect domain name for your business or idea."
-        })
-      })
-    ]
-  });
-};
-
-// src/TitleExplorer.tsx
 import { jsx as jsx10, jsxs as jsxs10 } from "react/jsx-runtime";
-var TitleExplorer = () => {
+var TitleIndex = () => {
   return /* @__PURE__ */ jsxs10("div", {
     children: [
       /* @__PURE__ */ jsxs10("h1", {
@@ -8052,49 +7983,85 @@ var TitleExplorer = () => {
             initial: { opacity: 0 },
             animate: { opacity: 1 },
             transition: { delay: 0.5, duration: 1.5 },
-            children: "E"
+            children: "P"
           }),
           /* @__PURE__ */ jsx10(motion.span, {
             initial: { opacity: 0 },
             animate: { opacity: 1 },
             transition: { delay: 0.6, duration: 1.5 },
-            children: "x"
-          }),
-          /* @__PURE__ */ jsx10(motion.span, {
-            initial: { opacity: 0 },
-            animate: { opacity: 1 },
-            transition: { delay: 0.7, duration: 1.5 },
-            children: "p"
-          }),
-          /* @__PURE__ */ jsx10(motion.span, {
-            initial: { opacity: 0 },
-            animate: { opacity: 1 },
-            transition: { delay: 0.8, duration: 1.5 },
-            children: "l"
-          }),
-          /* @__PURE__ */ jsx10(motion.span, {
-            initial: { opacity: 0 },
-            animate: { opacity: 1 },
-            transition: { delay: 0.9, duration: 1.5 },
-            children: "o"
-          }),
-          /* @__PURE__ */ jsx10(motion.span, {
-            initial: { opacity: 0 },
-            animate: { opacity: 1 },
-            transition: { delay: 1, duration: 1.5 },
-            children: "r"
-          }),
-          /* @__PURE__ */ jsx10(motion.span, {
-            initial: { opacity: 0 },
-            animate: { opacity: 1 },
-            transition: { delay: 1.1, duration: 1.5 },
             children: "e"
           }),
           /* @__PURE__ */ jsx10(motion.span, {
             initial: { opacity: 0 },
             animate: { opacity: 1 },
+            transition: { delay: 0.7, duration: 1.5 },
+            children: "n"
+          }),
+          /* @__PURE__ */ jsx10(motion.span, {
+            initial: { opacity: 0 },
+            animate: { opacity: 1 },
+            transition: { delay: 0.8, duration: 1.5 },
+            children: "c"
+          }),
+          /* @__PURE__ */ jsx10(motion.span, {
+            initial: { opacity: 0 },
+            animate: { opacity: 1 },
+            transition: { delay: 0.9, duration: 1.5 },
+            children: "i"
+          }),
+          /* @__PURE__ */ jsx10(motion.span, {
+            initial: { opacity: 0 },
+            animate: { opacity: 1 },
+            transition: { delay: 1, duration: 1.5 },
+            children: "l"
+          }),
+          /* @__PURE__ */ jsx10(motion.span, {
+            initial: { opacity: 0 },
+            animate: { opacity: 1 },
+            transition: { delay: 1.1, duration: 1.5 },
+            children: "\xA0"
+          }),
+          /* @__PURE__ */ jsx10(motion.span, {
+            initial: { opacity: 0 },
+            animate: { opacity: 1 },
+            transition: { delay: 1.2, duration: 1.5 },
+            children: "D"
+          }),
+          /* @__PURE__ */ jsx10(motion.span, {
+            initial: { opacity: 0 },
+            animate: { opacity: 1 },
             transition: { delay: 1.3, duration: 1.5 },
-            children: "r"
+            children: "o"
+          }),
+          /* @__PURE__ */ jsx10(motion.span, {
+            initial: { opacity: 0 },
+            animate: { opacity: 1 },
+            transition: { delay: 1.4, duration: 1.5 },
+            children: "m"
+          }),
+          /* @__PURE__ */ jsx10(motion.span, {
+            initial: { opacity: 0 },
+            animate: { opacity: 1 },
+            transition: { delay: 1.5, duration: 1.5 },
+            children: "a"
+          }),
+          /* @__PURE__ */ jsx10(motion.span, {
+            initial: { opacity: 0 },
+            animate: { opacity: 1 },
+            transition: { delay: 1.6, duration: 1.5 },
+            children: "i"
+          }),
+          /* @__PURE__ */ jsx10(motion.span, {
+            initial: { opacity: 0 },
+            animate: { opacity: 1 },
+            transition: { delay: 1.7, duration: 1.5 },
+            children: "n"
+          }),
+          /* @__PURE__ */ jsx10(motion.span, {
+            initial: { opacity: 0 },
+            animate: { opacity: 1 },
+            transition: { delay: 1.8, duration: 1.5 },
+            children: "s"
           })
         ]
       }),
@@ -8120,9 +8087,9 @@ var TitleExplorer = () => {
   });
 };
 
-// src/TitleCorporate.tsx
+// src/TitleExplorer.tsx
 import { jsx as jsx11, jsxs as jsxs11 } from "react/jsx-runtime";
-var TitleCorporate = () => {
+var TitleExplorer = () => {
   return /* @__PURE__ */ jsxs11("div", {
     children: [
       /* @__PURE__ */ jsxs11("h1", {
@@ -8132,85 +8099,49 @@ var TitleCorporate = () => {
             initial: { opacity: 0 },
             animate: { opacity: 1 },
             transition: { delay: 0.5, duration: 1.5 },
-            children: "P"
+            children: "E"
           }),
           /* @__PURE__ */ jsx11(motion.span, {
             initial: { opacity: 0 },
             animate: { opacity: 1 },
             transition: { delay: 0.6, duration: 1.5 },
-            children: "e"
+            children: "x"
           }),
           /* @__PURE__ */ jsx11(motion.span, {
             initial: { opacity: 0 },
             animate: { opacity: 1 },
             transition: { delay: 0.7, duration: 1.5 },
-            children: "n"
+            children: "p"
           }),
           /* @__PURE__ */ jsx11(motion.span, {
             initial: { opacity: 0 },
             animate: { opacity: 1 },
             transition: { delay: 0.8, duration: 1.5 },
-            children: "c"
-          }),
-          /* @__PURE__ */ jsx11(motion.span, {
-            initial: { opacity: 0 },
-            animate: { opacity: 1 },
-            transition: { delay: 0.9, duration: 1.5 },
-            children: "i"
-          }),
-          /* @__PURE__ */ jsx11(motion.span, {
-            initial: { opacity: 0 },
-            animate: { opacity: 1 },
-            transition: { delay: 1, duration: 1.5 },
             children: "l"
           }),
           /* @__PURE__ */ jsx11(motion.span, {
             initial: { opacity: 0 },
             animate: { opacity: 1 },
-            transition: { delay: 1.1, duration: 1.5 },
-            children: "\xA0"
-          }),
-          /* @__PURE__ */ jsx11(motion.span, {
-            initial: { opacity: 0 },
-            animate: { opacity: 1 },
-            transition: { delay: 1.2, duration: 1.5 },
-            children: "D"
-          }),
-          /* @__PURE__ */ jsx11(motion.span, {
-            initial: { opacity: 0 },
-            animate: { opacity: 1 },
-            transition: { delay: 1.3, duration: 1.5 },
+            transition: { delay: 0.9, duration: 1.5 },
             children: "o"
           }),
           /* @__PURE__ */ jsx11(motion.span, {
             initial: { opacity: 0 },
             animate: { opacity: 1 },
-            transition: { delay: 1.4, duration: 1.5 },
-            children: "m"
+            transition: { delay: 1, duration: 1.5 },
+            children: "r"
           }),
           /* @__PURE__ */ jsx11(motion.span, {
             initial: { opacity: 0 },
             animate: { opacity: 1 },
-            transition: { delay: 1.5, duration: 1.5 },
-            children: "a"
+            transition: { delay: 1.1, duration: 1.5 },
+            children: "e"
           }),
           /* @__PURE__ */ jsx11(motion.span, {
             initial: { opacity: 0 },
             animate: { opacity: 1 },
-            transition: { delay: 1.6, duration: 1.5 },
-            children: "i"
-          }),
-          /* @__PURE__ */ jsx11(motion.span, {
-            initial: { opacity: 0 },
-            animate: { opacity: 1 },
-            transition: { delay: 1.7, duration: 1.5 },
-            children: "n"
-          }),
-          /* @__PURE__ */ jsx11(motion.span, {
-            initial: { opacity: 0 },
-            animate: { opacity: 1 },
-            transition: { delay: 1.8, duration: 1.5 },
-            children: "s"
+            transition: { delay: 1.3, duration: 1.5 },
+            children: "r"
           })
         ]
       }),
@@ -8229,6 +8160,122 @@ var TitleCorporate = () => {
         transition: { delay: 2.4, duration: 1.5 },
         className: "py-8 text-center text-2xl font-bold text-gray-900",
         children: /* @__PURE__ */ jsx11("p", {
+          children: "Find the perfect domain name for your business or idea."
+        })
+      })
+    ]
+  });
+};
+
+// src/TitleCorporate.tsx
+import { jsx as jsx12, jsxs as jsxs12 } from "react/jsx-runtime";
+var TitleCorporate = () => {
+  return /* @__PURE__ */ jsxs12("div", {
+    children: [
+      /* @__PURE__ */ jsxs12("h1", {
+        className: "py-8 text-center text-5xl font-bold",
+        children: [
+          /* @__PURE__ */ jsx12(motion.span, {
+            initial: { opacity: 0 },
+            animate: { opacity: 1 },
+            transition: { delay: 0.5, duration: 1.5 },
+            children: "P"
+          }),
+          /* @__PURE__ */ jsx12(motion.span, {
+            initial: { opacity: 0 },
+            animate: { opacity: 1 },
+            transition: { delay: 0.6, duration: 1.5 },
+            children: "e"
+          }),
+          /* @__PURE__ */ jsx12(motion.span, {
+            initial: { opacity: 0 },
+            animate: { opacity: 1 },
+            transition: { delay: 0.7, duration: 1.5 },
+            children: "n"
+          }),
+          /* @__PURE__ */ jsx12(motion.span, {
+            initial: { opacity: 0 },
+            animate: { opacity: 1 },
+            transition: { delay: 0.8, duration: 1.5 },
+            children: "c"
+          }),
+          /* @__PURE__ */ jsx12(motion.span, {
+            initial: { opacity: 0 },
+            animate: { opacity: 1 },
+            transition: { delay: 0.9, duration: 1.5 },
+            children: "i"
+          }),
+          /* @__PURE__ */ jsx12(motion.span, {
+            initial: { opacity: 0 },
+            animate: { opacity: 1 },
+            transition: { delay: 1, duration: 1.5 },
+            children: "l"
+          }),
+          /* @__PURE__ */ jsx12(motion.span, {
+            initial: { opacity: 0 },
+            animate: { opacity: 1 },
+            transition: { delay: 1.1, duration: 1.5 },
+            children: "\xA0"
+          }),
+          /* @__PURE__ */ jsx12(motion.span, {
+            initial: { opacity: 0 },
+            animate: { opacity: 1 },
+            transition: { delay: 1.2, duration: 1.5 },
+            children: "D"
+          }),
+          /* @__PURE__ */ jsx12(motion.span, {
+            initial: { opacity: 0 },
+            animate: { opacity: 1 },
+            transition: { delay: 1.3, duration: 1.5 },
+            children: "o"
+          }),
+          /* @__PURE__ */ jsx12(motion.span, {
+            initial: { opacity: 0 },
+            animate: { opacity: 1 },
+            transition: { delay: 1.4, duration: 1.5 },
+            children: "m"
+          }),
+          /* @__PURE__ */ jsx12(motion.span, {
+            initial: { opacity: 0 },
+            animate: { opacity: 1 },
+            transition: { delay: 1.5, duration: 1.5 },
+            children: "a"
+          }),
+          /* @__PURE__ */ jsx12(motion.span, {
+            initial: { opacity: 0 },
+            animate: { opacity: 1 },
+            transition: { delay: 1.6, duration: 1.5 },
+            children: "i"
+          }),
+          /* @__PURE__ */ jsx12(motion.span, {
+            initial: { opacity: 0 },
+            animate: { opacity: 1 },
+            transition: { delay: 1.7, duration: 1.5 },
+            children: "n"
+          }),
+          /* @__PURE__ */ jsx12(motion.span, {
+            initial: { opacity: 0 },
+            animate: { opacity: 1 },
+            transition: { delay: 1.8, duration: 1.5 },
+            children: "s"
+          })
+        ]
+      }),
+      /* @__PURE__ */ jsx12(motion.div, {
+        initial: { opacity: 0 },
+        animate: { opacity: 1 },
+        transition: { delay: 2.2, duration: 1.5 },
+        className: "py-8 text-center text-2xl font-bold text-gray-900",
+        children: /* @__PURE__ */ jsx12("p", {
+          children: " 8 Million TLDs on the Blockchain!"
+        })
+      }),
+      /* @__PURE__ */ jsx12(motion.div, {
+        initial: { opacity: 0 },
+        animate: { opacity: 1 },
+        transition: { delay: 2.4, duration: 1.5 },
+        className: "py-8 text-center text-2xl font-bold text-gray-900",
+        children: /* @__PURE__ */ jsx12("p", {
           children: "25819 names on this amazing Handshake Blocks and Ranking Names portal."
         })
       })
@@ -8237,49 +8284,49 @@ var TitleCorporate = () => {
 };
 
 // src/ListPylar.tsx
-import { jsx as jsx12, jsxs as jsxs12 } from "react/jsx-runtime";
+import { jsx as jsx13, jsxs as jsxs13 } from "react/jsx-runtime";
 var ListPylar = () => {
-  return /* @__PURE__ */ jsx12("div", {
+  return /* @__PURE__ */ jsx13("div", {
     className: "mt-8 flex flex-row justify-center",
-    children: /* @__PURE__ */ jsxs12("div", {
+    children: /* @__PURE__ */ jsxs13("div", {
       className: "flex w-3/4 flex-col",
       children: [
-        /* @__PURE__ */ jsx12("h2", {
+        /* @__PURE__ */ jsx13("h2", {
           className: "text-2xl font-bold",
           children: "Welcome to the Pylar AI Blog"
         }),
-        /* @__PURE__ */ jsxs12("p", {
+        /* @__PURE__ */ jsxs13("p", {
           className: "mt-4 text-lg",
           children: [
             "Pylar AI is:",
-            /* @__PURE__ */ jsxs12("ul", {
+            /* @__PURE__ */ jsxs13("ul", {
               className: "list-inside list-disc",
               children: [
-                /* @__PURE__ */ jsx12("li", {
+                /* @__PURE__ */ jsx13("li", {
                   children: "Generative art results"
                 }),
-                /* @__PURE__ */ jsx12("a", {
+                /* @__PURE__ */ jsx13("a", {
                   children: "What is generative art? Generative art is a form of art that uses a computer to create art. The computer is programmed to create art based on a set of rules."
                 }),
-                /* @__PURE__ */ jsx12("p", {
+                /* @__PURE__ */ jsx13("p", {
                   children: "\xA0"
                 }),
-                /* @__PURE__ */ jsx12("li", {
+                /* @__PURE__ */ jsx13("li", {
                   children: "Promt Engineering design"
                 }),
-                /* @__PURE__ */ jsx12("a", {
+                /* @__PURE__ */ jsx13("a", {
                   children: "Promt Engineering is a form of engineering that uses a computer to create engineering. The computer is programmed to create engineering based on a set of rules."
                 }),
-                /* @__PURE__ */ jsx12("p", {
+                /* @__PURE__ */ jsx13("p", {
                   children: "\xA0"
                 }),
-                /* @__PURE__ */ jsx12("li", {
+                /* @__PURE__ */ jsx13("li", {
                   children: "StableDiffusion 2.0 modified"
                 }),
-                /* @__PURE__ */ jsx12("a", {
+                /* @__PURE__ */ jsx13("a", {
                   children: "StableDiffusion 2.0 is a computer program that is used to create art based on a set of rules."
                 }),
-                /* @__PURE__ */ jsx12("p", {
+                /* @__PURE__ */ jsx13("p", {
                   children: "\xA0"
                 })
               ]
@@ -8292,11 +8339,11 @@ var ListPylar = () => {
 };
 
 // src/Versions.tsx
-import { jsx as jsx13 } from "react/jsx-runtime";
+import { jsx as jsx14 } from "react/jsx-runtime";
 var Versions = () => {
-  return /* @__PURE__ */ jsx13("button", {
+  return /* @__PURE__ */ jsx14("button", {
     className: "hidden bg-yellow-200 py-2 px-4 text-xs font-bold text-black md:block",
-    children: /* @__PURE__ */ jsx13("a", {
+    children: /* @__PURE__ */ jsx14("a", {
       href: "http://github.com/miguelgargallo/next13-Fetch-Data-turbo",
       target: "_blank",
       rel: "noopener noreferrer",
@@ -8306,99 +8353,99 @@ var Versions = () => {
 };
 
 // src/Card.tsx
-import { jsx as jsx14, jsxs as jsxs13 } from "react/jsx-runtime";
+import { jsx as jsx15, jsxs as jsxs14 } from "react/jsx-runtime";
 var Card = () => {
-  return /* @__PURE__ */ jsx14("div", {
+  return /* @__PURE__ */ jsx15("div", {
     className: "shaddow-md duration-800 cols-span-1 m-10 rounded-lg border border-sky-500 px-10 py-5 text-center shadow transition-shadow ease-in-out hover:shadow-2xl",
-    children: /* @__PURE__ */ jsxs13("div", {
+    children: /* @__PURE__ */ jsxs14("div", {
       className: "overflow-hidden bg-white shadow sm:rounded-lg",
       children: [
-        /* @__PURE__ */ jsxs13("div", {
+        /* @__PURE__ */ jsxs14("div", {
           className: "px-4 py-5 sm:px-6",
           children: [
-            /* @__PURE__ */ jsx14("a", {
+            /* @__PURE__ */ jsx15("a", {
               href: "https://hns.pencil.li",
               target: "_blank",
               rel: "noopener noreferrer",
               className: "p-2",
-              children: /* @__PURE__ */ jsx14("picture", {
-                children: /* @__PURE__ */ jsxs13("svg", {
+              children: /* @__PURE__ */ jsx15("picture", {
+                children: /* @__PURE__ */ jsxs14("svg", {
                   xmlns: "http://www.w3.org/2000/svg",
                   width: "150",
                   height: "25",
                   viewBox: "0 0 2344 678",
                   children: [
-                    /* @__PURE__ */ jsxs13("defs", {
+                    /* @__PURE__ */ jsxs14("defs", {
                       children: [
-                        /* @__PURE__ */ jsxs13("linearGradient", {
+                        /* @__PURE__ */ jsxs14("linearGradient", {
                           id: "a",
                           x1: "0%",
                           x2: "100%",
                           y1: "50%",
                           y2: "50%",
                           children: [
-                            /* @__PURE__ */ jsx14("stop", {
+                            /* @__PURE__ */ jsx15("stop", {
                               offset: "0%",
                               "stop-color": "#B620E0"
                             }),
-                            /* @__PURE__ */ jsx14("stop", {
+                            /* @__PURE__ */ jsx15("stop", {
                               offset: "16.68%",
                               "stop-color": "#6236FF"
                             }),
-                            /* @__PURE__ */ jsx14("stop", {
+                            /* @__PURE__ */ jsx15("stop", {
                               offset: "33.433%",
                               "stop-color": "#0091FF"
                             }),
-                            /* @__PURE__ */ jsx14("stop", {
+                            /* @__PURE__ */ jsx15("stop", {
                               offset: "49.949%",
                               "stop-color": "#6DD400"
                             }),
-                            /* @__PURE__ */ jsx14("stop", {
+                            /* @__PURE__ */ jsx15("stop", {
                               offset: "66.61%",
                               "stop-color": "#F7B500"
                             }),
-                            /* @__PURE__ */ jsx14("stop", {
+                            /* @__PURE__ */ jsx15("stop", {
                               offset: "83.281%",
                               "stop-color": "#FA6400"
                             }),
-                            /* @__PURE__ */ jsx14("stop", {
+                            /* @__PURE__ */ jsx15("stop", {
                               offset: "100%",
                               "stop-color": "#E02020"
                             })
                           ]
                         }),
-                        /* @__PURE__ */ jsxs13("linearGradient", {
+                        /* @__PURE__ */ jsxs14("linearGradient", {
                           id: "b",
                           x1: "100%",
                           x2: "0%",
                           y1: "50%",
                           y2: "50%",
                           children: [
-                            /* @__PURE__ */ jsx14("stop", {
+                            /* @__PURE__ */ jsx15("stop", {
                               offset: "0%",
                               "stop-color": "#E02020"
                             }),
-                            /* @__PURE__ */ jsx14("stop", {
+                            /* @__PURE__ */ jsx15("stop", {
                               offset: "16.719%",
                               "stop-color": "#FA6400"
                             }),
-                            /* @__PURE__ */ jsx14("stop", {
+                            /* @__PURE__ */ jsx15("stop", {
                               offset: "33.39%",
                               "stop-color": "#F7B500"
                             }),
-                            /* @__PURE__ */ jsx14("stop", {
+                            /* @__PURE__ */ jsx15("stop", {
                               offset: "50.051%",
                               "stop-color": "#6DD400"
                             }),
-                            /* @__PURE__ */ jsx14("stop", {
+                            /* @__PURE__ */ jsx15("stop", {
                               offset: "66.567%",
                               "stop-color": "#0091FF"
                             }),
-                            /* @__PURE__ */ jsx14("stop", {
+                            /* @__PURE__ */ jsx15("stop", {
                               offset: "83.32%",
                               "stop-color": "#6236FF"
                             }),
-                            /* @__PURE__ */ jsx14("stop", {
+                            /* @__PURE__ */ jsx15("stop", {
                               offset: "100%",
                               "stop-color": "#B620E0"
                             })
@@ -8406,64 +8453,64 @@ var Card = () => {
                         })
                       ]
                     }),
-                    /* @__PURE__ */ jsxs13("g", {
+                    /* @__PURE__ */ jsxs14("g", {
                       fill: "none",
                       "fill-rule": "evenodd",
                       transform: "translate(-151 -173)",
                       children: [
-                        /* @__PURE__ */ jsx14("path", {
+                        /* @__PURE__ */ jsx15("path", {
                           fill: "url(#a)",
                           d: "M508.516097,232.032195 L783.120976,781.241951 C791.271621,797.543242 784.664217,817.365452 768.362927,825.516097 C763.780698,827.807212 758.727967,829 753.604878,829 L204.395122,829 C186.169725,829 171.395122,814.225397 171.395122,796 C171.395122,790.876912 172.58791,785.824181 174.879024,781.241951 L449.483903,232.032195 C457.634548,215.730904 477.456758,209.123501 493.758049,217.274146 C500.144453,220.467348 505.322895,225.64579 508.516097,232.032195 Z",
                           transform: "matrix(0 -1 -1 0 980 980)"
                         }),
-                        /* @__PURE__ */ jsx14("path", {
+                        /* @__PURE__ */ jsx15("path", {
                           fill: "url(#b)",
                           d: "M419.705262,277.910524 L658,754.5 L658,754.5 L151,754.5 L389.294738,277.910524 C393.493555,269.51289 403.704997,266.109076 412.102631,270.307893 C415.392597,271.952876 418.060279,274.620559 419.705262,277.910524 Z",
                           transform: "matrix(0 -1 -1 0 905.5 905.5)"
                         }),
-                        /* @__PURE__ */ jsx14("path", {
+                        /* @__PURE__ */ jsx15("path", {
                           fill: "url(#a)",
                           d: "M356.705262,340.910524 L532,691.5 L532,691.5 L151,691.5 L326.294738,340.910524 C330.493555,332.51289 340.704997,329.109076 349.102631,333.307893 C352.392597,334.952876 355.060279,337.620559 356.705262,340.910524 Z",
                           transform: "matrix(0 -1 -1 0 842.5 842.5)"
                         }),
-                        /* @__PURE__ */ jsx14("path", {
+                        /* @__PURE__ */ jsx15("path", {
                           fill: "url(#b)",
                           d: "M293.205262,404.410524 L405,628 L405,628 L151,628 L262.794738,404.410524 C266.993555,396.01289 277.204997,392.609076 285.602631,396.807893 C288.892597,398.452876 291.560279,401.120559 293.205262,404.410524 Z",
                           transform: "matrix(0 -1 -1 0 779 779)"
                         }),
-                        /* @__PURE__ */ jsx14("path", {
+                        /* @__PURE__ */ jsx15("path", {
                           fill: "url(#a)",
                           d: "M230.599689,469.699379 L278,564.5 L278,564.5 L151,564.5 L198.400311,469.699379 C202.846117,460.807766 213.658232,457.203728 222.549845,461.649534 C226.033338,463.391281 228.857943,466.215886 230.599689,469.699379 Z",
                           transform: "matrix(0 -1 -1 0 715.5 715.5)"
                         }),
-                        /* @__PURE__ */ jsx14("text", {
+                        /* @__PURE__ */ jsx15("text", {
                           fill: "#6CD300",
                           "font-family": "Roboto-Regular, Roboto",
                           "font-size": "500",
                           "font-weight": "500",
-                          children: /* @__PURE__ */ jsx14("tspan", {
+                          children: /* @__PURE__ */ jsx15("tspan", {
                             x: "993.25",
                             y: "697",
                             children: "Pencil"
                           })
                         }),
-                        /* @__PURE__ */ jsx14("text", {
+                        /* @__PURE__ */ jsx15("text", {
                           fill: "#1C78FF",
                           "font-family": "Roboto-Regular, Roboto",
                           "font-size": "100",
                           "font-weight": "500",
-                          children: /* @__PURE__ */ jsx14("tspan", {
+                          children: /* @__PURE__ */ jsx15("tspan", {
                             x: "690.95",
                             y: "829",
                             children: "\xA9"
                           })
                         }),
-                        /* @__PURE__ */ jsx14("text", {
+                        /* @__PURE__ */ jsx15("text", {
                           fill: "#F75B04",
                           "font-family": "Roboto-Regular, Roboto",
                           "font-size": "75",
                           "font-weight": "500",
-                          children: /* @__PURE__ */ jsx14("tspan", {
+                          children: /* @__PURE__ */ jsx15("tspan", {
                             x: "2386.5",
                             y: "248",
                             children: "TM"
@@ -8475,41 +8522,41 @@ var Card = () => {
                 })
               })
             }),
-            /* @__PURE__ */ jsx14("h3", {
+            /* @__PURE__ */ jsx15("h3", {
               className: "text-lg font-medium leading-6 text-gray-900",
               children: "Pencil Domains"
             }),
-            /* @__PURE__ */ jsx14("p", {
+            /* @__PURE__ */ jsx15("p", {
               className: "mt-1 max-w-2xl text-sm text-gray-500",
               children: "Pencil Domains is a domain name registrar that allows you to register in this new namespace."
             })
           ]
         }),
-        /* @__PURE__ */ jsx14("div", {
+        /* @__PURE__ */ jsx15("div", {
           className: "border-t border-gray-200",
-          children: /* @__PURE__ */ jsxs13("dl", {
+          children: /* @__PURE__ */ jsxs14("dl", {
             children: [
-              /* @__PURE__ */ jsxs13("div", {
+              /* @__PURE__ */ jsxs14("div", {
                 className: "bg-gray-50 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6",
                 children: [
-                  /* @__PURE__ */ jsx14("dt", {
+                  /* @__PURE__ */ jsx15("dt", {
                     className: "text-sm font-medium text-gray-500",
                     children: "Blockchain"
                   }),
-                  /* @__PURE__ */ jsx14("dd", {
+                  /* @__PURE__ */ jsx15("dd", {
                     className: "mt-1 text-sm text-gray-900 sm:col-span-2 sm:mt-0",
                     children: "Handshake"
                   })
                 ]
               }),
-              /* @__PURE__ */ jsxs13("div", {
+              /* @__PURE__ */ jsxs14("div", {
                 className: "bg-white px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6",
                 children: [
-                  /* @__PURE__ */ jsx14("dt", {
+                  /* @__PURE__ */ jsx15("dt", {
                     className: "text-sm font-medium text-gray-500",
                     children: "Domain Owner"
                   }),
-                  /* @__PURE__ */ jsx14("dd", {
+                  /* @__PURE__ */ jsx15("dd", {
                     className: "mt-1 text-sm text-gray-900 sm:col-span-2 sm:mt-0",
                     children: "Custody"
                   })
@@ -8571,11 +8618,11 @@ var k = (n, t, e) => {
 };
 
 // src/GradientWhite.tsx
-import { jsx as jsx15 } from "react/jsx-runtime";
+import { jsx as jsx16 } from "react/jsx-runtime";
 var ELEMENTS = 0;
 var GradientWhite = () => {
-  return /* @__PURE__ */ jsx15("div", {
-    children: /* @__PURE__ */ jsx15("svg", {
+  return /* @__PURE__ */ jsx16("div", {
+    children: /* @__PURE__ */ jsx16("svg", {
       xmlns: "http://www.w3.org/2000/svg",
       width: "95",
       height: "95",
@@ -8584,7 +8631,7 @@ var GradientWhite = () => {
       viewBox: "0 0 95 95",
       className: "m-2 rounded-xl py-2 shadow-md hover:shadow-xl",
       style: k(ELEMENTS),
-      children: /* @__PURE__ */ jsx15("path", {
+      children: /* @__PURE__ */ jsx16("path", {
         d: "M32.816,12.95,30.349,8.568h4.78a.439.439,0,0,1,.346.2l.931,1.534c.558.92,1.225,2.02,1.607,2.648ZM23.975,39.495a.339.339,0,0,1-.315.207H18.772l7.595-13.635a.731.731,0,0,0-.636-1.087h0L12.787,25l-2.574-4.456H29.076c.011,0,.02,0,.031,0a.677.677,0,0,0,.217-.045l.047-.02a.722.722,0,0,0,.346-.313l3.108-5.745h5.13Zm-6.468-.518-.613-1.009c-.785-1.3-1.791-2.955-1.9-3.137a.385.385,0,0,1,.024-.355l4.457-8.027,5.019-.006ZM8.948,30.444,6.453,26.011,8.968,21.3l2.522,4.367C10.706,27.14,9.483,29.442,8.948,30.444Zm-3.348.69H2.881a.443.443,0,0,1-.343-.2L1.726,29.6C1.147,28.641.409,27.425,0,26.752H5.2l2.466,4.383ZM14.037.208A.338.338,0,0,1,14.351,0h4.91L11.646,13.636c-.006.011-.01.023-.016.035s-.021.046-.03.07-.015.046-.021.069-.011.044-.014.066a.648.648,0,0,0-.008.081c0,.012,0,.023,0,.036s0,.018,0,.027a.591.591,0,0,0,.008.079.538.538,0,0,0,.012.066c.006.023.013.045.021.068s.016.045.025.066.021.041.033.062.023.04.037.059a.644.644,0,0,0,.045.055c.016.017.031.035.048.051s.035.029.053.043a.634.634,0,0,0,.063.045l.023.016c.008,0,.018.006.027.011a.729.729,0,0,0,.119.048c.015,0,.029.01.044.013a.7.7,0,0,0,.164.021h.33l12.619-.017c.334.58.957,1.673,1.489,2.6q.612,1.072,1.01,1.768H8.949c-.008,0-.016,0-.024,0a.725.725,0,0,0-.631.382L5.185,25.29H.059Zm6.479.534.456.75c.8,1.321,1.932,3.185,2.052,3.379A.383.383,0,0,1,23,5.227l-4.457,8.027-5.017.006Zm8.546,8.511,2.5,4.435-2.545,4.7c-.3-.529-.68-1.189-1.034-1.808-.7-1.224-1.208-2.115-1.495-2.613C27.028,12.977,28.462,10.349,29.062,9.253Z",
         id: "Fill-1",
         className: "fill-current"
@@ -8594,10 +8641,10 @@ var GradientWhite = () => {
 };
 
 // src/GradientDiamond.tsx
-import { jsx as jsx16 } from "react/jsx-runtime";
+import { jsx as jsx17 } from "react/jsx-runtime";
 var ELEMENTS2 = 25;
 var GradientDiamond = () => {
-  return /* @__PURE__ */ jsx16("svg", {
+  return /* @__PURE__ */ jsx17("svg", {
     xmlns: "http://www.w3.org/2000/svg",
     width: "95",
     height: "95",
@@ -8606,7 +8653,7 @@ var GradientDiamond = () => {
     viewBox: "0 0 95 95",
     className: "m-2 rounded-xl py-2 shadow-md hover:shadow-xl",
     style: k(ELEMENTS2),
-    children: /* @__PURE__ */ jsx16("path", {
+    children: /* @__PURE__ */ jsx17("path", {
       d: "M32.816,12.95,30.349,8.568h4.78a.439.439,0,0,1,.346.2l.931,1.534c.558.92,1.225,2.02,1.607,2.648ZM23.975,39.495a.339.339,0,0,1-.315.207H18.772l7.595-13.635a.731.731,0,0,0-.636-1.087h0L12.787,25l-2.574-4.456H29.076c.011,0,.02,0,.031,0a.677.677,0,0,0,.217-.045l.047-.02a.722.722,0,0,0,.346-.313l3.108-5.745h5.13Zm-6.468-.518-.613-1.009c-.785-1.3-1.791-2.955-1.9-3.137a.385.385,0,0,1,.024-.355l4.457-8.027,5.019-.006ZM8.948,30.444,6.453,26.011,8.968,21.3l2.522,4.367C10.706,27.14,9.483,29.442,8.948,30.444Zm-3.348.69H2.881a.443.443,0,0,1-.343-.2L1.726,29.6C1.147,28.641.409,27.425,0,26.752H5.2l2.466,4.383ZM14.037.208A.338.338,0,0,1,14.351,0h4.91L11.646,13.636c-.006.011-.01.023-.016.035s-.021.046-.03.07-.015.046-.021.069-.011.044-.014.066a.648.648,0,0,0-.008.081c0,.012,0,.023,0,.036s0,.018,0,.027a.591.591,0,0,0,.008.079.538.538,0,0,0,.012.066c.006.023.013.045.021.068s.016.045.025.066.021.041.033.062.023.04.037.059a.644.644,0,0,0,.045.055c.016.017.031.035.048.051s.035.029.053.043a.634.634,0,0,0,.063.045l.023.016c.008,0,.018.006.027.011a.729.729,0,0,0,.119.048c.015,0,.029.01.044.013a.7.7,0,0,0,.164.021h.33l12.619-.017c.334.58.957,1.673,1.489,2.6q.612,1.072,1.01,1.768H8.949c-.008,0-.016,0-.024,0a.725.725,0,0,0-.631.382L5.185,25.29H.059Zm6.479.534.456.75c.8,1.321,1.932,3.185,2.052,3.379A.383.383,0,0,1,23,5.227l-4.457,8.027-5.017.006Zm8.546,8.511,2.5,4.435-2.545,4.7c-.3-.529-.68-1.189-1.034-1.808-.7-1.224-1.208-2.115-1.495-2.613C27.028,12.977,28.462,10.349,29.062,9.253Z",
       id: "Fill-1",
       className: "fill-sky-500"
@@ -8615,11 +8662,11 @@ var GradientDiamond = () => {
 };
 
 // src/GradientGold.tsx
-import { jsx as jsx17 } from "react/jsx-runtime";
+import { jsx as jsx18 } from "react/jsx-runtime";
 var ELEMENTS3 = 5;
 var GradientGold = () => {
-  return /* @__PURE__ */ jsx17("div", {
-    children: /* @__PURE__ */ jsx17("svg", {
+  return /* @__PURE__ */ jsx18("div", {
+    children: /* @__PURE__ */ jsx18("svg", {
       xmlns: "http://www.w3.org/2000/svg",
       width: "95",
       height: "95",
@@ -8628,7 +8675,7 @@ var GradientGold = () => {
       viewBox: "0 0 95 95",
       className: "m-2 rounded-xl py-2 shadow-md hover:shadow-xl",
       style: k(ELEMENTS3),
-      children: /* @__PURE__ */ jsx17("path", {
+      children: /* @__PURE__ */ jsx18("path", {
         d: "M32.816,12.95,30.349,8.568h4.78a.439.439,0,0,1,.346.2l.931,1.534c.558.92,1.225,2.02,1.607,2.648ZM23.975,39.495a.339.339,0,0,1-.315.207H18.772l7.595-13.635a.731.731,0,0,0-.636-1.087h0L12.787,25l-2.574-4.456H29.076c.011,0,.02,0,.031,0a.677.677,0,0,0,.217-.045l.047-.02a.722.722,0,0,0,.346-.313l3.108-5.745h5.13Zm-6.468-.518-.613-1.009c-.785-1.3-1.791-2.955-1.9-3.137a.385.385,0,0,1,.024-.355l4.457-8.027,5.019-.006ZM8.948,30.444,6.453,26.011,8.968,21.3l2.522,4.367C10.706,27.14,9.483,29.442,8.948,30.444Zm-3.348.69H2.881a.443.443,0,0,1-.343-.2L1.726,29.6C1.147,28.641.409,27.425,0,26.752H5.2l2.466,4.383ZM14.037.208A.338.338,0,0,1,14.351,0h4.91L11.646,13.636c-.006.011-.01.023-.016.035s-.021.046-.03.07-.015.046-.021.069-.011.044-.014.066a.648.648,0,0,0-.008.081c0,.012,0,.023,0,.036s0,.018,0,.027a.591.591,0,0,0,.008.079.538.538,0,0,0,.012.066c.006.023.013.045.021.068s.016.045.025.066.021.041.033.062.023.04.037.059a.644.644,0,0,0,.045.055c.016.017.031.035.048.051s.035.029.053.043a.634.634,0,0,0,.063.045l.023.016c.008,0,.018.006.027.011a.729.729,0,0,0,.119.048c.015,0,.029.01.044.013a.7.7,0,0,0,.164.021h.33l12.619-.017c.334.58.957,1.673,1.489,2.6q.612,1.072,1.01,1.768H8.949c-.008,0-.016,0-.024,0a.725.725,0,0,0-.631.382L5.185,25.29H.059Zm6.479.534.456.75c.8,1.321,1.932,3.185,2.052,3.379A.383.383,0,0,1,23,5.227l-4.457,8.027-5.017.006Zm8.546,8.511,2.5,4.435-2.545,4.7c-.3-.529-.68-1.189-1.034-1.808-.7-1.224-1.208-2.115-1.495-2.613C27.028,12.977,28.462,10.349,29.062,9.253Z",
         id: "Fill-1",
         className: "fill-yellow-500"
@@ -8638,10 +8685,10 @@ var GradientGold = () => {
 };
 
 // src/GradientSilver.tsx
-import { jsx as jsx18 } from "react/jsx-runtime";
+import { jsx as jsx19 } from "react/jsx-runtime";
 var ELEMENTS4 = 3;
 var GradientSilver = () => {
-  return /* @__PURE__ */ jsx18("svg", {
+  return /* @__PURE__ */ jsx19("svg", {
     xmlns: "http://www.w3.org/2000/svg",
     width: "95",
     height: "95",
@@ -8650,7 +8697,7 @@ var GradientSilver = () => {
     viewBox: "0 0 95 95",
     className: "m-2 rounded-xl py-2 shadow-md hover:shadow-xl",
     style: k(ELEMENTS4),
-    children: /* @__PURE__ */ jsx18("path", {
+    children: /* @__PURE__ */ jsx19("path", {
       d: "M32.816,12.95,30.349,8.568h4.78a.439.439,0,0,1,.346.2l.931,1.534c.558.92,1.225,2.02,1.607,2.648ZM23.975,39.495a.339.339,0,0,1-.315.207H18.772l7.595-13.635a.731.731,0,0,0-.636-1.087h0L12.787,25l-2.574-4.456H29.076c.011,0,.02,0,.031,0a.677.677,0,0,0,.217-.045l.047-.02a.722.722,0,0,0,.346-.313l3.108-5.745h5.13Zm-6.468-.518-.613-1.009c-.785-1.3-1.791-2.955-1.9-3.137a.385.385,0,0,1,.024-.355l4.457-8.027,5.019-.006ZM8.948,30.444,6.453,26.011,8.968,21.3l2.522,4.367C10.706,27.14,9.483,29.442,8.948,30.444Zm-3.348.69H2.881a.443.443,0,0,1-.343-.2L1.726,29.6C1.147,28.641.409,27.425,0,26.752H5.2l2.466,4.383ZM14.037.208A.338.338,0,0,1,14.351,0h4.91L11.646,13.636c-.006.011-.01.023-.016.035s-.021.046-.03.07-.015.046-.021.069-.011.044-.014.066a.648.648,0,0,0-.008.081c0,.012,0,.023,0,.036s0,.018,0,.027a.591.591,0,0,0,.008.079.538.538,0,0,0,.012.066c.006.023.013.045.021.068s.016.045.025.066.021.041.033.062.023.04.037.059a.644.644,0,0,0,.045.055c.016.017.031.035.048.051s.035.029.053.043a.634.634,0,0,0,.063.045l.023.016c.008,0,.018.006.027.011a.729.729,0,0,0,.119.048c.015,0,.029.01.044.013a.7.7,0,0,0,.164.021h.33l12.619-.017c.334.58.957,1.673,1.489,2.6q.612,1.072,1.01,1.768H8.949c-.008,0-.016,0-.024,0a.725.725,0,0,0-.631.382L5.185,25.29H.059Zm6.479.534.456.75c.8,1.321,1.932,3.185,2.052,3.379A.383.383,0,0,1,23,5.227l-4.457,8.027-5.017.006Zm8.546,8.511,2.5,4.435-2.545,4.7c-.3-.529-.68-1.189-1.034-1.808-.7-1.224-1.208-2.115-1.495-2.613C27.028,12.977,28.462,10.349,29.062,9.253Z",
       id: "Fill-1",
       className: "fill-gray-500"
@@ -8659,11 +8706,11 @@ var GradientSilver = () => {
 };
 
 // src/GradientBronze.tsx
-import { jsx as jsx19 } from "react/jsx-runtime";
+import { jsx as jsx20 } from "react/jsx-runtime";
 var ELEMENTS5 = 1;
 var GradientBronze = () => {
-  return /* @__PURE__ */ jsx19("div", {
-    children: /* @__PURE__ */ jsx19("svg", {
+  return /* @__PURE__ */ jsx20("div", {
+    children: /* @__PURE__ */ jsx20("svg", {
       xmlns: "http://www.w3.org/2000/svg",
       width: "95",
       height: "95",
@@ -8672,7 +8719,7 @@ var GradientBronze = () => {
       viewBox: "0 0 95 95",
       className: "m-2 rounded-xl py-2 shadow-md hover:shadow-xl",
       style: k(ELEMENTS5),
-      children: /* @__PURE__ */ jsx19("path", {
+      children: /* @__PURE__ */ jsx20("path", {
         d: "M32.816,12.95,30.349,8.568h4.78a.439.439,0,0,1,.346.2l.931,1.534c.558.92,1.225,2.02,1.607,2.648ZM23.975,39.495a.339.339,0,0,1-.315.207H18.772l7.595-13.635a.731.731,0,0,0-.636-1.087h0L12.787,25l-2.574-4.456H29.076c.011,0,.02,0,.031,0a.677.677,0,0,0,.217-.045l.047-.02a.722.722,0,0,0,.346-.313l3.108-5.745h5.13Zm-6.468-.518-.613-1.009c-.785-1.3-1.791-2.955-1.9-3.137a.385.385,0,0,1,.024-.355l4.457-8.027,5.019-.006ZM8.948,30.444,6.453,26.011,8.968,21.3l2.522,4.367C10.706,27.14,9.483,29.442,8.948,30.444Zm-3.348.69H2.881a.443.443,0,0,1-.343-.2L1.726,29.6C1.147,28.641.409,27.425,0,26.752H5.2l2.466,4.383ZM14.037.208A.338.338,0,0,1,14.351,0h4.91L11.646,13.636c-.006.011-.01.023-.016.035s-.021.046-.03.07-.015.046-.021.069-.011.044-.014.066a.648.648,0,0,0-.008.081c0,.012,0,.023,0,.036s0,.018,0,.027a.591.591,0,0,0,.008.079.538.538,0,0,0,.012.066c.006.023.013.045.021.068s.016.045.025.066.021.041.033.062.023.04.037.059a.644.644,0,0,0,.045.055c.016.017.031.035.048.051s.035.029.053.043a.634.634,0,0,0,.063.045l.023.016c.008,0,.018.006.027.011a.729.729,0,0,0,.119.048c.015,0,.029.01.044.013a.7.7,0,0,0,.164.021h.33l12.619-.017c.334.58.957,1.673,1.489,2.6q.612,1.072,1.01,1.768H8.949c-.008,0-.016,0-.024,0a.725.725,0,0,0-.631.382L5.185,25.29H.059Zm6.479.534.456.75c.8,1.321,1.932,3.185,2.052,3.379A.383.383,0,0,1,23,5.227l-4.457,8.027-5.017.006Zm8.546,8.511,2.5,4.435-2.545,4.7c-.3-.529-.68-1.189-1.034-1.808-.7-1.224-1.208-2.115-1.495-2.613C27.028,12.977,28.462,10.349,29.062,9.253Z",
         id: "Fill-1",
         className: "fill-orange-500"
@@ -8682,477 +8729,8 @@ var GradientBronze = () => {
 };
 
 // src/DomainsAll.tsx
-import { jsx as jsx20, jsxs as jsxs14 } from "react/jsx-runtime";
-var DomainsAll = () => {
-  return /* @__PURE__ */ jsx20("div", {
-    className: "shaddow-md duration-800 cols-span-1 m-10 rounded-lg border border-sky-500 px-10 py-5 text-center shadow transition-shadow ease-in-out hover:shadow-2xl",
-    children: /* @__PURE__ */ jsx20("div", {
-      className: "overflow-hidden rounded-lg",
-      children: /* @__PURE__ */ jsxs14("div", {
-        className: "grid grid-cols-1 gap-4 sm:grid-cols-4 lg:grid-cols-4",
-        children: [
-          /* @__PURE__ */ jsxs14("div", {
-            className: "shaddow-md duration-800 cols-span-1 m-10 overflow-hidden rounded-lg rounded-lg border border-sky-500 bg-sky-200 px-10 py-5 py-5 px-4 text-center shadow shadow transition-shadow ease-in-out hover:shadow-2xl sm:px-6",
-            children: [
-              /* @__PURE__ */ jsx20("p", {
-                children: /* @__PURE__ */ jsx20("a", {
-                  className: "font-slim text-xl text-black",
-                  children: "Espa\xF1a"
-                })
-              }),
-              /* @__PURE__ */ jsx20("a", {
-                className: "text-2xl font-bold text-black",
-                children: ".es\xF1"
-              }),
-              /* @__PURE__ */ jsx20("p", {
-                className: "grid grid-cols-1 gap-4 sm:grid-cols-4 lg:grid-cols-1",
-                children: /* @__PURE__ */ jsx20("a", {
-                  className: "text-sm text-black",
-                  children: "soon"
-                })
-              })
-            ]
-          }),
-          /* @__PURE__ */ jsxs14("div", {
-            className: "shaddow-md duration-800 cols-span-1 m-10 overflow-hidden rounded-lg rounded-lg border border-sky-500 bg-sky-200 px-10 py-5 py-5 px-4 text-center shadow shadow transition-shadow ease-in-out hover:shadow-2xl sm:px-6",
-            children: [
-              /* @__PURE__ */ jsx20("p", {
-                children: /* @__PURE__ */ jsx20("a", {
-                  className: "font-slim text-xl text-black",
-                  children: "Espa\xF1a"
-                })
-              }),
-              /* @__PURE__ */ jsx20("a", {
-                className: "text-2xl font-bold text-black",
-                children: ".madrd"
-              }),
-              /* @__PURE__ */ jsx20("p", {
-                className: "grid grid-cols-1 gap-4 sm:grid-cols-4 lg:grid-cols-1",
-                children: /* @__PURE__ */ jsx20("a", {
-                  className: "text-sm text-black",
-                  children: "soon"
-                })
-              })
-            ]
-          }),
-          /* @__PURE__ */ jsxs14("div", {
-            className: "shaddow-md duration-800 cols-span-1 m-10 overflow-hidden rounded-lg rounded-lg border border-sky-500 bg-sky-200 px-10 py-5 py-5 px-4 text-center shadow shadow transition-shadow ease-in-out hover:shadow-2xl sm:px-6",
-            children: [
-              /* @__PURE__ */ jsx20("p", {
-                children: /* @__PURE__ */ jsx20("a", {
-                  className: "font-slim text-xl text-black",
-                  children: "Espa\xF1a"
-                })
-              }),
-              /* @__PURE__ */ jsx20("a", {
-                className: "text-2xl font-bold text-black",
-                children: ".bcln"
-              }),
-              /* @__PURE__ */ jsx20("p", {
-                className: "grid grid-cols-1 gap-4 sm:grid-cols-4 lg:grid-cols-1",
-                children: /* @__PURE__ */ jsx20("a", {
-                  className: "text-sm text-black",
-                  children: "soon"
-                })
-              })
-            ]
-          }),
-          /* @__PURE__ */ jsxs14("div", {
-            className: "shaddow-md duration-800 cols-span-1 m-10 overflow-hidden rounded-lg rounded-lg border border-sky-500 bg-sky-200 px-10 py-5 py-5 px-4 text-center shadow shadow transition-shadow ease-in-out hover:shadow-2xl sm:px-6",
-            children: [
-              /* @__PURE__ */ jsx20("p", {
-                children: /* @__PURE__ */ jsx20("a", {
-                  className: "font-slim text-xl text-black",
-                  children: "Espa\xF1a"
-                })
-              }),
-              /* @__PURE__ */ jsx20("a", {
-                className: "text-2xl font-bold text-black",
-                children: ".valenc"
-              }),
-              /* @__PURE__ */ jsx20("p", {
-                className: "grid grid-cols-1 gap-4 sm:grid-cols-4 lg:grid-cols-1",
-                children: /* @__PURE__ */ jsx20("a", {
-                  className: "text-sm text-black",
-                  children: "soon"
-                })
-              })
-            ]
-          }),
-          /* @__PURE__ */ jsxs14("div", {
-            className: "shaddow-md duration-800 cols-span-1 m-10 overflow-hidden rounded-lg rounded-lg border border-sky-500 bg-sky-200 px-10 py-5 py-5 px-4 text-center shadow shadow transition-shadow ease-in-out hover:shadow-2xl sm:px-6",
-            children: [
-              /* @__PURE__ */ jsx20("p", {
-                children: /* @__PURE__ */ jsx20("a", {
-                  className: "font-slim text-xl text-black",
-                  children: "Espa\xF1a"
-                })
-              }),
-              /* @__PURE__ */ jsx20("a", {
-                className: "text-2xl font-bold text-black",
-                children: ".mestalla"
-              }),
-              /* @__PURE__ */ jsx20("p", {
-                className: "grid grid-cols-1 gap-4 sm:grid-cols-4 lg:grid-cols-1",
-                children: /* @__PURE__ */ jsx20("a", {
-                  className: "text-sm text-black",
-                  children: "soon"
-                })
-              })
-            ]
-          }),
-          /* @__PURE__ */ jsxs14("div", {
-            className: "shaddow-md duration-800 cols-span-1 m-10 overflow-hidden rounded-lg rounded-lg border border-sky-500 bg-sky-200 px-10 py-5 py-5 px-4 text-center shadow shadow transition-shadow ease-in-out hover:shadow-2xl sm:px-6",
-            children: [
-              /* @__PURE__ */ jsx20("p", {
-                children: /* @__PURE__ */ jsx20("a", {
-                  className: "font-slim text-xl text-black",
-                  children: "Espa\xF1a"
-                })
-              }),
-              /* @__PURE__ */ jsx20("a", {
-                className: "text-2xl font-bold text-black",
-                children: ".isbals"
-              }),
-              " ",
-              /* @__PURE__ */ jsx20("p", {
-                className: "grid grid-cols-1 gap-4 sm:grid-cols-4 lg:grid-cols-1",
-                children: /* @__PURE__ */ jsx20("a", {
-                  className: "text-sm text-black",
-                  children: "soon"
-                })
-              })
-            ]
-          }),
-          /* @__PURE__ */ jsxs14("div", {
-            className: "shaddow-md duration-800 cols-span-1 m-10 overflow-hidden rounded-lg rounded-lg border border-sky-500 bg-sky-200 px-10 py-5 py-5 px-4 text-center shadow shadow transition-shadow ease-in-out hover:shadow-2xl sm:px-6",
-            children: [
-              /* @__PURE__ */ jsx20("p", {
-                children: /* @__PURE__ */ jsx20("a", {
-                  className: "font-slim text-xl text-black",
-                  children: "Espa\xF1a"
-                })
-              }),
-              /* @__PURE__ */ jsx20("a", {
-                className: "text-2xl font-bold text-black",
-                children: ".cil"
-              }),
-              " ",
-              /* @__PURE__ */ jsx20("p", {
-                className: "grid grid-cols-1 gap-4 sm:grid-cols-4 lg:grid-cols-1",
-                children: /* @__PURE__ */ jsx20("a", {
-                  className: "text-sm text-black",
-                  children: "soon"
-                })
-              })
-            ]
-          }),
-          /* @__PURE__ */ jsxs14("div", {
-            className: "shaddow-md duration-800 cols-span-1 m-10 overflow-hidden rounded-lg rounded-lg border border-sky-500 bg-sky-200 px-10 py-5 py-5 px-4 text-center shadow shadow transition-shadow ease-in-out hover:shadow-2xl sm:px-6",
-            children: [
-              /* @__PURE__ */ jsx20("p", {
-                children: /* @__PURE__ */ jsx20("a", {
-                  className: "font-slim text-xl text-black",
-                  children: "Espa\xF1a"
-                })
-              }),
-              /* @__PURE__ */ jsx20("a", {
-                className: "text-2xl font-bold text-black",
-                children: ".catc"
-              }),
-              " ",
-              /* @__PURE__ */ jsx20("p", {
-                className: "grid grid-cols-1 gap-4 sm:grid-cols-4 lg:grid-cols-1",
-                children: /* @__PURE__ */ jsx20("a", {
-                  className: "text-sm text-black",
-                  children: "soon"
-                })
-              })
-            ]
-          }),
-          /* @__PURE__ */ jsxs14("div", {
-            className: "shaddow-md duration-800 cols-span-1 m-10 overflow-hidden rounded-lg rounded-lg border border-sky-500 bg-sky-200 px-10 py-5 py-5 px-4 text-center shadow shadow transition-shadow ease-in-out hover:shadow-2xl sm:px-6",
-            children: [
-              /* @__PURE__ */ jsx20("p", {
-                children: /* @__PURE__ */ jsx20("a", {
-                  className: "font-slim text-xl text-black",
-                  children: "Espa\xF1a"
-                })
-              }),
-              /* @__PURE__ */ jsx20("a", {
-                className: "text-2xl font-bold text-black",
-                children: ".teide"
-              }),
-              " ",
-              /* @__PURE__ */ jsx20("p", {
-                className: "grid grid-cols-1 gap-4 sm:grid-cols-4 lg:grid-cols-1",
-                children: /* @__PURE__ */ jsx20("a", {
-                  className: "text-sm text-black",
-                  children: "soon"
-                })
-              })
-            ]
-          }),
-          /* @__PURE__ */ jsxs14("div", {
-            className: "shaddow-md duration-800 cols-span-1 m-10 overflow-hidden rounded-lg rounded-lg border border-sky-500 bg-sky-200 px-10 py-5 py-5 px-4 text-center shadow shadow transition-shadow ease-in-out hover:shadow-2xl sm:px-6",
-            children: [
-              /* @__PURE__ */ jsx20("p", {
-                children: /* @__PURE__ */ jsx20("a", {
-                  className: "font-slim text-xl text-black",
-                  children: "Espa\xF1a"
-                })
-              }),
-              /* @__PURE__ */ jsx20("a", {
-                className: "text-2xl font-bold text-black",
-                children: ".granca"
-              }),
-              " ",
-              /* @__PURE__ */ jsx20("p", {
-                className: "grid grid-cols-1 gap-4 sm:grid-cols-4 lg:grid-cols-1",
-                children: /* @__PURE__ */ jsx20("a", {
-                  className: "text-sm text-black",
-                  children: "soon"
-                })
-              })
-            ]
-          }),
-          /* @__PURE__ */ jsxs14("div", {
-            className: "shaddow-md duration-800 cols-span-1 m-10 overflow-hidden rounded-lg rounded-lg border border-sky-500 bg-sky-200 px-10 py-5 py-5 px-4 text-center shadow shadow transition-shadow ease-in-out hover:shadow-2xl sm:px-6",
-            children: [
-              /* @__PURE__ */ jsx20("p", {
-                children: /* @__PURE__ */ jsx20("a", {
-                  className: "font-slim text-xl text-black",
-                  children: "Espa\xF1a"
-                })
-              }),
-              /* @__PURE__ */ jsx20("a", {
-                className: "text-2xl font-bold text-black",
-                children: ".tenef"
-              }),
-              " ",
-              /* @__PURE__ */ jsx20("p", {
-                className: "grid grid-cols-1 gap-4 sm:grid-cols-4 lg:grid-cols-1",
-                children: /* @__PURE__ */ jsx20("a", {
-                  className: "text-sm text-black",
-                  children: "soon"
-                })
-              })
-            ]
-          }),
-          /* @__PURE__ */ jsxs14("div", {
-            className: "shaddow-md duration-800 cols-span-1 m-10 overflow-hidden rounded-lg rounded-lg border border-sky-500 bg-sky-200 px-10 py-5 py-5 px-4 text-center shadow shadow transition-shadow ease-in-out hover:shadow-2xl sm:px-6",
-            children: [
-              /* @__PURE__ */ jsx20("p", {
-                children: /* @__PURE__ */ jsx20("a", {
-                  className: "font-slim text-xl text-black",
-                  children: "Espa\xF1a"
-                })
-              }),
-              /* @__PURE__ */ jsx20("a", {
-                className: "text-2xl font-bold text-black",
-                children: ".elhie"
-              }),
-              " ",
-              /* @__PURE__ */ jsx20("p", {
-                className: "grid grid-cols-1 gap-4 sm:grid-cols-4 lg:grid-cols-1",
-                children: /* @__PURE__ */ jsx20("a", {
-                  className: "text-sm text-black",
-                  children: "soon"
-                })
-              })
-            ]
-          }),
-          /* @__PURE__ */ jsxs14("div", {
-            className: "shaddow-md duration-800 cols-span-1 m-10 overflow-hidden rounded-lg rounded-lg border border-sky-500 bg-sky-200 px-10 py-5 py-5 px-4 text-center shadow shadow transition-shadow ease-in-out hover:shadow-2xl sm:px-6",
-            children: [
-              /* @__PURE__ */ jsx20("p", {
-                children: /* @__PURE__ */ jsx20("a", {
-                  className: "font-slim text-xl text-black",
-                  children: "Espa\xF1a"
-                })
-              }),
-              /* @__PURE__ */ jsx20("a", {
-                className: "text-2xl font-bold text-black",
-                children: ".lagmr"
-              }),
-              " ",
-              /* @__PURE__ */ jsx20("p", {
-                className: "grid grid-cols-1 gap-4 sm:grid-cols-4 lg:grid-cols-1",
-                children: /* @__PURE__ */ jsx20("a", {
-                  className: "text-sm text-black",
-                  children: "soon"
-                })
-              })
-            ]
-          }),
-          /* @__PURE__ */ jsxs14("div", {
-            className: "shaddow-md duration-800 cols-span-1 m-10 overflow-hidden rounded-lg rounded-lg border border-sky-500 bg-sky-200 px-10 py-5 py-5 px-4 text-center shadow shadow transition-shadow ease-in-out hover:shadow-2xl sm:px-6",
-            children: [
-              /* @__PURE__ */ jsx20("p", {
-                children: /* @__PURE__ */ jsx20("a", {
-                  className: "font-slim text-xl text-black",
-                  children: "Espa\xF1a"
-                })
-              }),
-              /* @__PURE__ */ jsx20("a", {
-                className: "text-2xl font-bold text-black",
-                children: ".laplm"
-              }),
-              " ",
-              /* @__PURE__ */ jsx20("p", {
-                className: "grid grid-cols-1 gap-4 sm:grid-cols-4 lg:grid-cols-1",
-                children: /* @__PURE__ */ jsx20("a", {
-                  className: "text-sm text-black",
-                  children: "soon"
-                })
-              })
-            ]
-          }),
-          /* @__PURE__ */ jsxs14("div", {
-            className: "shaddow-md duration-800 cols-span-1 m-10 overflow-hidden rounded-lg rounded-lg border border-sky-500 bg-sky-200 px-10 py-5 py-5 px-4 text-center shadow shadow transition-shadow ease-in-out hover:shadow-2xl sm:px-6",
-            children: [
-              /* @__PURE__ */ jsx20("p", {
-                children: /* @__PURE__ */ jsx20("a", {
-                  className: "font-slim text-xl text-black",
-                  children: "Espa\xF1a"
-                })
-              }),
-              /* @__PURE__ */ jsx20("a", {
-                className: "text-xl font-bold text-black",
-                children: ".lagraciosa"
-              }),
-              " ",
-              /* @__PURE__ */ jsx20("p", {
-                className: "grid grid-cols-1 gap-4 sm:grid-cols-4 lg:grid-cols-1",
-                children: /* @__PURE__ */ jsx20("a", {
-                  className: "text-sm text-black",
-                  children: "soon"
-                })
-              })
-            ]
-          }),
-          /* @__PURE__ */ jsxs14("div", {
-            className: "shaddow-md duration-800 cols-span-1 m-10 overflow-hidden rounded-lg rounded-lg border border-sky-500 bg-sky-200 px-10 py-5 py-5 px-4 text-center shadow shadow transition-shadow ease-in-out hover:shadow-2xl sm:px-6",
-            children: [
-              /* @__PURE__ */ jsx20("p", {
-                children: /* @__PURE__ */ jsx20("a", {
-                  className: "font-slim text-xl text-black",
-                  children: "Espa\xF1a"
-                })
-              }),
-              /* @__PURE__ */ jsx20("a", {
-                className: "text-2xl font-bold text-black",
-                children: ".fuertev"
-              }),
-              " ",
-              /* @__PURE__ */ jsx20("p", {
-                className: "grid grid-cols-1 gap-4 sm:grid-cols-4 lg:grid-cols-1",
-                children: /* @__PURE__ */ jsx20("a", {
-                  className: "text-sm text-black",
-                  children: "soon"
-                })
-              })
-            ]
-          }),
-          /* @__PURE__ */ jsxs14("div", {
-            className: "shaddow-md duration-800 cols-span-1 m-10 overflow-hidden rounded-lg rounded-lg border border-sky-500 bg-sky-200 px-10 py-5 py-5 px-4 text-center shadow shadow transition-shadow ease-in-out hover:shadow-2xl sm:px-6",
-            children: [
-              /* @__PURE__ */ jsx20("p", {
-                children: /* @__PURE__ */ jsx20("a", {
-                  className: "font-slim text-xl text-black",
-                  children: "Espa\xF1a"
-                })
-              }),
-              /* @__PURE__ */ jsx20("a", {
-                className: "text-2xl font-bold text-black",
-                children: ".lnzrt"
-              }),
-              " ",
-              /* @__PURE__ */ jsx20("p", {
-                className: "grid grid-cols-1 gap-4 sm:grid-cols-4 lg:grid-cols-1",
-                children: /* @__PURE__ */ jsx20("a", {
-                  className: "text-sm text-black",
-                  children: "soon"
-                })
-              })
-            ]
-          }),
-          /* @__PURE__ */ jsxs14("div", {
-            className: "shaddow-md duration-800 cols-span-1 m-10 overflow-hidden rounded-lg rounded-lg border border-sky-500 bg-sky-200 px-10 py-5 py-5 px-4 text-center shadow shadow transition-shadow ease-in-out hover:shadow-2xl sm:px-6",
-            children: [
-              /* @__PURE__ */ jsx20("p", {
-                children: /* @__PURE__ */ jsx20("a", {
-                  className: "font-slim text-xl text-black",
-                  children: "Andorra"
-                })
-              }),
-              /* @__PURE__ */ jsx20("a", {
-                className: "text-2xl font-bold text-black",
-                children: ".andors"
-              }),
-              " ",
-              /* @__PURE__ */ jsx20("p", {
-                className: "grid grid-cols-1 gap-4 sm:grid-cols-4 lg:grid-cols-1",
-                children: /* @__PURE__ */ jsx20("a", {
-                  className: "text-sm text-black",
-                  children: "soon"
-                })
-              })
-            ]
-          }),
-          /* @__PURE__ */ jsxs14("div", {
-            className: "shaddow-md duration-800 cols-span-1 m-10 overflow-hidden rounded-lg rounded-lg border border-sky-500 bg-sky-200 px-10 py-5 py-5 px-4 text-center shadow shadow transition-shadow ease-in-out hover:shadow-2xl sm:px-6",
-            children: [
-              /* @__PURE__ */ jsx20("p", {
-                children: /* @__PURE__ */ jsx20("a", {
-                  className: "font-slim text-xl text-black",
-                  children: "Blocks"
-                })
-              }),
-              /* @__PURE__ */ jsx20("a", {
-                className: "text-2xl font-bold text-black",
-                children: ".\u{1F9CA}\u{1F9CA}"
-              }),
-              /* @__PURE__ */ jsx20("p", {
-                className: "grid grid-cols-1 gap-4 sm:grid-cols-4 lg:grid-cols-1",
-                children: /* @__PURE__ */ jsx20("a", {
-                  className: "text-sm text-black",
-                  children: "soon"
-                })
-              })
-            ]
-          }),
-          /* @__PURE__ */ jsxs14("div", {
-            className: "shaddow-md duration-800 cols-span-1 m-10 overflow-hidden rounded-lg rounded-lg border border-sky-500 bg-sky-200 px-10 py-5 py-5 px-4 text-center shadow shadow transition-shadow ease-in-out hover:shadow-2xl sm:px-6",
-            children: [
-              /* @__PURE__ */ jsx20("p", {
-                children: /* @__PURE__ */ jsx20("a", {
-                  className: "font-slim text-xl text-black",
-                  children: "Metaverse"
-                })
-              }),
-              /* @__PURE__ */ jsx20("a", {
-                className: "text-2xl font-bold text-black",
-                children: ".myplot"
-              }),
-              /* @__PURE__ */ jsx20("p", {
-                className: "grid grid-cols-1 gap-4 sm:grid-cols-4 lg:grid-cols-1",
-                children: /* @__PURE__ */ jsx20("a", {
-                  className: "text-sm text-black",
-                  children: "soon"
-                })
-              })
-            ]
-          })
-        ]
-      })
-    })
-  });
-};
-
-// src/DomainsGeo.tsx
 import { jsx as jsx21, jsxs as jsxs15 } from "react/jsx-runtime";
-var DomainsGeo = () => {
+var DomainsAll = () => {
   return /* @__PURE__ */ jsx21("div", {
     className: "shaddow-md duration-800 cols-span-1 m-10 rounded-lg border border-sky-500 px-10 py-5 text-center shadow transition-shadow ease-in-out hover:shadow-2xl",
     children: /* @__PURE__ */ jsx21("div", {
@@ -9568,6 +9146,475 @@ var DomainsGeo = () => {
                 })
               })
             ]
+          }),
+          /* @__PURE__ */ jsxs15("div", {
+            className: "shaddow-md duration-800 cols-span-1 m-10 overflow-hidden rounded-lg rounded-lg border border-sky-500 bg-sky-200 px-10 py-5 py-5 px-4 text-center shadow shadow transition-shadow ease-in-out hover:shadow-2xl sm:px-6",
+            children: [
+              /* @__PURE__ */ jsx21("p", {
+                children: /* @__PURE__ */ jsx21("a", {
+                  className: "font-slim text-xl text-black",
+                  children: "Blocks"
+                })
+              }),
+              /* @__PURE__ */ jsx21("a", {
+                className: "text-2xl font-bold text-black",
+                children: ".\u{1F9CA}\u{1F9CA}"
+              }),
+              /* @__PURE__ */ jsx21("p", {
+                className: "grid grid-cols-1 gap-4 sm:grid-cols-4 lg:grid-cols-1",
+                children: /* @__PURE__ */ jsx21("a", {
+                  className: "text-sm text-black",
+                  children: "soon"
+                })
+              })
+            ]
+          }),
+          /* @__PURE__ */ jsxs15("div", {
+            className: "shaddow-md duration-800 cols-span-1 m-10 overflow-hidden rounded-lg rounded-lg border border-sky-500 bg-sky-200 px-10 py-5 py-5 px-4 text-center shadow shadow transition-shadow ease-in-out hover:shadow-2xl sm:px-6",
+            children: [
+              /* @__PURE__ */ jsx21("p", {
+                children: /* @__PURE__ */ jsx21("a", {
+                  className: "font-slim text-xl text-black",
+                  children: "Metaverse"
+                })
+              }),
+              /* @__PURE__ */ jsx21("a", {
+                className: "text-2xl font-bold text-black",
+                children: ".myplot"
+              }),
+              /* @__PURE__ */ jsx21("p", {
+                className: "grid grid-cols-1 gap-4 sm:grid-cols-4 lg:grid-cols-1",
+                children: /* @__PURE__ */ jsx21("a", {
+                  className: "text-sm text-black",
+                  children: "soon"
+                })
+              })
+            ]
+          })
+        ]
+      })
+    })
+  });
+};
+
+// src/DomainsGeo.tsx
+import { jsx as jsx22, jsxs as jsxs16 } from "react/jsx-runtime";
+var DomainsGeo = () => {
+  return /* @__PURE__ */ jsx22("div", {
+    className: "shaddow-md duration-800 cols-span-1 m-10 rounded-lg border border-sky-500 px-10 py-5 text-center shadow transition-shadow ease-in-out hover:shadow-2xl",
+    children: /* @__PURE__ */ jsx22("div", {
+      className: "overflow-hidden rounded-lg",
+      children: /* @__PURE__ */ jsxs16("div", {
+        className: "grid grid-cols-1 gap-4 sm:grid-cols-4 lg:grid-cols-4",
+        children: [
+          /* @__PURE__ */ jsxs16("div", {
+            className: "shaddow-md duration-800 cols-span-1 m-10 overflow-hidden rounded-lg rounded-lg border border-sky-500 bg-sky-200 px-10 py-5 py-5 px-4 text-center shadow shadow transition-shadow ease-in-out hover:shadow-2xl sm:px-6",
+            children: [
+              /* @__PURE__ */ jsx22("p", {
+                children: /* @__PURE__ */ jsx22("a", {
+                  className: "font-slim text-xl text-black",
+                  children: "Espa\xF1a"
+                })
+              }),
+              /* @__PURE__ */ jsx22("a", {
+                className: "text-2xl font-bold text-black",
+                children: ".es\xF1"
+              }),
+              /* @__PURE__ */ jsx22("p", {
+                className: "grid grid-cols-1 gap-4 sm:grid-cols-4 lg:grid-cols-1",
+                children: /* @__PURE__ */ jsx22("a", {
+                  className: "text-sm text-black",
+                  children: "soon"
+                })
+              })
+            ]
+          }),
+          /* @__PURE__ */ jsxs16("div", {
+            className: "shaddow-md duration-800 cols-span-1 m-10 overflow-hidden rounded-lg rounded-lg border border-sky-500 bg-sky-200 px-10 py-5 py-5 px-4 text-center shadow shadow transition-shadow ease-in-out hover:shadow-2xl sm:px-6",
+            children: [
+              /* @__PURE__ */ jsx22("p", {
+                children: /* @__PURE__ */ jsx22("a", {
+                  className: "font-slim text-xl text-black",
+                  children: "Espa\xF1a"
+                })
+              }),
+              /* @__PURE__ */ jsx22("a", {
+                className: "text-2xl font-bold text-black",
+                children: ".madrd"
+              }),
+              /* @__PURE__ */ jsx22("p", {
+                className: "grid grid-cols-1 gap-4 sm:grid-cols-4 lg:grid-cols-1",
+                children: /* @__PURE__ */ jsx22("a", {
+                  className: "text-sm text-black",
+                  children: "soon"
+                })
+              })
+            ]
+          }),
+          /* @__PURE__ */ jsxs16("div", {
+            className: "shaddow-md duration-800 cols-span-1 m-10 overflow-hidden rounded-lg rounded-lg border border-sky-500 bg-sky-200 px-10 py-5 py-5 px-4 text-center shadow shadow transition-shadow ease-in-out hover:shadow-2xl sm:px-6",
+            children: [
+              /* @__PURE__ */ jsx22("p", {
+                children: /* @__PURE__ */ jsx22("a", {
+                  className: "font-slim text-xl text-black",
+                  children: "Espa\xF1a"
+                })
+              }),
+              /* @__PURE__ */ jsx22("a", {
+                className: "text-2xl font-bold text-black",
+                children: ".bcln"
+              }),
+              /* @__PURE__ */ jsx22("p", {
+                className: "grid grid-cols-1 gap-4 sm:grid-cols-4 lg:grid-cols-1",
+                children: /* @__PURE__ */ jsx22("a", {
+                  className: "text-sm text-black",
+                  children: "soon"
+                })
+              })
+            ]
+          }),
+          /* @__PURE__ */ jsxs16("div", {
+            className: "shaddow-md duration-800 cols-span-1 m-10 overflow-hidden rounded-lg rounded-lg border border-sky-500 bg-sky-200 px-10 py-5 py-5 px-4 text-center shadow shadow transition-shadow ease-in-out hover:shadow-2xl sm:px-6",
+            children: [
+              /* @__PURE__ */ jsx22("p", {
+                children: /* @__PURE__ */ jsx22("a", {
+                  className: "font-slim text-xl text-black",
+                  children: "Espa\xF1a"
+                })
+              }),
+              /* @__PURE__ */ jsx22("a", {
+                className: "text-2xl font-bold text-black",
+                children: ".valenc"
+              }),
+              /* @__PURE__ */ jsx22("p", {
+                className: "grid grid-cols-1 gap-4 sm:grid-cols-4 lg:grid-cols-1",
+                children: /* @__PURE__ */ jsx22("a", {
+                  className: "text-sm text-black",
+                  children: "soon"
+                })
+              })
+            ]
+          }),
+          /* @__PURE__ */ jsxs16("div", {
+            className: "shaddow-md duration-800 cols-span-1 m-10 overflow-hidden rounded-lg rounded-lg border border-sky-500 bg-sky-200 px-10 py-5 py-5 px-4 text-center shadow shadow transition-shadow ease-in-out hover:shadow-2xl sm:px-6",
+            children: [
+              /* @__PURE__ */ jsx22("p", {
+                children: /* @__PURE__ */ jsx22("a", {
+                  className: "font-slim text-xl text-black",
+                  children: "Espa\xF1a"
+                })
+              }),
+              /* @__PURE__ */ jsx22("a", {
+                className: "text-2xl font-bold text-black",
+                children: ".mestalla"
+              }),
+              /* @__PURE__ */ jsx22("p", {
+                className: "grid grid-cols-1 gap-4 sm:grid-cols-4 lg:grid-cols-1",
+                children: /* @__PURE__ */ jsx22("a", {
+                  className: "text-sm text-black",
+                  children: "soon"
+                })
+              })
+            ]
+          }),
+          /* @__PURE__ */ jsxs16("div", {
+            className: "shaddow-md duration-800 cols-span-1 m-10 overflow-hidden rounded-lg rounded-lg border border-sky-500 bg-sky-200 px-10 py-5 py-5 px-4 text-center shadow shadow transition-shadow ease-in-out hover:shadow-2xl sm:px-6",
+            children: [
+              /* @__PURE__ */ jsx22("p", {
+                children: /* @__PURE__ */ jsx22("a", {
+                  className: "font-slim text-xl text-black",
+                  children: "Espa\xF1a"
+                })
+              }),
+              /* @__PURE__ */ jsx22("a", {
+                className: "text-2xl font-bold text-black",
+                children: ".isbals"
+              }),
+              " ",
+              /* @__PURE__ */ jsx22("p", {
+                className: "grid grid-cols-1 gap-4 sm:grid-cols-4 lg:grid-cols-1",
+                children: /* @__PURE__ */ jsx22("a", {
+                  className: "text-sm text-black",
+                  children: "soon"
+                })
+              })
+            ]
+          }),
+          /* @__PURE__ */ jsxs16("div", {
+            className: "shaddow-md duration-800 cols-span-1 m-10 overflow-hidden rounded-lg rounded-lg border border-sky-500 bg-sky-200 px-10 py-5 py-5 px-4 text-center shadow shadow transition-shadow ease-in-out hover:shadow-2xl sm:px-6",
+            children: [
+              /* @__PURE__ */ jsx22("p", {
+                children: /* @__PURE__ */ jsx22("a", {
+                  className: "font-slim text-xl text-black",
+                  children: "Espa\xF1a"
+                })
+              }),
+              /* @__PURE__ */ jsx22("a", {
+                className: "text-2xl font-bold text-black",
+                children: ".cil"
+              }),
+              " ",
+              /* @__PURE__ */ jsx22("p", {
+                className: "grid grid-cols-1 gap-4 sm:grid-cols-4 lg:grid-cols-1",
+                children: /* @__PURE__ */ jsx22("a", {
+                  className: "text-sm text-black",
+                  children: "soon"
+                })
+              })
+            ]
+          }),
+          /* @__PURE__ */ jsxs16("div", {
+            className: "shaddow-md duration-800 cols-span-1 m-10 overflow-hidden rounded-lg rounded-lg border border-sky-500 bg-sky-200 px-10 py-5 py-5 px-4 text-center shadow shadow transition-shadow ease-in-out hover:shadow-2xl sm:px-6",
+            children: [
+              /* @__PURE__ */ jsx22("p", {
+                children: /* @__PURE__ */ jsx22("a", {
+                  className: "font-slim text-xl text-black",
+                  children: "Espa\xF1a"
+                })
+              }),
+              /* @__PURE__ */ jsx22("a", {
+                className: "text-2xl font-bold text-black",
+                children: ".catc"
+              }),
+              " ",
+              /* @__PURE__ */ jsx22("p", {
+                className: "grid grid-cols-1 gap-4 sm:grid-cols-4 lg:grid-cols-1",
+                children: /* @__PURE__ */ jsx22("a", {
+                  className: "text-sm text-black",
+                  children: "soon"
+                })
+              })
+            ]
+          }),
+          /* @__PURE__ */ jsxs16("div", {
+            className: "shaddow-md duration-800 cols-span-1 m-10 overflow-hidden rounded-lg rounded-lg border border-sky-500 bg-sky-200 px-10 py-5 py-5 px-4 text-center shadow shadow transition-shadow ease-in-out hover:shadow-2xl sm:px-6",
+            children: [
+              /* @__PURE__ */ jsx22("p", {
+                children: /* @__PURE__ */ jsx22("a", {
+                  className: "font-slim text-xl text-black",
+                  children: "Espa\xF1a"
+                })
+              }),
+              /* @__PURE__ */ jsx22("a", {
+                className: "text-2xl font-bold text-black",
+                children: ".teide"
+              }),
+              " ",
+              /* @__PURE__ */ jsx22("p", {
+                className: "grid grid-cols-1 gap-4 sm:grid-cols-4 lg:grid-cols-1",
+                children: /* @__PURE__ */ jsx22("a", {
+                  className: "text-sm text-black",
+                  children: "soon"
+                })
+              })
+            ]
+          }),
+          /* @__PURE__ */ jsxs16("div", {
+            className: "shaddow-md duration-800 cols-span-1 m-10 overflow-hidden rounded-lg rounded-lg border border-sky-500 bg-sky-200 px-10 py-5 py-5 px-4 text-center shadow shadow transition-shadow ease-in-out hover:shadow-2xl sm:px-6",
+            children: [
+              /* @__PURE__ */ jsx22("p", {
+                children: /* @__PURE__ */ jsx22("a", {
+                  className: "font-slim text-xl text-black",
+                  children: "Espa\xF1a"
+                })
+              }),
+              /* @__PURE__ */ jsx22("a", {
+                className: "text-2xl font-bold text-black",
+                children: ".granca"
+              }),
+              " ",
+              /* @__PURE__ */ jsx22("p", {
+                className: "grid grid-cols-1 gap-4 sm:grid-cols-4 lg:grid-cols-1",
+                children: /* @__PURE__ */ jsx22("a", {
+                  className: "text-sm text-black",
+                  children: "soon"
+                })
+              })
+            ]
+          }),
+          /* @__PURE__ */ jsxs16("div", {
+            className: "shaddow-md duration-800 cols-span-1 m-10 overflow-hidden rounded-lg rounded-lg border border-sky-500 bg-sky-200 px-10 py-5 py-5 px-4 text-center shadow shadow transition-shadow ease-in-out hover:shadow-2xl sm:px-6",
+            children: [
+              /* @__PURE__ */ jsx22("p", {
+                children: /* @__PURE__ */ jsx22("a", {
+                  className: "font-slim text-xl text-black",
+                  children: "Espa\xF1a"
+                })
+              }),
+              /* @__PURE__ */ jsx22("a", {
+                className: "text-2xl font-bold text-black",
+                children: ".tenef"
+              }),
+              " ",
+              /* @__PURE__ */ jsx22("p", {
+                className: "grid grid-cols-1 gap-4 sm:grid-cols-4 lg:grid-cols-1",
+                children: /* @__PURE__ */ jsx22("a", {
+                  className: "text-sm text-black",
+                  children: "soon"
+                })
+              })
+            ]
+          }),
+          /* @__PURE__ */ jsxs16("div", {
+            className: "shaddow-md duration-800 cols-span-1 m-10 overflow-hidden rounded-lg rounded-lg border border-sky-500 bg-sky-200 px-10 py-5 py-5 px-4 text-center shadow shadow transition-shadow ease-in-out hover:shadow-2xl sm:px-6",
+            children: [
+              /* @__PURE__ */ jsx22("p", {
+                children: /* @__PURE__ */ jsx22("a", {
+                  className: "font-slim text-xl text-black",
+                  children: "Espa\xF1a"
+                })
+              }),
+              /* @__PURE__ */ jsx22("a", {
+                className: "text-2xl font-bold text-black",
+                children: ".elhie"
+              }),
+              " ",
+              /* @__PURE__ */ jsx22("p", {
+                className: "grid grid-cols-1 gap-4 sm:grid-cols-4 lg:grid-cols-1",
+                children: /* @__PURE__ */ jsx22("a", {
+                  className: "text-sm text-black",
+                  children: "soon"
+                })
+              })
+            ]
+          }),
+          /* @__PURE__ */ jsxs16("div", {
+            className: "shaddow-md duration-800 cols-span-1 m-10 overflow-hidden rounded-lg rounded-lg border border-sky-500 bg-sky-200 px-10 py-5 py-5 px-4 text-center shadow shadow transition-shadow ease-in-out hover:shadow-2xl sm:px-6",
+            children: [
+              /* @__PURE__ */ jsx22("p", {
+                children: /* @__PURE__ */ jsx22("a", {
+                  className: "font-slim text-xl text-black",
+                  children: "Espa\xF1a"
+                })
+              }),
+              /* @__PURE__ */ jsx22("a", {
+                className: "text-2xl font-bold text-black",
+                children: ".lagmr"
+              }),
+              " ",
+              /* @__PURE__ */ jsx22("p", {
+                className: "grid grid-cols-1 gap-4 sm:grid-cols-4 lg:grid-cols-1",
+                children: /* @__PURE__ */ jsx22("a", {
+                  className: "text-sm text-black",
+                  children: "soon"
+                })
+              })
+            ]
+          }),
+          /* @__PURE__ */ jsxs16("div", {
+            className: "shaddow-md duration-800 cols-span-1 m-10 overflow-hidden rounded-lg rounded-lg border border-sky-500 bg-sky-200 px-10 py-5 py-5 px-4 text-center shadow shadow transition-shadow ease-in-out hover:shadow-2xl sm:px-6",
+            children: [
+              /* @__PURE__ */ jsx22("p", {
+                children: /* @__PURE__ */ jsx22("a", {
+                  className: "font-slim text-xl text-black",
+                  children: "Espa\xF1a"
+                })
+              }),
+              /* @__PURE__ */ jsx22("a", {
+                className: "text-2xl font-bold text-black",
+                children: ".laplm"
+              }),
+              " ",
+              /* @__PURE__ */ jsx22("p", {
+                className: "grid grid-cols-1 gap-4 sm:grid-cols-4 lg:grid-cols-1",
+                children: /* @__PURE__ */ jsx22("a", {
+                  className: "text-sm text-black",
+                  children: "soon"
+                })
+              })
+            ]
+          }),
+          /* @__PURE__ */ jsxs16("div", {
+            className: "shaddow-md duration-800 cols-span-1 m-10 overflow-hidden rounded-lg rounded-lg border border-sky-500 bg-sky-200 px-10 py-5 py-5 px-4 text-center shadow shadow transition-shadow ease-in-out hover:shadow-2xl sm:px-6",
+            children: [
+              /* @__PURE__ */ jsx22("p", {
+                children: /* @__PURE__ */ jsx22("a", {
+                  className: "font-slim text-xl text-black",
+                  children: "Espa\xF1a"
+                })
+              }),
+              /* @__PURE__ */ jsx22("a", {
+                className: "text-xl font-bold text-black",
+                children: ".lagraciosa"
+              }),
+              " ",
+              /* @__PURE__ */ jsx22("p", {
+                className: "grid grid-cols-1 gap-4 sm:grid-cols-4 lg:grid-cols-1",
+                children: /* @__PURE__ */ jsx22("a", {
+                  className: "text-sm text-black",
+                  children: "soon"
+                })
+              })
+            ]
+          }),
+          /* @__PURE__ */ jsxs16("div", {
+            className: "shaddow-md duration-800 cols-span-1 m-10 overflow-hidden rounded-lg rounded-lg border border-sky-500 bg-sky-200 px-10 py-5 py-5 px-4 text-center shadow shadow transition-shadow ease-in-out hover:shadow-2xl sm:px-6",
+            children: [
+              /* @__PURE__ */ jsx22("p", {
+                children: /* @__PURE__ */ jsx22("a", {
+                  className: "font-slim text-xl text-black",
+                  children: "Espa\xF1a"
+                })
+              }),
+              /* @__PURE__ */ jsx22("a", {
+                className: "text-2xl font-bold text-black",
+                children: ".fuertev"
+              }),
+              " ",
+              /* @__PURE__ */ jsx22("p", {
+                className: "grid grid-cols-1 gap-4 sm:grid-cols-4 lg:grid-cols-1",
+                children: /* @__PURE__ */ jsx22("a", {
+                  className: "text-sm text-black",
+                  children: "soon"
+                })
+              })
+            ]
+          }),
+          /* @__PURE__ */ jsxs16("div", {
+            className: "shaddow-md duration-800 cols-span-1 m-10 overflow-hidden rounded-lg rounded-lg border border-sky-500 bg-sky-200 px-10 py-5 py-5 px-4 text-center shadow shadow transition-shadow ease-in-out hover:shadow-2xl sm:px-6",
+            children: [
+              /* @__PURE__ */ jsx22("p", {
+                children: /* @__PURE__ */ jsx22("a", {
+                  className: "font-slim text-xl text-black",
+                  children: "Espa\xF1a"
+                })
+              }),
+              /* @__PURE__ */ jsx22("a", {
+                className: "text-2xl font-bold text-black",
+                children: ".lnzrt"
+              }),
+              " ",
+              /* @__PURE__ */ jsx22("p", {
+                className: "grid grid-cols-1 gap-4 sm:grid-cols-4 lg:grid-cols-1",
+                children: /* @__PURE__ */ jsx22("a", {
+                  className: "text-sm text-black",
+                  children: "soon"
+                })
+              })
+            ]
+          }),
+          /* @__PURE__ */ jsxs16("div", {
+            className: "shaddow-md duration-800 cols-span-1 m-10 overflow-hidden rounded-lg rounded-lg border border-sky-500 bg-sky-200 px-10 py-5 py-5 px-4 text-center shadow shadow transition-shadow ease-in-out hover:shadow-2xl sm:px-6",
+            children: [
+              /* @__PURE__ */ jsx22("p", {
+                children: /* @__PURE__ */ jsx22("a", {
+                  className: "font-slim text-xl text-black",
+                  children: "Andorra"
+                })
+              }),
+              /* @__PURE__ */ jsx22("a", {
+                className: "text-2xl font-bold text-black",
+                children: ".andors"
+              }),
+              " ",
+              /* @__PURE__ */ jsx22("p", {
+                className: "grid grid-cols-1 gap-4 sm:grid-cols-4 lg:grid-cols-1",
+                children: /* @__PURE__ */ jsx22("a", {
+                  className: "text-sm text-black",
+                  children: "soon"
+                })
+              })
+            ]
           })
         ]
       })
@@ -9576,44 +9623,8 @@ var DomainsGeo = () => {
 };
 
 // src/DomainsBlocks.tsx
-import { jsx as jsx22, jsxs as jsxs16 } from "react/jsx-runtime";
-var DomainsBlocks = () => {
-  return /* @__PURE__ */ jsx22("div", {
-    className: "shaddow-md duration-800 cols-span-1 m-10 rounded-lg border border-sky-500 px-10 py-5 text-center shadow transition-shadow ease-in-out hover:shadow-2xl",
-    children: /* @__PURE__ */ jsx22("div", {
-      className: "overflow-hidden rounded-lg",
-      children: /* @__PURE__ */ jsx22("div", {
-        className: "grid grid-cols-1 gap-4 sm:grid-cols-4 lg:grid-cols-4",
-        children: /* @__PURE__ */ jsxs16("div", {
-          className: "shaddow-md duration-800 cols-span-1 m-10 overflow-hidden rounded-lg rounded-lg border border-sky-500 bg-sky-200 px-10 py-5 py-5 px-4 text-center shadow shadow transition-shadow ease-in-out hover:shadow-2xl sm:px-6",
-          children: [
-            /* @__PURE__ */ jsx22("p", {
-              children: /* @__PURE__ */ jsx22("a", {
-                className: "font-slim text-xl text-black",
-                children: "Blocks"
-              })
-            }),
-            /* @__PURE__ */ jsx22("a", {
-              className: "text-2xl font-bold text-black",
-              children: ".\u{1F9CA}\u{1F9CA}"
-            }),
-            /* @__PURE__ */ jsx22("p", {
-              className: "grid grid-cols-1 gap-4 sm:grid-cols-4 lg:grid-cols-1",
-              children: /* @__PURE__ */ jsx22("a", {
-                className: "text-sm text-black",
-                children: "soon"
-              })
-            })
-          ]
-        })
-      })
-    })
-  });
-};
-
-// src/DomainsMeta.tsx
 import { jsx as jsx23, jsxs as jsxs17 } from "react/jsx-runtime";
-var DomainsMeta = () => {
+var DomainsBlocks = () => {
   return /* @__PURE__ */ jsx23("div", {
     className: "shaddow-md duration-800 cols-span-1 m-10 rounded-lg border border-sky-500 px-10 py-5 text-center shadow transition-shadow ease-in-out hover:shadow-2xl",
     children: /* @__PURE__ */ jsx23("div", {
@@ -9626,12 +9637,12 @@ var DomainsMeta = () => {
             /* @__PURE__ */ jsx23("p", {
               children: /* @__PURE__ */ jsx23("a", {
                 className: "font-slim text-xl text-black",
-                children: "Metaverse"
+                children: "Blocks"
               })
             }),
             /* @__PURE__ */ jsx23("a", {
               className: "text-2xl font-bold text-black",
-              children: ".myplot"
+              children: ".\u{1F9CA}\u{1F9CA}"
             }),
             /* @__PURE__ */ jsx23("p", {
               className: "grid grid-cols-1 gap-4 sm:grid-cols-4 lg:grid-cols-1",
@@ -9647,98 +9658,134 @@ var DomainsMeta = () => {
   });
 };
 
-// src/DomainsNew.tsx
+// src/DomainsMeta.tsx
 import { jsx as jsx24, jsxs as jsxs18 } from "react/jsx-runtime";
-var DomainsNew = () => {
+var DomainsMeta = () => {
   return /* @__PURE__ */ jsx24("div", {
     className: "shaddow-md duration-800 cols-span-1 m-10 rounded-lg border border-sky-500 px-10 py-5 text-center shadow transition-shadow ease-in-out hover:shadow-2xl",
     children: /* @__PURE__ */ jsx24("div", {
       className: "overflow-hidden rounded-lg",
-      children: /* @__PURE__ */ jsxs18("div", {
+      children: /* @__PURE__ */ jsx24("div", {
+        className: "grid grid-cols-1 gap-4 sm:grid-cols-4 lg:grid-cols-4",
+        children: /* @__PURE__ */ jsxs18("div", {
+          className: "shaddow-md duration-800 cols-span-1 m-10 overflow-hidden rounded-lg rounded-lg border border-sky-500 bg-sky-200 px-10 py-5 py-5 px-4 text-center shadow shadow transition-shadow ease-in-out hover:shadow-2xl sm:px-6",
+          children: [
+            /* @__PURE__ */ jsx24("p", {
+              children: /* @__PURE__ */ jsx24("a", {
+                className: "font-slim text-xl text-black",
+                children: "Metaverse"
+              })
+            }),
+            /* @__PURE__ */ jsx24("a", {
+              className: "text-2xl font-bold text-black",
+              children: ".myplot"
+            }),
+            /* @__PURE__ */ jsx24("p", {
+              className: "grid grid-cols-1 gap-4 sm:grid-cols-4 lg:grid-cols-1",
+              children: /* @__PURE__ */ jsx24("a", {
+                className: "text-sm text-black",
+                children: "soon"
+              })
+            })
+          ]
+        })
+      })
+    })
+  });
+};
+
+// src/DomainsNew.tsx
+import { jsx as jsx25, jsxs as jsxs19 } from "react/jsx-runtime";
+var DomainsNew = () => {
+  return /* @__PURE__ */ jsx25("div", {
+    className: "shaddow-md duration-800 cols-span-1 m-10 rounded-lg border border-sky-500 px-10 py-5 text-center shadow transition-shadow ease-in-out hover:shadow-2xl",
+    children: /* @__PURE__ */ jsx25("div", {
+      className: "overflow-hidden rounded-lg",
+      children: /* @__PURE__ */ jsxs19("div", {
         className: "grid grid-cols-1 gap-4 sm:grid-cols-4 lg:grid-cols-4",
         children: [
-          /* @__PURE__ */ jsxs18("div", {
+          /* @__PURE__ */ jsxs19("div", {
             className: "shaddow-md duration-800 cols-span-1 m-10 overflow-hidden rounded-lg rounded-lg border border-sky-500 bg-sky-200 px-10 py-5 py-5 px-4 text-center shadow shadow transition-shadow ease-in-out hover:shadow-2xl sm:px-6",
             children: [
-              /* @__PURE__ */ jsx24("p", {
-                children: /* @__PURE__ */ jsx24("a", {
+              /* @__PURE__ */ jsx25("p", {
+                children: /* @__PURE__ */ jsx25("a", {
                   className: "font-slim text-xl text-black",
                   children: "Education"
                 })
               }),
-              /* @__PURE__ */ jsx24("a", {
+              /* @__PURE__ */ jsx25("a", {
                 className: "text-2xl font-bold text-black",
                 children: ".eedu"
               }),
-              /* @__PURE__ */ jsx24("p", {
+              /* @__PURE__ */ jsx25("p", {
                 className: "grid grid-cols-1 gap-4 sm:grid-cols-4 lg:grid-cols-1",
-                children: /* @__PURE__ */ jsx24("a", {
+                children: /* @__PURE__ */ jsx25("a", {
                   className: "text-sm text-black",
                   children: "soon"
                 })
               })
             ]
           }),
-          /* @__PURE__ */ jsxs18("div", {
+          /* @__PURE__ */ jsxs19("div", {
             className: "shaddow-md duration-800 cols-span-1 m-10 overflow-hidden rounded-lg rounded-lg border border-sky-500 bg-sky-200 px-10 py-5 py-5 px-4 text-center shadow shadow transition-shadow ease-in-out hover:shadow-2xl sm:px-6",
             children: [
-              /* @__PURE__ */ jsx24("p", {
-                children: /* @__PURE__ */ jsx24("a", {
+              /* @__PURE__ */ jsx25("p", {
+                children: /* @__PURE__ */ jsx25("a", {
                   className: "font-slim text-xl text-black",
                   children: "Finance"
                 })
               }),
-              /* @__PURE__ */ jsx24("a", {
+              /* @__PURE__ */ jsx25("a", {
                 className: "text-2xl font-bold text-black",
                 children: ".fincy"
               }),
-              /* @__PURE__ */ jsx24("p", {
+              /* @__PURE__ */ jsx25("p", {
                 className: "grid grid-cols-1 gap-4 sm:grid-cols-4 lg:grid-cols-1",
-                children: /* @__PURE__ */ jsx24("a", {
+                children: /* @__PURE__ */ jsx25("a", {
                   className: "text-sm text-black",
                   children: "soon"
                 })
               })
             ]
           }),
-          /* @__PURE__ */ jsxs18("div", {
+          /* @__PURE__ */ jsxs19("div", {
             className: "shaddow-md duration-800 cols-span-1 m-10 overflow-hidden rounded-lg rounded-lg border border-sky-500 bg-sky-200 px-10 py-5 py-5 px-4 text-center shadow shadow transition-shadow ease-in-out hover:shadow-2xl sm:px-6",
             children: [
-              /* @__PURE__ */ jsx24("p", {
-                children: /* @__PURE__ */ jsx24("a", {
+              /* @__PURE__ */ jsx25("p", {
+                children: /* @__PURE__ */ jsx25("a", {
                   className: "font-slim text-xl text-black",
                   children: "Virtual FX"
                 })
               }),
-              /* @__PURE__ */ jsx24("a", {
+              /* @__PURE__ */ jsx25("a", {
                 className: "text-2xl font-bold text-black",
                 children: ".virtualfx"
               }),
-              /* @__PURE__ */ jsx24("p", {
+              /* @__PURE__ */ jsx25("p", {
                 className: "grid grid-cols-1 gap-4 sm:grid-cols-4 lg:grid-cols-1",
-                children: /* @__PURE__ */ jsx24("a", {
+                children: /* @__PURE__ */ jsx25("a", {
                   className: "text-sm text-black",
                   children: "soon"
                 })
               })
             ]
           }),
-          /* @__PURE__ */ jsxs18("div", {
+          /* @__PURE__ */ jsxs19("div", {
             className: "shaddow-md duration-800 cols-span-1 m-10 overflow-hidden rounded-lg rounded-lg border border-sky-500 bg-sky-200 px-10 py-5 py-5 px-4 text-center shadow shadow transition-shadow ease-in-out hover:shadow-2xl sm:px-6",
             children: [
-              /* @__PURE__ */ jsx24("p", {
-                children: /* @__PURE__ */ jsx24("a", {
+              /* @__PURE__ */ jsx25("p", {
+                children: /* @__PURE__ */ jsx25("a", {
                   className: "font-slim text-xl text-black",
                   children: "Startups"
                 })
               }),
-              /* @__PURE__ */ jsx24("a", {
+              /* @__PURE__ */ jsx25("a", {
                 className: "text-2xl font-bold text-black",
                 children: "..nextco"
               }),
-              /* @__PURE__ */ jsx24("p", {
+              /* @__PURE__ */ jsx25("p", {
                 className: "grid grid-cols-1 gap-4 sm:grid-cols-4 lg:grid-cols-1",
-                children: /* @__PURE__ */ jsx24("a", {
+                children: /* @__PURE__ */ jsx25("a", {
                   className: "text-sm text-black",
                   children: "soon"
                 })
@@ -9752,17 +9799,17 @@ var DomainsNew = () => {
 };
 
 // src/Footer.tsx
-import { jsx as jsx25, jsxs as jsxs19 } from "react/jsx-runtime";
+import { jsx as jsx26, jsxs as jsxs20 } from "react/jsx-runtime";
 var Footer = () => {
-  return /* @__PURE__ */ jsxs19("footer", {
+  return /* @__PURE__ */ jsxs20("footer", {
     className: "bg-white py-8 text-center text-black",
     children: [
-      /* @__PURE__ */ jsx25("div", {
-        children: /* @__PURE__ */ jsxs19("a", {
+      /* @__PURE__ */ jsx26("div", {
+        children: /* @__PURE__ */ jsxs20("a", {
           children: [
             "Made with \u2764\uFE0F by",
             " ",
-            /* @__PURE__ */ jsx25("a", {
+            /* @__PURE__ */ jsx26("a", {
               href: "https://twitter.com/miguelgargallo",
               target: "_blank",
               rel: "noopener noreferrer",
@@ -9773,12 +9820,12 @@ var Footer = () => {
           ]
         })
       }),
-      /* @__PURE__ */ jsx25("div", {
-        children: /* @__PURE__ */ jsxs19("a", {
+      /* @__PURE__ */ jsx26("div", {
+        children: /* @__PURE__ */ jsxs20("a", {
           children: [
             "2022 \xA9",
             " ",
-            /* @__PURE__ */ jsx25("a", {
+            /* @__PURE__ */ jsx26("a", {
               href: "https://huggingface.co/spaces/superdatas/LICENSE",
               target: "_blank",
               rel: "noopener noreferrer",
@@ -9789,19 +9836,19 @@ var Footer = () => {
           ]
         })
       }),
-      /* @__PURE__ */ jsxs19("div", {
+      /* @__PURE__ */ jsxs20("div", {
         className: "hidden sm:block",
         children: [
-          /* @__PURE__ */ jsxs19("div", {
+          /* @__PURE__ */ jsxs20("div", {
             className: "flex w-full items-center justify-center",
             children: [
-              /* @__PURE__ */ jsx25("a", {
+              /* @__PURE__ */ jsx26("a", {
                 href: "https://huggingface.co/spaces/superdatas/LICENSE",
                 target: "_blank",
                 rel: "noopener noreferrer",
                 className: "hidden p-2 md:block",
-                children: /* @__PURE__ */ jsx25("picture", {
-                  children: /* @__PURE__ */ jsx25("img", {
+                children: /* @__PURE__ */ jsx26("picture", {
+                  children: /* @__PURE__ */ jsx26("img", {
                     src: "https://huggingface.co/front/assets/huggingface_logo.svg",
                     alt: "Landscape picture",
                     width: 40,
@@ -9809,8 +9856,8 @@ var Footer = () => {
                   })
                 })
               }),
-              /* @__PURE__ */ jsx25(Versions, {}),
-              /* @__PURE__ */ jsxs19("div", {
+              /* @__PURE__ */ jsx26(Versions, {}),
+              /* @__PURE__ */ jsxs20("div", {
                 className: "hidden py-2 px-4 font-bold text-white md:block",
                 style: {
                   display: "flex",
@@ -9819,9 +9866,9 @@ var Footer = () => {
                 },
                 children: [
                   " ",
-                  /* @__PURE__ */ jsx25("button", {
+                  /* @__PURE__ */ jsx26("button", {
                     className: "hidden py-2 px-4 font-bold text-black md:block",
-                    children: /* @__PURE__ */ jsx25("a", {
+                    children: /* @__PURE__ */ jsx26("a", {
                       href: "http://twitter.com/miguelgargallo",
                       target: "_blank",
                       rel: "noopener noreferrer",
@@ -9832,13 +9879,13 @@ var Footer = () => {
               })
             ]
           }),
-          /* @__PURE__ */ jsx25("p", {
+          /* @__PURE__ */ jsx26("p", {
             className: "text-black",
             children: "Pencil Domains, The Fastest Domains.\u2122"
           })
         ]
       }),
-      /* @__PURE__ */ jsx25("p", {
+      /* @__PURE__ */ jsx26("p", {
         children: "Please do not consider the score as investment advice."
       })
     ]
@@ -9846,125 +9893,125 @@ var Footer = () => {
 };
 
 // src/Scrollable.tsx
-import { jsx as jsx26 } from "react/jsx-runtime";
+import { jsx as jsx27 } from "react/jsx-runtime";
 var Scrollable = () => {
   const { scrollYProgress } = useScroll();
-  return /* @__PURE__ */ jsx26(motion.div, {
+  return /* @__PURE__ */ jsx27(motion.div, {
     className: "progress-bar",
     style: { scaleX: scrollYProgress }
   });
 };
 
 // src/SquareWhite.tsx
-import { jsx as jsx27 } from "react/jsx-runtime";
+import { jsx as jsx28 } from "react/jsx-runtime";
 var SquareWhite = () => {
-  return /* @__PURE__ */ jsx27("div", {
+  return /* @__PURE__ */ jsx28("div", {
     className: "square_white"
   });
 };
 
 // src/SquareDiamond.tsx
-import { jsx as jsx28 } from "react/jsx-runtime";
+import { jsx as jsx29 } from "react/jsx-runtime";
 var SquareDiamond = () => {
-  return /* @__PURE__ */ jsx28("div", {
+  return /* @__PURE__ */ jsx29("div", {
     className: "square_diamond"
   });
 };
 
 // src/SquareGold.tsx
-import { jsx as jsx29 } from "react/jsx-runtime";
+import { jsx as jsx30 } from "react/jsx-runtime";
 var SquareGold = () => {
-  return /* @__PURE__ */ jsx29("div", {
+  return /* @__PURE__ */ jsx30("div", {
     className: "square_gold"
   });
 };
 
 // src/SquareSilver.tsx
-import { jsx as jsx30 } from "react/jsx-runtime";
+import { jsx as jsx31 } from "react/jsx-runtime";
 var SquareSilver = () => {
-  return /* @__PURE__ */ jsx30("div", {
+  return /* @__PURE__ */ jsx31("div", {
     className: "square_silver"
   });
 };
 
 // src/SquareBronze.tsx
-import { jsx as jsx31 } from "react/jsx-runtime";
+import { jsx as jsx32 } from "react/jsx-runtime";
 var SquareBronze = () => {
-  return /* @__PURE__ */ jsx31("div", {
+  return /* @__PURE__ */ jsx32("div", {
     className: "square_bronze"
   });
 };
 
 // src/PylarLogo.tsx
-import { jsx as jsx32, jsxs as jsxs20 } from "react/jsx-runtime";
+import { jsx as jsx33, jsxs as jsxs21 } from "react/jsx-runtime";
 var PylarLogo = () => {
-  return /* @__PURE__ */ jsx32("div", {
+  return /* @__PURE__ */ jsx33("div", {
     className: "flex flex-col items-center justify-center text-center",
-    children: /* @__PURE__ */ jsx32("a", {
+    children: /* @__PURE__ */ jsx33("a", {
       href: "https://pylar.org",
       className: "m-2",
-      children: /* @__PURE__ */ jsx32("picture", {
-        children: /* @__PURE__ */ jsxs20("svg", {
+      children: /* @__PURE__ */ jsx33("picture", {
+        children: /* @__PURE__ */ jsxs21("svg", {
           xmlns: "http://www.w3.org/2000/svg",
           width: "150",
           height: "25",
           viewBox: "0 0 3060 678",
           className: "m-3 h-6 w-24",
           children: [
-            /* @__PURE__ */ jsx32("defs", {}),
-            /* @__PURE__ */ jsxs20("g", {
+            /* @__PURE__ */ jsx33("defs", {}),
+            /* @__PURE__ */ jsxs21("g", {
               fill: "#000000",
               "fill-rule": "evenodd",
               transform: "translate(-151 -173)",
               children: [
-                /* @__PURE__ */ jsx32("path", {
+                /* @__PURE__ */ jsx33("path", {
                   fill: "#ffffff",
                   d: "M508.516097,232.032195 L783.120976,781.241951 C791.271621,797.543242 784.664217,817.365452 768.362927,825.516097 C763.780698,827.807212 758.727967,829 753.604878,829 L204.395122,829 C186.169725,829 171.395122,814.225397 171.395122,796 C171.395122,790.876912 172.58791,785.824181 174.879024,781.241951 L449.483903,232.032195 C457.634548,215.730904 477.456758,209.123501 493.758049,217.274146 C500.144453,220.467348 505.322895,225.64579 508.516097,232.032195 Z",
                   transform: "matrix(0 -1 -1 0 980 980)"
                 }),
-                /* @__PURE__ */ jsx32("path", {
+                /* @__PURE__ */ jsx33("path", {
                   fill: "#000000",
                   d: "M419.705262,277.910524 L658,754.5 L658,754.5 L151,754.5 L389.294738,277.910524 C393.493555,269.51289 403.704997,266.109076 412.102631,270.307893 C415.392597,271.952876 418.060279,274.620559 419.705262,277.910524 Z",
                   transform: "matrix(0 -1 -1 0 905.5 905.5)"
                 }),
-                /* @__PURE__ */ jsx32("path", {
+                /* @__PURE__ */ jsx33("path", {
                   fill: "#ffffff",
                   d: "M356.705262,340.910524 L532,691.5 L532,691.5 L151,691.5 L326.294738,340.910524 C330.493555,332.51289 340.704997,329.109076 349.102631,333.307893 C352.392597,334.952876 355.060279,337.620559 356.705262,340.910524 Z",
                   transform: "matrix(0 -1 -1 0 842.5 842.5)"
                 }),
-                /* @__PURE__ */ jsx32("path", {
+                /* @__PURE__ */ jsx33("path", {
                   fill: "#000000",
                   d: "M293.205262,404.410524 L405,628 L405,628 L151,628 L262.794738,404.410524 C266.993555,396.01289 277.204997,392.609076 285.602631,396.807893 C288.892597,398.452876 291.560279,401.120559 293.205262,404.410524 Z",
                   transform: "matrix(0 -1 -1 0 779 779)"
                 }),
-                /* @__PURE__ */ jsx32("path", {
+                /* @__PURE__ */ jsx33("path", {
                   fill: "#ffffff",
                   d: "M230.599689,469.699379 L278,564.5 L278,564.5 L151,564.5 L198.400311,469.699379 C202.846117,460.807766 213.658232,457.203728 222.549845,461.649534 C226.033338,463.391281 228.857943,466.215886 230.599689,469.699379 Z",
                   transform: "matrix(0 -1 -1 0 715.5 715.5)"
                 }),
-                /* @__PURE__ */ jsx32("text", {
+                /* @__PURE__ */ jsx33("text", {
                   fill: "#ffffff",
                   "font-family": "Roboto, sans-serif",
                   "font-size": "500",
                   "font-weight": "500",
-                  children: /* @__PURE__ */ jsx32("tspan", {
+                  children: /* @__PURE__ */ jsx33("tspan", {
                     x: "993.25",
                     y: "697",
                     children: "Pylar\u2122 AI"
                   })
                 }),
-                /* @__PURE__ */ jsx32("text", {
+                /* @__PURE__ */ jsx33("text", {
                   fill: "#ffffff",
                   "font-family": "Roboto, sans-serif",
                   "font-size": "100",
                   "font-weight": "500",
-                  children: /* @__PURE__ */ jsx32("tspan", {
+                  children: /* @__PURE__ */ jsx33("tspan", {
                     x: "690.95",
                     y: "829",
                     children: "\xA9"
                   })
                 }),
-                /* @__PURE__ */ jsx32("text", {
+                /* @__PURE__ */ jsx33("text", {
                   fill: "#ffffff",
                   "font-family": "Roboto, sans-serif",
                   "font-size": "75",
@@ -9980,75 +10027,75 @@ var PylarLogo = () => {
 };
 
 // src/SuperdataLogo.tsx
-import { jsx as jsx33, jsxs as jsxs21 } from "react/jsx-runtime";
+import { jsx as jsx34, jsxs as jsxs22 } from "react/jsx-runtime";
 var SuperdataLogo = () => {
-  return /* @__PURE__ */ jsx33("div", {
+  return /* @__PURE__ */ jsx34("div", {
     className: "flex flex-col items-center justify-center text-center",
-    children: /* @__PURE__ */ jsx33("a", {
+    children: /* @__PURE__ */ jsx34("a", {
       href: "https://pylar.org",
       className: "m-2",
-      children: /* @__PURE__ */ jsx33("picture", {
-        children: /* @__PURE__ */ jsxs21("svg", {
+      children: /* @__PURE__ */ jsx34("picture", {
+        children: /* @__PURE__ */ jsxs22("svg", {
           xmlns: "http://www.w3.org/2000/svg",
           width: "150",
           height: "25",
           viewBox: "0 0 3500 678",
           className: "m-3 h-6 w-24",
           children: [
-            /* @__PURE__ */ jsx33("defs", {}),
-            /* @__PURE__ */ jsxs21("g", {
+            /* @__PURE__ */ jsx34("defs", {}),
+            /* @__PURE__ */ jsxs22("g", {
               fill: "#ffffff",
               "fill-rule": "evenodd",
               transform: "translate(-151 -173)",
               children: [
-                /* @__PURE__ */ jsx33("path", {
+                /* @__PURE__ */ jsx34("path", {
                   fill: "#ffffff",
                   d: "M508.516097,232.032195 L783.120976,781.241951 C791.271621,797.543242 784.664217,817.365452 768.362927,825.516097 C763.780698,827.807212 758.727967,829 753.604878,829 L204.395122,829 C186.169725,829 171.395122,814.225397 171.395122,796 C171.395122,790.876912 172.58791,785.824181 174.879024,781.241951 L449.483903,232.032195 C457.634548,215.730904 477.456758,209.123501 493.758049,217.274146 C500.144453,220.467348 505.322895,225.64579 508.516097,232.032195 Z",
                   transform: "matrix(0 -1 -1 0 980 980)"
                 }),
-                /* @__PURE__ */ jsx33("path", {
+                /* @__PURE__ */ jsx34("path", {
                   fill: "#000000",
                   d: "M419.705262,277.910524 L658,754.5 L658,754.5 L151,754.5 L389.294738,277.910524 C393.493555,269.51289 403.704997,266.109076 412.102631,270.307893 C415.392597,271.952876 418.060279,274.620559 419.705262,277.910524 Z",
                   transform: "matrix(0 -1 -1 0 905.5 905.5)"
                 }),
-                /* @__PURE__ */ jsx33("path", {
+                /* @__PURE__ */ jsx34("path", {
                   fill: "#000000",
                   d: "M356.705262,340.910524 L532,691.5 L532,691.5 L151,691.5 L326.294738,340.910524 C330.493555,332.51289 340.704997,329.109076 349.102631,333.307893 C352.392597,334.952876 355.060279,337.620559 356.705262,340.910524 Z",
                   transform: "matrix(0 -1 -1 0 842.5 842.5)"
                 }),
-                /* @__PURE__ */ jsx33("path", {
+                /* @__PURE__ */ jsx34("path", {
                   fill: "#000000",
                   d: "M293.205262,404.410524 L405,628 L405,628 L151,628 L262.794738,404.410524 C266.993555,396.01289 277.204997,392.609076 285.602631,396.807893 C288.892597,398.452876 291.560279,401.120559 293.205262,404.410524 Z",
                   transform: "matrix(0 -1 -1 0 779 779)"
                 }),
-                /* @__PURE__ */ jsx33("path", {
+                /* @__PURE__ */ jsx34("path", {
                   fill: "#000000",
                   d: "M230.599689,469.699379 L278,564.5 L278,564.5 L151,564.5 L198.400311,469.699379 C202.846117,460.807766 213.658232,457.203728 222.549845,461.649534 C226.033338,463.391281 228.857943,466.215886 230.599689,469.699379 Z",
                   transform: "matrix(0 -1 -1 0 715.5 715.5)"
                 }),
-                /* @__PURE__ */ jsx33("text", {
+                /* @__PURE__ */ jsx34("text", {
                   fill: "#ffffff",
                   "font-family": "Roboto, sans-serif",
                   "font-size": "500",
                   "font-weight": "500",
-                  children: /* @__PURE__ */ jsx33("tspan", {
+                  children: /* @__PURE__ */ jsx34("tspan", {
                     x: "993.25",
                     y: "697",
                     children: "SuperData\u2122"
                   })
                 }),
-                /* @__PURE__ */ jsx33("text", {
+                /* @__PURE__ */ jsx34("text", {
                   fill: "#ffffff",
                   "font-family": "Roboto, sans-serif",
                   "font-size": "100",
                   "font-weight": "500",
-                  children: /* @__PURE__ */ jsx33("tspan", {
+                  children: /* @__PURE__ */ jsx34("tspan", {
                     x: "690.95",
                     y: "829",
                     children: "\xA9"
                   })
                 }),
-                /* @__PURE__ */ jsx33("text", {
+                /* @__PURE__ */ jsx34("text", {
                   fill: "#ffffff",
                   "font-family": "Roboto, sans-serif",
                   "font-size": "75",
@@ -10064,76 +10111,76 @@ var SuperdataLogo = () => {
 };
 
 // src/PencilLogo.tsx
-import { jsx as jsx34, jsxs as jsxs22 } from "react/jsx-runtime";
+import { jsx as jsx35, jsxs as jsxs23 } from "react/jsx-runtime";
 var ELEMENTS6 = 12;
 var PencilLogo = () => {
-  return /* @__PURE__ */ jsx34("div", {
+  return /* @__PURE__ */ jsx35("div", {
     className: "m-2 hidden rounded-full text-xs font-bold text-black shadow-md hover:shadow-xl md:block",
     style: k(ELEMENTS6),
-    children: /* @__PURE__ */ jsx34("a", {
+    children: /* @__PURE__ */ jsx35("a", {
       href: "https://pylar.org",
       className: "",
-      children: /* @__PURE__ */ jsx34("picture", {
-        children: /* @__PURE__ */ jsx34("svg", {
+      children: /* @__PURE__ */ jsx35("picture", {
+        children: /* @__PURE__ */ jsx35("svg", {
           xmlns: "http://www.w3.org/2000/svg",
           width: "150",
           height: "25",
           viewBox: "0 0 3060 678",
           className: "m-3 h-6 w-24",
-          children: /* @__PURE__ */ jsxs22("g", {
+          children: /* @__PURE__ */ jsxs23("g", {
             fill: "#be0aff",
             "fill-rule": "evenodd",
             transform: "translate(-151 -173)",
             children: [
-              /* @__PURE__ */ jsx34("path", {
+              /* @__PURE__ */ jsx35("path", {
                 fill: "#be0aff",
                 d: "M508.516097,232.032195 L783.120976,781.241951 C791.271621,797.543242 784.664217,817.365452 768.362927,825.516097 C763.780698,827.807212 758.727967,829 753.604878,829 L204.395122,829 C186.169725,829 171.395122,814.225397 171.395122,796 C171.395122,790.876912 172.58791,785.824181 174.879024,781.241951 L449.483903,232.032195 C457.634548,215.730904 477.456758,209.123501 493.758049,217.274146 C500.144453,220.467348 505.322895,225.64579 508.516097,232.032195 Z",
                 transform: "matrix(0 -1 -1 0 980 980)"
               }),
-              /* @__PURE__ */ jsx34("path", {
+              /* @__PURE__ */ jsx35("path", {
                 fill: "#147df5",
                 d: "M419.705262,277.910524 L658,754.5 L658,754.5 L151,754.5 L389.294738,277.910524 C393.493555,269.51289 403.704997,266.109076 412.102631,270.307893 C415.392597,271.952876 418.060279,274.620559 419.705262,277.910524 Z",
                 transform: "matrix(0 -1 -1 0 905.5 905.5)"
               }),
-              /* @__PURE__ */ jsx34("path", {
+              /* @__PURE__ */ jsx35("path", {
                 fill: "#0aff99",
                 d: "M356.705262,340.910524 L532,691.5 L532,691.5 L151,691.5 L326.294738,340.910524 C330.493555,332.51289 340.704997,329.109076 349.102631,333.307893 C352.392597,334.952876 355.060279,337.620559 356.705262,340.910524 Z",
                 transform: "matrix(0 -1 -1 0 842.5 842.5)"
               }),
-              /* @__PURE__ */ jsx34("path", {
+              /* @__PURE__ */ jsx35("path", {
                 fill: "#deff0a",
                 d: "M293.205262,404.410524 L405,628 L405,628 L151,628 L262.794738,404.410524 C266.993555,396.01289 277.204997,392.609076 285.602631,396.807893 C288.892597,398.452876 291.560279,401.120559 293.205262,404.410524 Z",
                 transform: "matrix(0 -1 -1 0 779 779)"
               }),
-              /* @__PURE__ */ jsx34("path", {
+              /* @__PURE__ */ jsx35("path", {
                 fill: "#ff0000",
                 d: "M230.599689,469.699379 L278,564.5 L278,564.5 L151,564.5 L198.400311,469.699379 C202.846117,460.807766 213.658232,457.203728 222.549845,461.649534 C226.033338,463.391281 228.857943,466.215886 230.599689,469.699379 Z",
                 transform: "matrix(0 -1 -1 0 715.5 715.5)"
               }),
-              /* @__PURE__ */ jsx34("text", {
+              /* @__PURE__ */ jsx35("text", {
                 fill: "#000000",
                 "font-family": "Roboto, sans-serif",
                 "font-size": "500",
                 "font-weight": "500",
-                children: /* @__PURE__ */ jsx34("tspan", {
+                children: /* @__PURE__ */ jsx35("tspan", {
                   x: "993.25",
                   y: "697",
                   className: "underline",
                   children: "Pencil Domains\u2122"
                 })
               }),
-              /* @__PURE__ */ jsx34("text", {
+              /* @__PURE__ */ jsx35("text", {
                 fill: "#000000",
                 "font-family": "Roboto, sans-serif",
                 "font-size": "100",
                 "font-weight": "500",
-                children: /* @__PURE__ */ jsx34("tspan", {
+                children: /* @__PURE__ */ jsx35("tspan", {
                   x: "690.95",
                   y: "829",
                   children: "\xA9"
                 })
               }),
-              /* @__PURE__ */ jsx34("text", {
+              /* @__PURE__ */ jsx35("text", {
                 fill: "#000000",
                 "font-family": "Roboto, sans-serif",
                 "font-size": "75",
