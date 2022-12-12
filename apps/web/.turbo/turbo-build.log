@@ -1,13 +1,43 @@
-yarn run v1.22.17
+yarn run v1.22.19
 $ next build
 info  - Linting and checking validity of types...
+info  - Creating an optimized production build...
+info  - Compiled successfully
+info  - Collecting page data...
+info  - Generating static pages (0/19)
+info  - Generating static pages (4/19)
+info  - Generating static pages (9/19)
+info  - Generating static pages (14/19)
+info  - Generating static pages (19/19)
+info  - Finalizing page optimization...
 
-Failed to compile.
+Route (pages)                              Size     First Load JS
+┌ ○ /                                      2.36 kB         151 kB
+├   /_app                                  0 B            73.2 kB
+├ ○ /404                                   181 B          73.4 kB
+├ ○ /corporate                             1.42 kB         118 kB
+├ ○ /developer (489 ms)                    1.83 kB         118 kB
+├ ○ /developer-agreement (584 ms)          13.4 kB         130 kB
+├ ○ /developer-launch                      1.59 kB         118 kB
+├ ○ /domains                               1.33 kB         118 kB
+├ ○ /domains-blockchain (546 ms)           1.33 kB         118 kB
+├ ○ /domains-geographic                    1.33 kB         118 kB
+├ ○ /domains-metaverse                     1.33 kB         118 kB
+├ ○ /domains-new                           1.33 kB         118 kB
+├ ○ /explorer                              2.37 kB         151 kB
+├ ○ /office                                2.78 kB         119 kB
+├ ○ /support                               1.48 kB         118 kB
+├ ○ /support-answers                       3.08 kB         119 kB
+├ ○ /support-pp                            8.1 kB          124 kB
+├ ○ /support-tos                           14.6 kB         131 kB
+└ ○ /support-trademarks                    6.04 kB         122 kB
++ First Load JS shared by all              77.7 kB
+  ├ chunks/framework-22108eb722d84e59.js   45.4 kB
+  ├ chunks/main-b8adf948f7f01545.js        26.7 kB
+  ├ chunks/pages/_app-997c08fa256e3248.js  324 B
+  ├ chunks/webpack-ee7e63bc15b31913.js     815 B
+  └ css/45c514a3230d0f33.css               4.53 kB
 
-./src/pages/pylar.tsx
-18:81  Error: `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`.  react/no-unescaped-entities
-18:90  Error: `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`.  react/no-unescaped-entities
+○  (Static)  automatically rendered as static HTML (uses no initial props)
 
-info  - Need to disable some ESLint rules? Learn more here: https://nextjs.org/docs/basic-features/eslint#disabling-rules
-error Command failed with exit code 1.
-info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+Done in 47.97s.

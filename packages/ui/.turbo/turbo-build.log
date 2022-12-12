@@ -6,62 +6,17 @@ CLI tsup v6.5.0
 CLI Target: es6
 ESM Build start
 CJS Build start
-✘ [ERROR] Could not resolve "ui"
-
-    src/Menu.tsx:3:25:
-      3 │ import { MenuLogo } from "ui";
-        ╵                          ~~~~
-
-  Importing the directory "./dist" is forbidden by this package:
-
-    package.json:7:9:
-      7 │     ".": "./dist",
-        ╵          ~~~~~~~~
-
-  The presence of "exports" here makes importing a directory forbidden:
-
-    package.json:6:2:
-      6 │   "exports": {
-        ╵   ~~~~~~~~~
-
-  You can mark the path "ui" as external to exclude it from the bundle, which will remove this error.
-
-✘ [ERROR] Could not resolve "ui"
-
-    src/Menu.tsx:3:25:
-      3 │ import { MenuLogo } from "ui";
-        ╵                          ~~~~
-
-  Importing the directory "./dist" is forbidden by this package:
-
-    package.json:7:9:
-      7 │     ".": "./dist",
-        ╵          ~~~~~~~~
-
-  The presence of "exports" here makes importing a directory forbidden:
-
-    package.json:6:2:
-      6 │   "exports": {
-        ╵   ~~~~~~~~~
-
-  You can mark the path "ui" as external to exclude it from the bundle, which will remove this error.
-
-ESM Build failed
-Error: Build failed with 1 error:
-src/Menu.tsx:3:25: ERROR: Could not resolve "ui"
-    at failureErrorWithLog (/Users/miguel/pure/Next13-Fetch-Data-turbo/node_modules/esbuild/lib/main.js:1566:15)
-    at /Users/miguel/pure/Next13-Fetch-Data-turbo/node_modules/esbuild/lib/main.js:1024:28
-    at runOnEndCallbacks (/Users/miguel/pure/Next13-Fetch-Data-turbo/node_modules/esbuild/lib/main.js:1438:61)
-    at buildResponseToResult (/Users/miguel/pure/Next13-Fetch-Data-turbo/node_modules/esbuild/lib/main.js:1022:7)
-    at /Users/miguel/pure/Next13-Fetch-Data-turbo/node_modules/esbuild/lib/main.js:1134:14
-    at responseCallbacks.<computed> (/Users/miguel/pure/Next13-Fetch-Data-turbo/node_modules/esbuild/lib/main.js:671:9)
-    at handleIncomingPacket (/Users/miguel/pure/Next13-Fetch-Data-turbo/node_modules/esbuild/lib/main.js:726:9)
-    at Socket.readFromStdout (/Users/miguel/pure/Next13-Fetch-Data-turbo/node_modules/esbuild/lib/main.js:647:7)
-    at Socket.emit (node:events:513:28)
-    at addChunk (node:internal/streams/readable:324:12)
-CJS Build failed
+CJS dist/index.js  403.83 KB
+CJS dist/index.css 2.48 KB
+CJS ⚡️ Build success in 1292ms
+ESM dist/index.mjs 388.88 KB
+ESM dist/index.css 2.48 KB
+ESM ⚡️ Build success in 1467ms
 DTS Build start
-DTS ⚡️ Build success in 7547ms
+DTS ⚡️ Build success in 4660ms
 DTS dist/index.d.ts 1.96 KB
-error Command failed with exit code 1.
-info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+
+Rebuilding...
+
+Done in 506ms.
+Done in 9.79s.
