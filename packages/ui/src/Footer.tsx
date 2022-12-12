@@ -77,27 +77,6 @@ export const Footer = () => {
       <p>Please do not consider the score as investment advice.</p>
     </footer>
   );
-<<<<<<< HEAD
 };
 
 
-/*
-  <a
-            href="https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fmiguelgargallo%2FNext13-Fetch-Data-turbo&project-name=miguelgargallo-next13-fetch-data-turbo&repo-name=miguelgargallo-next13-fetch-data-turbo"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hidden p-2 md:block"
-          >
-            <picture>
-              <img
-                src="https://vercel.com/button"
-                alt="Landscape picture"
-                width={75}
-                height={20}
-              />
-            </picture>
-          </a>
-*/
-=======
-};
->>>>>>> 00d4fb9 (1.9.99 Standard Footer with sentence)
