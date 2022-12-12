@@ -696,22 +696,12 @@ video {
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
-.from-black {
-  --tw-gradient-from: #000;
-  --tw-gradient-to: rgb(0 0 0 / 0);
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
-}
-
 .to-brandblue {
   --tw-gradient-to: #3b82f6;
 }
 
 .to-blue-500 {
   --tw-gradient-to: #3b82f6;
-}
-
-.to-black {
-  --tw-gradient-to: #000;
 }
 
 .bg-clip-text {

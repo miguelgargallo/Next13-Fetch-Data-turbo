@@ -1,5 +1,3 @@
-import { Version } from "./Version.ms";
-import { Supermenu } from "./Supermenu";
 import { motion, useScroll } from "framer-motion";
 import "./styles.css";
 import { MenuLogo } from "ui";
@@ -24,6 +22,25 @@ export const Menu = () => {
         <button className="hidden rounded-xl py-2 px-4 font-bold text-white sm:block">
           <a href="/corporate">Corporate</a>
         </button>
+        <div
+          className="hidden py-2 px-4 font-bold text-white md:block"
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+          }}
+        >
+          {" "}
+          <button className="hidden py-2 px-4 font-bold text-white md:block">
+            <a
+              href="http://twitter.com/pencildomains"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Twitter
+            </a>
+          </button>
+        </div>
       </div>
     </div>
   );
