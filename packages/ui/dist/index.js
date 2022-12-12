@@ -7662,7 +7662,7 @@ var MenuLogo = () => {
 var import_jsx_runtime3 = require("react/jsx-runtime");
 var MenuAlpha = () => {
   return /* @__PURE__ */ (0, import_jsx_runtime3.jsxs)("div", {
-    className: "flex flex-row items-center justify-between bg-gradient-to-r from-blue-400 to-blue-500",
+    className: "hidden flex flex-row items-center justify-between bg-gradient-to-r from-blue-400 to-blue-500 sm:block",
     children: [
       /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("button", {
         className: "px-8 py-2 font-bold text-white",
