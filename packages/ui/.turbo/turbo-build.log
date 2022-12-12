@@ -47,7 +47,6 @@ CJS Build start
   You can mark the path "ui" as external to exclude it from the bundle, which will remove this error.
 
 ESM Build failed
-CJS Build failed
 Error: Build failed with 1 error:
 src/Menu.tsx:3:25: ERROR: Could not resolve "ui"
     at failureErrorWithLog (/Users/miguel/pure/Next13-Fetch-Data-turbo/node_modules/esbuild/lib/main.js:1566:15)
@@ -60,8 +59,9 @@ src/Menu.tsx:3:25: ERROR: Could not resolve "ui"
     at Socket.readFromStdout (/Users/miguel/pure/Next13-Fetch-Data-turbo/node_modules/esbuild/lib/main.js:647:7)
     at Socket.emit (node:events:513:28)
     at addChunk (node:internal/streams/readable:324:12)
+CJS Build failed
 DTS Build start
-DTS ⚡️ Build success in 8365ms
+DTS ⚡️ Build success in 7547ms
 DTS dist/index.d.ts 1.96 KB
 error Command failed with exit code 1.
 info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.

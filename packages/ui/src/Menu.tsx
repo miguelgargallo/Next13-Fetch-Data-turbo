@@ -1,6 +1,6 @@
 import { motion, useScroll } from "framer-motion";
 import "./styles.css";
-import { MenuLogo } from "ui";
+import { MenuLogo } from "./MenuLogo";
 
 export const Menu = () => {
   const { scrollYProgress } = useScroll();
