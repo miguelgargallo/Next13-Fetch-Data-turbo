@@ -1,7 +1,7 @@
 export const MenuAlpha = () => {
 
   return (
-    <div className="hidden flex flex-row items-center justify-between bg-gradient-to-r from-blue-400 to-blue-500 sm:block">
+    <div className="flex flex-row items-center justify-between bg-gradient-to-r from-blue-400 to-blue-500">
       <button className="px-8 py-2 font-bold text-white">
         <a href="https://superdatas.org" target="_blank" rel="noopener noreferrer"
         >SuperData</a>
