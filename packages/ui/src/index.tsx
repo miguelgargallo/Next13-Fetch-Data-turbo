@@ -15,6 +15,7 @@ export * from "./MenuLogo";
 export * from "./TitleIndex";
 export * from "./TitleExplorer";
 export * from "./TitleCorporate";
+export * from "./TitleShaky";
 // List
 export * from "./ListPylar";
 // Version

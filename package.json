@@ -21,7 +21,8 @@
   "dependencies": {
     "@vercel/analytics": "latest",
     "framer-motion": "^7.6.7",
-    "meshgrad": "^0.0.10"
+    "meshgrad": "^0.0.10",
+    "react-ga": "^3.3.1"
   },
   "packageManager": "yarn@1.22.17"
 }
