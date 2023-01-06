@@ -8404,22 +8404,28 @@ var TitleShaky = () => {
           })
         ]
       }),
-      /* @__PURE__ */ jsx13(motion.div, {
+      /* @__PURE__ */ jsxs13(motion.div, {
         initial: { opacity: 0 },
         animate: { opacity: 1 },
         transition: { delay: 2.2, duration: 1.5 },
         className: "py-8 text-center text-2xl font-bold text-gray-900",
-        children: /* @__PURE__ */ jsx13("button", {
-          className: "bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded",
-          children: /* @__PURE__ */ jsx13("a", {
-            href: "https://pencil.com/shaky.exe",
-            download: "shaky.exe",
-            className: "text-white",
-            target: "_blank",
-            rel: "noreferrer",
-            children: "Download"
+        children: [
+          /* @__PURE__ */ jsx13("button", {
+            className: "bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-md hover:shadow-lg transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110",
+            children: /* @__PURE__ */ jsx13("a", {
+              href: "https://drive.google.com/drive/folders/1SbWpymjRzmQMSFwP7AT5vb4zeCIxL0FE?usp=share_link",
+              download: "Google Drive",
+              className: "text-white",
+              target: "_blank",
+              rel: "noreferrer",
+              children: "Download - Google Drive"
+            })
+          }),
+          /* @__PURE__ */ jsx13("p", {
+            className: "text-sm m-2 p-2 text-blue-500",
+            children: "By clicking the button, you agree to our Terms and that you have read our Data Use Policy, including our Cookie Use and Data Law Regulation Locally."
           })
-        })
+        ]
       })
     ]
   });
