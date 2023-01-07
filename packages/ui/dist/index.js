@@ -8466,6 +8466,55 @@ var TitleShaky = () => {
           /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("p", {
             className: "text-sm m-2 p-2 text-blue-500",
             children: "By clicking the button, you agree to our Terms and that you have read our Data Use Policy, including our Cookie Use and Data Law Regulation Locally."
+          }),
+          /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("div", {
+            className: "flex flex-row items-center justify-center",
+            children: /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("h2", {
+              className: "py-8 text-center text-3xl font-bold text-gray-900",
+              children: "Check MD2 File"
+            })
+          }),
+          /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("h4", {
+            className: "py-8 text-center text-sm font-bold text-gray-900",
+            children: "Disclaimer, when you open on Windows there is a prompt, say yes, open anywhay option, here down below we scanned publicly the program, we invite you to do so If you want!"
+          }),
+          /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)("div", {
+            className: "flex flex-row items-center justify-center",
+            children: [
+              /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("button", {
+                className: "m-2 bg-green-300 hover:bg-green-700 text-white font-bold p-2 rounded-md hover:shadow-lg transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110",
+                children: /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("a", {
+                  href: "https://opentip.kaspersky.com/366FE0D9ECCB1B3FC99B650DF22FE8EDBAE5E6414A0AD147E164FA1E6C380259/results?tab=upload",
+                  download: "Google Drive",
+                  className: "text-black text-sm justify-center items-center flex",
+                  target: "_blank",
+                  rel: "noreferrer",
+                  children: "\u2705 -kaspersky \u{1F6E1}\uFE0F 0 Vulnerarivilities"
+                })
+              }),
+              /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("button", {
+                className: "m-2 bg-green-300 hover:bg-green-700 text-white font-bold p-2 rounded-md hover:shadow-lg transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110",
+                children: /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("a", {
+                  href: "https://www.hybrid-analysis.com/sample/366fe0d9eccb1b3fc99b650df22fe8edbae5e6414a0ad147e164fa1e6c380259",
+                  download: "Google Drive",
+                  className: "text-black text-sm justify-center items-center flex",
+                  target: "_blank",
+                  rel: "noreferrer",
+                  children: "\u2705 Hybrid Analysis \u{1F6E1}\uFE0F 100% Clean"
+                })
+              }),
+              /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("button", {
+                className: "m-2 bg-green-300 hover:bg-green-700 text-white font-bold p-2 rounded-md hover:shadow-lg transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110",
+                children: /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("a", {
+                  href: "https://metadefender.opswat.com/results/file/bzIzMDEwN05YcXRraEJQSE1vREhXOFN1Z0U/regular/overview",
+                  download: "Google Drive",
+                  className: "text-black text-sm justify-center items-center flex",
+                  target: "_blank",
+                  rel: "noreferrer",
+                  children: "\u2705 MetaDefender \u{1F6E1}\uFE0F 0 Suspicious Activites"
+                })
+              })
+            ]
           })
         ]
       })
