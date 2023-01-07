@@ -66,6 +66,26 @@ export const TitleShaky = () => {
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
+        transition={{ delay: 2.2, duration: 1.2 }}
+        className="py-8 text-center text-2xl font-bold text-gray-900"
+      >
+        <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-md hover:shadow-lg transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110">
+          <a
+            href="https://drive.google.com/drive/folders/1SbWpymjRzmQMSFwP7AT5vb4zeCIxL0FE?usp=share_link"
+            download="Google Drive"
+            className="text-white"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Download - Google Drive
+          </a>
+        </button>
+
+
+      </motion.div>
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
         transition={{ delay: 2.2, duration: 1.5 }}
         className="py-8 text-center text-2xl font-bold text-gray-900"
       >

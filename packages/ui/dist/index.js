@@ -8378,6 +8378,23 @@ var TitleShaky = () => {
           })
         ]
       }),
+      /* @__PURE__ */ (0, import_jsx_runtime13.jsx)(motion.div, {
+        initial: { opacity: 0 },
+        animate: { opacity: 1 },
+        transition: { delay: 2.2, duration: 1.2 },
+        className: "py-8 text-center text-2xl font-bold text-gray-900",
+        children: /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("button", {
+          className: "bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-md hover:shadow-lg transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110",
+          children: /* @__PURE__ */ (0, import_jsx_runtime13.jsx)("a", {
+            href: "https://drive.google.com/drive/folders/1SbWpymjRzmQMSFwP7AT5vb4zeCIxL0FE?usp=share_link",
+            download: "Google Drive",
+            className: "text-white",
+            target: "_blank",
+            rel: "noreferrer",
+            children: "Download - Google Drive"
+          })
+        })
+      }),
       /* @__PURE__ */ (0, import_jsx_runtime13.jsxs)(motion.div, {
         initial: { opacity: 0 },
         animate: { opacity: 1 },
