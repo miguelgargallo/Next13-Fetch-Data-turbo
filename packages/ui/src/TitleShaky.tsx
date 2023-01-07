@@ -170,7 +170,7 @@ export const TitleShaky = () => {
               target="_blank"
               rel="noreferrer"
             >
-              ✅ -kaspersky 🛡️ 0 Vulnerarivilities
+              ✅ Kaspersky 🛡️ 0 Vulnerarivilities
             </a>
           </button>
           <button className="m-2 bg-green-300 hover:bg-green-700 text-white font-bold p-2 rounded-md hover:shadow-lg transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110">
