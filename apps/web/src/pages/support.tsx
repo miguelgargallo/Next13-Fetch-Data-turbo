@@ -1,6 +1,7 @@
 /* eslint-disable react/jsx-no-comment-textnodes */
 import Head from "next/head";
 import { Menu } from "ui";
+import { Ga } from "ui";
 import { Footer } from "ui";
 import { MenuCorporate } from "ui";
 import { SupportMenu } from "ui";
@@ -9,7 +10,7 @@ export default function Home() {
   return (
     <div className="min-w-screen flex min-h-screen flex-col bg-white">
       <Head>
-        <title>Pencil Domains</title>
+        <Ga />        <title>Pencil Domains</title>
         <link rel="icon" href="./favicon.ico" />
       </Head>
 

@@ -11,6 +11,8 @@ export * from "./MenuCorporate";
 // Logo
 export * from "./Logo";
 export * from "./MenuLogo";
+// Analytics
+export * from "./Ga";
 // Title and subtitle
 export * from "./TitleIndex";
 export * from "./TitleExplorer";
