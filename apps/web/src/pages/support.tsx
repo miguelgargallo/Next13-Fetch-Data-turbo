@@ -1,7 +1,6 @@
 /* eslint-disable react/jsx-no-comment-textnodes */
 import Head from "next/head";
 import { Menu } from "ui";
-import { Ga } from "ui";
 import { Footer } from "ui";
 import { MenuCorporate } from "ui";
 import { SupportMenu } from "ui";
@@ -10,7 +9,16 @@ export default function Home() {
   return (
     <div className="min-w-screen flex min-h-screen flex-col bg-white">
       <Head>
-        <Ga />        <title>Pencil Domains</title>
+        <script>
+          {`
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-DX6Z7BZKTT"
+    >
+          gt('js', new Date());
+          gt('config', 'G-DX6Z7BZKTT');
+        `}
+        </script>
+        <title>Pencil Domains</title>
         <link rel="icon" href="./favicon.ico" />
       </Head>
 
