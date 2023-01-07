@@ -12,3 +12,5 @@ export const Ga = () => {
     </script>
   );
 };
+
+export default Ga;
