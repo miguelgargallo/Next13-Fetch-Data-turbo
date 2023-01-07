@@ -9,15 +9,15 @@ export default function Home() {
   return (
     <div className="min-w-screen flex min-h-screen flex-col bg-white">
       <Head>
-        <script>
-          {`
-          async
-          src="https://www.googletagmanager.com/gtag/js?id=G-DX6Z7BZKTT"
-    >
+        {`
+          <script async src="https://www.googletagmanager.com/gtag/js?id=G-DX6Z7BZKTT"></script>
+          <script>
+          window.dataLayer = window.dataLayer || [];
+          function gt(){dataLayer.push(arguments);}
           gt('js', new Date());
           gt('config', 'G-DX6Z7BZKTT');
+          </script>
         `}
-        </script>
         <title>Pencil Domains</title>
         <link rel="icon" href="./favicon.ico" />
       </Head>
