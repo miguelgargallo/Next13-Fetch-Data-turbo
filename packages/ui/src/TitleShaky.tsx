@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-import Link from "next/link";
 
 export const TitleShaky = () => {
   return (
@@ -164,7 +163,7 @@ export const TitleShaky = () => {
         <div className="flex flex-row items-center justify-center">
           <button className="m-2 bg-green-300 hover:bg-green-700 text-white font-bold p-2 rounded-md hover:shadow-lg transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110">
             <a
-              href="https://opentip.kaspersky.com/366FE0D9ECCB1B3FC99B650DF22FE8EDBAE5E6414A0AD147E164FA1E6C380259/results?tab=upload"
+              href="https://opentip.kaspersky.com/772A7F6250BC37403CED3742214C25B5266584372AEC9A67B7C4FC46315BA86C/results?tab=upload"
               download="Google Drive"
               className="text-black text-sm justify-center items-center flex"
               target="_blank"
@@ -175,7 +174,7 @@ export const TitleShaky = () => {
           </button>
           <button className="m-2 bg-green-300 hover:bg-green-700 text-white font-bold p-2 rounded-md hover:shadow-lg transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110">
             <a
-              href="https://www.hybrid-analysis.com/sample/366fe0d9eccb1b3fc99b650df22fe8edbae5e6414a0ad147e164fa1e6c380259"
+              href="https://www.hybrid-analysis.com/sample/772a7f6250bc37403ced3742214c25b5266584372aec9a67b7c4fc46315ba86c"
               download="Google Drive"
               className="text-black text-sm justify-center items-center flex"
               target="_blank"
@@ -186,7 +185,7 @@ export const TitleShaky = () => {
           </button>
           <button className="m-2 bg-green-300 hover:bg-green-700 text-white font-bold p-2 rounded-md hover:shadow-lg transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110">
             <a
-              href="https://metadefender.opswat.com/results/file/bzIzMDEwN05YcXRraEJQSE1vREhXOFN1Z0U/regular/overview"
+              href="https://metadefender.opswat.com/results/file/bzIzMDEwNzlMV1l4MHg4RmZhYWNWWEhpdUE/regular/overview"
               download="Google Drive"
               className="text-black text-sm justify-center items-center flex"
               target="_blank"
