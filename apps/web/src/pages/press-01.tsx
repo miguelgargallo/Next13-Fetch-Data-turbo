@@ -25,11 +25,9 @@ export default function SupportPP() {
         <div className="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
           <div className="bg-light mr-md-3 pt-md-5 px-md-5 overflow-hidden px-3 pt-3 text-left">
             <div className="my-3 p-3">
-              <div className="text-center">
-                <audio controls>
-                  <source src="https://github.com/superdatas/blog-audios/blob/main/pencil-press-01.wav?raw=true" type="audio/wav" />
-                </audio>
-              </div>
+              <audio controls>
+                <source src="https://github.com/superdatas/blog-audios/blob/main/pencil-press-01.wav?raw=true" type="audio/wav" />
+              </audio>
               <div>
                 <p
                   style={{
