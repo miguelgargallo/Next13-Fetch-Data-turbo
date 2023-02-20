@@ -8,7 +8,7 @@ export const MenuCorporate = () => {
           <a href="/developer">Developer</a>
         </button>
         <button className="rounded-xl py-2 px-4 font-bold text-white">
-          <a href="/press-01">Press Release</a>
+          <a href="/press-022023">Press Release</a>
         </button>
         <button className="rounded-xl py-2 px-4 font-bold text-white">
           <a href="/office">Office</a>
