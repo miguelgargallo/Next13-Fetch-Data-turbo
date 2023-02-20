@@ -16,11 +16,18 @@ export default function Home() {
       <MenuCorporate />
       <TitleCorporate />
       <main className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-3 gap-4">
+        <div className="grid grid-cols-4 gap-4">
           <div className="col-span-1">
             <a href="/developer">
               <button className="rounded border border-gray-400 bg-white py-2 px-4 font-semibold text-gray-800 shadow hover:bg-gray-100">
                 Developer
+              </button>
+            </a>
+          </div>
+          <div className="col-span-1">
+            <a href="/press-01">
+              <button className="rounded border border-gray-400 bg-white py-2 px-4 font-semibold text-gray-800 shadow hover:bg-gray-100">
+                Press Release
               </button>
             </a>
           </div>

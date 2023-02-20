@@ -14,6 +14,8 @@ declare const Logo: () => JSX.Element;
 
 declare const MenuLogo: () => JSX.Element;
 
+declare const Ga: () => JSX.Element;
+
 declare const TitleIndex: () => JSX.Element;
 
 declare const TitleExplorer: () => JSX.Element;
@@ -68,4 +70,4 @@ declare const SuperdataLogo: () => JSX.Element;
 
 declare const PencilLogo: () => JSX.Element;
 
-export { Button, Card, DomainsAll, DomainsBlocks, DomainsGeo, DomainsMeta, DomainsNew, Footer, GradientBronze, GradientDiamond, GradientGold, GradientSilver, GradientWhite, ListPylar, Logo, Menu, MenuCorporate, MenuDevs, MenuDomains, MenuLogo, PencilLogo, PylarLogo, Scrollable, SquareBronze, SquareDiamond, SquareGold, SquareSilver, SquareWhite, SuperdataLogo, SupportMenu, TitleCorporate, TitleExplorer, TitleIndex, TitleShaky, Versions };
+export { Button, Card, DomainsAll, DomainsBlocks, DomainsGeo, DomainsMeta, DomainsNew, Footer, Ga, GradientBronze, GradientDiamond, GradientGold, GradientSilver, GradientWhite, ListPylar, Logo, Menu, MenuCorporate, MenuDevs, MenuDomains, MenuLogo, PencilLogo, PylarLogo, Scrollable, SquareBronze, SquareDiamond, SquareGold, SquareSilver, SquareWhite, SuperdataLogo, SupportMenu, TitleCorporate, TitleExplorer, TitleIndex, TitleShaky, Versions };
