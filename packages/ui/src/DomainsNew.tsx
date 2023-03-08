@@ -34,7 +34,7 @@ export const DomainsNew = () => {
             <p>
               <a className="font-slim text-xl text-black">Startups</a>
             </p>
-            <a className="text-2xl font-bold text-black">..nextco</a>
+            <a className="text-2xl font-bold text-black">.nextco</a>
             <p className="grid grid-cols-1 gap-4 sm:grid-cols-4 lg:grid-cols-1">
               <a className="text-sm text-black">soon</a>
             </p>
